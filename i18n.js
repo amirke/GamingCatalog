@@ -1,0 +1,141 @@
+'use strict';
+// Static interface translations only. Game titles, notes and user data are never translated.
+window.catalogLanguage = 'he';
+try { if (localStorage.getItem('gaming-catalog-language') === 'en') window.catalogLanguage = 'en'; } catch {}
+const translations = {
+  "Gaming Catalog · ספריית המשחקים שלי": "Gaming Catalog · My game library",
+  "הספרייה האישית שלי": "My personal library",
+  "כל המשחקים. מקום אחד.": "All your games. One place.",
+  "מה משחקים": "What are we playing",
+  "היום?": "today?",
+  "לגלות, להוריד, לשחק — ולזכור איפה עצרת.": "Discover, download, play — and pick up where you left off.",
+  "סיכום הספרייה": "Library overview",
+  "בספרייה": "In the library",
+  "הורדתי": "Downloaded",
+  "שיחקתי": "Played",
+  "עם הערות": "With notes",
+  "חיפוש לפי שם המשחק…": "Search for a game…",
+  "חיפוש משחק": "Search games",
+  "הצגה": "Show",
+  "כל המשחקים": "All games",
+  "טרם הורדתי": "Not downloaded",
+  "טרם שיחקתי": "Not played",
+  "↓ גיבוי": "↓ Backup",
+  "↑ ייבוא": "↑ Import",
+  "☁ סנכרון": "☁ Sync",
+  "סינון לפי אות": "Filter by letter",
+  "סינונים נוספים": "More filters",
+  "הורדה": "Download",
+  "הכול": "All",
+  "משחק": "Play status",
+  "הערות": "Notes",
+  "ללא הערות": "No notes",
+  "אזור": "Region",
+  "מיון": "Sort",
+  "שם A–Z": "Name A–Z",
+  "שם Z–A": "Name Z–A",
+  "גודל: מהגדול לקטן": "Size: largest first",
+  "גודל: מהקטן לגדול": "Size: smallest first",
+  "איפוס סינונים": "Reset filters",
+  "תצוגה": "View",
+  "▦ כרטיסיות": "▦ Cards",
+  "☰ רשימה": "☰ List",
+  "פתח הכול בעמוד": "Expand page",
+  "סגור הכול בעמוד": "Collapse page",
+  "המשחקים שלי": "My games",
+  "שמירה אוטומטית בדפדפן": "Autosaved in this browser",
+  "רשימת משחקים": "Game list",
+  "לא נמצאו משחקים. אפשר לשנות את החיפוש או הסינון.": "No games found. Try changing your search or filters.",
+  "→ הקודם": "← Previous",
+  "הבא ←": "Next →",
+  "נתוני הקטלוג מקובצי SQLite מקומיים ·": "Catalog from local SQLite files ·",
+  "אוספים": "collections",
+  "הערות וסימונים נשמרים בדפדפן. מומלץ לייצא גיבוי.": "Notes and progress are saved in your browser. Export a backup regularly.",
+  "סגירה": "Close",
+  "סנכרון בין מכשירים": "Sync across devices",
+  "לא ניתן לשמור את העדפות התצוגה בדפדפן.": "Unable to save view preferences in this browser.",
+  "קובץ הגיבוי אינו תקין": "Invalid backup file",
+  "רשומה לא תקינה": "Invalid entry",
+  "שדה לא תקין בגיבוי": "Invalid backup field",
+  "לא ניתן לקרוא את השמירה הקיימת. היא לא תידרס. אפשר לייצא גיבוי של השינויים מההפעלה הנוכחית.": "Existing saved data could not be read and will not be overwritten. Export a backup of changes from this session.",
+  "✓ נשמר בדפדפן": "✓ Saved in this browser",
+  "השמירה נכשלה — יש לייצא גיבוי": "Save failed — export a backup",
+  "אין אפשרות לשמור בדפדפן. השינויים זמינים כרגע בזיכרון בלבד; השתמשו בגיבוי לפני סגירה.": "Browser storage is unavailable. Changes are only in memory; export a backup before closing.",
+  "↗ חיפוש באינטרנט": "↗ Search the web",
+  "הערות, רשמים ועדכונים": "Notes, impressions & updates",
+  "איך היה? מה כדאי לזכור לפעם הבאה?": "How was it? What should you remember for next time?",
+  "הערות —": "Notes —",
+  "צ׳יטים ומה הם עושים": "Cheats & their effects",
+  "בהמשך": "Coming later",
+  "הקובץ גדול מדי": "The file is too large",
+  "הגיבוי מוזג בהצלחה. בכל שדה נשמר העדכון החדש יותר.": "Backup merged successfully. The latest update was kept for each field.",
+  "הייבוא נכשל:": "Import failed:",
+  "עדכון מלשונית אחרת לא נקרא. הנתונים הנוכחיים נשמרו בזיכרון.": "Could not read an update from another tab. Current data remains in memory.",
+  "הגדרת הסנכרון המקוון עדיין לא הושלמה. השמירה המקומית והגיבוי זמינים.": "Online sync has not been configured. Local saving and backups are available.",
+  "לא ניתן לקרוא את הגדרות הסנכרון. ניתן להגדיר אותן מחדש.": "Could not read sync settings. You can configure them again.",
+  "אסימון הגישה לא תקין או שפג תוקפו": "The access token is invalid or has expired",
+  "ה־Gist לא נמצא או שאין אליו גישה": "Gist not found or access denied",
+  "יש לבחור Gist סודי": "Please use a secret Gist",
+  "רשימת קובצי הסנכרון גדולה מדי. יש לייצא גיבוי וליצור Gist חדש": "Too many sync files. Export a backup and create a new Gist",
+  "ה־Gist אינו מכיל גיבוי של Gaming Catalog": "This Gist does not contain a Gaming Catalog backup",
+  "קובץ הסנכרון גדול מדי לקריאה. יש לייצא גיבוי וליצור Gist חדש": "The sync file is too large to read. Export a backup and create a new Gist",
+  "☁ מסנכרן…": "☁ Syncing…",
+  "השמירה המקומית נכשלה; ייצאו גיבוי": "Local saving failed; export a backup",
+  "הגיבוי גדול מדי לסנכרון. ייצאו אותו לקובץ": "The backup is too large to sync. Export it to a file",
+  "☁ מסונכרן": "☁ Synced",
+  "☁ הסנכרון נכשל": "☁ Sync failed",
+  "סנכרון:": "Sync:",
+  ". השמירה המקומית ממשיכה לפעול.": ". Local saving remains available.",
+  "☁ ממתין לסנכרון": "☁ Waiting to sync",
+  "הסנכרון הקודם עדיין מתבצע": "The previous sync is still running",
+  "יש להזין אסימון גישה": "Enter an access token",
+  "יש להזין מזהה Gist תקין": "Enter a valid Gist ID",
+  "כבר הוזן מזהה. לחיבור אליו בחרו חיבור וסנכרון; ליצירה חדשה יש לפנות את השדה": "A Gist ID is already entered. Choose Connect & sync, or clear the ID to create a new Gist",
+  "מתחבר…": "Connecting…",
+  "מחובר. במכשיר אחר יש להזין את המזהה:": "Connected. Enter this ID on your other device:",
+  "יש להמתין לסיום הסנכרון": "Wait for the sync to finish",
+  "מנותק. השמירה המקומית וה־Gist נשארו ללא מחיקה.": "Disconnected. Local data and the Gist have not been deleted.",
+  "☁ נדרש אסימון": "☁ Token required",
+  "שמירה מקומית וסנכרון אוטומטי דרך Gist סודי. בכל מכשיר מזינים את אותו מזהה Gist ואסימון GitHub.": "Local saving and automatic sync through a secret Gist. Use the same Gist ID and a GitHub token on each device.",
+  "Gist סודי אינו מופיע בחיפוש, אבל כל מי שמחזיק בקישור יכול לקרוא אותו.": "A secret Gist is not listed in search, but anyone with its link can read it.",
+  "יצירת אסימון GitHub עם הרשאת gist בלבד ↗": "Create a GitHub token with gist permission only ↗",
+  "אסימון גישה": "Access token",
+  "זכור אסימון במכשיר זה (רק במכשיר אישי)": "Remember the token on this device (personal devices only)",
+  "ללא סימון, האסימון נשמר רק למשך הלשונית. עם סימון, הוא נשמר בדפדפן ואינו מוצפן. הוא אינו נכלל בגיבויים או בקוד המאגר.": "Unchecked: the token lasts only for this tab. Checked: it is stored in the browser without encryption. It is excluded from backups and repository code.",
+  "מזהה Gist קיים": "Existing Gist ID",
+  "להשאיר ריק רק ביצירה הראשונה": "Leave empty only when creating a new Gist",
+  "חיבור וסנכרון": "Connect & sync",
+  "יצירת Gist חדש": "Create a new Gist",
+  "ניתוק": "Disconnect"
+};
+window.tr = function(text) {
+  if (window.catalogLanguage !== 'en') return text;
+  const key = text.trim();
+  return Object.hasOwn(translations, key) ? text.replace(key, translations[key]) : text;
+};
+window.translateInterface = function(root) {
+  if (window.catalogLanguage !== 'en') return;
+  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+  let item;
+  while ((item = walker.nextNode())) {
+    if (!['SCRIPT', 'STYLE', 'TEXTAREA'].includes(item.parentElement?.tagName)) item.nodeValue = tr(item.nodeValue);
+  }
+  for (const element of root.querySelectorAll('[placeholder], [aria-label]')) {
+    for (const attribute of ['placeholder', 'aria-label']) if (element.hasAttribute(attribute)) element.setAttribute(attribute, tr(element.getAttribute(attribute)));
+  }
+};
+document.documentElement.lang = window.catalogLanguage;
+document.documentElement.dir = window.catalogLanguage === 'en' ? 'ltr' : 'rtl';
+translateInterface(document);
+const languageButton = document.getElementById('language');
+languageButton.textContent = window.catalogLanguage === 'en' ? 'עברית' : 'English';
+languageButton.setAttribute('aria-label', window.catalogLanguage === 'en' ? 'Switch to Hebrew' : 'Switch to English');
+languageButton.addEventListener('click', () => {
+  try {
+    localStorage.setItem('gaming-catalog-language', window.catalogLanguage === 'en' ? 'he' : 'en');
+    location.reload();
+  } catch {
+    const notice = document.getElementById('notice'); notice.hidden = false;
+    notice.textContent = tr('לא ניתן לשמור את העדפות התצוגה בדפדפן.');
+  }
+});

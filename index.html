@@ -5,15 +5,24 @@
   <meta name="color-scheme" content="dark"><meta name="referrer" content="no-referrer">
   <title>Gaming Catalog · ספריית המשחקים שלי</title>
   <link rel="stylesheet" href="styles.css">
-  <script defer src="data/catalog.js"></script><script defer src="app.js"></script><script defer src="sync.js"></script>
+  <script defer src="data/catalog.js"></script><script defer src="i18n.js"></script><script defer src="app.js"></script><script defer src="sync.js"></script>
 </head>
 <body>
-  <header><a class="brand" href="./"><span class="brand-icon">✚</span><span dir="ltr">PLAY / LOG</span></a><span class="edition">הספרייה האישית שלי <b>PS4</b></span></header>
+  <header><a class="brand" href="./"><span class="brand-icon">✚</span><span dir="ltr">PLAY / LOG</span></a><div class="header-tools"><span class="edition">הספרייה האישית שלי <b>PS4</b></span><button id="language" type="button" aria-label="Switch to English">English</button></div></header>
   <main>
     <section class="hero"><div><span class="eyebrow">כל המשחקים. מקום אחד.</span><h1>מה משחקים <em>היום?</em></h1><p>לגלות, להוריד, לשחק — ולזכור איפה עצרת.</p></div><div class="hero-art" aria-hidden="true"><span>△</span><span>○</span><span>✕</span><span>□</span></div></section>
     <section class="stats" aria-label="סיכום הספרייה"><div><span>בספרייה</span><strong id="total">—</strong></div><div><span>הורדתי</span><strong id="downloadedCount">0</strong></div><div><span>שיחקתי</span><strong id="playedCount">0</strong></div><div><span>עם הערות</span><strong id="notesCount">0</strong></div></section>
     <section class="toolbar"><label class="search"><span>⌕</span><input id="search" type="search" placeholder="חיפוש לפי שם המשחק…" aria-label="חיפוש משחק"></label><label class="filter-label">הצגה<select id="filter"><option value="all">כל המשחקים</option><option value="downloaded">הורדתי</option><option value="notDownloaded">טרם הורדתי</option><option value="played">שיחקתי</option><option value="notPlayed">טרם שיחקתי</option><option value="notes">עם הערות</option></select></label><button id="export">↓ גיבוי</button><button id="import">↑ ייבוא</button><input id="importFile" type="file" accept="application/json,.json" hidden><button id="syncSettings">☁ סנכרון</button></section>
     <nav id="letters" aria-label="סינון לפי אות"></nav>
+    <section class="extra-filters" aria-label="סינונים נוספים">
+      <label><span>הורדה</span><select id="downloadFilter"><option value="all">הכול</option><option value="yes">הורדתי</option><option value="no">טרם הורדתי</option></select></label>
+      <label><span>משחק</span><select id="playFilter"><option value="all">הכול</option><option value="yes">שיחקתי</option><option value="no">טרם שיחקתי</option></select></label>
+      <label><span>הערות</span><select id="notesFilter"><option value="all">הכול</option><option value="yes">עם הערות</option><option value="no">ללא הערות</option></select></label>
+      <label><span>אזור</span><select id="regionFilter"><option value="all">הכול</option></select></label>
+      <label><span>מיון</span><select id="sort"><option value="az">שם A–Z</option><option value="za">שם Z–A</option><option value="sizeDesc">גודל: מהגדול לקטן</option><option value="sizeAsc">גודל: מהקטן לגדול</option></select></label>
+      <button id="resetFilters">איפוס סינונים</button>
+    </section>
+    <div class="view-controls"><div class="view-switch" role="group" aria-label="תצוגה"><button id="cardsView" aria-pressed="true">▦ כרטיסיות</button><button id="listView" aria-pressed="false">☰ רשימה</button></div><div id="collapseControls" hidden><button id="expandAll">פתח הכול בעמוד</button><button id="collapseAll">סגור הכול בעמוד</button></div></div>
     <div class="list-heading"><h2>המשחקים שלי <span id="resultCount"></span></h2><span id="saveStatus" role="status">שמירה אוטומטית בדפדפן</span></div>
     <div id="notice" role="alert" hidden></div>
     <section id="games" class="games" aria-label="רשימת משחקים"></section>
