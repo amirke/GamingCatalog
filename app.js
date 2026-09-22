@@ -1,6 +1,9 @@
 'use strict';
 const catalog = window.GAMING_CATALOG;
 const games = catalog.games;
+const metadata = window.GAME_METADATA?.entries || {};
+const gameInfo = id => metadata[id] || {};
+const metadataComplete = id => ['year', 'image', 'score', 'review'].every(key => Boolean(gameInfo(id)[key]));
 const KEY = 'gaming-catalog-state-v1';
 const $ = id => document.getElementById(id);
 let state = {schemaVersion: 1, entries: {}};
@@ -10,7 +13,12 @@ let ui = {};
 try { ui = JSON.parse(localStorage.getItem(UI_KEY) || '{}') || {}; } catch {}
 let view = ui.view === 'list' ? 'list' : 'cards';
 const expanded = new Set();
-const filterIds = ['search', 'filter', 'downloadFilter', 'playFilter', 'notesFilter', 'regionFilter', 'sort'];
+const filterIds = ['search', 'filter', 'downloadFilter', 'playFilter', 'notesFilter', 'regionFilter', 'yearFilter', 'ps4YearFilter', 'metadataFilter', 'sort'];
+for (const [id, field] of [['yearFilter', 'year'], ['ps4YearFilter', 'ps4Year']]) {
+  for (const year of [...new Set(Object.values(metadata).map(m => m[field]).filter(Boolean))].sort((a, b) => b - a)) {
+    const option = document.createElement('option'); option.value = String(year); option.textContent = year; $(id).append(option);
+  }
+}
 for (const region of [...new Set(games.map(g => g.region))].sort()) {
   const option = document.createElement('option'); option.value = region; option.textContent = region; $('regionFilter').append(option);
 }
@@ -75,13 +83,45 @@ function stats() {
   for (const field of ['downloaded', 'played', 'notes']) $('' + field + 'Count').textContent = games.filter(g => Boolean(value(g.id, field))).length.toLocaleString(window.catalogLanguage);
 }
 function node(tag, className, text) { const el = document.createElement(tag); if (className) el.className = className; if (text !== undefined) el.textContent = text; return el; }
+function sourceLink(text, url) {
+  const link = node('a', '', text);
+  if (/^https:\/\//.test(url || '')) { link.href = url; link.target = '_blank'; link.rel = 'noopener noreferrer'; }
+  return link;
+}
+function reviewBlock(info) {
+  const block = node('section', 'review-block');
+  block.append(node('h4', '', tr('ביקורות')));
+  if (info.score) {
+    const score = node('div', 'critic-score');
+    score.append(node('strong', '', info.score.value + '/100'), node('span', '', 'Metacritic · ' + (info.score.platform === 'unspecified' ? tr('פלטפורמה לא צוינה') : info.score.platform)));
+    block.append(score);
+  } else block.append(node('p', 'metadata-missing', tr('לא נמצא ציון מבקרים במקור.')));
+  const summary = info.review?.[window.catalogLanguage];
+  block.append(node('p', 'review-summary', summary || tr('לא נמצא תקציר ביקורת במקור.')));
+  if (info.source) {
+    block.append(node('small', 'matched-title', tr('זוהה אוטומטית כ: ') + info.matchedTitle));
+    const sources = node('div', 'review-sources');
+    sources.append(sourceLink(tr('מקור: Wikipedia ↗'), info.source), sourceLink(tr('מקור התמונה ↗'), info.imageSource));
+    if (info.score?.url) sources.append(sourceLink('Metacritic ↗', info.score.url));
+    block.append(sources, node('small', '', tr('סיכום אוטומטי מהמקור; הביקורות עשויות להתייחס גם לגרסאות אחרות.')));
+  } else block.append(node('small', '', tr('לא נמצאה התאמה אוטומטית בטוחה לשם המשחק.')));
+  return block;
+}
 function card(game) {
+  const info = gameInfo(game.id);
   const el = node('article', 'game'); el.dataset.id = game.id;
   const top = node('div', 'game-top');
   const icon = node('div', 'monogram', game.title[0].toUpperCase()); icon.setAttribute('aria-hidden', 'true');
-  const heading = node('div'); const title = node('h3', '', game.title); title.dir = 'ltr';
-  const meta = node('div', 'meta', ['PS4', game.region, 'v' + game.version, game.bytes ? (game.bytes / 1024 ** 3).toFixed(1) + ' GiB' : ''].filter(Boolean).join(' · ')); meta.dir = 'ltr';
+  if (/^https:\/\/(?:upload|thumb)\.wikimedia\.org\//.test(info.image || '')) {
+    const image = node('img'); image.alt = ''; image.loading = 'lazy'; image.decoding = 'async'; image.referrerPolicy = 'no-referrer';
+    image.addEventListener('error', () => { icon.replaceChildren(document.createTextNode(game.title[0].toUpperCase())); icon.classList.remove('cover'); });
+    image.src = info.image; icon.replaceChildren(image); icon.classList.add('cover');
+  }
+  const heading = node('div'); const title = node('h3', '', game.title + (info.year ? ` (${info.year})` : '')); title.dir = 'ltr';
+  const meta = node('div', 'meta', ['PS4' + (info.ps4Year ? ' ' + info.ps4Year : ''), game.region, 'v' + game.version, game.bytes ? (game.bytes / 1024 ** 3).toFixed(1) + ' GiB' : ''].filter(Boolean).join(' · ')); meta.dir = 'ltr';
   heading.append(title, meta); top.append(icon, heading);
+  if (!info.year) heading.append(node('span', 'metadata-missing', tr('שנת יציאה לא נמצאה')));
+  if (info.score) heading.append(node('span', 'score-chip', info.score.value + '/100 · ' + (info.score.platform === 'unspecified' ? 'Metacritic' : info.score.platform)));
   const checks = node('div', 'checks');
   for (const [field, label] of [['downloaded', tr('הורדתי')], ['played', tr('שיחקתי')]]) {
     const wrap = node('label'); const input = node('input'); input.type = 'checkbox'; input.checked = value(game.id, field); input.dataset.field = field;
@@ -107,22 +147,24 @@ function card(game) {
     const arrow = node('span', 'row-arrow', expanded.has(game.id) ? '▾' : '▸'); arrow.setAttribute('aria-hidden', 'true');
     toggle.append(arrow, top); row.append(toggle, checks);
     const details = node('div', 'row-details'); details.id = 'details-' + game.id; details.hidden = !expanded.has(game.id);
-    details.append(links, label, cheats);
+    details.append(links, reviewBlock(info), label, cheats);
     toggle.addEventListener('click', () => {
       const open = !expanded.has(game.id); if (open) expanded.add(game.id); else expanded.delete(game.id);
       toggle.setAttribute('aria-expanded', open); details.hidden = !open; arrow.textContent = open ? '▾' : '▸';
     });
     el.append(row, details);
-  } else el.append(top, checks, links, label, cheats);
+  } else el.append(top, checks, links, reviewBlock(info), label, cheats);
   return el;
 }
 function filtered() {
   const search = $('search').value.trim().toLocaleLowerCase(); const filter = $('filter').value;
   const match = (id, field, control) => $(control).value === 'all' || Boolean(value(id, field)) === ($(control).value === 'yes');
+  const yearMatch = (id, field, control) => $(control).value === 'all' || ($(control).value === 'unknown' ? !gameInfo(id)[field] : String(gameInfo(id)[field]) === $(control).value);
   const list = games.filter(g => (letter === 'all' || g.letter === letter) && (!search || (g.title + ' ' + g.filename).toLocaleLowerCase().includes(search)) &&
     (filter === 'all' || filter === 'notDownloaded' && !value(g.id, 'downloaded') || filter === 'notPlayed' && !value(g.id, 'played') || Boolean(value(g.id, filter))) &&
     match(g.id, 'downloaded', 'downloadFilter') && match(g.id, 'played', 'playFilter') && match(g.id, 'notes', 'notesFilter') &&
-    ($('regionFilter').value === 'all' || g.region === $('regionFilter').value));
+    ($('regionFilter').value === 'all' || g.region === $('regionFilter').value) && yearMatch(g.id, 'year', 'yearFilter') && yearMatch(g.id, 'ps4Year', 'ps4YearFilter') &&
+    ($('metadataFilter').value === 'all' || metadataComplete(g.id) === ($('metadataFilter').value === 'complete')));
   const sort = $('sort').value;
   return list.sort((a, b) => {
     const names = a.title.localeCompare(b.title, 'en') || a.id.localeCompare(b.id);
@@ -190,4 +232,5 @@ $('syncSettings').addEventListener('click', () => {
 });
 window.catalogStore = {get: () => state, merge, validState, apply: remote => {state = merge(state, remote); const saved = persist(); stats(); refreshSavedFields(); return saved;}, notice};
 $('sourceCount').textContent = catalog.sourceFiles;
+$('metadataCoverage').textContent = tr('מידע אוטומטי מלא: ') + games.filter(g => metadataComplete(g.id)).length + '/' + games.length + ' · ' + tr('אפשר לסנן רשומות עם מידע חסר.');
 stats(); render();

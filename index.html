@@ -5,7 +5,7 @@
   <meta name="color-scheme" content="dark"><meta name="referrer" content="no-referrer">
   <title>Gaming Catalog · ספריית המשחקים שלי</title>
   <link rel="stylesheet" href="styles.css">
-  <script defer src="data/catalog.js"></script><script defer src="i18n.js"></script><script defer src="app.js"></script><script defer src="sync.js"></script>
+  <script defer src="data/catalog.js"></script><script defer src="data/metadata.js"></script><script defer src="i18n.js"></script><script defer src="app.js"></script><script defer src="sync.js"></script>
 </head>
 <body>
   <header><a class="brand" href="./"><span class="brand-icon">✚</span><span dir="ltr">PLAY / LOG</span></a><div class="header-tools"><span class="edition">הספרייה האישית שלי <b>PS4</b></span><button id="language" type="button" aria-label="Switch to English">English</button></div></header>
@@ -19,10 +19,14 @@
       <label><span>משחק</span><select id="playFilter"><option value="all">הכול</option><option value="yes">שיחקתי</option><option value="no">טרם שיחקתי</option></select></label>
       <label><span>הערות</span><select id="notesFilter"><option value="all">הכול</option><option value="yes">עם הערות</option><option value="no">ללא הערות</option></select></label>
       <label><span>אזור</span><select id="regionFilter"><option value="all">הכול</option></select></label>
+      <label><span>שנת יציאה</span><select id="yearFilter"><option value="all">הכול</option><option value="unknown">חסר מידע</option></select></label>
+      <label><span>שנת PS4</span><select id="ps4YearFilter"><option value="all">הכול</option><option value="unknown">חסר מידע</option></select></label>
+      <label><span>מידע על המשחק</span><select id="metadataFilter"><option value="all">הכול</option><option value="complete">מידע מלא</option><option value="incomplete">מידע חלקי או חסר</option></select></label>
       <label><span>מיון</span><select id="sort"><option value="az">שם A–Z</option><option value="za">שם Z–A</option><option value="sizeDesc">גודל: מהגדול לקטן</option><option value="sizeAsc">גודל: מהקטן לגדול</option></select></label>
       <button id="resetFilters">איפוס סינונים</button>
     </section>
     <div class="view-controls"><div class="view-switch" role="group" aria-label="תצוגה"><button id="cardsView" aria-pressed="true">▦ כרטיסיות</button><button id="listView" aria-pressed="false">☰ רשימה</button></div><div id="collapseControls" hidden><button id="expandAll">פתח הכול בעמוד</button><button id="collapseAll">סגור הכול בעמוד</button></div></div>
+    <p id="metadataCoverage" class="metadata-coverage"></p>
     <div class="list-heading"><h2>המשחקים שלי <span id="resultCount"></span></h2><span id="saveStatus" role="status">שמירה אוטומטית בדפדפן</span></div>
     <div id="notice" role="alert" hidden></div>
     <section id="games" class="games" aria-label="רשימת משחקים"></section>
