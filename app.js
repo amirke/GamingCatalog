@@ -15,7 +15,7 @@ let ui = {};
 try { ui = JSON.parse(localStorage.getItem(UI_KEY) || '{}') || {}; } catch {}
 let view = ui.view === 'list' ? 'list' : 'cards';
 const expanded = new Set();
-const filterIds = ['search', 'filter', 'downloadFilter', 'playFilter', 'interestFilter', 'notesFilter', 'regionFilter', 'yearFilter', 'ps4YearFilter', 'metadataFilter', 'hebrewReviewFilter', 'sort'];
+const filterIds = ['search', 'filter', 'downloadFilter', 'playFilter', 'interestFilter', 'interestedFilter', 'notesFilter', 'regionFilter', 'yearFilter', 'ps4YearFilter', 'metadataFilter', 'hebrewReviewFilter', 'sort'];
 for (const [id, field] of [['yearFilter', 'year'], ['ps4YearFilter', 'ps4Year']]) {
   for (const year of [...new Set(Object.values(metadata).map(m => m[field]).filter(Boolean))].sort((a, b) => b - a)) {
     const option = document.createElement('option'); option.value = String(year); option.textContent = year; $(id).append(option);
@@ -42,9 +42,9 @@ function validState(value) {
     if (!/^[a-f0-9]{24}$/.test(id) || !fields || typeof fields !== 'object') throw Error(tr('רשומה לא תקינה'));
     clean.entries[id] = {};
     for (const [key, field] of Object.entries(fields)) {
-      if (!['played', 'downloaded', 'notInterested', 'notInterestedReason', 'notes'].includes(key)) continue;
+      if (!['played', 'downloaded', 'notInterested', 'notInterestedReason', 'interested', 'interestedReason', 'notes'].includes(key)) continue;
       if (!field || typeof field.updatedAt !== 'number' || !Number.isFinite(field.updatedAt) || field.updatedAt < 0 ||
-          (['notes', 'notInterestedReason'].includes(key) ? typeof field.value !== 'string' : typeof field.value !== 'boolean')) throw Error(tr('שדה לא תקין בגיבוי'));
+          (['notes', 'notInterestedReason', 'interestedReason'].includes(key) ? typeof field.value !== 'string' : typeof field.value !== 'boolean')) throw Error(tr('שדה לא תקין בגיבוי'));
       clean.entries[id][key] = {value: field.value, updatedAt: field.updatedAt};
     }
   }
@@ -73,7 +73,7 @@ function persist() {
     return true;
   } catch { $('saveStatus').textContent = tr('השמירה נכשלה — יש לייצא גיבוי'); notice(tr('אין אפשרות לשמור בדפדפן. השינויים זמינים כרגע בזיכרון בלבד; השתמשו בגיבוי לפני סגירה.')); return false; }
 }
-function value(id, field) { return state.entries[id]?.[field]?.value ?? (['notes', 'notInterestedReason'].includes(field) ? '' : false); }
+function value(id, field) { return state.entries[id]?.[field]?.value ?? (['notes', 'notInterestedReason', 'interestedReason'].includes(field) ? '' : false); }
 function update(id, field, newValue) {
   state.entries[id] ||= {};
   state.entries[id][field] = {value: newValue, updatedAt: Math.max(Date.now(), (state.entries[id][field]?.updatedAt || 0) + 1)};
@@ -177,10 +177,10 @@ function card(game) {
   if (!info.year) heading.append(node('span', 'metadata-missing', tr('שנת יציאה לא נמצאה')));
   if (info.score) heading.append(node('span', 'score-chip', info.score.value + '/100 · ' + (info.score.platform === 'unspecified' ? 'Metacritic' : info.score.platform)));
   const checks = node('div', 'checks');
-  for (const [field, label] of [['downloaded', tr('הורדתי')], ['played', tr('שיחקתי')], ['notInterested', tr('לא מעוניין')]]) {
+  for (const [field, label] of [['downloaded', tr('הורדתי')], ['played', tr('שיחקתי')], ['interested', tr('מעוניין')], ['notInterested', tr('לא מעוניין')]]) {
     const wrap = node('label'); const input = node('input'); input.type = 'checkbox'; input.checked = value(game.id, field); input.dataset.field = field;
     input.setAttribute('aria-label', label + ' — ' + game.title);
-    input.addEventListener('change', () => { update(game.id, field, input.checked); if (field === 'notInterested' && input.checked) expanded.add(game.id); render(); });
+    input.addEventListener('change', () => { update(game.id, field, input.checked); if (['notInterested', 'interested'].includes(field) && input.checked) expanded.add(game.id); render(); });
     wrap.append(input, document.createTextNode(label)); checks.append(wrap);
   }
   const links = node('div', 'links');
@@ -197,6 +197,12 @@ function card(game) {
   reason.placeholder = tr('למשל: לא אוהב את הסגנון, קשה מדי, כבר מיציתי…');
   reason.setAttribute('aria-label', tr('סיבת חוסר עניין — ') + game.title);
   reason.addEventListener('input', () => update(game.id, 'notInterestedReason', reason.value)); reasonLabel.append(reason);
+  const interestLabel = node('label', 'notes-label interested-reason', tr('למה מעוניין? (לא חובה)'));
+  interestLabel.hidden = !value(game.id, 'interested');
+  const interestText = node('textarea'); interestText.dir = 'auto'; interestText.dataset.field = 'interestedReason'; interestText.value = value(game.id, 'interestedReason');
+  interestText.placeholder = tr('מה מסקרן אותך במשחק?');
+  interestText.setAttribute('aria-label', tr('סיבת עניין — ') + game.title);
+  interestText.addEventListener('input', () => update(game.id, 'interestedReason', interestText.value)); interestLabel.append(interestText);
   const cheats = node('div', 'cheats'); cheats.append(node('span', '', tr('צ׳יטים ומה הם עושים')), node('span', '', tr('בהמשך')));
   if (view === 'list') {
     el.classList.add('game-row');
@@ -209,13 +215,13 @@ function card(game) {
     icon.remove();
     toggle.append(arrow, top); row.append(icon, toggle, checks);
     const details = node('div', 'row-details'); details.id = 'details-' + game.id; details.hidden = !expanded.has(game.id);
-    details.append(reasonLabel, links, reviewBlock(info, game), label, cheats);
+    details.append(interestLabel, reasonLabel, links, reviewBlock(info, game), label, cheats);
     toggle.addEventListener('click', () => {
       const open = !expanded.has(game.id); if (open) expanded.add(game.id); else expanded.delete(game.id);
       toggle.setAttribute('aria-expanded', open); details.hidden = !open; arrow.textContent = open ? '▾' : '▸';
     });
     el.append(row, details);
-  } else el.append(top, checks, reasonLabel, links, reviewBlock(info, game), label, cheats);
+  } else el.append(top, checks, interestLabel, reasonLabel, links, reviewBlock(info, game), label, cheats);
   return el;
 }
 function filtered() {
@@ -224,7 +230,7 @@ function filtered() {
   const yearMatch = (id, field, control) => $(control).value === 'all' || ($(control).value === 'unknown' ? !gameInfo(id)[field] : String(gameInfo(id)[field]) === $(control).value);
   const list = games.filter(g => (letter === 'all' || g.letter === letter) && (!search || (g.title + ' ' + g.filename).toLocaleLowerCase().includes(search)) &&
     (filter === 'all' || filter === 'notDownloaded' && !value(g.id, 'downloaded') || filter === 'notPlayed' && !value(g.id, 'played') || Boolean(value(g.id, filter))) &&
-    match(g.id, 'downloaded', 'downloadFilter') && match(g.id, 'played', 'playFilter') && match(g.id, 'notInterested', 'interestFilter') && match(g.id, 'notes', 'notesFilter') &&
+    match(g.id, 'downloaded', 'downloadFilter') && match(g.id, 'played', 'playFilter') && match(g.id, 'notInterested', 'interestFilter') && match(g.id, 'interested', 'interestedFilter') && match(g.id, 'notes', 'notesFilter') &&
     ($('regionFilter').value === 'all' || g.region === $('regionFilter').value) && yearMatch(g.id, 'year', 'yearFilter') && yearMatch(g.id, 'ps4Year', 'ps4YearFilter') &&
     ($('hebrewReviewFilter').value === 'all' || Boolean(hebrewReviews[g.id]?.length) === ($('hebrewReviewFilter').value === 'yes')) &&
     ($('metadataFilter').value === 'all' || metadataComplete(g.id) === ($('metadataFilter').value === 'complete')));
@@ -252,6 +258,7 @@ function render() {
 function refreshSavedFields() {
   if (document.activeElement?.tagName !== 'TEXTAREA') { render(); return; }
   for (const card of document.querySelectorAll('.game')) {
+    card.querySelector('.interested-reason').hidden = !value(card.dataset.id, 'interested');
     card.querySelector('.interest-reason').hidden = !value(card.dataset.id, 'notInterested');
     for (const input of card.querySelectorAll('[data-field]')) {
       if (input === document.activeElement) continue;

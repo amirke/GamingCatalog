@@ -3,6 +3,12 @@
 window.catalogLanguage = 'he';
 try { if (localStorage.getItem('gaming-catalog-language') === 'en') window.catalogLanguage = 'en'; } catch {}
 const translations = {
+  "מעוניין": "Interested",
+  "רק מעוניין": "Only interested",
+  "ללא סימון מעוניין": "Not marked interested",
+  "למה מעוניין? (לא חובה)": "Why interested? (optional)",
+  "מה מסקרן אותך במשחק?": "What interests you about this game?",
+  "סיבת עניין —": "Interested reason —",
   "ביקורות מאתרים ישראליים": "Reviews from Israeli gaming sites",
   "טרם נמצאה ביקורת בעברית ממקור מאומת.": "No verified Hebrew review has been found yet.",
   "תמצית הביקורת": "Review summary (Hebrew)",
