@@ -1,0 +1,5640 @@
+{
+  "total": 872,
+  "withEditorialReview": 861,
+  "checks": {
+    "feeda6c8a19e161acc7392cc": [
+      {
+        "url": "https://www.metacritic.com/game/a-hat-in-time/",
+        "status": "matched"
+      }
+    ],
+    "c13f410fbe8fa3ba03d6cd3c": [
+      {
+        "url": "https://www.metacritic.com/game/a-monsters-expedition/",
+        "status": "matched"
+      }
+    ],
+    "72b830b889cc1690b12d3cff": [
+      {
+        "url": "https://www.metacritic.com/game/a-plague-tale-innocence/",
+        "status": "matched"
+      }
+    ],
+    "13e2dfb933518099e79de4aa": [
+      {
+        "url": "https://www.metacritic.com/game/a-short-hike/",
+        "status": "matched"
+      }
+    ],
+    "954b084d90b351aded8b4bff": [
+      {
+        "url": "https://www.metacritic.com/game/a-way-out/",
+        "status": "matched"
+      }
+    ],
+    "cbd43787a37d2904c20d4315": [
+      {
+        "url": "https://www.metacritic.com/game/absolute-drift/",
+        "status": "matched"
+      }
+    ],
+    "aa1314fcc7f20eaf3bec12fc": [
+      {
+        "url": "https://www.metacritic.com/game/abzu/",
+        "status": "matched"
+      }
+    ],
+    "2fa4e69fd69de4c7b134ba40": [
+      {
+        "url": "https://www.metacritic.com/game/ace-attorney-investigations-collection/",
+        "status": "matched"
+      }
+    ],
+    "85f0c25a4d375186e3336d2b": [
+      {
+        "url": "https://www.metacritic.com/game/ace-combat-7-skies-unknown/",
+        "status": "matched"
+      }
+    ],
+    "4215e169cd235eacef0cebe9": [
+      {
+        "url": "https://www.metacritic.com/game/adr1ft/",
+        "status": "matched"
+      }
+    ],
+    "19d14e5f3f35cd4ce5cd3e01": [
+      {
+        "url": "https://www.metacritic.com/game/alan-wake/",
+        "status": "matched"
+      }
+    ],
+    "edefec2f8313f13e7c32095b": [
+      {
+        "url": "https://www.metacritic.com/game/alien-isolation/",
+        "status": "matched"
+      }
+    ],
+    "97072dc71943c65fc42bbd6e": [
+      {
+        "url": "https://www.metacritic.com/game/amnesia-the-dark-descent/",
+        "status": "matched"
+      }
+    ],
+    "dc89f9119d4e6d4ec4b52acb": [
+      {
+        "url": "https://www.metacritic.com/game/amnesia-rebirth/",
+        "status": "matched"
+      }
+    ],
+    "77975bbf342fc3e43f9b5418": [
+      {
+        "url": "https://www.metacritic.com/game/amnesia-the-bunker/",
+        "status": "matched"
+      }
+    ],
+    "4f08ec1269e843113bbbe0cd": [
+      {
+        "url": "https://www.metacritic.com/game/amplitude-2003/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/amplitude/",
+        "status": "matched"
+      }
+    ],
+    "cbe739fb38242cb17700c963": [
+      {
+        "url": "https://www.metacritic.com/game/ancestors-legacy/",
+        "status": "matched"
+      }
+    ],
+    "d002901f2720db62d5e70670": [
+      {
+        "url": "https://www.metacritic.com/game/ancestors-the-humankind-odyssey/",
+        "status": "matched"
+      }
+    ],
+    "10dc05c79445d61b6e5ed418": [
+      {
+        "url": "https://www.metacritic.com/game/another-world-20th-anniversary-edition/",
+        "status": "matched"
+      }
+    ],
+    "dcd57b15b44c9bc7a2736ce2": [
+      {
+        "url": "https://www.metacritic.com/game/ark-survival-evolved/",
+        "status": "matched"
+      }
+    ],
+    "c611603f89934c64ff8019b4": [
+      {
+        "url": "https://www.metacritic.com/game/armored-core-vi-fires-of-rubicon/",
+        "status": "matched"
+      }
+    ],
+    "ef43404114a0563da71e4b14": [
+      {
+        "url": "https://www.metacritic.com/game/ashen/",
+        "status": "matched"
+      }
+    ],
+    "25156c612808b21591694a4c": [
+      {
+        "url": "https://www.metacritic.com/game/assassins-creed-chronicles-trilogy-pack/",
+        "status": "matched"
+      }
+    ],
+    "ce06f67ab7ac644feaac369e": [
+      {
+        "url": "https://www.metacritic.com/game/assassins-creed-iii-remastered/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/assassins-creed-iii/",
+        "status": "matched"
+      }
+    ],
+    "b0f386be42ae5f1817ef67fb": [
+      {
+        "url": "https://www.metacritic.com/game/assassins-creed-iv-black-flag/",
+        "status": "matched"
+      }
+    ],
+    "48266efb6c6549bd50ec9dc1": [
+      {
+        "url": "https://www.metacritic.com/game/assassins-creed-mirage/",
+        "status": "matched"
+      }
+    ],
+    "b62b6bf4beeaa047baf867c7": [
+      {
+        "url": "https://www.metacritic.com/game/assassins-creed-odyssey/",
+        "status": "matched"
+      }
+    ],
+    "fc8020f28afcc48c6910c3e8": [
+      {
+        "url": "https://www.metacritic.com/game/assassins-creed-origins/",
+        "status": "matched"
+      }
+    ],
+    "83f7f991bf5f70bab921126a": [
+      {
+        "url": "https://www.metacritic.com/game/assassins-creed-rogue-remastered/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/assassins-creed-rogue/",
+        "status": "matched"
+      }
+    ],
+    "8e2e18c26dd82c267bcfe097": [
+      {
+        "url": "https://www.metacritic.com/game/assassins-creed-syndicate/",
+        "status": "matched"
+      }
+    ],
+    "9ffa642411ccdded4460738b": [
+      {
+        "url": "https://www.metacritic.com/game/assassins-creed-the-ezio-collection/",
+        "status": "matched"
+      }
+    ],
+    "1ba742646abaf26d29f86dc4": [
+      {
+        "url": "https://www.metacritic.com/game/assassins-creed-unity/",
+        "status": "matched"
+      }
+    ],
+    "c1e6218881fc8d76771a5c23": [
+      {
+        "url": "https://www.metacritic.com/game/assassins-creed-valhalla/",
+        "status": "matched"
+      }
+    ],
+    "bc0081c605657ea41e598c20": [
+      {
+        "url": "https://www.metacritic.com/game/assetto-corsa/",
+        "status": "matched"
+      }
+    ],
+    "7b5fa8d954e1dc2a42adae55": [
+      {
+        "url": "https://www.metacritic.com/game/assetto-corsa-competizione/",
+        "status": "matched"
+      }
+    ],
+    "968220a34e29dde612f852f1": [
+      {
+        "url": "https://www.metacritic.com/game/astroneer/",
+        "status": "matched"
+      }
+    ],
+    "9937999805adedfda023e126": [
+      {
+        "url": "https://www.metacritic.com/game/atari-flashback-classics-vol-1/",
+        "status": "matched"
+      }
+    ],
+    "c37c576768d081ac433f96c0": [
+      {
+        "url": "https://www.metacritic.com/game/atari-flashback-classics-volume-2/",
+        "status": "matched"
+      }
+    ],
+    "aab7a9457ad7c247639eb58c": [
+      {
+        "url": "https://www.metacritic.com/game/atari-flashback-classics-volume-3/",
+        "status": "matched"
+      }
+    ],
+    "19725f2adf14a44ffe2615db": [
+      {
+        "url": "https://www.metacritic.com/game/atomfall/",
+        "status": "matched"
+      }
+    ],
+    "c4269f93216cca614cae1d1d": [
+      {
+        "url": "https://www.metacritic.com/game/atomic-heart/",
+        "status": "matched"
+      }
+    ],
+    "07076eb347bc2341f9941f1a": [
+      {
+        "url": "https://www.metacritic.com/game/attack-on-titan/",
+        "status": "matched"
+      }
+    ],
+    "62213e1f885fa11b31259b83": [
+      {
+        "url": "https://www.metacritic.com/game/attack-on-titan-2/",
+        "status": "matched"
+      }
+    ],
+    "32691021693486c8cf1da9dd": [
+      {
+        "url": "https://www.metacritic.com/game/avicii-invector/",
+        "status": "matched"
+      }
+    ],
+    "e32763bbd2cbe23d12b65267": [
+      {
+        "url": "https://www.metacritic.com/game/axiom-verge/",
+        "status": "matched"
+      }
+    ],
+    "71cf30b092e56ce9dc3d2a40": [
+      {
+        "url": "https://www.metacritic.com/game/axiom-verge-2/",
+        "status": "matched"
+      }
+    ],
+    "8c9924c45f981526397376dc": [
+      {
+        "url": "https://www.metacritic.com/game/back-to-bed/",
+        "status": "matched"
+      }
+    ],
+    "56c2bf404c31ba98ee3e47bc": [
+      {
+        "url": "https://www.metacritic.com/game/tails-noir/",
+        "status": "matched"
+      }
+    ],
+    "719d92cb6edd2dc1288f7d87": [
+      {
+        "url": "https://www.metacritic.com/game/bad-north/",
+        "status": "matched"
+      }
+    ],
+    "f69428ef6f826aa111e0dd18": [
+      {
+        "url": "https://www.metacritic.com/game/balan-wonderworld/",
+        "status": "matched"
+      }
+    ],
+    "41a9156a662f46a583d33a2a": [
+      {
+        "url": "https://www.metacritic.com/game/balatro/",
+        "status": "matched"
+      }
+    ],
+    "582fe9ac5956ffddedb2e2e3": [
+      {
+        "url": "https://www.metacritic.com/game/baldurs-gate-and-baldurs-gate-ii-enhanced-editions/",
+        "status": "matched"
+      }
+    ],
+    "9d44116309f74c7d12e2bc12": [
+      {
+        "url": "https://www.metacritic.com/game/baldurs-gate-dark-alliance-ii/",
+        "status": "matched"
+      }
+    ],
+    "a2630ac39a9071eee28ca575": [
+      {
+        "url": "https://www.metacritic.com/game/batman-arkham-asylum/",
+        "status": "matched"
+      }
+    ],
+    "0f9528d14090dda1e1265b29": [
+      {
+        "url": "https://www.metacritic.com/game/batman-arkham-city/",
+        "status": "matched"
+      }
+    ],
+    "632bce4f670750fa6a10368d": [
+      {
+        "url": "https://www.metacritic.com/game/batman-arkham-knight/",
+        "status": "matched"
+      }
+    ],
+    "e34089e1c378f68934044c12": [
+      {
+        "url": "https://www.metacritic.com/game/battlefield-1/",
+        "status": "matched"
+      }
+    ],
+    "1116de459a7e793f96948635": [
+      {
+        "url": "https://www.metacritic.com/game/battlefield-4/",
+        "status": "matched"
+      }
+    ],
+    "e9cc738f1ded8d611118efa9": [
+      {
+        "url": "https://www.metacritic.com/game/battlefield-hardline/",
+        "status": "matched"
+      }
+    ],
+    "84903f605c6db31815fc0bcf": [
+      {
+        "url": "https://www.metacritic.com/game/battlefield-v/",
+        "status": "matched"
+      }
+    ],
+    "e86f848e6f80c08d5f95d10a": [
+      {
+        "url": "https://www.metacritic.com/game/battleship/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.christcenteredgamer.com/reviews/consoles/xbox-one/battleship-xbox-one",
+        "status": "verified_manual_summary"
+      }
+    ],
+    "ed47a6c5a28d01a5319fd9dc": [
+      {
+        "url": "https://www.metacritic.com/game/bayonetta/",
+        "status": "matched"
+      }
+    ],
+    "236811c6ddc734ae423ca316": [
+      {
+        "url": "https://www.metacritic.com/game/beat-cop/",
+        "status": "matched"
+      }
+    ],
+    "c367e4882153392319457551": [
+      {
+        "url": "https://www.metacritic.com/game/below/",
+        "status": "no_editorial_excerpt"
+      },
+      {
+        "url": "https://www.metacritic.com/game/below/critic-reviews/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.pushsquare.com/reviews/ps4/below",
+        "status": "verified_manual_summary"
+      }
+    ],
+    "165b8537cb6be47c8c838414": [
+      {
+        "url": "https://www.metacritic.com/game/bendy-and-the-dark-revival/",
+        "status": "matched"
+      }
+    ],
+    "dac7fc261c6923a206c39863": [
+      {
+        "url": "https://www.metacritic.com/game/bendy-and-the-ink-machine/",
+        "status": "matched"
+      }
+    ],
+    "87fdeac6e83709af080834ea": [
+      {
+        "url": "https://www.metacritic.com/game/beyond-two-souls/",
+        "status": "matched"
+      }
+    ],
+    "1de19fccd66525718e4e5880": [
+      {
+        "url": "https://www.metacritic.com/game/biomutant/",
+        "status": "matched"
+      }
+    ],
+    "f8887e9297e06dcbd909e3b2": [
+      {
+        "url": "https://www.metacritic.com/game/bioshock-infinite/",
+        "status": "matched"
+      }
+    ],
+    "e5b038020376042bbed848c6": [
+      {
+        "url": "https://www.metacritic.com/game/bioshock-the-collection/",
+        "status": "matched"
+      }
+    ],
+    "a2c8341d88254102ac5f51e0": [
+      {
+        "url": "https://www.metacritic.com/game/black-skylands/",
+        "status": "matched"
+      }
+    ],
+    "569dcf4c58afa7f9abaccbfd": [
+      {
+        "url": "https://www.metacritic.com/game/blair-witch/",
+        "status": "matched"
+      }
+    ],
+    "fc8be2d0ef0f09441e3aed8c": [
+      {
+        "url": "https://www.metacritic.com/game/blasphemous/",
+        "status": "matched"
+      }
+    ],
+    "cafac05e6548de68e416d83e": [
+      {
+        "url": "https://www.metacritic.com/game/blasphemous-2/",
+        "status": "matched"
+      }
+    ],
+    "6e74b37c2b1c26987f83e2ba": [
+      {
+        "url": "https://www.metacritic.com/game/bloodborne/",
+        "status": "matched"
+      }
+    ],
+    "dc5af2d2e01bc282c7e50eae": [
+      {
+        "url": "https://www.metacritic.com/game/bonfire-peaks/",
+        "status": "matched"
+      }
+    ],
+    "d522c1b26b40af3aae73065d": [
+      {
+        "url": "https://www.metacritic.com/game/borderlands-game-of-the-year-edition/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/borderlands/",
+        "status": "matched"
+      }
+    ],
+    "bd49658165d5ac6cac69f512": [
+      {
+        "url": "https://www.metacritic.com/game/borderlands-the-handsome-collection/",
+        "status": "matched"
+      }
+    ],
+    "2c95813ede92d575afe90852": [
+      {
+        "url": "https://www.metacritic.com/game/borderlands-3/",
+        "status": "matched"
+      }
+    ],
+    "4cdc84f680038085deb65c33": [
+      {
+        "url": "https://www.metacritic.com/game/bound/",
+        "status": "matched"
+      }
+    ],
+    "fab480aa02e8e8ddb933cbbe": [
+      {
+        "url": "https://www.metacritic.com/game/braid/",
+        "status": "matched"
+      }
+    ],
+    "d3fce4c8aed8d7457e82c60f": [
+      {
+        "url": "https://www.metacritic.com/game/bramble-the-mountain-king/",
+        "status": "matched"
+      }
+    ],
+    "15c0c8d460743aca331c2f47": [
+      {
+        "url": "https://www.metacritic.com/game/brawlhalla/",
+        "status": "matched"
+      }
+    ],
+    "20d99830f5784af0c01c0ead": [
+      {
+        "url": "https://www.metacritic.com/game/broforce/",
+        "status": "matched"
+      }
+    ],
+    "5cd09199bcaa4c4bacc3072f": [
+      {
+        "url": "https://www.metacritic.com/game/brotato/",
+        "status": "matched"
+      }
+    ],
+    "3cb625645eb3cf32fd04d356": [
+      {
+        "url": "https://www.metacritic.com/game/bugsnax/",
+        "status": "matched"
+      }
+    ],
+    "7143089549293106507ddfca": [
+      {
+        "url": "https://www.metacritic.com/game/bulletstorm-full-clip-edition/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/bulletstorm/",
+        "status": "matched"
+      }
+    ],
+    "f2d5fa63255fd9add52e4774": [
+      {
+        "url": "https://www.metacritic.com/game/burnout-paradise-remastered/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/burnout-paradise/",
+        "status": "matched"
+      }
+    ],
+    "866eed7d20a4c26b43635562": [
+      {
+        "url": "https://www.metacritic.com/game/bus-simulator-21/",
+        "status": "matched"
+      }
+    ],
+    "3587125cf71c029b1470954a": [
+      {
+        "url": "https://www.metacritic.com/game/bus-simulator-21-next-stop/",
+        "status": "matched"
+      }
+    ],
+    "e3f85328deedee19f838f562": [
+      {
+        "url": "https://www.metacritic.com/game/butcher/",
+        "status": "matched"
+      }
+    ],
+    "3643500355c9613e40ec1e45": [
+      {
+        "url": "https://www.metacritic.com/game/call-of-cthulhu-the-official-video-game/",
+        "status": "matched"
+      }
+    ],
+    "0feb911b25f96b76152c2711": [
+      {
+        "url": "https://www.metacritic.com/game/call-of-duty-advanced-warfare/",
+        "status": "matched"
+      }
+    ],
+    "020e013eccc423fad3d10669": [
+      {
+        "url": "https://www.metacritic.com/game/call-of-duty-black-ops-4/",
+        "status": "matched"
+      }
+    ],
+    "3a36768630cc99adfa1dc4e3": [
+      {
+        "url": "https://www.metacritic.com/game/call-of-duty-black-ops-6/",
+        "status": "matched"
+      }
+    ],
+    "cf2ccd049a405d2efcb77922": [
+      {
+        "url": "https://www.metacritic.com/game/call-of-duty-black-ops-cold-war/",
+        "status": "matched"
+      }
+    ],
+    "78a0fa0810dd6951457b596d": [
+      {
+        "url": "https://www.metacritic.com/game/call-of-duty-black-ops-iii/",
+        "status": "matched"
+      }
+    ],
+    "d86438879398c3503f399142": [
+      {
+        "url": "https://www.metacritic.com/game/call-of-duty-ghosts/",
+        "status": "matched"
+      }
+    ],
+    "8ad1b774aacf79231ccb42e8": [
+      {
+        "url": "https://www.metacritic.com/game/call-of-duty-infinite-warfare/",
+        "status": "matched"
+      }
+    ],
+    "354e77762bfe91a1ef3e96ac": [
+      {
+        "url": "https://www.metacritic.com/game/call-of-duty-modern-warfare/",
+        "status": "matched"
+      }
+    ],
+    "abf2615741d28421e23d1f01": [
+      {
+        "url": "https://www.metacritic.com/game/call-of-duty-modern-warfare/",
+        "status": "matched"
+      }
+    ],
+    "acf2fd1f95df93892321c9bc": [
+      {
+        "url": "https://www.metacritic.com/game/call-of-duty-modern-warfare-2/",
+        "status": "matched"
+      }
+    ],
+    "759a2ba649ca53bbb7e4d1a9": [
+      {
+        "url": "https://www.metacritic.com/game/call-of-duty-modern-warfare-ii/",
+        "status": "matched"
+      }
+    ],
+    "891d2169bd913771b43c18a3": [
+      {
+        "url": "https://www.metacritic.com/game/call-of-duty-modern-warfare-iii/",
+        "status": "matched"
+      }
+    ],
+    "aec7332df288b948b2314b6e": [
+      {
+        "url": "https://www.metacritic.com/game/call-of-duty-vanguard/",
+        "status": "matched"
+      }
+    ],
+    "f290bcc3f776307f02f19b9b": [
+      {
+        "url": "https://www.metacritic.com/game/call-of-duty-wwii/",
+        "status": "matched"
+      }
+    ],
+    "5b1e42726c36095c7ac0b0e8": [
+      {
+        "url": "https://www.metacritic.com/game/call-of-the-sea/",
+        "status": "matched"
+      }
+    ],
+    "227a9037d5ce44dc961e6826": [
+      {
+        "url": "https://www.metacritic.com/game/carrion/",
+        "status": "matched"
+      }
+    ],
+    "ff69ac72aa0c4ee69709db0e": [
+      {
+        "url": "https://www.metacritic.com/game/carto/",
+        "status": "matched"
+      }
+    ],
+    "041be8c75afc2600dca08e8c": [
+      {
+        "url": "https://www.metacritic.com/game/catherine-full-body/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/catherine/",
+        "status": "matched"
+      }
+    ],
+    "80cae4474dae393c1ab9c302": [
+      {
+        "url": "https://www.metacritic.com/game/celeste/",
+        "status": "matched"
+      }
+    ],
+    "beb48da4bc5c653794b991fe": [
+      {
+        "url": "https://www.metacritic.com/game/chained-echoes/",
+        "status": "matched"
+      }
+    ],
+    "6b74caf922c9ecdc52bbcd32": [
+      {
+        "url": "https://www.metacritic.com/game/chernobylite/",
+        "status": "matched"
+      }
+    ],
+    "9e2cb509e93ebf97db80b813": [
+      {
+        "url": "https://www.metacritic.com/game/chess-ultra/",
+        "status": "matched"
+      }
+    ],
+    "73ca772f275f0785cb6b9f56": [
+      {
+        "url": "https://www.metacritic.com/game/chicken-police-paint-it-red/",
+        "status": "matched"
+      }
+    ],
+    "d2cf052255883b633ed328c6": [
+      {
+        "url": "https://www.metacritic.com/game/child-of-light/",
+        "status": "matched"
+      }
+    ],
+    "f33f74fb29c2a71a8c8657fc": [
+      {
+        "url": "https://www.metacritic.com/game/chimparty/",
+        "status": "matched"
+      }
+    ],
+    "efc93826adca44b337281965": [
+      {
+        "url": "https://www.metacritic.com/game/cities-skylines/",
+        "status": "matched"
+      }
+    ],
+    "e395b9b79fa39e70ca2e6dce": [
+      {
+        "url": "https://www.metacritic.com/game/citizen-sleeper/",
+        "status": "matched"
+      }
+    ],
+    "c17aa208f7dd65806d56227f": [
+      {
+        "url": "https://www.metacritic.com/game/cocoon/",
+        "status": "matched"
+      }
+    ],
+    "d2f2e6ea7c9f2757727070e2": [
+      {
+        "url": "https://www.metacritic.com/game/code-vein/",
+        "status": "matched"
+      }
+    ],
+    "ba6cce0da7cefa78e70da158": [
+      {
+        "url": "https://www.metacritic.com/game/coffee-talk-episode-2-hibiscus-and-butterfly/",
+        "status": "matched"
+      }
+    ],
+    "074b17bc69b684eb8285eeba": [
+      {
+        "url": "https://www.metacritic.com/game/coffee-talk/",
+        "status": "matched"
+      }
+    ],
+    "2064599392a5e5f0d8d63272": [
+      {
+        "url": "https://www.metacritic.com/game/conan-exiles/",
+        "status": "matched"
+      }
+    ],
+    "0dccf56e08b531a935080b1d": [
+      {
+        "url": "https://www.metacritic.com/game/concrete-genie/",
+        "status": "matched"
+      }
+    ],
+    "dd3496a20516024717e97544": [
+      {
+        "url": "https://www.metacritic.com/game/control/",
+        "status": "matched"
+      }
+    ],
+    "aa254121bf63efcf716fdea7": [
+      {
+        "url": "https://www.metacritic.com/game/cook-serve-delicious-3/",
+        "status": "matched"
+      }
+    ],
+    "7f0bb3a0fe124f9bb3139993": [
+      {
+        "url": "https://www.metacritic.com/game/crash-bandicoot-4-its-about-time/",
+        "status": "matched"
+      }
+    ],
+    "28b5d5e7e51535eb59a02ff7": [
+      {
+        "url": "https://www.metacritic.com/game/crash-bandicoot-n-sane-trilogy/",
+        "status": "matched"
+      }
+    ],
+    "443147131832cf12b74edd23": [
+      {
+        "url": "https://www.metacritic.com/game/crash-team-racing-nitro-fueled/",
+        "status": "matched"
+      }
+    ],
+    "b0bd8f2fa2605efee6f27ee6": [
+      {
+        "url": "https://www.metacritic.com/game/creature-in-the-well/",
+        "status": "matched"
+      }
+    ],
+    "680e7bd48fc272ec6dc6cfd3": [
+      {
+        "url": "https://www.metacritic.com/game/cricket-24/",
+        "status": "matched"
+      }
+    ],
+    "73caddc70950e3a7178a7ad5": [
+      {
+        "url": "https://www.metacritic.com/game/crisis-core-final-fantasy-vii/",
+        "status": "matched"
+      }
+    ],
+    "78b627f299949977bde1bfe6": [
+      {
+        "url": "https://www.metacritic.com/game/crossing-souls/",
+        "status": "matched"
+      }
+    ],
+    "3dfca294b2289ba9c5886037": [
+      {
+        "url": "https://www.metacritic.com/game/crow-country/",
+        "status": "matched"
+      }
+    ],
+    "e850951574a1d30649132458": [
+      {
+        "url": "https://www.metacritic.com/game/crypt-of-the-necrodancer/",
+        "status": "matched"
+      }
+    ],
+    "2071493e52f09ca2e938532d": [
+      {
+        "url": "https://www.metacritic.com/game/crysis-remastered/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/crysis/",
+        "status": "matched"
+      }
+    ],
+    "aa3f0a0ec58f6a9d87ab4d7f": [
+      {
+        "url": "https://www.metacritic.com/game/crysis-2/",
+        "status": "matched"
+      }
+    ],
+    "f82b97cb74703d06c9cc097c": [
+      {
+        "url": "https://www.metacritic.com/game/crysis-3/",
+        "status": "matched"
+      }
+    ],
+    "734a02ff5dfee1ff8a413f10": [
+      {
+        "url": "https://www.metacritic.com/game/cult-of-the-lamb/",
+        "status": "matched"
+      }
+    ],
+    "15f2582060c82c1eda4f1477": [
+      {
+        "url": "https://www.metacritic.com/game/cuphead/",
+        "status": "matched"
+      }
+    ],
+    "20a3674017d9bf5c56990a67": [
+      {
+        "url": "https://www.metacritic.com/game/cyberpunk-2077/",
+        "status": "matched"
+      }
+    ],
+    "86a5640b1152d12ca8086c0a": [
+      {
+        "url": "https://www.metacritic.com/game/dandara/",
+        "status": "matched"
+      }
+    ],
+    "8415f6f034ae367b260a596a": [
+      {
+        "url": "https://www.metacritic.com/game/dangerous-golf/",
+        "status": "matched"
+      }
+    ],
+    "7cf011c5fe8d251cc6049cc0": [
+      {
+        "url": "https://www.metacritic.com/game/dark-souls-remastered/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/dark-souls/",
+        "status": "matched"
+      }
+    ],
+    "bf4d6040a29097c2e017226d": [
+      {
+        "url": "https://www.metacritic.com/game/dark-souls-ii/",
+        "status": "matched"
+      }
+    ],
+    "c3dfc4ea1d56400932932b27": [
+      {
+        "url": "https://www.metacritic.com/game/dark-souls-iii/",
+        "status": "matched"
+      }
+    ],
+    "4c3e31d7e9d962a78f884e33": [
+      {
+        "url": "https://www.metacritic.com/game/darksiders-warmastered-edition/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/darksiders/",
+        "status": "matched"
+      }
+    ],
+    "87e4334768c5411cb4d504f5": [
+      {
+        "url": "https://www.metacritic.com/game/darksiders-genesis/",
+        "status": "matched"
+      }
+    ],
+    "b6aafd35cf1597f14622d2d4": [
+      {
+        "url": "https://www.metacritic.com/game/darksiders-ii-deathinitive-edition/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/darksiders-ii/",
+        "status": "matched"
+      }
+    ],
+    "2582856e3c1389fd024d4c7b": [
+      {
+        "url": "https://www.metacritic.com/game/darksiders-iii/",
+        "status": "matched"
+      }
+    ],
+    "af9a8d138b176ebf440480f8": [
+      {
+        "url": "https://www.metacritic.com/game/darkwood/",
+        "status": "no_editorial_excerpt"
+      },
+      {
+        "url": "https://www.metacritic.com/game/darkwood/critic-reviews/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.pushsquare.com/reviews/ps4/darkwood",
+        "status": "verified_manual_summary"
+      }
+    ],
+    "d5eeff4034ecfc74fa8cf308": [
+      {
+        "url": "https://www.metacritic.com/game/dave-the-diver/",
+        "status": "matched"
+      }
+    ],
+    "ef74fa787f98cd11d55e4626": [
+      {
+        "url": "https://www.metacritic.com/game/day-of-the-tentacle-remastered/",
+        "status": "matched"
+      }
+    ],
+    "972d565344cb6bb21f4694e1": [
+      {
+        "url": "https://www.metacritic.com/game/days-gone/",
+        "status": "matched"
+      }
+    ],
+    "5426b8c3b5e970d4440d702a": [
+      {
+        "url": "https://www.metacritic.com/game/dead-cells/",
+        "status": "matched"
+      }
+    ],
+    "77a3a2756c31433747516b1a": [
+      {
+        "url": "https://www.metacritic.com/game/dead-island-definitive-collection/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/dead-island/",
+        "status": "matched"
+      }
+    ],
+    "0c40521181b32c3c90531a67": [
+      {
+        "url": "https://www.metacritic.com/game/dead-island-2/",
+        "status": "matched"
+      }
+    ],
+    "9e13514d503220d5bdb0c16c": [
+      {
+        "url": "https://www.metacritic.com/game/dead-island-riptide/",
+        "status": "matched"
+      }
+    ],
+    "d0d7aa50da213accdca48a41": [
+      {
+        "url": "https://www.metacritic.com/game/dead-nation/",
+        "status": "matched"
+      }
+    ],
+    "3894b38eb25b258b0d160183": [
+      {
+        "url": "https://www.metacritic.com/game/dead-rising/",
+        "status": "matched"
+      }
+    ],
+    "ce8733d22f28fca74e010d8b": [
+      {
+        "url": "https://www.metacritic.com/game/dead-rising-2-case-zero/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/dead-rising-2/",
+        "status": "matched"
+      }
+    ],
+    "a91bf01528778587df755e8c": [
+      {
+        "url": "https://www.metacritic.com/game/dead-rising-2-off-the-record/",
+        "status": "matched"
+      }
+    ],
+    "e87a2385197e01475744efab": [
+      {
+        "url": "https://www.metacritic.com/game/dead-rising-4-franks-big-package/",
+        "status": "matched"
+      }
+    ],
+    "26882b5be1bab285a6e38bcc": [
+      {
+        "url": "https://www.metacritic.com/game/deadlight-directors-cut/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/deadlight/",
+        "status": "matched"
+      }
+    ],
+    "2e7a7a475f97e608bc4279d6": [
+      {
+        "url": "https://www.metacritic.com/game/deadpool/",
+        "status": "matched"
+      }
+    ],
+    "5d0d426a8c19e61c5b07d017": [
+      {
+        "url": "https://www.metacritic.com/game/death-stranding/",
+        "status": "matched"
+      }
+    ],
+    "39afd5533543faa12e4e6174": [
+      {
+        "url": "https://www.metacritic.com/game/deaths-door/",
+        "status": "matched"
+      }
+    ],
+    "74b9528764b55d61984bb8d9": [
+      {
+        "url": "https://www.metacritic.com/game/deep-rock-galactic/",
+        "status": "matched"
+      }
+    ],
+    "52700dfafb84206077f4b914": [
+      {
+        "url": "https://www.metacritic.com/game/despots-game/",
+        "status": "matched"
+      }
+    ],
+    "dcd4259c82b97f9eb3ca515d": [
+      {
+        "url": "https://www.metacritic.com/game/destroy-all-humans-2005/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/destroy-all-humans/",
+        "status": "matched"
+      }
+    ],
+    "c7202ef0e9283d0c68ef4d1c": [
+      {
+        "url": "https://www.metacritic.com/game/destroy-all-humans-2/",
+        "status": "matched"
+      }
+    ],
+    "fd9bafafbdb07a2a040336a9": [
+      {
+        "url": "https://www.metacritic.com/game/detroit-become-human/",
+        "status": "matched"
+      }
+    ],
+    "243c08e1537ed3cdf51f6d03": [
+      {
+        "url": "https://www.metacritic.com/game/deus-ex-mankind-divided/",
+        "status": "matched"
+      }
+    ],
+    "ae62b7124cb64f63cabf289d": [
+      {
+        "url": "https://www.metacritic.com/game/devil-may-cry-4/",
+        "status": "matched"
+      }
+    ],
+    "de5a4be1e7266b6e2618aa79": [
+      {
+        "url": "https://www.metacritic.com/game/devil-may-cry-5/",
+        "status": "matched"
+      }
+    ],
+    "fecd00a75cb1d442667aefdc": [
+      {
+        "url": "https://www.metacritic.com/game/devil-may-cry-hd-collection/",
+        "status": "matched"
+      }
+    ],
+    "2a281380a2e46d69015c2b28": [
+      {
+        "url": "https://www.metacritic.com/game/diablo-ii/",
+        "status": "matched"
+      }
+    ],
+    "dfc75ee54949688fdd910714": [
+      {
+        "url": "https://www.metacritic.com/game/diablo-iii-reaper-of-souls/",
+        "status": "matched"
+      }
+    ],
+    "4a5ea3471977ffc3b8e95921": [
+      {
+        "url": "https://www.metacritic.com/game/dirt-5/",
+        "status": "matched"
+      }
+    ],
+    "8f238049716c21e9c667de7c": [
+      {
+        "url": "https://www.metacritic.com/game/dirt-rally/",
+        "status": "matched"
+      }
+    ],
+    "753d26496428a739806626dc": [
+      {
+        "url": "https://www.metacritic.com/game/dirt-rally-20/",
+        "status": "matched"
+      }
+    ],
+    "0b338c22cf85842b79f10356": [
+      {
+        "url": "https://www.metacritic.com/game/disc-jam/",
+        "status": "matched"
+      }
+    ],
+    "b73c7902726bb795859df424": [
+      {
+        "url": "https://www.metacritic.com/game/disco-elysium-the-final-cut/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/disco-elysium/",
+        "status": "matched"
+      }
+    ],
+    "da28c444617b040ddc97446b": [
+      {
+        "url": "https://www.metacritic.com/game/dishonored/",
+        "status": "matched"
+      }
+    ],
+    "360311153dd063cf171943dc": [
+      {
+        "url": "https://www.metacritic.com/game/dishonored-2/",
+        "status": "matched"
+      }
+    ],
+    "eba0b2e2a145b921f23de204": [
+      {
+        "url": "https://www.metacritic.com/game/dishonored-death-of-the-outsider/",
+        "status": "matched"
+      }
+    ],
+    "7af3e1169731d9fe35d75539": [
+      {
+        "url": "https://www.metacritic.com/game/disney-epic-mickey/",
+        "status": "matched"
+      }
+    ],
+    "a653022c261207a7f580c0fc": [
+      {
+        "url": "https://www.metacritic.com/game/divinity-original-sin-enhanced-edition/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/divinity-original-sin/",
+        "status": "matched"
+      }
+    ],
+    "cce5664e463e3a73871946cb": [
+      {
+        "url": "https://www.metacritic.com/game/divinity-original-sin-ii-definitive-edition/",
+        "status": "matched"
+      }
+    ],
+    "cd4aadbe6ae09409b71c6325": [
+      {
+        "url": "https://www.metacritic.com/game/dmc-devil-may-cry-definitive-edition/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/dmc-devil-may-cry/",
+        "status": "matched"
+      }
+    ],
+    "38674c5fd32c265ec86efcbe": [
+      {
+        "url": "https://www.metacritic.com/game/doki-doki-literature-club/",
+        "status": "matched"
+      }
+    ],
+    "c4eb90839d74f5d9efc46df7": [
+      {
+        "url": "https://www.metacritic.com/game/dont-starve/",
+        "status": "matched"
+      }
+    ],
+    "1d5ea67cb4dc1d6e5031c7bd": [
+      {
+        "url": "https://www.metacritic.com/game/doom/",
+        "status": "matched"
+      }
+    ],
+    "c5b21845e5422f038c22a3b3": [
+      {
+        "url": "https://www.metacritic.com/game/doom-1993/",
+        "status": "matched"
+      }
+    ],
+    "9c63aa3280b08e1a9f316a3e": [
+      {
+        "url": "https://www.metacritic.com/game/doom-ii/",
+        "status": "matched"
+      }
+    ],
+    "7d9c85eebf511a62245bcdbd": [
+      {
+        "url": "https://www.metacritic.com/game/doom-3/",
+        "status": "matched"
+      }
+    ],
+    "e2363f08a0ed2de10f710175": [
+      {
+        "url": "https://www.metacritic.com/game/doom-eternal/",
+        "status": "matched"
+      }
+    ],
+    "9d5aa5c08a3f4858982ead18": [
+      {
+        "url": "https://www.metacritic.com/game/downwell/",
+        "status": "matched"
+      }
+    ],
+    "23d522b42d3eeb869246865d": [
+      {
+        "url": "https://www.metacritic.com/game/dragon-age-inquisition/",
+        "status": "matched"
+      }
+    ],
+    "8209f5d5b8e0935f17cfdccb": [
+      {
+        "url": "https://www.metacritic.com/game/dragon-ball-fighterz/",
+        "status": "matched"
+      }
+    ],
+    "f67662b669e00b2b324df7d5": [
+      {
+        "url": "https://www.metacritic.com/game/dragon-ball-xenoverse/",
+        "status": "matched"
+      }
+    ],
+    "5e2a3d816126bea5193cc571": [
+      {
+        "url": "https://www.metacritic.com/game/dragon-ball-xenoverse-2/",
+        "status": "matched"
+      }
+    ],
+    "77a8dedf54cd9f65e77c06c9": [
+      {
+        "url": "https://www.metacritic.com/game/dragon-ball-z-kakarot/",
+        "status": "matched"
+      }
+    ],
+    "da04671c0ad0c8230a1a6635": [
+      {
+        "url": "https://www.metacritic.com/game/dragon-quest-builders/",
+        "status": "matched"
+      }
+    ],
+    "81f11f70f1470ba71a045904": [
+      {
+        "url": "https://www.metacritic.com/game/dragon-quest-builders-2/",
+        "status": "matched"
+      }
+    ],
+    "4f088eac4f0c9f0d99d1bb3f": [
+      {
+        "url": "https://www.metacritic.com/game/dragon-quest-heroes-ii/",
+        "status": "matched"
+      }
+    ],
+    "e7f16c1a9ee450cefe90bfdd": [
+      {
+        "url": "https://www.metacritic.com/game/dragon-quest-heroes/",
+        "status": "matched"
+      }
+    ],
+    "736cc3b23460001954586f8b": [
+      {
+        "url": "https://www.metacritic.com/game/dragon-quest-xi-echoes-of-an-elusive-age/",
+        "status": "matched"
+      }
+    ],
+    "8cf19b1e16f5015505227830": [
+      {
+        "url": "https://www.metacritic.com/game/dragon-quest-xi-s-echoes-of-an-elusive-age/",
+        "status": "matched"
+      }
+    ],
+    "1cc08e3a2dc8f16f9fde6ef2": [
+      {
+        "url": "https://www.metacritic.com/game/dragons-dogma-dark-arisen/",
+        "status": "matched"
+      }
+    ],
+    "50a47a0e2408049b766b48e7": [
+      {
+        "url": "https://www.metacritic.com/game/dreams/",
+        "status": "matched"
+      }
+    ],
+    "74792c0323b3b70f5adbbf1a": [
+      {
+        "url": "https://www.metacritic.com/game/dredge/",
+        "status": "matched"
+      }
+    ],
+    "41ed995cb91a47bb5a91f224": [
+      {
+        "url": "https://www.metacritic.com/game/driveclub/",
+        "status": "matched"
+      }
+    ],
+    "6a3240ea191d205fd89b0746": [
+      {
+        "url": "https://www.metacritic.com/game/dying-light-2-stay-human/",
+        "status": "matched"
+      }
+    ],
+    "769dcab62a328156cb4c937e": [
+      {
+        "url": "https://www.metacritic.com/game/dying-light-the-following/",
+        "status": "matched"
+      }
+    ],
+    "966419cee08b0d444cc1c343": [
+      {
+        "url": "https://www.metacritic.com/game/ea-sports-fc-24/",
+        "status": "matched"
+      }
+    ],
+    "7c2576bafb649cedc2abb413": [
+      {
+        "url": "https://www.metacritic.com/game/ea-sports-fc-26/",
+        "status": "matched"
+      }
+    ],
+    "b478f0c6060e720f799d7c67": [
+      {
+        "url": "https://www.metacritic.com/game/ea-sports-ufc-4/",
+        "status": "matched"
+      }
+    ],
+    "fc85114ec08302adaca4775a": [
+      {
+        "url": "https://www.metacritic.com/game/efootball-2022/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/efootball/",
+        "status": "title_not_matched"
+      }
+    ],
+    "faba9de7c67364be9f5bf602": [
+      {
+        "url": "https://www.metacritic.com/game/efootball-2022/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/efootball/",
+        "status": "title_not_matched"
+      }
+    ],
+    "ca1fcfc5c2c5d0fdae4f0446": [
+      {
+        "url": "https://www.metacritic.com/game/el-hijo-a-wild-west-tale/",
+        "status": "matched"
+      }
+    ],
+    "d1ec3517e4cc2b9ffddc6408": [
+      {
+        "url": "https://www.metacritic.com/game/elden-ring/",
+        "status": "matched"
+      }
+    ],
+    "a61ff9ff877fef4af5961099": [
+      {
+        "url": "https://www.metacritic.com/game/elden-ring-nightreign/",
+        "status": "matched"
+      }
+    ],
+    "f846bbe5331a54ae0d8dd032": [
+      {
+        "url": "https://www.metacritic.com/game/eldest-souls/",
+        "status": "matched"
+      }
+    ],
+    "9a707274923c3718dd577bde": [
+      {
+        "url": "https://www.metacritic.com/game/electrician/",
+        "status": "title_not_matched"
+      }
+    ],
+    "f4b2aa1fef73816998e71b99": [
+      {
+        "url": "https://www.metacritic.com/game/enter-the-gungeon/",
+        "status": "matched"
+      }
+    ],
+    "56c1ac8ce36b6ea8cb245f45": [
+      {
+        "url": "https://www.metacritic.com/game/everybodys-gone-to-the-rapture/",
+        "status": "matched"
+      }
+    ],
+    "9b0856a72c55aab42d26d062": [
+      {
+        "url": "https://www.metacritic.com/game/evil-west/",
+        "status": "matched"
+      }
+    ],
+    "9ce4951647ec2dc22e53e891": [
+      {
+        "url": "https://www.metacritic.com/game/exit-the-gungeon/",
+        "status": "matched"
+      }
+    ],
+    "59ba04c1d315aca0cdc2f4c8": [
+      {
+        "url": "https://www.metacritic.com/game/expeditions-a-mudrunner-game/",
+        "status": "matched"
+      }
+    ],
+    "fd486d39392d3bc3ff105592": [
+      {
+        "url": "https://www.metacritic.com/game/fist-forged-in-shadow-torch/",
+        "status": "matched"
+      }
+    ],
+    "22665e8e43030d350b6129aa": [
+      {
+        "url": "https://www.metacritic.com/game/f1-24/",
+        "status": "matched"
+      }
+    ],
+    "c9d1b23eed76d8626d9d8b04": [
+      {
+        "url": "https://www.metacritic.com/game/fallout-4/",
+        "status": "matched"
+      }
+    ],
+    "0d85bd2a6a91740cb0746efb": [
+      {
+        "url": "https://www.metacritic.com/game/far-changing-tides/",
+        "status": "matched"
+      }
+    ],
+    "a780ae2eb3b8a442de0d14f7": [
+      {
+        "url": "https://www.metacritic.com/game/far-cry-3/",
+        "status": "matched"
+      }
+    ],
+    "7dab405bb288e25877c9ebe4": [
+      {
+        "url": "https://www.metacritic.com/game/far-cry-3-blood-dragon/",
+        "status": "matched"
+      }
+    ],
+    "210d9cf0ec048f0f085d8e2c": [
+      {
+        "url": "https://www.metacritic.com/game/far-cry-4/",
+        "status": "matched"
+      }
+    ],
+    "0ede49a8e479ca81105b7b8d": [
+      {
+        "url": "https://www.metacritic.com/game/far-cry-5/",
+        "status": "matched"
+      }
+    ],
+    "c3d457683a11405d4754a134": [
+      {
+        "url": "https://www.metacritic.com/game/far-cry-6/",
+        "status": "matched"
+      }
+    ],
+    "444e63428d66596eaade89de": [
+      {
+        "url": "https://www.metacritic.com/game/far-cry-new-dawn/",
+        "status": "matched"
+      }
+    ],
+    "7a47d9d9959961f1b6a14839": [
+      {
+        "url": "https://www.metacritic.com/game/far-cry-primal/",
+        "status": "matched"
+      }
+    ],
+    "eb987886bc1cfc9878d95b0a": [
+      {
+        "url": "https://www.metacritic.com/game/far-lone-sails/",
+        "status": "matched"
+      }
+    ],
+    "73b547b9b50d7fbd2ceed616": [
+      {
+        "url": "https://www.metacritic.com/game/farming-simulator-22/",
+        "status": "matched"
+      }
+    ],
+    "f71a6b51b904b19c930ebf6d": [
+      {
+        "url": "https://www.metacritic.com/game/fear-the-spotlight/",
+        "status": "matched"
+      }
+    ],
+    "ea4f8e9ae7c499dd3ef463a1": [
+      {
+        "url": "https://www.metacritic.com/game/fez/",
+        "status": "matched"
+      }
+    ],
+    "7e2439ce5387f2f70b60853d": [
+      {
+        "url": "https://www.metacritic.com/game/fightn-rage/",
+        "status": "matched"
+      }
+    ],
+    "4656ff507e530554d8f59c19": [
+      {
+        "url": "https://www.metacritic.com/game/final-fantasy/",
+        "status": "matched"
+      }
+    ],
+    "2030088108308ec01074ebf2": [
+      {
+        "url": "https://www.metacritic.com/game/final-fantasy-ii/",
+        "status": "matched"
+      }
+    ],
+    "d82ca579058e21e8955728d4": [
+      {
+        "url": "https://www.metacritic.com/game/final-fantasy-iii-pixel-remaster/",
+        "status": "matched"
+      }
+    ],
+    "5c5d6fbe5445ab605367b585": [
+      {
+        "url": "https://www.metacritic.com/game/final-fantasy-iv/",
+        "status": "matched"
+      }
+    ],
+    "251c4c5a96d9fcf9e6169d92": [
+      {
+        "url": "https://www.metacritic.com/game/final-fantasy-ix/",
+        "status": "matched"
+      }
+    ],
+    "1c7193622b37ff11f78eaad2": [
+      {
+        "url": "https://www.metacritic.com/game/final-fantasy-v/",
+        "status": "matched"
+      }
+    ],
+    "d6784e05ee42899371d772e7": [
+      {
+        "url": "https://www.metacritic.com/game/final-fantasy-vi/",
+        "status": "matched"
+      }
+    ],
+    "a655a4786c36bc5c0512f263": [
+      {
+        "url": "https://www.metacritic.com/game/final-fantasy-vii/",
+        "status": "matched"
+      }
+    ],
+    "e4d96b55bf95741ccb4fe97e": [
+      {
+        "url": "https://www.metacritic.com/game/final-fantasy-vii/",
+        "status": "matched"
+      }
+    ],
+    "09d8f3793eeaebc373690278": [
+      {
+        "url": "https://www.metacritic.com/game/playstation-4/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/final-fantasy-viii/",
+        "status": "matched"
+      }
+    ],
+    "ad0b4499f09528a0c2e87630": [
+      {
+        "url": "https://www.metacritic.com/game/final-fantasy-x-x-2-hd-remaster/",
+        "status": "matched"
+      }
+    ],
+    "1af7c648d986eccee43df661": [
+      {
+        "url": "https://www.metacritic.com/game/final-fantasy-xii-the-zodiac-age/",
+        "status": "matched"
+      }
+    ],
+    "baae092daae766ed186a21b6": [
+      {
+        "url": "https://www.metacritic.com/game/final-fantasy-xv/",
+        "status": "matched"
+      }
+    ],
+    "77b724362f72850c110a6991": [
+      {
+        "url": "https://www.metacritic.com/game/firewatch/",
+        "status": "matched"
+      }
+    ],
+    "938f030a38b439fcf9cb36ad": [
+      {
+        "url": "https://www.metacritic.com/game/fist-of-the-north-star-lost-paradise/",
+        "status": "matched"
+      }
+    ],
+    "f21049be9f5397da4e7d8e72": [
+      {
+        "url": "https://www.metacritic.com/game/five-nights-at-freddys/",
+        "status": "matched"
+      }
+    ],
+    "d81b12470c767559f5e2bc39": [
+      {
+        "url": "https://www.metacritic.com/game/five-nights-at-freddys-2/",
+        "status": "matched"
+      }
+    ],
+    "4d0979915d7fe1f2f447f43a": [
+      {
+        "url": "https://www.metacritic.com/game/five-nights-at-freddys-3/",
+        "status": "matched"
+      }
+    ],
+    "668f906b629654edd465cc04": [
+      {
+        "url": "https://www.metacritic.com/game/five-nights-at-freddys-4/",
+        "status": "matched"
+      }
+    ],
+    "63f73a415c1b2dedbaadcae0": [
+      {
+        "url": "https://www.metacritic.com/game/five-nights-at-freddys-into-the-pit/",
+        "status": "matched"
+      }
+    ],
+    "acaa1aaa2b5d73f7839fc6e7": [
+      {
+        "url": "https://www.metacritic.com/game/five-nights-at-freddys-sister-location/",
+        "status": "matched"
+      }
+    ],
+    "68330f1c44b7c590e1b630d4": [
+      {
+        "url": "https://www.metacritic.com/game/flatout-4-total-insanity/",
+        "status": "matched"
+      }
+    ],
+    "79e84ffd198555f0a956af2e": [
+      {
+        "url": "https://www.metacritic.com/game/floor-kids/",
+        "status": "matched"
+      }
+    ],
+    "3203bf0396ecd912f3dab6a9": [
+      {
+        "url": "https://www.metacritic.com/game/flow/",
+        "status": "no_editorial_excerpt"
+      },
+      {
+        "url": "https://www.metacritic.com/game/flow/critic-reviews/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.pushsquare.com/reviews/ps4/flow",
+        "status": "verified_manual_summary"
+      }
+    ],
+    "bd79c9256173014281900183": [
+      {
+        "url": "https://www.metacritic.com/game/flower/",
+        "status": "matched"
+      }
+    ],
+    "a68f810b61af68db1f2b6570": [
+      {
+        "url": "https://www.metacritic.com/game/for-the-king/",
+        "status": "matched"
+      }
+    ],
+    "1fa13bb1b751a160311f037f": [
+      {
+        "url": "https://www.metacritic.com/game/frantics/",
+        "status": "matched"
+      }
+    ],
+    "f8d7ebcfc7d849e3872d0583": [
+      {
+        "url": "https://www.metacritic.com/game/frostpunk/",
+        "status": "matched"
+      }
+    ],
+    "450ed6c46738cd9e3e634b74": [
+      {
+        "url": "https://www.metacritic.com/game/furi/",
+        "status": "matched"
+      }
+    ],
+    "7563e2d6eb1b9b3416d0370d": [
+      {
+        "url": "https://www.metacritic.com/game/gang-beasts/",
+        "status": "matched"
+      }
+    ],
+    "921acca9a5a8859110979ae5": [
+      {
+        "url": "https://www.metacritic.com/game/ghost-of-tsushima/",
+        "status": "matched"
+      }
+    ],
+    "6658c66fda13997d36829544": [
+      {
+        "url": "https://www.metacritic.com/game/ghostbusters-spirits-unleashed/",
+        "status": "matched"
+      }
+    ],
+    "e34b158d8f42c5820eb86b13": [
+      {
+        "url": "https://www.metacritic.com/game/ghostbusters-the-video-game-remastered/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/ghostbusters-the-video-game/",
+        "status": "matched"
+      }
+    ],
+    "e0b4386365377b91b018df90": [
+      {
+        "url": "https://www.metacritic.com/game/ghostrunner/",
+        "status": "matched"
+      }
+    ],
+    "69b8a2b8df1849929d60f60e": [
+      {
+        "url": "https://www.metacritic.com/game/goat-simulator/",
+        "status": "matched"
+      }
+    ],
+    "15f33b91ff276786b0e3733a": [
+      {
+        "url": "https://www.metacritic.com/game/playstation-4/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/god-of-war/",
+        "status": "matched"
+      }
+    ],
+    "410eb9998ed90aa10255b724": [
+      {
+        "url": "https://www.metacritic.com/game/god-of-war-iii-remastered/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/god-of-war-iii/",
+        "status": "matched"
+      }
+    ],
+    "be221f3d4d5731523b012a8d": [
+      {
+        "url": "https://www.metacritic.com/game/god-of-war-ragnarok/",
+        "status": "matched"
+      }
+    ],
+    "2083ef7a162308c458d7b24a": [
+      {
+        "url": "https://www.metacritic.com/game/going-under/",
+        "status": "matched"
+      }
+    ],
+    "340c874261de303255e24d96": [
+      {
+        "url": "https://www.metacritic.com/game/golf-club-wasteland/",
+        "status": "matched"
+      }
+    ],
+    "2a809b422b96a33a130373f2": [
+      {
+        "url": "https://www.metacritic.com/game/gone-home/",
+        "status": "matched"
+      }
+    ],
+    "87589a7026cb0401585db684": [
+      {
+        "url": "https://www.metacritic.com/game/gonner/",
+        "status": "matched"
+      }
+    ],
+    "a0dcbc89334f6418cbf74787": [
+      {
+        "url": "https://www.metacritic.com/game/gonner/",
+        "status": "matched"
+      }
+    ],
+    "cca0169239ebb59fde873953": [
+      {
+        "url": "https://www.metacritic.com/game/gran-turismo-7/",
+        "status": "matched"
+      }
+    ],
+    "173d9d2a8b6d1cfe39bdd2f2": [
+      {
+        "url": "https://www.metacritic.com/game/gran-turismo-7/",
+        "status": "matched"
+      }
+    ],
+    "a3d965fd2ba590e78f39bd7e": [
+      {
+        "url": "https://www.metacritic.com/game/gran-turismo-sport/",
+        "status": "matched"
+      }
+    ],
+    "85d4f6b07d2c60979080f05c": [
+      {
+        "url": "https://www.metacritic.com/game/grand-theft-auto-v/",
+        "status": "matched"
+      }
+    ],
+    "fca4841eae56b0fc97b12b80": [
+      {
+        "url": "https://www.metacritic.com/game/grand-theft-auto-v/",
+        "status": "matched"
+      }
+    ],
+    "9b82faa03a48d558c3a50bb0": [
+      {
+        "url": "https://www.metacritic.com/game/gravity-rush/",
+        "status": "matched"
+      }
+    ],
+    "b7760fcf1343a37e13fb779c": [
+      {
+        "url": "https://www.metacritic.com/game/gravity-rush-2/",
+        "status": "matched"
+      }
+    ],
+    "8d7075affaeec75e82be9549": [
+      {
+        "url": "https://www.metacritic.com/game/grid-legends-deluxe-edition/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/grid-legends/",
+        "status": "matched"
+      }
+    ],
+    "169f7e6f5e43313c4ca1adcb": [
+      {
+        "url": "https://www.metacritic.com/game/grim-fandango-remastered/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/grim-fandango/",
+        "status": "matched"
+      }
+    ],
+    "a543bd6a67c2e2b9c020dcd7": [
+      {
+        "url": "https://www.metacritic.com/game/gris/",
+        "status": "matched"
+      }
+    ],
+    "e6e98277ccfe487ba50059eb": [
+      {
+        "url": "https://www.metacritic.com/game/grounded/",
+        "status": "matched"
+      }
+    ],
+    "94be24b35dc643d3973bbeb8": [
+      {
+        "url": "https://www.metacritic.com/game/grow-home/",
+        "status": "matched"
+      }
+    ],
+    "9eab3632528f830256a1ddd5": [
+      {
+        "url": "https://www.metacritic.com/game/guacamelee-super-turbo-championship-edition/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/guacamelee/",
+        "status": "matched"
+      }
+    ],
+    "6635e56f91066396a29c42ee": [
+      {
+        "url": "https://www.metacritic.com/game/guacamelee-2/",
+        "status": "matched"
+      }
+    ],
+    "456d16f1463e327c5b6220c9": [
+      {
+        "url": "https://www.metacritic.com/game/guilty-gear-strive-/",
+        "status": "matched"
+      }
+    ],
+    "a48ef014ac2881028fae5bc1": [
+      {
+        "url": "https://www.metacritic.com/game/hades/",
+        "status": "matched"
+      }
+    ],
+    "23c97ff5b30f56ad6afc7481": [
+      {
+        "url": "https://www.metacritic.com/game/heavenly-bodies/",
+        "status": "matched"
+      }
+    ],
+    "d3e3a6cb3c933083db4771b2": [
+      {
+        "url": "https://www.metacritic.com/game/heavy-rain/",
+        "status": "matched"
+      }
+    ],
+    "2403cba0f893d3353a3416d9": [
+      {
+        "url": "https://www.metacritic.com/game/hellblade-senuas-sacrifice/",
+        "status": "matched"
+      }
+    ],
+    "b453ad7bce4f20d42daa167f": [
+      {
+        "url": "https://www.metacritic.com/game/helldivers/",
+        "status": "matched"
+      }
+    ],
+    "354316b2d81812c30bf3368f": [
+      {
+        "url": "https://www.metacritic.com/game/hello-neighbor/",
+        "status": "matched"
+      }
+    ],
+    "83d6dca859bb2a91ad4ce638": [
+      {
+        "url": "https://www.metacritic.com/game/hello-neighbor/",
+        "status": "matched"
+      }
+    ],
+    "c1a469231a9f8daaeea2445d": [
+      {
+        "url": "https://www.metacritic.com/game/hello-neighbor/",
+        "status": "matched"
+      }
+    ],
+    "2a8142485982c5e456dcc020": [
+      {
+        "url": "https://www.metacritic.com/game/high-on-life/",
+        "status": "matched"
+      }
+    ],
+    "664fe43a090eede1dac43a98": [
+      {
+        "url": "https://www.metacritic.com/game/hitman-3/",
+        "status": "matched"
+      }
+    ],
+    "c64e0942b1595156bab27317": [
+      {
+        "url": "https://www.metacritic.com/game/hitman-absolution/",
+        "status": "matched"
+      }
+    ],
+    "9ec0c832296dbf85e7ff00d7": [
+      {
+        "url": "https://www.metacritic.com/game/hitman-blood-money/",
+        "status": "matched"
+      }
+    ],
+    "2a0f1a73043357ecba00c6ed": [
+      {
+        "url": "https://www.metacritic.com/game/hitman-go/",
+        "status": "matched"
+      }
+    ],
+    "e93e62eabf0eea2ace156418": [
+      {
+        "url": "https://www.metacritic.com/game/hogwarts-legacy/",
+        "status": "matched"
+      }
+    ],
+    "1549e4a95f5700ac842ce437": [
+      {
+        "url": "https://www.metacritic.com/game/hollow-knight-voidheart-edition/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/hollow-knight/",
+        "status": "matched"
+      }
+    ],
+    "6c92dd36e2f636f935547e97": [
+      {
+        "url": "https://www.metacritic.com/game/hollow-knight-silksong/",
+        "status": "matched"
+      }
+    ],
+    "ec1eed66eff248247455c4b4": [
+      {
+        "url": "https://www.metacritic.com/game/horizon-forbidden-west/",
+        "status": "matched"
+      }
+    ],
+    "5542d947e7498cbbd04617f1": [
+      {
+        "url": "https://www.metacritic.com/game/horizon-zero-dawn/",
+        "status": "matched"
+      }
+    ],
+    "d57a6e4fecfaaad27c25a96a": [
+      {
+        "url": "https://www.metacritic.com/game/hot-wheels-unleashed-2-turbocharged/",
+        "status": "matched"
+      }
+    ],
+    "dc8a58646f1f33073daafcb0": [
+      {
+        "url": "https://www.metacritic.com/game/hotline-miami/",
+        "status": "matched"
+      }
+    ],
+    "bff65b1346ab15e5976e9c1e": [
+      {
+        "url": "https://www.metacritic.com/game/hotline-miami-2-wrong-number/",
+        "status": "matched"
+      }
+    ],
+    "1e98c919ca6a82a0d0c880f5": [
+      {
+        "url": "https://www.metacritic.com/game/human-fall-flat/",
+        "status": "matched"
+      }
+    ],
+    "a7ef82e44081d7cb59c8036d": [
+      {
+        "url": "https://www.metacritic.com/game/humanity/",
+        "status": "matched"
+      }
+    ],
+    "1ee512e7e71eb18f51f88c18": [
+      {
+        "url": "https://www.metacritic.com/game/hyper-light-drifter/",
+        "status": "matched"
+      }
+    ],
+    "6341b2740198615755545d7d": [
+      {
+        "url": "https://www.metacritic.com/game/i-am-bread-tv/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/i-am-bread/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.pushsquare.com/reviews/ps4/i_am_bread",
+        "status": "verified_manual_summary"
+      }
+    ],
+    "2e9c126307c26a4e9f733e69": [
+      {
+        "url": "https://www.metacritic.com/game/infamous-first-light/",
+        "status": "matched"
+      }
+    ],
+    "c752b3e3a05681b67edbaad5": [
+      {
+        "url": "https://www.metacritic.com/game/infamous-second-son/",
+        "status": "matched"
+      }
+    ],
+    "b1e89bfd621ece916029fc38": [
+      {
+        "url": "https://www.metacritic.com/game/injustice-2/",
+        "status": "matched"
+      }
+    ],
+    "e7413852a9f4926315dbf8c6": [
+      {
+        "url": "https://www.metacritic.com/game/inscryption/",
+        "status": "matched"
+      }
+    ],
+    "6773ced0ef0a143806b8fb6d": [
+      {
+        "url": "https://www.metacritic.com/game/inside/",
+        "status": "matched"
+      }
+    ],
+    "b2cb9bb46b29982e29b0241a": [
+      {
+        "url": "https://www.metacritic.com/game/inside-my-radio/",
+        "status": "matched"
+      }
+    ],
+    "4191bf042f944b063aa964b9": [
+      {
+        "url": "https://www.metacritic.com/game/it-takes-two/",
+        "status": "matched"
+      }
+    ],
+    "b41cf9a7eb156dbe52c43e97": [
+      {
+        "url": "https://www.metacritic.com/game/jetpack-joyride/",
+        "status": "matched"
+      }
+    ],
+    "9c6b36c50c65f6563d04b4a4": [
+      {
+        "url": "https://www.metacritic.com/game/john-wick-hex/",
+        "status": "matched"
+      }
+    ],
+    "9a1bc33f7f1324f280dec433": [
+      {
+        "url": "https://www.metacritic.com/game/jojos-bizarre-adventure-all-star-battle/",
+        "status": "matched"
+      }
+    ],
+    "2cf88e3aacba7860723251f9": [
+      {
+        "url": "https://www.metacritic.com/game/playstation-4/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/jojos-bizarre-adventure-eyes-of-heaven/",
+        "status": "matched"
+      }
+    ],
+    "b1e892ea5133239155dbdf50": [
+      {
+        "url": "https://www.metacritic.com/game/journey/",
+        "status": "matched"
+      }
+    ],
+    "abc6efc4f4a748bb6633192a": [
+      {
+        "url": "https://www.metacritic.com/game/journey-to-the-savage-planet/",
+        "status": "matched"
+      }
+    ],
+    "f7c03a0172d33dec9fe96b7c": [
+      {
+        "url": "https://www.metacritic.com/game/judgment/",
+        "status": "matched"
+      }
+    ],
+    "cff5c151b56f81895bc03f8d": [
+      {
+        "url": "https://www.metacritic.com/game/jump-force/",
+        "status": "matched"
+      }
+    ],
+    "c7eca69808406864b829c432": [
+      {
+        "url": "https://www.metacritic.com/game/jump-king/",
+        "status": "matched"
+      }
+    ],
+    "a7f82c0312dbff6005c99fff": [
+      {
+        "url": "https://www.metacritic.com/game/jurassic-world-evolution/",
+        "status": "matched"
+      }
+    ],
+    "37b2b46f802e9948c4380812": [
+      {
+        "url": "https://www.metacritic.com/game/jurassic-world-evolution-2/",
+        "status": "matched"
+      }
+    ],
+    "c97e491532b9ca7c67dc79b1": [
+      {
+        "url": "https://www.metacritic.com/game/just-cause-3/",
+        "status": "matched"
+      }
+    ],
+    "d22a70d068d0bea83ed8b0a4": [
+      {
+        "url": "https://www.metacritic.com/game/just-cause-4/",
+        "status": "matched"
+      }
+    ],
+    "6e9e4aad185163fe58079813": [
+      {
+        "url": "https://www.metacritic.com/game/just-deal-with-it/",
+        "status": "matched"
+      }
+    ],
+    "03c2dba710b10b4e82ddeb0f": [
+      {
+        "url": "https://www.metacritic.com/game/just-die-already/",
+        "status": "matched"
+      }
+    ],
+    "beace9d234f89c044d5f63df": [
+      {
+        "url": "https://www.metacritic.com/game/just-shapes-and-beats/",
+        "status": "matched"
+      }
+    ],
+    "cd744c687a657cf733d2e806": [
+      {
+        "url": "https://www.metacritic.com/game/just-sing/",
+        "status": "matched"
+      }
+    ],
+    "cf4a9fc447552197178f0020": [
+      {
+        "url": "https://www.metacritic.com/game/keep-talking-and-nobody-explodes/",
+        "status": "matched"
+      }
+    ],
+    "f76806e0290c1ae3f0694625": [
+      {
+        "url": "https://www.metacritic.com/game/kena-bridge-of-spirits/",
+        "status": "matched"
+      }
+    ],
+    "665cd4e857ec68a091714a65": [
+      {
+        "url": "https://www.metacritic.com/game/kentucky-route-zero/",
+        "status": "matched"
+      }
+    ],
+    "68d029b2e72be8562719f5ca": [
+      {
+        "url": "https://www.metacritic.com/game/kerbal-space-program/",
+        "status": "matched"
+      }
+    ],
+    "224131368ebc5be8b337d244": [
+      {
+        "url": "https://www.metacritic.com/game/keywe/",
+        "status": "matched"
+      }
+    ],
+    "776a46e1dae267118ffbaccc": [
+      {
+        "url": "https://www.metacritic.com/game/killing-floor-2/",
+        "status": "matched"
+      }
+    ],
+    "cb2c827feae7e34cccd8b480": [
+      {
+        "url": "https://www.metacritic.com/game/killzone-shadow-fall/",
+        "status": "matched"
+      }
+    ],
+    "e05e73f1d9ddc884995de6e3": [
+      {
+        "url": "https://www.metacritic.com/game/kingdom-come-deliverance/",
+        "status": "matched"
+      }
+    ],
+    "d0833b26c8fddd68ba9d66c7": [
+      {
+        "url": "https://www.metacritic.com/game/kingdom-hearts-hd-i5-plus-ii5-remix/",
+        "status": "matched"
+      }
+    ],
+    "2e7576695ca83609031380e0": [
+      {
+        "url": "https://www.metacritic.com/game/kingdom-hearts-hd-28-final-chapter-prologue/",
+        "status": "matched"
+      }
+    ],
+    "9af4d0f20e0ffb4ee1f8e48e": [
+      {
+        "url": "https://www.metacritic.com/game/kingdom-hearts-iii/",
+        "status": "matched"
+      }
+    ],
+    "eb136836d5ac07d1cac33056": [
+      {
+        "url": "https://www.metacritic.com/game/kingdom-hearts-melody-of-memory/",
+        "status": "matched"
+      }
+    ],
+    "2c3349c10a3120ad25274597": [
+      {
+        "url": "https://www.metacritic.com/game/knack/",
+        "status": "matched"
+      }
+    ],
+    "06cad5b0e008785de0bb6668": [
+      {
+        "url": "https://www.metacritic.com/game/knack-2/",
+        "status": "matched"
+      }
+    ],
+    "2c3c5ded3336f589fcba092c": [
+      {
+        "url": "https://www.metacritic.com/game/knowledge-is-power/",
+        "status": "matched"
+      }
+    ],
+    "61dd8db6e099f09057e9d0e9": [
+      {
+        "url": "https://www.metacritic.com/game/knowledge-is-power-decades/",
+        "status": "matched"
+      }
+    ],
+    "834c47522739722221569ac2": [
+      {
+        "url": "https://www.metacritic.com/game/l-a-noire/",
+        "status": "matched"
+      }
+    ],
+    "64632c536326fdfed70469e2": [
+      {
+        "url": "https://www.metacritic.com/game/lara-croft-and-the-temple-of-osiris/",
+        "status": "matched"
+      }
+    ],
+    "e279d78b5a0d648d17a813c8": [
+      {
+        "url": "https://www.metacritic.com/game/lara-croft-go/",
+        "status": "matched"
+      }
+    ],
+    "00399c054e8dd91810aa383b": [
+      {
+        "url": "https://www.metacritic.com/game/laser-league/",
+        "status": "matched"
+      }
+    ],
+    "4562ea278c23afc6e51229aa": [
+      {
+        "url": "https://www.metacritic.com/game/layers-of-fear/",
+        "status": "matched"
+      }
+    ],
+    "a7b331b86ca394893e2e16e5": [
+      {
+        "url": "https://www.metacritic.com/game/layers-of-fear-2/",
+        "status": "matched"
+      }
+    ],
+    "831ed87eb9443037ef78569a": [
+      {
+        "url": "https://www.metacritic.com/game/lego-batman-3-beyond-gotham/",
+        "status": "matched"
+      }
+    ],
+    "c6e9c77b91ea5a5e557fd1ac": [
+      {
+        "url": "https://www.metacritic.com/game/lego-city-undercover/",
+        "status": "matched"
+      }
+    ],
+    "876d27ae3fff92c8652373aa": [
+      {
+        "url": "https://www.metacritic.com/game/lego-dc-super-villains/",
+        "status": "matched"
+      }
+    ],
+    "e89c325b2002dde36551c18e": [
+      {
+        "url": "https://www.metacritic.com/game/lego-harry-potter-collection/",
+        "status": "matched"
+      }
+    ],
+    "4a26fb11e9ec5c1288f18452": [
+      {
+        "url": "https://www.metacritic.com/game/lego-jurassic-world/",
+        "status": "matched"
+      }
+    ],
+    "644215f02a1e837cf5ba0808": [
+      {
+        "url": "https://www.metacritic.com/game/lego-marvel-super-heroes/",
+        "status": "matched"
+      }
+    ],
+    "fa5a08a8581eea48ce8dbb3a": [
+      {
+        "url": "https://www.metacritic.com/game/lego-marvel-super-heroes-2/",
+        "status": "matched"
+      }
+    ],
+    "705717bbbe19c1320cc0fe99": [
+      {
+        "url": "https://www.metacritic.com/game/playstation-4/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/lego-marvels-avengers/",
+        "status": "matched"
+      }
+    ],
+    "e6ddc88c49dae878ef8c10f7": [
+      {
+        "url": "https://www.metacritic.com/game/lego-star-wars-the-force-awakens/",
+        "status": "matched"
+      }
+    ],
+    "09bf6da900c44709e1f7ded7": [
+      {
+        "url": "https://www.metacritic.com/game/lego-star-wars-the-skywalker-saga/",
+        "status": "matched"
+      }
+    ],
+    "3e192d0024574f1616e10ad9": [
+      {
+        "url": "https://www.metacritic.com/game/lego-the-hobbit/",
+        "status": "matched"
+      }
+    ],
+    "15624bb61fad33f3bf78f357": [
+      {
+        "url": "https://www.metacritic.com/game/lego-the-incredibles/",
+        "status": "matched"
+      }
+    ],
+    "125f06f9193c02099bd34f59": [
+      {
+        "url": "https://www.metacritic.com/game/lego-voyagers/",
+        "status": "matched"
+      }
+    ],
+    "a6eae2d04016b8a8597d3311": [
+      {
+        "url": "https://www.metacritic.com/game/lego-worlds/",
+        "status": "matched"
+      }
+    ],
+    "b3fc51d053f89a06619f0d8c": [
+      {
+        "url": "https://www.metacritic.com/game/lets-sing-10/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.zonared.com/analisis/analisis-lets-sing-10-ps4-karaoke/",
+        "status": "verified_manual_summary"
+      }
+    ],
+    "749096196958ec579d91eaa5": [
+      {
+        "url": "https://www.metacritic.com/game/lets-sing-11/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://allgamersin.com/analisis-lets-sing-11/",
+        "status": "verified_manual_summary"
+      }
+    ],
+    "0381c7c7808bda31f0d62ae6": [
+      {
+        "url": "https://www.metacritic.com/game/lets-sing-12/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://allgamersin.com/analisis-lets-sing-12/",
+        "status": "verified_manual_summary"
+      }
+    ],
+    "03872290b40a38f5c9d85d2a": [
+      {
+        "url": "https://www.metacritic.com/game/lets-sing-13/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.nintenderos.com/2020/12/analisis-lets-sing-13-para-nintendo-switch/",
+        "status": "verified_manual_summary"
+      }
+    ],
+    "4d69ba22c7cb1cae23a69913": [
+      {
+        "url": "https://www.metacritic.com/game/lets-sing-2016/",
+        "status": "matched"
+      }
+    ],
+    "2952a39fb07220c14aa4cb69": [
+      {
+        "url": "https://www.metacritic.com/game/lets-sing-2017/",
+        "status": "no_editorial_excerpt"
+      },
+      {
+        "url": "https://www.metacritic.com/game/lets-sing-2017/critic-reviews/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://uvejuegos.com/analisis/Lets-Sing-2017/Dando-el-cante/7435/57880",
+        "status": "verified_manual_summary"
+      }
+    ],
+    "562e6560ab86758906fb4837": [
+      {
+        "url": "https://www.metacritic.com/game/lets-sing-2018-deutsch/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.ntower.de/test/1761-let-s-sing-2018-switch/",
+        "status": "verified_manual_summary"
+      }
+    ],
+    "1cc3aa1e2e3e0b2a57e6e635": [
+      {
+        "url": "https://www.metacritic.com/game/lets-sing-2019/",
+        "status": "matched"
+      }
+    ],
+    "adaca7fb40bbde04f33a823d": [
+      {
+        "url": "https://www.metacritic.com/game/lets-sing-2020/",
+        "status": "matched"
+      }
+    ],
+    "25056f3e6f386e4ddd64ec2f": [
+      {
+        "url": "https://www.metacritic.com/game/lets-sing-2020-deutsch/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.ntower.de/test/2731-let-s-sing-2020-switch/",
+        "status": "verified_manual_summary"
+      }
+    ],
+    "1e6e09d374b1d71954723bf0": [
+      {
+        "url": "https://www.metacritic.com/game/lets-sing-2020-fran-ais/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://culturellementvotre.fr/2019/10/31/test-lets-sing-2020-pas-de-revolution-mais-une-evolution/",
+        "status": "verified_manual_summary"
+      }
+    ],
+    "b49d90a04f0d94cf7850943d": [
+      {
+        "url": "https://www.metacritic.com/game/lets-sing-2021/",
+        "status": "matched"
+      }
+    ],
+    "004fdb3628a7ac6b13b7966e": [
+      {
+        "url": "https://www.metacritic.com/game/lets-sing-2022/",
+        "status": "matched"
+      }
+    ],
+    "d1ef966c19ae8fd1b35e3dbb": [
+      {
+        "url": "https://www.metacritic.com/game/lets-sing-8-spanish/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.cuatro.com/videojuegos/analisis/conviertete-lets-sing-version-espanola_18_2074800233.html",
+        "status": "verified_manual_summary"
+      }
+    ],
+    "c1d813670a29ed35f401f712": [
+      {
+        "url": "https://www.metacritic.com/game/lets-sing-9-spanish/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.zonared.com/analisis/analisis-lets-sing-9-version-espanola-salto-adelante-franquicia/",
+        "status": "verified_manual_summary"
+      }
+    ],
+    "deca9f0843d49addca0c6a17": [
+      {
+        "url": "https://www.metacritic.com/game/lets-sing-abba/",
+        "status": "matched"
+      }
+    ],
+    "d9f8fff1b4836cb335017040": [
+      {
+        "url": "https://www.metacritic.com/game/lets-sing-country/",
+        "status": "matched"
+      }
+    ],
+    "f373cf804e381aa77ab9cc75": [
+      {
+        "url": "https://www.metacritic.com/game/lets-sing-queen/",
+        "status": "matched"
+      }
+    ],
+    "a3b7087a1f61cfe32dfd47d1": [
+      {
+        "url": "https://www.metacritic.com/game/lies-of-p/",
+        "status": "matched"
+      }
+    ],
+    "f9e28d36c60879d849505614": [
+      {
+        "url": "https://www.metacritic.com/game/life-is-strange/",
+        "status": "matched"
+      }
+    ],
+    "7e9dbe1d96da80bd71be4ffb": [
+      {
+        "url": "https://www.metacritic.com/game/life-is-strange-2/",
+        "status": "matched"
+      }
+    ],
+    "a1c61db475101379a5897544": [
+      {
+        "url": "https://www.metacritic.com/game/life-is-strange-before-the-storm/",
+        "status": "matched"
+      }
+    ],
+    "d5f3a98e58cc53c8206815c7": [
+      {
+        "url": "https://www.metacritic.com/game/life-is-strange-true-colors/",
+        "status": "matched"
+      }
+    ],
+    "53376c416dbe751817b607da": [
+      {
+        "url": "https://www.metacritic.com/game/yakuza-like-a-dragon/",
+        "status": "matched"
+      }
+    ],
+    "adcf6cc748b1b3f0c8c97214": [
+      {
+        "url": "https://www.metacritic.com/game/like-a-dragon-infinite-wealth/",
+        "status": "matched"
+      }
+    ],
+    "bd145357933d3a46c4c2c99b": [
+      {
+        "url": "https://www.metacritic.com/game/like-a-dragon-ishin/",
+        "status": "matched"
+      }
+    ],
+    "23eb92a0f16a9d297dae5364": [
+      {
+        "url": "https://www.metacritic.com/game/like-a-dragon-pirate-yakuza-in-hawaii/",
+        "status": "matched"
+      }
+    ],
+    "e02bf753a41a991398b32a88": [
+      {
+        "url": "https://www.metacritic.com/game/like-a-dragon-gaiden-the-man-who-erased-his-name/",
+        "status": "matched"
+      }
+    ],
+    "91aa207d9e72fa23b00b9240": [
+      {
+        "url": "https://www.metacritic.com/game/limbo/",
+        "status": "matched"
+      }
+    ],
+    "bbaab83d4fb279411dc62830": [
+      {
+        "url": "https://www.metacritic.com/game/little-big-adventure-twinsens-quest/",
+        "status": "matched"
+      }
+    ],
+    "849a74231fdb29fa79d25ec8": [
+      {
+        "url": "https://www.metacritic.com/game/little-nightmares/",
+        "status": "matched"
+      }
+    ],
+    "e7055eac92a939d6513b4394": [
+      {
+        "url": "https://www.metacritic.com/game/little-nightmares-ii/",
+        "status": "matched"
+      }
+    ],
+    "79fac48b1e55d57333f75f9f": [
+      {
+        "url": "https://www.metacritic.com/game/little-nightmares-iii/",
+        "status": "matched"
+      }
+    ],
+    "eb94b6f56ae537ce702a5fb2": [
+      {
+        "url": "https://www.metacritic.com/game/littlebigplanet-3/",
+        "status": "matched"
+      }
+    ],
+    "15875dc54abab45adf5eea95": [
+      {
+        "url": "https://www.metacritic.com/game/locoroco/",
+        "status": "matched"
+      }
+    ],
+    "19e24dd8f484b31075ec19f7": [
+      {
+        "url": "https://www.metacritic.com/game/locoroco-2/",
+        "status": "matched"
+      }
+    ],
+    "bb7c35f6a2a442faabfa6cb0": [
+      {
+        "url": "https://www.metacritic.com/game/lonely-mountains-downhill/",
+        "status": "matched"
+      }
+    ],
+    "fb7a7a314c0aa45efee9a0df": [
+      {
+        "url": "https://www.metacritic.com/game/lost-judgment/",
+        "status": "matched"
+      }
+    ],
+    "3e22912c5b3afc768c6df782": [
+      {
+        "url": "https://www.metacritic.com/game/lovers-in-a-dangerous-spacetime/",
+        "status": "matched"
+      }
+    ],
+    "b60bc9204b154c3ce1530c8c": [
+      {
+        "url": "https://www.metacritic.com/game/mad-max/",
+        "status": "matched"
+      }
+    ],
+    "a6f3ec2172ccc8b2dbe3f25b": [
+      {
+        "url": "https://www.metacritic.com/game/madden-nfl-24/",
+        "status": "matched"
+      }
+    ],
+    "d0c0e927d655525d94450745": [
+      {
+        "url": "https://www.metacritic.com/game/mafia/",
+        "status": "matched"
+      }
+    ],
+    "660d6527baccc2f44b563c44": [
+      {
+        "url": "https://www.metacritic.com/game/mafia-ii-definitive-edition/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/mafia-ii/",
+        "status": "matched"
+      }
+    ],
+    "7d41ae4cb0de53dca4fac968": [
+      {
+        "url": "https://www.metacritic.com/game/mafia-iii/",
+        "status": "matched"
+      }
+    ],
+    "c38ee21c51f0d365238ca5d7": [
+      {
+        "url": "https://www.metacritic.com/game/maneater/",
+        "status": "matched"
+      }
+    ],
+    "f81b67493d076e6a9c42e658": [
+      {
+        "url": "https://www.metacritic.com/game/mantis-burn-racing/",
+        "status": "matched"
+      }
+    ],
+    "27302bd5fd6a525e89c8cebc": [
+      {
+        "url": "https://www.metacritic.com/game/marvel-ultimate-alliance/",
+        "status": "matched"
+      }
+    ],
+    "e6507d5b0ecb4863a3b9bf95": [
+      {
+        "url": "https://www.metacritic.com/game/marvel-ultimate-alliance-2/",
+        "status": "matched"
+      }
+    ],
+    "f10237fac753b2eea11bcc6a": [
+      {
+        "url": "https://www.metacritic.com/game/marvel-vs-capcom-fighting-collection-arcade/",
+        "status": "matched"
+      }
+    ],
+    "7d855cd9c9b39813f1c30758": [
+      {
+        "url": "https://www.metacritic.com/game/marvel-vs-capcom-infinite/",
+        "status": "matched"
+      }
+    ],
+    "7200937dc62b0de37d473f83": [
+      {
+        "url": "https://www.metacritic.com/game/marvels-avengers/",
+        "status": "matched"
+      }
+    ],
+    "c8fc827fbf0bef86f4a57d94": [
+      {
+        "url": "https://www.metacritic.com/game/marvels-guardians-of-the-galaxy/",
+        "status": "matched"
+      }
+    ],
+    "2506facaad90598bf10c3262": [
+      {
+        "url": "https://www.metacritic.com/game/marvels-guardians-of-the-galaxy-the-telltale/",
+        "status": "matched"
+      }
+    ],
+    "84c7c284f054b36cefd32cff": [
+      {
+        "url": "https://www.metacritic.com/game/marvels-midnight-suns/",
+        "status": "matched"
+      }
+    ],
+    "8a355cbe9c5a97280b5bda90": [
+      {
+        "url": "https://www.metacritic.com/game/marvels-spider-man/",
+        "status": "matched"
+      }
+    ],
+    "7e9eb025e17ea97778c33383": [
+      {
+        "url": "https://www.metacritic.com/game/marvels-spider-man-miles-morales/",
+        "status": "matched"
+      }
+    ],
+    "a65a0fed7dcb8a2c69a9f1c0": [
+      {
+        "url": "https://www.metacritic.com/game/mass-effect-andromeda/",
+        "status": "matched"
+      }
+    ],
+    "1824fb5479265fd8c18e16ab": [
+      {
+        "url": "https://www.metacritic.com/game/mass-effect-legendary-edition/",
+        "status": "matched"
+      }
+    ],
+    "e5095a60719a6c7b0d9ba617": [
+      {
+        "url": "https://www.metacritic.com/game/medievil/",
+        "status": "matched"
+      }
+    ],
+    "9e9cfc3ff9dd5c7a3c726bf4": [
+      {
+        "url": "https://www.metacritic.com/game/mega-man-11/",
+        "status": "matched"
+      }
+    ],
+    "efc7b00d5c0244c121142bb6": [
+      {
+        "url": "https://www.metacritic.com/game/melbits-world/",
+        "status": "matched"
+      }
+    ],
+    "511a61d4e70d80ca54b8e27b": [
+      {
+        "url": "https://www.metacritic.com/game/metal-gear-solid/",
+        "status": "matched"
+      }
+    ],
+    "15deff54cc6a0e87481086be": [
+      {
+        "url": "https://www.metacritic.com/game/metal-gear-solid-2-sons-of-liberty/",
+        "status": "matched"
+      }
+    ],
+    "6c32fb70528e8f0d037d2966": [
+      {
+        "url": "https://www.metacritic.com/game/metal-gear-solid-3-subsistence/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/metal-gear-solid-3-snake-eater/",
+        "status": "matched"
+      }
+    ],
+    "301171f81071860ad5b52655": [
+      {
+        "url": "https://www.metacritic.com/game/metal-gear-solid-v-the-phantom-pain/",
+        "status": "matched"
+      }
+    ],
+    "a377b24fa1795dabb0a6b8ad": [
+      {
+        "url": "https://www.metacritic.com/game/metal-slug-tactics/",
+        "status": "matched"
+      }
+    ],
+    "e32ed249e09fe355afe977aa": [
+      {
+        "url": "https://www.metacritic.com/game/metaphor-refantazio/",
+        "status": "matched"
+      }
+    ],
+    "91ac020a487a662cbc77e629": [
+      {
+        "url": "https://www.metacritic.com/game/metro-exodus/",
+        "status": "matched"
+      }
+    ],
+    "f8eae465d0c5a7ed60a5e3e6": [
+      {
+        "url": "https://www.metacritic.com/game/metro-last-light/",
+        "status": "matched"
+      }
+    ],
+    "2bf04dbeaca0fd85ab368cb1": [
+      {
+        "url": "https://www.metacritic.com/game/micro-machines-world-series/",
+        "status": "matched"
+      }
+    ],
+    "183cfb55424243545fcf417b": [
+      {
+        "url": "https://www.metacritic.com/game/middle-earth-shadow-of-mordor/",
+        "status": "matched"
+      }
+    ],
+    "7db7557f3c7096f16ae4e90b": [
+      {
+        "url": "https://www.metacritic.com/game/middle-earth-shadow-of-war/",
+        "status": "matched"
+      }
+    ],
+    "0d0c39ab3a8d2d460e301ac8": [
+      {
+        "url": "https://www.metacritic.com/game/playstation-4/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/minecraft/",
+        "status": "matched"
+      }
+    ],
+    "1ed0820fd64db5e3a6f7bd0d": [
+      {
+        "url": "https://www.metacritic.com/game/minit/",
+        "status": "matched"
+      }
+    ],
+    "e8c31d0a699fdc2b21112354": [
+      {
+        "url": "https://www.metacritic.com/game/mirrors-edge-catalyst/",
+        "status": "matched"
+      }
+    ],
+    "a43056e6e57dbe3d246061a3": [
+      {
+        "url": "https://www.metacritic.com/game/mlb-the-show-20/",
+        "status": "matched"
+      }
+    ],
+    "e40cde6548e45f83c6eaa03a": [
+      {
+        "url": "https://www.metacritic.com/game/monopoly-madness/",
+        "status": "matched"
+      }
+    ],
+    "6b817a95dd1fceeffd88066c": [
+      {
+        "url": "https://www.metacritic.com/game/monster-boy-and-the-cursed-kingdom/",
+        "status": "matched"
+      }
+    ],
+    "3ee1397962b0f68fd3cd8114": [
+      {
+        "url": "https://www.metacritic.com/game/monster-energy-supercross-the-official-videogame-6/",
+        "status": "matched"
+      }
+    ],
+    "5795882ab547c4bd5422cf58": [
+      {
+        "url": "https://www.metacritic.com/game/monster-hunter-rise/",
+        "status": "matched"
+      }
+    ],
+    "fe36b971f92999fa149e15f2": [
+      {
+        "url": "https://www.metacritic.com/game/monster-hunter-world-iceborne/",
+        "status": "matched"
+      }
+    ],
+    "a594bf49f5f11b4f90123919": [
+      {
+        "url": "https://www.metacritic.com/game/monster-jam-showdown/",
+        "status": "matched"
+      }
+    ],
+    "f4e661426b302ff9406bcc7c": [
+      {
+        "url": "https://www.metacritic.com/game/monster-jam-maximum-destruction/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/monster-jam-steel-titans-2/",
+        "status": "matched"
+      }
+    ],
+    "fc140e60689b45cc5bd4f596": [
+      {
+        "url": "https://www.metacritic.com/game/mortal-kombat-11/",
+        "status": "matched"
+      }
+    ],
+    "ca05119a9a63c7df6f8aeb04": [
+      {
+        "url": "https://www.metacritic.com/game/mortal-kombat-x/",
+        "status": "matched"
+      }
+    ],
+    "40bd0492a7844ce16fe04c3c": [
+      {
+        "url": "https://www.metacritic.com/game/mortal-shell/",
+        "status": "matched"
+      }
+    ],
+    "481ac3a1cd71a2fd6f835947": [
+      {
+        "url": "https://www.metacritic.com/game/motogp-24/",
+        "status": "matched"
+      }
+    ],
+    "b3aaf8130b4e72b5b6e3faf5": [
+      {
+        "url": "https://www.metacritic.com/game/moving-out/",
+        "status": "matched"
+      }
+    ],
+    "0d97ce4dcdeb74a36dcd6493": [
+      {
+        "url": "https://www.metacritic.com/game/moving-out-2/",
+        "status": "matched"
+      }
+    ],
+    "e607aa8b3bf5b75b8459933c": [
+      {
+        "url": "https://www.metacritic.com/game/spintires-mudrunner/",
+        "status": "matched"
+      }
+    ],
+    "601a0c902afe66b92b1a9890": [
+      {
+        "url": "https://www.metacritic.com/game/mutant-year-zero-road-to-eden/",
+        "status": "matched"
+      }
+    ],
+    "59a4e30ca2a37d965df5d2ce": [
+      {
+        "url": "https://www.metacritic.com/game/mutazione/",
+        "status": "matched"
+      }
+    ],
+    "812232188560c4e3dce9aa4c": [
+      {
+        "url": "https://www.metacritic.com/game/mx-vs-atv-legends/",
+        "status": "matched"
+      }
+    ],
+    "23a9e88cd01bda44584cf732": [
+      {
+        "url": "https://www.metacritic.com/game/my-friend-pedro/",
+        "status": "matched"
+      }
+    ],
+    "3143fb026cd032c0a5d7a355": [
+      {
+        "url": "https://www.metacritic.com/game/my-name-is-mayo/",
+        "status": "matched"
+      }
+    ],
+    "429d77bfae4c7cee2ec56f4c": [
+      {
+        "url": "https://www.metacritic.com/game/my-name-is-mayo-2/",
+        "status": "no_editorial_excerpt"
+      },
+      {
+        "url": "https://www.metacritic.com/game/my-name-is-mayo-2/critic-reviews/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://waytoomany.games/2020/12/09/review-my-name-is-mayo-2/",
+        "status": "verified_manual_summary"
+      }
+    ],
+    "7cedf22a40873c7f02727dc9": [
+      {
+        "url": "https://www.metacritic.com/game/naruto-shippuden-ultimate-ninja-storm-4/",
+        "status": "matched"
+      }
+    ],
+    "3d8ae3daaf07dc722daf5abe": [
+      {
+        "url": "https://www.metacritic.com/game/naruto-shippuden-ultimate-ninja-storm-4-road-to/",
+        "status": "matched"
+      }
+    ],
+    "72729092792dc1245fa3b46d": [
+      {
+        "url": "https://www.metacritic.com/game/naruto-shippuden-ultimate-ninja-storm-trilogy/",
+        "status": "matched"
+      }
+    ],
+    "21096659e3cbab7b5b70314b": [
+      {
+        "url": "https://www.metacritic.com/game/naruto-x-boruto-ultimate-ninja-storm-connections/",
+        "status": "matched"
+      }
+    ],
+    "47190d7d8037822d5018956d": [
+      {
+        "url": "https://www.metacritic.com/game/nba-2k-playgrounds-2/",
+        "status": "matched"
+      }
+    ],
+    "171772147bd94a5011b6eb12": [
+      {
+        "url": "https://www.metacritic.com/game/nba-2k14/",
+        "status": "matched"
+      }
+    ],
+    "dd903d6b71d9b1721ab1a7b6": [
+      {
+        "url": "https://www.metacritic.com/game/nba-2k24/",
+        "status": "matched"
+      }
+    ],
+    "95fda020b6af89eb9647c2a3": [
+      {
+        "url": "https://www.metacritic.com/game/necromunda-hired-gun/",
+        "status": "matched"
+      }
+    ],
+    "ab6fed8c0ca5e92a5dafb96b": [
+      {
+        "url": "https://www.metacritic.com/game/necromunda-underhive-wars/",
+        "status": "matched"
+      }
+    ],
+    "82876b319a3e62a29cac0598": [
+      {
+        "url": "https://www.metacritic.com/game/need-for-speed-heat/",
+        "status": "matched"
+      }
+    ],
+    "cdcbd36d4932e9d0200acb2e": [
+      {
+        "url": "https://www.metacritic.com/game/need-for-speed-payback/",
+        "status": "matched"
+      }
+    ],
+    "7d9089596b32fa45f3f87330": [
+      {
+        "url": "https://www.metacritic.com/game/need-for-speed-rivals/",
+        "status": "matched"
+      }
+    ],
+    "30f009285b35703565a7790b": [
+      {
+        "url": "https://www.metacritic.com/game/neon-drive/",
+        "status": "matched"
+      }
+    ],
+    "5c4fa5f8bfacc056137179d3": [
+      {
+        "url": "https://www.metacritic.com/game/neon-white/",
+        "status": "matched"
+      }
+    ],
+    "9024b4ea7f3385043786239f": [
+      {
+        "url": "https://www.metacritic.com/game/neva/",
+        "status": "matched"
+      }
+    ],
+    "f9d112f472aedc47b263a831": [
+      {
+        "url": "https://www.metacritic.com/game/new-tales-from-the-borderlands/",
+        "status": "matched"
+      }
+    ],
+    "33bed8bb9baf8f87fdce620f": [
+      {
+        "url": "https://www.metacritic.com/game/nex-machina-death-machine/",
+        "status": "matched"
+      }
+    ],
+    "445f370972e632481c9d057e": [
+      {
+        "url": "https://www.metacritic.com/game/nhl-24/",
+        "status": "matched"
+      }
+    ],
+    "db4351fbd082d57a874163f9": [
+      {
+        "url": "https://www.metacritic.com/game/ni-no-kuni-ii-revenant-kingdom/",
+        "status": "matched"
+      }
+    ],
+    "f262ec5bcc450a575dcffed7": [
+      {
+        "url": "https://www.metacritic.com/game/ni-no-kuni-wrath-of-the-white-witch/",
+        "status": "matched"
+      }
+    ],
+    "3d866d620c14142e769a88c4": [
+      {
+        "url": "https://www.metacritic.com/game/nidhogg/",
+        "status": "matched"
+      }
+    ],
+    "e77e92ae9eb3df0df6a7b534": [
+      {
+        "url": "https://www.metacritic.com/game/nidhogg-2/",
+        "status": "matched"
+      }
+    ],
+    "05ff22421ff9939afbefbcda": [
+      {
+        "url": "https://www.metacritic.com/game/nier-automata/",
+        "status": "matched"
+      }
+    ],
+    "cf1b9a4b8c897f589e0ee6b6": [
+      {
+        "url": "https://www.metacritic.com/game/nier-replicant-ver122474487139/",
+        "status": "matched"
+      }
+    ],
+    "1ec9389d8ffd6b38232e0bc9": [
+      {
+        "url": "https://www.metacritic.com/game/night-in-the-woods/",
+        "status": "matched"
+      }
+    ],
+    "dadbbae23b894687b6393e7a": [
+      {
+        "url": "https://www.metacritic.com/game/night-slashers/",
+        "status": "matched"
+      }
+    ],
+    "9b54aed182133b1e584a968e": [
+      {
+        "url": "https://www.metacritic.com/game/nine-sols/",
+        "status": "matched"
+      }
+    ],
+    "386e8588f8589cdacf03086c": [
+      {
+        "url": "https://www.metacritic.com/game/ninja-gaiden-3-razor-s-edge/",
+        "status": "matched"
+      }
+    ],
+    "e6357f0229051faeb4783e52": [
+      {
+        "url": "https://www.metacritic.com/game/ninja-gaiden-sigma/",
+        "status": "matched"
+      }
+    ],
+    "67d1d9228d7a3f5806a7baf5": [
+      {
+        "url": "https://www.metacritic.com/game/ninja-gaiden-sigma-2/",
+        "status": "matched"
+      }
+    ],
+    "0a09543cae52308e9d49ca50": [
+      {
+        "url": "https://www.metacritic.com/game/nioh/",
+        "status": "matched"
+      }
+    ],
+    "8aa02871f0bdf0168c08e4a0": [
+      {
+        "url": "https://www.metacritic.com/game/nioh-2/",
+        "status": "matched"
+      }
+    ],
+    "6a1fe193abb8bc5538cf291f": [
+      {
+        "url": "https://www.metacritic.com/game/no-mans-sky/",
+        "status": "matched"
+      }
+    ],
+    "cadf68f6c5a0b37897029765": [
+      {
+        "url": "https://www.metacritic.com/game/no-more-heroes-iii/",
+        "status": "matched"
+      }
+    ],
+    "d349f9f76ec7ed6fbc5e5662": [
+      {
+        "url": "https://www.metacritic.com/game/nobody-saves-the-world/",
+        "status": "matched"
+      }
+    ],
+    "4cf42c24d9aa726fd3888ada": [
+      {
+        "url": "https://www.metacritic.com/game/not-a-hero/",
+        "status": "no_editorial_excerpt"
+      },
+      {
+        "url": "https://www.metacritic.com/game/not-a-hero/critic-reviews/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.pushsquare.com/reviews/ps4/not_a_hero",
+        "status": "verified_manual_summary"
+      }
+    ],
+    "29e1ad48faf3532182e9a996": [
+      {
+        "url": "https://www.metacritic.com/game/nour-play-with-your-food/",
+        "status": "matched"
+      }
+    ],
+    "659d04bc355b5bb3c3e6426f": [
+      {
+        "url": "https://www.metacritic.com/game/nova-111/",
+        "status": "matched"
+      }
+    ],
+    "14b311382807d7972d75b113": [
+      {
+        "url": "https://www.metacritic.com/game/now-thats-what-i-call-sing/",
+        "status": "matched"
+      }
+    ],
+    "6641a42bdc5d8cb2f2c1cd12": [
+      {
+        "url": "https://www.metacritic.com/game/nuclear-throne/",
+        "status": "matched"
+      }
+    ],
+    "b34cf297ead99bc1ac8a8455": [
+      {
+        "url": "https://www.metacritic.com/game/observer-system-redux/",
+        "status": "matched"
+      }
+    ],
+    "1ed7956445ae6fe16010ce5f": [
+      {
+        "url": "https://www.metacritic.com/game/octodad-dadliest-catch/",
+        "status": "matched"
+      }
+    ],
+    "5ed42d76c13b8f0cc773e5e3": [
+      {
+        "url": "https://www.metacritic.com/game/oddworld-abes-oddysee-new-n-tasty/",
+        "status": "matched"
+      }
+    ],
+    "12c22a4c4b9ff3ac0053d4df": [
+      {
+        "url": "https://www.metacritic.com/game/oddworld-soulstorm/",
+        "status": "matched"
+      }
+    ],
+    "0ed324129039b0aecdef838d": [
+      {
+        "url": "https://www.metacritic.com/game/oddworld-strangers-wrath/",
+        "status": "matched"
+      }
+    ],
+    "9ad807d277b562089c686908": [
+      {
+        "url": "https://www.metacritic.com/game/old-mans-journey/",
+        "status": "matched"
+      }
+    ],
+    "d622914da64a0995a030f37d": [
+      {
+        "url": "https://www.metacritic.com/game/olliolli-epic-combo-edition/",
+        "status": "no_editorial_excerpt"
+      },
+      {
+        "url": "https://www.metacritic.com/game/olliolli-epic-combo-edition/critic-reviews/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/olliolli-1-2/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://gamingcypher.com/olliolli-epic-combo-edition-review-for-ps4/",
+        "status": "verified_manual_summary"
+      }
+    ],
+    "a1deeed5bf33c9b4f97a5dfa": [
+      {
+        "url": "https://www.metacritic.com/game/olliolli-world/",
+        "status": "matched"
+      }
+    ],
+    "91322e0b0f1489024e39779e": [
+      {
+        "url": "https://www.metacritic.com/game/omori/",
+        "status": "matched"
+      }
+    ],
+    "c08ccc274d68d5585e86cfea": [
+      {
+        "url": "https://www.metacritic.com/game/one-piece-odyssey/",
+        "status": "matched"
+      }
+    ],
+    "7e09f7aa50ad6fb4868ba335": [
+      {
+        "url": "https://www.metacritic.com/game/one-piece-pirate-warriors-3/",
+        "status": "matched"
+      }
+    ],
+    "f00c6b1888805bdcc88ba469": [
+      {
+        "url": "https://www.metacritic.com/game/one-piece-pirate-warriors-4/",
+        "status": "matched"
+      }
+    ],
+    "9f2410e5453b95035af24272": [
+      {
+        "url": "https://www.metacritic.com/game/one-piece-world-seeker/",
+        "status": "matched"
+      }
+    ],
+    "fba31c9bdd8e1dc96e2d130d": [
+      {
+        "url": "https://www.metacritic.com/game/onrush/",
+        "status": "matched"
+      }
+    ],
+    "494f49e26069f389a199ced5": [
+      {
+        "url": "https://www.metacritic.com/game/orcs-must-die-3/",
+        "status": "matched"
+      }
+    ],
+    "3f900ee43caefb073536bea4": [
+      {
+        "url": "https://www.metacritic.com/game/outer-wilds/",
+        "status": "matched"
+      }
+    ],
+    "6e7335b32ba6c2dc9630ce24": [
+      {
+        "url": "https://www.metacritic.com/game/outlast/",
+        "status": "matched"
+      }
+    ],
+    "5ecd341ab9ff78078b40358d": [
+      {
+        "url": "https://www.metacritic.com/game/outlast-2/",
+        "status": "matched"
+      }
+    ],
+    "d20a741c77581a75e4d4390f": [
+      {
+        "url": "https://www.metacritic.com/game/overcooked/",
+        "status": "matched"
+      }
+    ],
+    "c8e1ca3db2fdb2d1cbd96e1d": [
+      {
+        "url": "https://www.metacritic.com/game/owlboy/",
+        "status": "matched"
+      }
+    ],
+    "99636a60627ab357b902ec0f": [
+      {
+        "url": "https://www.metacritic.com/game/oxenfree/",
+        "status": "matched"
+      }
+    ],
+    "10dec295d65ed4211bda0aab": [
+      {
+        "url": "https://www.metacritic.com/game/oxenfree-ii-lost-signals/",
+        "status": "matched"
+      }
+    ],
+    "ebd3e4891ba9b24dae9b23ec": [
+      {
+        "url": "https://www.metacritic.com/game/p-t/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.gamespot.com/articles/why-you-should-play-p-t/1100-6422210/",
+        "status": "verified_manual_summary"
+      }
+    ],
+    "d712f13829f709718f0a62a2": [
+      {
+        "url": "https://www.metacritic.com/game/pac-man-championship-edition-2-arcade-game-series/",
+        "status": "title_not_matched"
+      }
+    ],
+    "43534f28dd17e0a5df4ac74b": [
+      {
+        "url": "https://www.metacritic.com/game/parappa-the-rapper/",
+        "status": "matched"
+      }
+    ],
+    "20112cc6623b1b014e7d2ad9": [
+      {
+        "url": "https://www.metacritic.com/game/patapon/",
+        "status": "matched"
+      }
+    ],
+    "d61bc237a08690a23b40a531": [
+      {
+        "url": "https://www.metacritic.com/game/patapon-2/",
+        "status": "matched"
+      }
+    ],
+    "788ffd05cb91990c9c43cf32": [
+      {
+        "url": "https://www.metacritic.com/game/shin-megami-tensei-persona-3/",
+        "status": "matched"
+      }
+    ],
+    "9adb69ab401edf6f7341fe7b": [
+      {
+        "url": "https://www.metacritic.com/game/persona-3-dancing-in-moonlight/",
+        "status": "matched"
+      }
+    ],
+    "6344891fb7708792cf0cc470": [
+      {
+        "url": "https://www.metacritic.com/game/shin-megami-tensei-persona-4/",
+        "status": "matched"
+      }
+    ],
+    "0e16847abdf83360c359712d": [
+      {
+        "url": "https://www.metacritic.com/game/persona-4-arena/",
+        "status": "matched"
+      }
+    ],
+    "de398530948d80c0d991bc49": [
+      {
+        "url": "https://www.metacritic.com/game/persona-4-dancing-all-night/",
+        "status": "matched"
+      }
+    ],
+    "8b5a4c8a56d4f56e77b627cf": [
+      {
+        "url": "https://www.metacritic.com/game/persona-5/",
+        "status": "matched"
+      }
+    ],
+    "7549947cb508ab84489f50bc": [
+      {
+        "url": "https://www.metacritic.com/game/persona-5-dancing-in-starlight/",
+        "status": "matched"
+      }
+    ],
+    "bc0293ddd229503716ae89ee": [
+      {
+        "url": "https://www.metacritic.com/game/persona-5-strikers/",
+        "status": "matched"
+      }
+    ],
+    "da1d4740a52f74cc4698a3ca": [
+      {
+        "url": "https://www.metacritic.com/game/persona-5-tactica/",
+        "status": "matched"
+      }
+    ],
+    "04217453131c0b55624535e2": [
+      {
+        "url": "https://www.metacritic.com/game/pes-2025-season-update/",
+        "status": "title_not_matched"
+      }
+    ],
+    "38f0148befa3db3e8843efa3": [
+      {
+        "url": "https://www.metacritic.com/game/pga-tour-2k23/",
+        "status": "matched"
+      }
+    ],
+    "8b579543fc905cb14ce99ad9": [
+      {
+        "url": "https://www.metacritic.com/game/the-pinball-arcade/",
+        "status": "matched"
+      }
+    ],
+    "05bb284e0a69f83819025cfb": [
+      {
+        "url": "https://www.metacritic.com/game/pinball-fx3/",
+        "status": "matched"
+      }
+    ],
+    "32a359662d91d5ec52c71ad2": [
+      {
+        "url": "https://www.metacritic.com/game/planet-coaster/",
+        "status": "matched"
+      }
+    ],
+    "0f01927f8c17fdd5f0d94e71": [
+      {
+        "url": "https://www.metacritic.com/game/planet-of-lana/",
+        "status": "matched"
+      }
+    ],
+    "34c5bac49d6aedc43497c694": [
+      {
+        "url": "https://www.metacritic.com/game/pc/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/plants-vs-zombies/",
+        "status": "matched"
+      }
+    ],
+    "55b758505ead7aa5bfc3c027": [
+      {
+        "url": "https://www.metacritic.com/game/ponpu/",
+        "status": "matched"
+      }
+    ],
+    "31c20d6ada0103040807dd2c": [
+      {
+        "url": "https://www.metacritic.com/game/potion-craft-alchemist-simulator/",
+        "status": "matched"
+      }
+    ],
+    "214622e4a00bb42c4ba9dec2": [
+      {
+        "url": "https://www.metacritic.com/game/prey/",
+        "status": "matched"
+      }
+    ],
+    "0d4aa380b762f18048e47f3b": [
+      {
+        "url": "https://www.metacritic.com/game/prince-of-persia-the-lost-crown/",
+        "status": "matched"
+      }
+    ],
+    "6bd16292c42ead8c0cce1865": [
+      {
+        "url": "https://www.metacritic.com/game/prison-architect/",
+        "status": "matched"
+      }
+    ],
+    "ff89ebc21a525df95b103461": [
+      {
+        "url": "https://www.metacritic.com/game/prodeus/",
+        "status": "matched"
+      }
+    ],
+    "6a862709f89cf816323091f1": [
+      {
+        "url": "https://www.metacritic.com/game/prototype-biohazard-bundle/",
+        "status": "matched"
+      }
+    ],
+    "b4dd63c661257476de0b3fad": [
+      {
+        "url": "https://www.metacritic.com/game/psychonauts-2/",
+        "status": "matched"
+      }
+    ],
+    "668961515af80a13ad2cce00": [
+      {
+        "url": "https://www.metacritic.com/game/pummel-party/",
+        "status": "no_editorial_excerpt"
+      },
+      {
+        "url": "https://www.metacritic.com/game/pummel-party/critic-reviews/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://web.phenixxgaming.com/2021/01/11/pummel-party-pc-review/",
+        "status": "verified_manual_summary"
+      }
+    ],
+    "496b6a88ee92a452be6ac66a": [
+      {
+        "url": "https://www.metacritic.com/game/pyre/",
+        "status": "matched"
+      }
+    ],
+    "093b260c972e6ab1288a222d": [
+      {
+        "url": "https://www.metacritic.com/game/quake-remastered/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/quake/",
+        "status": "matched"
+      }
+    ],
+    "b2c92b5c9e3d0fbc8492c140": [
+      {
+        "url": "https://www.metacritic.com/game/quake-ii/",
+        "status": "no_editorial_excerpt"
+      },
+      {
+        "url": "https://www.metacritic.com/game/quake-ii/critic-reviews/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.pushsquare.com/reviews/ps5/quake-ii",
+        "status": "verified_manual_summary"
+      }
+    ],
+    "4c05dbe855586d8d273aae0e": [
+      {
+        "url": "https://www.metacritic.com/game/rabbids-party-of-legends/",
+        "status": "matched"
+      }
+    ],
+    "5df310c50583646b45d966a6": [
+      {
+        "url": "https://www.metacritic.com/game/rad/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.gamespot.com/reviews/rad-review-welcome-to-the-new-age/1900-6417271/",
+        "status": "verified_manual_summary"
+      }
+    ],
+    "eb58b99244f1b06b54827f3a": [
+      {
+        "url": "https://www.metacritic.com/game/rage-2/",
+        "status": "matched"
+      }
+    ],
+    "c2858b30efb4c3e9f0f4169a": [
+      {
+        "url": "https://www.metacritic.com/game/rain-world/",
+        "status": "matched"
+      }
+    ],
+    "a544ee6bdb69e73087b8d4e2": [
+      {
+        "url": "https://www.metacritic.com/game/ratchet-and-clank/",
+        "status": "matched"
+      }
+    ],
+    "67a44d514329c56826e055ee": [
+      {
+        "url": "https://www.metacritic.com/game/ravenswatch/",
+        "status": "matched"
+      }
+    ],
+    "4c1e8053ee66f4f125ae6fc7": [
+      {
+        "url": "https://www.metacritic.com/game/rayman-legends/",
+        "status": "matched"
+      }
+    ],
+    "400411c525f6fd68f506f9e5": [
+      {
+        "url": "https://www.metacritic.com/game/red-dead-redemption/",
+        "status": "matched"
+      }
+    ],
+    "5ea46667e9d8f8857dd59809": [
+      {
+        "url": "https://www.metacritic.com/game/red-dead-redemption-2/",
+        "status": "matched"
+      }
+    ],
+    "4a80f7014f2fd2d06c31bdd3": [
+      {
+        "url": "https://www.metacritic.com/game/red-dead-redemption-2/",
+        "status": "matched"
+      }
+    ],
+    "aa76cd56356e21c3b2cdf437": [
+      {
+        "url": "https://www.metacritic.com/game/red-faction-guerrilla-re-mars-tered/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/red-faction-guerrilla/",
+        "status": "matched"
+      }
+    ],
+    "be6100f96427a09b0852e0ab": [
+      {
+        "url": "https://www.metacritic.com/game/redout-2/",
+        "status": "matched"
+      }
+    ],
+    "7f6d5bcb93b01ff860913dc7": [
+      {
+        "url": "https://www.metacritic.com/game/resident-evil-2/",
+        "status": "matched"
+      }
+    ],
+    "7f3e0e44554dfa0410fcae18": [
+      {
+        "url": "https://www.metacritic.com/game/resident-evil-3/",
+        "status": "matched"
+      }
+    ],
+    "bbf944d402419f92f8e9a9d9": [
+      {
+        "url": "https://www.metacritic.com/game/resident-evil-4/",
+        "status": "matched"
+      }
+    ],
+    "1dcd6582b4c935f6d7ad5cd0": [
+      {
+        "url": "https://www.metacritic.com/game/resident-evil-4/",
+        "status": "matched"
+      }
+    ],
+    "1039b69a055143e7ac03c5c8": [
+      {
+        "url": "https://www.metacritic.com/game/resident-evil-5/",
+        "status": "matched"
+      }
+    ],
+    "37ff357e64ad1a80cc95465b": [
+      {
+        "url": "https://www.metacritic.com/game/resident-evil-6/",
+        "status": "matched"
+      }
+    ],
+    "737881dae46406a04643c984": [
+      {
+        "url": "https://www.metacritic.com/game/resident-evil-7-biohazard/",
+        "status": "matched"
+      }
+    ],
+    "5b98869b0716868db8b25be3": [
+      {
+        "url": "https://www.metacritic.com/game/resident-evil-origins-collection/",
+        "status": "matched"
+      }
+    ],
+    "81abd70741c5c17c77e2041c": [
+      {
+        "url": "https://www.metacritic.com/game/resident-evil-revelations/",
+        "status": "matched"
+      }
+    ],
+    "8150ab1cf1c5106e1dc3b549": [
+      {
+        "url": "https://www.metacritic.com/game/resident-evil-revelations-2/",
+        "status": "matched"
+      }
+    ],
+    "2feea8abe5eb876b09e9dbae": [
+      {
+        "url": "https://www.metacritic.com/game/resident-evil-village/",
+        "status": "matched"
+      }
+    ],
+    "36dff045d82e5c2f1298f0cd": [
+      {
+        "url": "https://www.metacritic.com/game/resogun/",
+        "status": "matched"
+      }
+    ],
+    "f5f5f4ebddeddc2478d1b7a8": [
+      {
+        "url": "https://www.metacritic.com/game/return-of-the-obra-dinn/",
+        "status": "matched"
+      }
+    ],
+    "77c9aa199fa2df5d8e4cf8ea": [
+      {
+        "url": "https://www.metacritic.com/game/revenge-of-the-savage-planet/",
+        "status": "matched"
+      }
+    ],
+    "eddffb239e338c191f7c1f81": [
+      {
+        "url": "https://www.metacritic.com/game/rez-infinite/",
+        "status": "matched"
+      }
+    ],
+    "84fd765ae748af2e03c9388e": [
+      {
+        "url": "https://www.metacritic.com/game/ride-4/",
+        "status": "matched"
+      }
+    ],
+    "394d5bb55acda270c91a0dbd": [
+      {
+        "url": "https://www.metacritic.com/game/rime/",
+        "status": "matched"
+      }
+    ],
+    "e68b0bdb464447c716688fb5": [
+      {
+        "url": "https://www.metacritic.com/game/rise-of-the-tomb-raider-20-year-celebration/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/rise-of-the-tomb-raider/",
+        "status": "matched"
+      }
+    ],
+    "02544106e1cbe19193095c37": [
+      {
+        "url": "https://www.metacritic.com/game/risk-of-rain-2/",
+        "status": "matched"
+      }
+    ],
+    "34165d6bd38cd4aa6abcd27d": [
+      {
+        "url": "https://www.metacritic.com/game/rock-band-4/",
+        "status": "matched"
+      }
+    ],
+    "17ed63197965b0912d2222bb": [
+      {
+        "url": "https://www.metacritic.com/game/rock-band-4-expansion-pack-1/",
+        "status": "title_not_matched"
+      }
+    ],
+    "1fbbd85a457fe77ce3025352": [
+      {
+        "url": "https://www.metacritic.com/game/rock-band-4-expansion-pack-2/",
+        "status": "title_not_matched"
+      }
+    ],
+    "6f975c8f8e1a64f8b29186c1": [
+      {
+        "url": "https://www.metacritic.com/game/rock-band-4-expansion-pack-3/",
+        "status": "title_not_matched"
+      }
+    ],
+    "d409ae02d8606b7f00c1909b": [
+      {
+        "url": "https://www.metacritic.com/game/rock-band-4-expansion-pack-4/",
+        "status": "title_not_matched"
+      }
+    ],
+    "459e51fc178fa71b73ccd92d": [
+      {
+        "url": "https://www.metacritic.com/game/rocket-league/",
+        "status": "matched"
+      }
+    ],
+    "8448851eb47983893346d906": [
+      {
+        "url": "https://www.metacritic.com/game/rocksmith-2014-edition/",
+        "status": "matched"
+      }
+    ],
+    "9e9f9efda7dc177f5f16a801": [
+      {
+        "url": "https://www.metacritic.com/game/rogue-legacy/",
+        "status": "matched"
+      }
+    ],
+    "dd5007946944c6628f853399": [
+      {
+        "url": "https://www.metacritic.com/game/rogue-legacy-2/",
+        "status": "matched"
+      }
+    ],
+    "1a34017ec7e8c8cee86a0162": [
+      {
+        "url": "https://www.metacritic.com/game/rollerdrome/",
+        "status": "matched"
+      }
+    ],
+    "487c0e0f43c0fae8c2031217": [
+      {
+        "url": "https://www.metacritic.com/game/sackboy-a-big-adventure/",
+        "status": "matched"
+      }
+    ],
+    "ff0bba1e025a1d8e71d3369f": [
+      {
+        "url": "https://www.metacritic.com/game/saints-row/",
+        "status": "matched"
+      }
+    ],
+    "8d0feaf57af716ee5b47d2b0": [
+      {
+        "url": "https://www.metacritic.com/game/saints-row-gat-out-of-hell/",
+        "status": "matched"
+      }
+    ],
+    "61237bfd9cc978f5f4bde255": [
+      {
+        "url": "https://www.metacritic.com/game/saints-row-iv-re-elected/",
+        "status": "matched"
+      }
+    ],
+    "c7b39f9a9e9c661d2acb836d": [
+      {
+        "url": "https://www.metacritic.com/game/saints-row-the-third/",
+        "status": "matched"
+      }
+    ],
+    "beecd86c27e5d1a035191ef2": [
+      {
+        "url": "https://www.metacritic.com/game/samurai-warriors-5/",
+        "status": "matched"
+      }
+    ],
+    "ea76e15098857b652b78e9f6": [
+      {
+        "url": "https://www.metacritic.com/game/sayonara-wild-hearts/",
+        "status": "matched"
+      }
+    ],
+    "6f792b7740f51ab83fed356b": [
+      {
+        "url": "https://www.metacritic.com/game/sea-of-solitude/",
+        "status": "matched"
+      }
+    ],
+    "24bbfde9dc981e98de4a60f0": [
+      {
+        "url": "https://www.metacritic.com/game/sea-of-stars/",
+        "status": "matched"
+      }
+    ],
+    "ee045641a35e541999d72a26": [
+      {
+        "url": "https://www.metacritic.com/game/season-a-letter-to-the-future/",
+        "status": "matched"
+      }
+    ],
+    "237d8128a25cf18e1067f214": [
+      {
+        "url": "https://www.metacritic.com/game/sekiro-shadows-die-twice/",
+        "status": "matched"
+      }
+    ],
+    "e1dc87f27b3aafdc7556fe40": [
+      {
+        "url": "https://www.metacritic.com/game/serial-cleaner/",
+        "status": "matched"
+      }
+    ],
+    "7194e3c2e3c74f66f84a88b5": [
+      {
+        "url": "https://www.metacritic.com/game/serial-cleaners/",
+        "status": "matched"
+      }
+    ],
+    "915fe99c5584cc0c31424781": [
+      {
+        "url": "https://www.metacritic.com/game/shadow-of-the-colossus/",
+        "status": "matched"
+      }
+    ],
+    "5090aa4cd8464ac683e3a6df": [
+      {
+        "url": "https://www.metacritic.com/game/shadow-of-the-tomb-raider/",
+        "status": "matched"
+      }
+    ],
+    "8cb76af486da965f47fc67db": [
+      {
+        "url": "https://www.metacritic.com/game/shadow-warrior/",
+        "status": "matched"
+      }
+    ],
+    "6baa58e5959e93da80a7973d": [
+      {
+        "url": "https://www.metacritic.com/game/shadow-warrior-2/",
+        "status": "matched"
+      }
+    ],
+    "624397e0024eecd4f3f30852": [
+      {
+        "url": "https://www.metacritic.com/game/shadow-warrior-3/",
+        "status": "matched"
+      }
+    ],
+    "1f41ba535731653dc82eec74": [
+      {
+        "url": "https://www.metacritic.com/game/shovel-knight/",
+        "status": "matched"
+      }
+    ],
+    "115bcd42e878daef83247efd": [
+      {
+        "url": "https://www.metacritic.com/game/sid-meiers-civilization-vi/",
+        "status": "matched"
+      }
+    ],
+    "156e746704b02b3d62bdf586": [
+      {
+        "url": "https://www.metacritic.com/game/sid-meiers-civilization-vii/",
+        "status": "matched"
+      }
+    ],
+    "3a6724a7b76a9d83bd009bb4": [
+      {
+        "url": "https://www.metacritic.com/game/sifu/",
+        "status": "matched"
+      }
+    ],
+    "acf7d96dd4a13305adea98ed": [
+      {
+        "url": "https://www.metacritic.com/game/skabma-snowfall/",
+        "status": "matched"
+      }
+    ],
+    "4cdc00d4625c5860086865e4": [
+      {
+        "url": "https://www.metacritic.com/game/skater-xl/",
+        "status": "matched"
+      }
+    ],
+    "bfa50557797e8bdadbf5876b": [
+      {
+        "url": "https://www.metacritic.com/game/the-elder-scrolls-v-skyrim-special-edition/",
+        "status": "matched"
+      }
+    ],
+    "80ac4b2195e9d0187b595480": [
+      {
+        "url": "https://www.metacritic.com/game/slay-the-spire/",
+        "status": "matched"
+      }
+    ],
+    "c3791d74fe5432b8632df61f": [
+      {
+        "url": "https://www.metacritic.com/game/sleeping-dogs/",
+        "status": "matched"
+      }
+    ],
+    "8d8ea317411a7b4f0cb5638a": [
+      {
+        "url": "https://www.metacritic.com/game/slime-3k-rise-against-despot/",
+        "status": "no_editorial_excerpt"
+      },
+      {
+        "url": "https://www.metacritic.com/game/slime-3k-rise-against-despot/critic-reviews/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.redbrick.me/review-slime-3k-rise-against-despot/",
+        "status": "verified_manual_summary"
+      }
+    ],
+    "5274461c2cb09f810e3421fb": [
+      {
+        "url": "https://www.metacritic.com/game/slime-rancher/",
+        "status": "matched"
+      }
+    ],
+    "46a14770862b7e3419649620": [
+      {
+        "url": "https://www.metacritic.com/game/snake-pass/",
+        "status": "matched"
+      }
+    ],
+    "c0f39b1d82476da78dff7d91": [
+      {
+        "url": "https://www.metacritic.com/game/sniper-elite-iii/",
+        "status": "matched"
+      }
+    ],
+    "74e3e188b005221af837aaee": [
+      {
+        "url": "https://www.metacritic.com/game/sniper-elite-4/",
+        "status": "matched"
+      }
+    ],
+    "74a89e72ff097bbf42854110": [
+      {
+        "url": "https://www.metacritic.com/game/sniper-elite-5/",
+        "status": "matched"
+      }
+    ],
+    "0b81dcd958362fc3dc25641c": [
+      {
+        "url": "https://www.metacritic.com/game/sniper-elite-resistance/",
+        "status": "matched"
+      }
+    ],
+    "789dd7e9856969a7b620b0ab": [
+      {
+        "url": "https://www.metacritic.com/game/sniper-elite-v2/",
+        "status": "matched"
+      }
+    ],
+    "b6bcd704212f6f42359b09c3": [
+      {
+        "url": "https://www.metacritic.com/game/sniper-ghost-warrior-contracts/",
+        "status": "matched"
+      }
+    ],
+    "6a77f8f301305024c25b7332": [
+      {
+        "url": "https://www.metacritic.com/game/sniper-ghost-warrior-contracts-2/",
+        "status": "matched"
+      }
+    ],
+    "efe71951b5d6ec6cbdccef58": [
+      {
+        "url": "https://www.metacritic.com/game/snk-collection/",
+        "status": "title_not_matched"
+      }
+    ],
+    "ea41ed3bcfaf3352a4136b31": [
+      {
+        "url": "https://www.metacritic.com/game/snowrunner/",
+        "status": "matched"
+      }
+    ],
+    "12f341ba5320c92003006023": [
+      {
+        "url": "https://www.metacritic.com/game/solar-ash/",
+        "status": "matched"
+      }
+    ],
+    "780c9d1a9864fe8427b8337b": [
+      {
+        "url": "https://www.metacritic.com/game/soma/",
+        "status": "matched"
+      }
+    ],
+    "8774a1d4f91df3985dc7327f": [
+      {
+        "url": "https://www.metacritic.com/game/somerville/",
+        "status": "matched"
+      }
+    ],
+    "6228229e9cdc88fff0f9e11d": [
+      {
+        "url": "https://www.metacritic.com/game/sonic-mania/",
+        "status": "matched"
+      }
+    ],
+    "772dc36e51295957ae980163": [
+      {
+        "url": "https://www.metacritic.com/game/sonic-origins/",
+        "status": "matched"
+      }
+    ],
+    "56943aa044cf9a34f2bbe41c": [
+      {
+        "url": "https://www.metacritic.com/game/sonic-x-shadow-generations/",
+        "status": "matched"
+      }
+    ],
+    "7fe0c97656dc9f030d24cc61": [
+      {
+        "url": "https://www.metacritic.com/game/sound-shapes/",
+        "status": "matched"
+      }
+    ],
+    "e055997f8587c0b396fffed7": [
+      {
+        "url": "https://www.metacritic.com/game/south-park-the-fractured-but-whole/",
+        "status": "matched"
+      }
+    ],
+    "a08780da1036eb4d329156a0": [
+      {
+        "url": "https://www.metacritic.com/game/south-park-the-stick-of-truth/",
+        "status": "matched"
+      }
+    ],
+    "2a859ec7ae83d23edc619fd1": [
+      {
+        "url": "https://www.metacritic.com/game/speedrunners/",
+        "status": "matched"
+      }
+    ],
+    "eebc45ec4857466578e0a615": [
+      {
+        "url": "https://www.metacritic.com/game/spelunky/",
+        "status": "matched"
+      }
+    ],
+    "f8ea69269a0a6bf7b9bf6db2": [
+      {
+        "url": "https://www.metacritic.com/game/spelunky-2/",
+        "status": "matched"
+      }
+    ],
+    "540e1641082676e6d32b2677": [
+      {
+        "url": "https://www.metacritic.com/game/spiderheck/",
+        "status": "matched"
+      }
+    ],
+    "7c80f6eef1f0412c6b561a28": [
+      {
+        "url": "https://www.metacritic.com/game/spiritfarer/",
+        "status": "matched"
+      }
+    ],
+    "d04f09f9a049fa6d20ca360a": [
+      {
+        "url": "https://www.metacritic.com/game/spongebob-squarepants-battle-for-bikini-bottom/",
+        "status": "matched"
+      }
+    ],
+    "19e9f524b97f83bc92b5b115": [
+      {
+        "url": "https://www.metacritic.com/game/spongebob-squarepants-the-cosmic-shake/",
+        "status": "matched"
+      }
+    ],
+    "8b6637ca31c22097a977c251": [
+      {
+        "url": "https://www.metacritic.com/game/spongebob-squarepants-the-patrick-star-game/",
+        "status": "matched"
+      }
+    ],
+    "10f99be7282a39fb7f760dd8": [
+      {
+        "url": "https://www.metacritic.com/game/spyro-reignited-trilogy/",
+        "status": "matched"
+      }
+    ],
+    "c099c3f44ca8048454a1350e": [
+      {
+        "url": "https://www.metacritic.com/game/s-t-a-l-k-e-r-call-of-pripyat/",
+        "status": "matched"
+      }
+    ],
+    "3df3fbed48d8a059087474c2": [
+      {
+        "url": "https://www.metacritic.com/game/s-t-a-l-k-e-r-clear-sky/",
+        "status": "matched"
+      }
+    ],
+    "8b6c1cd7c9f66827938be401": [
+      {
+        "url": "https://www.metacritic.com/game/s-t-a-l-k-e-r-shadow-of-chernobyl/",
+        "status": "matched"
+      }
+    ],
+    "4395a1e6a0e434d803387f62": [
+      {
+        "url": "https://www.metacritic.com/game/star-wars-battlefront/",
+        "status": "matched"
+      }
+    ],
+    "d241af8a0a671ecfba933c4d": [
+      {
+        "url": "https://www.metacritic.com/game/star-wars-battlefront-ii/",
+        "status": "matched"
+      }
+    ],
+    "6c997423a4ade9f849e2dc2b": [
+      {
+        "url": "https://www.metacritic.com/game/star-wars-jedi-fallen-order/",
+        "status": "matched"
+      }
+    ],
+    "52a648f135b7651a3ee98ad0": [
+      {
+        "url": "https://www.metacritic.com/game/star-wars-jedi-survivor/",
+        "status": "matched"
+      }
+    ],
+    "6bfa8c6d11a5d78e415dc1ac": [
+      {
+        "url": "https://www.metacritic.com/game/star-wars-squadrons/",
+        "status": "matched"
+      }
+    ],
+    "df18b2fb712c308b67831228": [
+      {
+        "url": "https://www.metacritic.com/game/stardew-valley/",
+        "status": "matched"
+      }
+    ],
+    "4ef9035e5bdff2f9d275a5ec": [
+      {
+        "url": "https://www.metacritic.com/game/starwhal-just-the-tip/",
+        "status": "matched"
+      }
+    ],
+    "f60fca4dc71bad205457898f": [
+      {
+        "url": "https://www.metacritic.com/game/stellaris/",
+        "status": "matched"
+      }
+    ],
+    "1cc7fba01d84c6078e55fe94": [
+      {
+        "url": "https://www.metacritic.com/game/stick-fight-the-game/",
+        "status": "matched"
+      }
+    ],
+    "7f6a6777148df285761c769c": [
+      {
+        "url": "https://www.metacritic.com/game/stories-untold/",
+        "status": "matched"
+      }
+    ],
+    "a1cad32e192973d6b1aa7f05": [
+      {
+        "url": "https://www.metacritic.com/game/stray/",
+        "status": "matched"
+      }
+    ],
+    "03d767a1b026a7f7fd75c253": [
+      {
+        "url": "https://www.metacritic.com/game/street-fighter-6/",
+        "status": "matched"
+      }
+    ],
+    "9d69ff76553470157dfe2c5f": [
+      {
+        "url": "https://www.metacritic.com/game/street-fighter-30th-anniversary-collection/",
+        "status": "matched"
+      }
+    ],
+    "accc78f152b26530d1dd211b": [
+      {
+        "url": "https://www.metacritic.com/game/ultra-street-fighter-iv/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/street-fighter-iv/",
+        "status": "matched"
+      }
+    ],
+    "8e9d6200787906166d3255ef": [
+      {
+        "url": "https://www.metacritic.com/game/street-fighter-v/",
+        "status": "matched"
+      }
+    ],
+    "e80d3e59bc399253bee683a6": [
+      {
+        "url": "https://www.metacritic.com/game/streets-of-rage-4/",
+        "status": "matched"
+      }
+    ],
+    "b26be3dda19cb91da21d2476": [
+      {
+        "url": "https://www.metacritic.com/game/subnautica/",
+        "status": "matched"
+      }
+    ],
+    "d393958ddb2701e9ac480635": [
+      {
+        "url": "https://www.metacritic.com/game/subnautica-below-zero/",
+        "status": "matched"
+      }
+    ],
+    "c58124ed40e0657a957e4525": [
+      {
+        "url": "https://www.metacritic.com/game/super-bomberman-r-2/",
+        "status": "matched"
+      }
+    ],
+    "de42dabf60ec290587545899": [
+      {
+        "url": "https://www.metacritic.com/game/super-crazy-rhythm-castle/",
+        "status": "matched"
+      }
+    ],
+    "bec2a60a3051cca4f39f1e34": [
+      {
+        "url": "https://www.metacritic.com/game/super-meat-boy/",
+        "status": "matched"
+      }
+    ],
+    "ef69582c2b34164ac88ac839": [
+      {
+        "url": "https://www.metacritic.com/game/super-monkey-ball-banana-blitz-hd/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/super-monkey-ball-banana-blitz/",
+        "status": "matched"
+      }
+    ],
+    "053b3135212b922152caf355": [
+      {
+        "url": "https://www.metacritic.com/game/super-monkey-ball-banana-mania/",
+        "status": "matched"
+      }
+    ],
+    "ed0f8a1613769f330acdb4a8": [
+      {
+        "url": "https://www.metacritic.com/game/superhot/",
+        "status": "matched"
+      }
+    ],
+    "4a80adb6bce68fb5aa924d03": [
+      {
+        "url": "https://www.metacritic.com/game/superhot-mind-control-delete/",
+        "status": "matched"
+      }
+    ],
+    "c810e58dc57b8fe40ab4abdb": [
+      {
+        "url": "https://www.metacritic.com/game/superliminal/",
+        "status": "matched"
+      }
+    ],
+    "6bbc0bc497539623de111853": [
+      {
+        "url": "https://www.metacritic.com/game/surgeon-simulator-anniversary-edition/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/surgeon-simulator-2013/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/surgeon-simulator/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.pushsquare.com/reviews/ps4/surgeon_simulator_anniversary_edition",
+        "status": "verified_manual_summary"
+      }
+    ],
+    "c8f28076b8aada81a6fee191": [
+      {
+        "url": "https://www.metacritic.com/game/system-shock/",
+        "status": "matched"
+      }
+    ],
+    "ae5d8a4852317f3ee8f9f3e1": [
+      {
+        "url": "https://www.metacritic.com/game/tacoma/",
+        "status": "matched"
+      }
+    ],
+    "156b765c5312c28ac920aca8": [
+      {
+        "url": "https://www.metacritic.com/game/taiko-no-tatsujin-drum-session/",
+        "status": "matched"
+      }
+    ],
+    "9ce4b4d4937997e03e32aa62": [
+      {
+        "url": "https://www.metacritic.com/game/tales-from-the-borderlands-a-telltale-game-series/",
+        "status": "matched"
+      }
+    ],
+    "6f22c64f6bdb13a04ae6f820": [
+      {
+        "url": "https://www.metacritic.com/game/tearaway-unfolded/",
+        "status": "matched"
+      }
+    ],
+    "785e421889d1750c79fd87c9": [
+      {
+        "url": "https://www.metacritic.com/game/teenage-mutant-ninja-turtles-shredders-revenge/",
+        "status": "matched"
+      }
+    ],
+    "f8f2a0947e70831ebc5af620": [
+      {
+        "url": "https://www.metacritic.com/game/tekken-7/",
+        "status": "matched"
+      }
+    ],
+    "b5186867bb5d3af01c7dc7b3": [
+      {
+        "url": "https://www.metacritic.com/game/telling-lies/",
+        "status": "matched"
+      }
+    ],
+    "e17e6f6f01f6d472e05ce7d3": [
+      {
+        "url": "https://www.metacritic.com/game/terraria/",
+        "status": "matched"
+      }
+    ],
+    "4a5f320776ead2429aab5c2d": [
+      {
+        "url": "https://www.metacritic.com/game/tetris-effect/",
+        "status": "matched"
+      }
+    ],
+    "5ee624d7c9a508f0266ceb70": [
+      {
+        "url": "https://www.metacritic.com/game/the-amazing-spider-man-2/",
+        "status": "matched"
+      }
+    ],
+    "fa474a35f55fa2718b02141a": [
+      {
+        "url": "https://www.metacritic.com/game/the-artful-escape/",
+        "status": "matched"
+      }
+    ],
+    "b4938d5297bf1dae7f9609d8": [
+      {
+        "url": "https://www.metacritic.com/game/the-awesome-adventures-of-captain-spirit/",
+        "status": "matched"
+      }
+    ],
+    "6a7f10ea88ccff5cc2e3e036": [
+      {
+        "url": "https://www.metacritic.com/game/the-binding-of-isaac/",
+        "status": "matched"
+      }
+    ],
+    "d923b48becbefc0d3a202188": [
+      {
+        "url": "https://www.metacritic.com/game/the-bug-butcher/",
+        "status": "matched"
+      }
+    ],
+    "233b2fdb4d9ba11ab6cca787": [
+      {
+        "url": "https://www.metacritic.com/game/the-callisto-protocol/",
+        "status": "matched"
+      }
+    ],
+    "cfb782bbb758d5ae2a8bc0b4": [
+      {
+        "url": "https://www.metacritic.com/game/the-crew-2/",
+        "status": "matched"
+      }
+    ],
+    "845a6f08dd84a034dd3f453d": [
+      {
+        "url": "https://www.metacritic.com/game/the-cub/",
+        "status": "matched"
+      }
+    ],
+    "7ca66ddd49faad6bd99bd23d": [
+      {
+        "url": "https://www.metacritic.com/game/the-dark-pictures-anthology-house-of-ashes/",
+        "status": "matched"
+      }
+    ],
+    "472fe2e8dd8013341f2f75bd": [
+      {
+        "url": "https://www.metacritic.com/game/the-dark-pictures-anthology-little-hope/",
+        "status": "matched"
+      }
+    ],
+    "2a400e92108fa024a7ba4cbe": [
+      {
+        "url": "https://www.metacritic.com/game/the-dark-pictures-anthology-man-of-medan/",
+        "status": "matched"
+      }
+    ],
+    "0cfd027ef86b63f3eb2bec69": [
+      {
+        "url": "https://www.metacritic.com/game/the-dark-pictures-anthology-the-devil-in-me/",
+        "status": "matched"
+      }
+    ],
+    "ee6191f1baf310dc38567f0a": [
+      {
+        "url": "https://www.metacritic.com/game/the-deadly-tower-of-monsters/",
+        "status": "matched"
+      }
+    ],
+    "d7bd8f0ce8edabe840210aa4": [
+      {
+        "url": "https://www.metacritic.com/game/the-eternal-castle-remastered/",
+        "status": "matched"
+      }
+    ],
+    "97926c92c29692aca4d62592": [
+      {
+        "url": "https://www.metacritic.com/game/the-evil-within/",
+        "status": "matched"
+      }
+    ],
+    "85a34fd5925ca1dbc4866668": [
+      {
+        "url": "https://www.metacritic.com/game/the-evil-within-2/",
+        "status": "matched"
+      }
+    ],
+    "dd999c4e3933673cd25935e8": [
+      {
+        "url": "https://www.metacritic.com/game/the-expanse-a-telltale-series/",
+        "status": "matched"
+      }
+    ],
+    "8a71079497dc1674214466d4": [
+      {
+        "url": "https://www.metacritic.com/game/the-falconeer-warrior-edition/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/the-falconeer/",
+        "status": "matched"
+      }
+    ],
+    "f42b80f0b2ff77c6e93757c4": [
+      {
+        "url": "https://www.metacritic.com/game/the-forest/",
+        "status": "no_editorial_excerpt"
+      },
+      {
+        "url": "https://www.metacritic.com/game/the-forest/critic-reviews/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/the-forest-2014/",
+        "status": "matched"
+      }
+    ],
+    "6814ddfaa9ef0e92fdcd4a7b": [
+      {
+        "url": "https://www.metacritic.com/game/the-forgotten-city/",
+        "status": "matched"
+      }
+    ],
+    "bc505661becfe8e9478d94b5": [
+      {
+        "url": "https://www.metacritic.com/game/the-gardens-between/",
+        "status": "matched"
+      }
+    ],
+    "b4a4c63307b166c1f62d2c54": [
+      {
+        "url": "https://www.metacritic.com/game/the-knight-witch/",
+        "status": "matched"
+      }
+    ],
+    "26e6ba8c803056137535e1d4": [
+      {
+        "url": "https://www.metacritic.com/game/the-last-campfire/",
+        "status": "matched"
+      }
+    ],
+    "98582e1e292156c5db2f92fb": [
+      {
+        "url": "https://www.metacritic.com/game/the-last-guardian/",
+        "status": "matched"
+      }
+    ],
+    "02ea10b8dbd958035cfd9081": [
+      {
+        "url": "https://www.metacritic.com/game/the-last-of-us/",
+        "status": "matched"
+      }
+    ],
+    "8022e50d43f586b1ff46aa1b": [
+      {
+        "url": "https://www.metacritic.com/game/the-last-of-us-part-ii/",
+        "status": "matched"
+      }
+    ],
+    "3f108532b9c1e8f101a8f14e": [
+      {
+        "url": "https://www.metacritic.com/game/the-long-dark/",
+        "status": "matched"
+      }
+    ],
+    "809b934d2762c4eb73c519b7": [
+      {
+        "url": "https://www.metacritic.com/game/the-lord-of-the-rings-gollum/",
+        "status": "matched"
+      }
+    ],
+    "fa0d59ccf43914635831a287": [
+      {
+        "url": "https://www.metacritic.com/game/the-messenger/",
+        "status": "matched"
+      }
+    ],
+    "0cc4d52639292f89281f75b0": [
+      {
+        "url": "https://www.metacritic.com/game/the-metronomicon-slay-the-dance-floor/",
+        "status": "matched"
+      }
+    ],
+    "dfd6771a69d056f796a64ed9": [
+      {
+        "url": "https://www.metacritic.com/game/the-mooseman/",
+        "status": "matched"
+      }
+    ],
+    "54f8465efafe8ddeca13872d": [
+      {
+        "url": "https://www.metacritic.com/game/the-occupation/",
+        "status": "matched"
+      }
+    ],
+    "a85fe294ee837e778d7c1d9d": [
+      {
+        "url": "https://www.metacritic.com/game/the-order-1886/",
+        "status": "matched"
+      }
+    ],
+    "7c20969354e603c51a016714": [
+      {
+        "url": "https://www.metacritic.com/game/the-outer-worlds/",
+        "status": "matched"
+      }
+    ],
+    "a552a9093eaf0676a2775ef4": [
+      {
+        "url": "https://www.metacritic.com/game/the-pathless/",
+        "status": "matched"
+      }
+    ],
+    "de7e527b90f5ec7f9d8aa5ac": [
+      {
+        "url": "https://www.metacritic.com/game/the-pedestrian/",
+        "status": "matched"
+      }
+    ],
+    "baaf1ea251a55bfe4c2b9181": [
+      {
+        "url": "https://www.metacritic.com/game/the-quarry/",
+        "status": "matched"
+      }
+    ],
+    "244ef3ed375c860d50db67db": [
+      {
+        "url": "https://www.metacritic.com/game/the-quiet-man/",
+        "status": "matched"
+      }
+    ],
+    "fcd5ec6b7d955b830a335a9b": [
+      {
+        "url": "https://www.metacritic.com/game/the-sexy-brutale/",
+        "status": "matched"
+      }
+    ],
+    "0f9a967fd059e64e6360b0a2": [
+      {
+        "url": "https://www.metacritic.com/game/the-sims-4/",
+        "status": "matched"
+      }
+    ],
+    "c4ac4d81cca689e6c72eca87": [
+      {
+        "url": "https://www.metacritic.com/game/the-sinking-city/",
+        "status": "matched"
+      }
+    ],
+    "c76d015392e2e0b7de1eae1e": [
+      {
+        "url": "https://www.metacritic.com/game/the-stanley-parable/",
+        "status": "matched"
+      }
+    ],
+    "ffd589a5b5d897df72259f9a": [
+      {
+        "url": "https://www.metacritic.com/game/the-surge/",
+        "status": "matched"
+      }
+    ],
+    "43cd2b4d832d3cf2a4c908e0": [
+      {
+        "url": "https://www.metacritic.com/game/the-surge-2/",
+        "status": "matched"
+      }
+    ],
+    "6111f53eab5e5e996c0fc651": [
+      {
+        "url": "https://www.metacritic.com/game/the-talos-principle-deluxe-edition/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/the-talos-principle/",
+        "status": "matched"
+      }
+    ],
+    "b26fef7844717a499d7da092": [
+      {
+        "url": "https://www.metacritic.com/game/the-touryst/",
+        "status": "matched"
+      }
+    ],
+    "80b8813d4e7fd5171f66b3e2": [
+      {
+        "url": "https://www.metacritic.com/game/the-unfinished-swan/",
+        "status": "matched"
+      }
+    ],
+    "8cd570b05a2fede5cad8595f": [
+      {
+        "url": "https://www.metacritic.com/game/the-vanishing-of-ethan-carter/",
+        "status": "matched"
+      }
+    ],
+    "880bb7e28e05b0fdb391596b": [
+      {
+        "url": "https://www.metacritic.com/game/the-walking-dead-the-telltale-series/",
+        "status": "title_not_matched"
+      }
+    ],
+    "5364a75acdee49743020928e": [
+      {
+        "url": "https://www.metacritic.com/game/the-wild-at-heart/",
+        "status": "matched"
+      }
+    ],
+    "786df281bc406b1ed539b73f": [
+      {
+        "url": "https://www.metacritic.com/game/the-witcher-3-wild-hunt/",
+        "status": "matched"
+      }
+    ],
+    "76ac0af049ed0bc435e2ecb8": [
+      {
+        "url": "https://www.metacritic.com/game/the-witness/",
+        "status": "matched"
+      }
+    ],
+    "e28718a2ce9c9ac0130a2420": [
+      {
+        "url": "https://www.metacritic.com/game/the-wolf-among-us/",
+        "status": "matched"
+      }
+    ],
+    "d86fe01b6058f5ec5c365142": [
+      {
+        "url": "https://www.metacritic.com/game/thief/",
+        "status": "matched"
+      }
+    ],
+    "62ee5c32b4fc79946dd25405": [
+      {
+        "url": "https://www.metacritic.com/game/thimbleweed-park/",
+        "status": "matched"
+      }
+    ],
+    "8d159d48ef44e190b94cd79e": [
+      {
+        "url": "https://www.metacritic.com/game/this-is-the-police/",
+        "status": "matched"
+      }
+    ],
+    "c2de53c801627a990b1cb523": [
+      {
+        "url": "https://www.metacritic.com/game/this-is-the-police-2/",
+        "status": "matched"
+      }
+    ],
+    "2d9016588a7172e9720644d7": [
+      {
+        "url": "https://www.metacritic.com/game/this-war-of-mine-the-little-ones/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/this-war-of-mine/",
+        "status": "matched"
+      }
+    ],
+    "7762c65c3465833ea43fabb6": [
+      {
+        "url": "https://www.metacritic.com/game/thomas-was-alone/",
+        "status": "matched"
+      }
+    ],
+    "5f19f934985bebc757098af7": [
+      {
+        "url": "https://www.metacritic.com/game/thronebreaker-the-witcher-tales/",
+        "status": "matched"
+      }
+    ],
+    "9e7d7fa2cc85f08e03510d06": [
+      {
+        "url": "https://www.metacritic.com/game/thumper/",
+        "status": "matched"
+      }
+    ],
+    "dfaadf36e9e1b1618ad0b7c0": [
+      {
+        "url": "https://www.metacritic.com/game/time-on-frog-island/",
+        "status": "matched"
+      }
+    ],
+    "86cfccf1a1b2e6511a971277": [
+      {
+        "url": "https://www.metacritic.com/game/tiny-tinas-wonderlands/",
+        "status": "matched"
+      }
+    ],
+    "f153200cbd8009c5f7ac46dd": [
+      {
+        "url": "https://www.metacritic.com/game/titanfall-2/",
+        "status": "matched"
+      }
+    ],
+    "1cae73023daafe57b2b6752a": [
+      {
+        "url": "https://www.metacritic.com/game/tom-clancys-ghost-recon-wildlands/",
+        "status": "matched"
+      }
+    ],
+    "820027fd7a6aeed43d330a1a": [
+      {
+        "url": "https://www.metacritic.com/game/tomb-raider-definitive-edition/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/tomb-raider/",
+        "status": "matched"
+      }
+    ],
+    "c7e6506d0352060a7b529b9b": [
+      {
+        "url": "https://www.metacritic.com/game/tomb-raider-i-iii-remastered-starring-lara-croft/",
+        "status": "matched"
+      }
+    ],
+    "5db4ccd26cd6201d94444f9d": [
+      {
+        "url": "https://www.metacritic.com/game/tomb-raider-iv-vi-remastered/",
+        "status": "matched"
+      }
+    ],
+    "3857415201202149a999a3b4": [
+      {
+        "url": "https://www.metacritic.com/game/tony-hawks-pro-skater-1-plus-2/",
+        "status": "matched"
+      }
+    ],
+    "64458b60b9087b5446d94a0d": [
+      {
+        "url": "https://www.metacritic.com/game/tony-hawks-pro-skater-3-plus-4/",
+        "status": "matched"
+      }
+    ],
+    "6e2bd051f77c456b1aa48e3e": [
+      {
+        "url": "https://www.metacritic.com/game/tools-up/",
+        "status": "matched"
+      }
+    ],
+    "166cf39a9c5614edb316fac7": [
+      {
+        "url": "https://www.metacritic.com/game/tooth-and-tail/",
+        "status": "matched"
+      }
+    ],
+    "fffa9cdc0195791c2a615ce5": [
+      {
+        "url": "https://www.metacritic.com/game/topspin-2k25/",
+        "status": "matched"
+      }
+    ],
+    "c6f5caa86ac2292bebcc0891": [
+      {
+        "url": "https://www.metacritic.com/game/towerfall-ascension/",
+        "status": "matched"
+      }
+    ],
+    "cb2b9cc813a5e39678994f6b": [
+      {
+        "url": "https://www.metacritic.com/game/towerfall-dark-world/",
+        "status": "matched"
+      }
+    ],
+    "5c39f282bc81324b23d10e1e": [
+      {
+        "url": "https://www.metacritic.com/game/trackmania-turbo/",
+        "status": "matched"
+      }
+    ],
+    "a8cee6e9b18a6bfbf4a509fa": [
+      {
+        "url": "https://www.metacritic.com/game/train-sim-world-4/",
+        "status": "matched"
+      }
+    ],
+    "a57d45cb1e2bf1cf6b4169bd": [
+      {
+        "url": "https://www.metacritic.com/game/train-valley-2/",
+        "status": "matched"
+      }
+    ],
+    "a140094061840c086f9189f4": [
+      {
+        "url": "https://www.metacritic.com/game/transference/",
+        "status": "matched"
+      }
+    ],
+    "3f91ebb06225f38592d664b5": [
+      {
+        "url": "https://www.metacritic.com/game/transistor/",
+        "status": "matched"
+      }
+    ],
+    "ff49f6d484d83a5e5b3c3f10": [
+      {
+        "url": "https://www.metacritic.com/game/trash-sailors/",
+        "status": "matched"
+      }
+    ],
+    "18063f1e2d4e24cf0b79dfba": [
+      {
+        "url": "https://www.metacritic.com/game/travis-strikes-again-no-more-heroes/",
+        "status": "matched"
+      }
+    ],
+    "1a6537047bb95bff2bfed88f": [
+      {
+        "url": "https://www.metacritic.com/game/treadnauts/",
+        "status": "matched"
+      }
+    ],
+    "0da1b7bf83c9a41e686c91a9": [
+      {
+        "url": "https://www.metacritic.com/game/trek-to-yomi/",
+        "status": "matched"
+      }
+    ],
+    "77aa3016cad9962959cc385f": [
+      {
+        "url": "https://www.metacritic.com/game/trials-fusion/",
+        "status": "matched"
+      }
+    ],
+    "6650b0b0eca975b5c9515f55": [
+      {
+        "url": "https://www.metacritic.com/game/trials-rising/",
+        "status": "matched"
+      }
+    ],
+    "3d847bdc93a9b6d2cfd5bb5e": [
+      {
+        "url": "https://www.metacritic.com/game/tricky-towers/",
+        "status": "matched"
+      }
+    ],
+    "7b594cc797a4f9247ec7deb4": [
+      {
+        "url": "https://www.metacritic.com/game/trine/",
+        "status": "matched"
+      }
+    ],
+    "f2b1a4178132bd1054dd3b72": [
+      {
+        "url": "https://www.metacritic.com/game/trine-2-complete-story/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/trine-2/",
+        "status": "matched"
+      }
+    ],
+    "ead390eb5b05467acaf1b247": [
+      {
+        "url": "https://www.metacritic.com/game/trine-3-the-artifacts-of-power/",
+        "status": "matched"
+      }
+    ],
+    "87be3345716e2fd6d0734206": [
+      {
+        "url": "https://www.metacritic.com/game/trine-4-the-nightmare-prince/",
+        "status": "matched"
+      }
+    ],
+    "53cd6199914fd8002283ac50": [
+      {
+        "url": "https://www.metacritic.com/game/trine-5-a-clockwork-conspiracy/",
+        "status": "matched"
+      }
+    ],
+    "b4284e251b206b8783d525dd": [
+      {
+        "url": "https://www.metacritic.com/game/tropico-5/",
+        "status": "matched"
+      }
+    ],
+    "1a631d935e1c140d35d2c512": [
+      {
+        "url": "https://www.metacritic.com/game/tropico-6/",
+        "status": "matched"
+      }
+    ],
+    "e6bcce417ecde3226d905571": [
+      {
+        "url": "https://www.metacritic.com/game/trover-saves-the-universe/",
+        "status": "matched"
+      }
+    ],
+    "21802f5bf87b3b6697c3b57c": [
+      {
+        "url": "https://www.metacritic.com/game/tunic/",
+        "status": "matched"
+      }
+    ],
+    "d408c12b8c63d3521f2e55c1": [
+      {
+        "url": "https://www.metacritic.com/game/turnip-boy-commits-tax-evasion/",
+        "status": "matched"
+      }
+    ],
+    "28a0c4c9bd4b8a4fae198eb6": [
+      {
+        "url": "https://www.metacritic.com/game/twelve-minutes/",
+        "status": "matched"
+      }
+    ],
+    "49e363860bfbef3e2533b97c": [
+      {
+        "url": "https://www.metacritic.com/game/two-point-campus/",
+        "status": "matched"
+      }
+    ],
+    "88a8f575acdbabe5af488a0a": [
+      {
+        "url": "https://www.metacritic.com/game/two-point-hospital/",
+        "status": "matched"
+      }
+    ],
+    "7f2c48815dfdfc6cc20c3fd3": [
+      {
+        "url": "https://www.metacritic.com/game/ultimate-chicken-horse/",
+        "status": "matched"
+      }
+    ],
+    "5b45642ca0cdee7e7bfc220c": [
+      {
+        "url": "https://www.metacritic.com/game/uncanny-valley/",
+        "status": "matched"
+      }
+    ],
+    "ca34789937d2f5c4a23b761b": [
+      {
+        "url": "https://www.metacritic.com/game/uncharted-4-a-thiefs-end/",
+        "status": "matched"
+      }
+    ],
+    "4bf4e8215a9f0ba26d3e88e6": [
+      {
+        "url": "https://www.metacritic.com/game/uncharted-the-lost-legacy/",
+        "status": "matched"
+      }
+    ],
+    "7c98d1e70e94452a09d7eabb": [
+      {
+        "url": "https://www.metacritic.com/game/uncharted-the-nathan-drake-collection/",
+        "status": "matched"
+      }
+    ],
+    "eea77f7fc51ca2f42a1440ef": [
+      {
+        "url": "https://www.metacritic.com/game/undertale/",
+        "status": "matched"
+      }
+    ],
+    "3d191fcd1545145b92b6ee86": [
+      {
+        "url": "https://www.metacritic.com/game/unrailed/",
+        "status": "matched"
+      }
+    ],
+    "33c2a3c245ffc15337340717": [
+      {
+        "url": "https://www.metacritic.com/game/unravel/",
+        "status": "matched"
+      }
+    ],
+    "0f2e8d2acf4bf65a1a67e36d": [
+      {
+        "url": "https://www.metacritic.com/game/unravel-two/",
+        "status": "matched"
+      }
+    ],
+    "ebdeebca5876292f2d893db0": [
+      {
+        "url": "https://www.metacritic.com/game/unspottable/",
+        "status": "matched"
+      }
+    ],
+    "95de157a9fd9c501b049b626": [
+      {
+        "url": "https://www.metacritic.com/game/until-dawn-2015/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/until-dawn/",
+        "status": "matched"
+      }
+    ],
+    "58aefaf3b05ca56b55909ed6": [
+      {
+        "url": "https://www.metacritic.com/game/untitled-goose-game/",
+        "status": "matched"
+      }
+    ],
+    "d3acb139752b92ae30b4b624": [
+      {
+        "url": "https://www.metacritic.com/game/valiant-hearts-coming-home/",
+        "status": "matched"
+      }
+    ],
+    "7bf14b126bfeb4e8292cad96": [
+      {
+        "url": "https://www.metacritic.com/game/valiant-hearts-the-great-war/",
+        "status": "matched"
+      }
+    ],
+    "a741bb0c69be321ddf2fbdec": [
+      {
+        "url": "https://www.metacritic.com/game/vampyr/",
+        "status": "matched"
+      }
+    ],
+    "5e548338d64e73548828269a": [
+      {
+        "url": "https://www.metacritic.com/game/vanquish/",
+        "status": "matched"
+      }
+    ],
+    "12fe7646c33e2ed9aa9193b1": [
+      {
+        "url": "https://www.metacritic.com/game/viewfinder/",
+        "status": "matched"
+      }
+    ],
+    "bf9a5a9f4648339405511405": [
+      {
+        "url": "https://www.metacritic.com/game/visage/",
+        "status": "matched"
+      }
+    ],
+    "c45c55aa847b6bc72c4e9fcf": [
+      {
+        "url": "https://www.metacritic.com/game/watch-dogs-legion/",
+        "status": "matched"
+      }
+    ],
+    "e38217584c3a8a5c99726184": [
+      {
+        "url": "https://www.metacritic.com/game/watch-dogs/",
+        "status": "matched"
+      }
+    ],
+    "b6315ab155200cac1d01a856": [
+      {
+        "url": "https://www.metacritic.com/game/watch-dogs-2/",
+        "status": "matched"
+      }
+    ],
+    "028d30741bce68a7346ece83": [
+      {
+        "url": "https://www.metacritic.com/game/we-happy-few/",
+        "status": "matched"
+      }
+    ],
+    "f71312fd752b2620ff49732c": [
+      {
+        "url": "https://www.metacritic.com/game/webbed/",
+        "status": "matched"
+      }
+    ],
+    "4388ba4930d65bdda04f43ec": [
+      {
+        "url": "https://www.metacritic.com/game/weird-west/",
+        "status": "matched"
+      }
+    ],
+    "9c0b5dd6c0a4583e55eef587": [
+      {
+        "url": "https://www.metacritic.com/game/what-remains-of-edith-finch/",
+        "status": "matched"
+      }
+    ],
+    "8f7bbd53719e192c50e56d7a": [
+      {
+        "url": "https://www.metacritic.com/game/what-the-golf/",
+        "status": "matched"
+      }
+    ],
+    "4719cafb7407f69fa5eb21b2": [
+      {
+        "url": "https://www.metacritic.com/game/wipeout-omega-collection/",
+        "status": "matched"
+      }
+    ],
+    "a92ae699fcc99f631a9f8868": [
+      {
+        "url": "https://www.metacritic.com/game/wolfenstein-ii-the-new-colossus/",
+        "status": "matched"
+      }
+    ],
+    "ce88dc3960d06c38895f133a": [
+      {
+        "url": "https://www.metacritic.com/game/wolfenstein-the-new-order/",
+        "status": "matched"
+      }
+    ],
+    "db16cafeb5598eabe4b0ae66": [
+      {
+        "url": "https://www.metacritic.com/game/wolfenstein-the-old-blood/",
+        "status": "matched"
+      }
+    ],
+    "47e045830b93b5e84b3ec862": [
+      {
+        "url": "https://www.metacritic.com/game/wolfenstein-youngblood/",
+        "status": "matched"
+      }
+    ],
+    "e12c302a0d28f926b38c90b6": [
+      {
+        "url": "https://www.metacritic.com/game/wonder-boy-the-dragons-trap/",
+        "status": "matched"
+      }
+    ],
+    "bf683ae902322d6c991e5134": [
+      {
+        "url": "https://www.metacritic.com/game/wordhunters/",
+        "status": "matched"
+      }
+    ],
+    "3cfc462be48a926cba469a36": [
+      {
+        "url": "https://www.metacritic.com/game/world-war-z/",
+        "status": "matched"
+      }
+    ],
+    "de8068740830a38f90276fa4": [
+      {
+        "url": "https://www.metacritic.com/game/worms-battlegrounds/",
+        "status": "matched"
+      }
+    ],
+    "087dd07e413bc2a82adf2995": [
+      {
+        "url": "https://www.metacritic.com/game/worms-wmd/",
+        "status": "matched"
+      }
+    ],
+    "2166fabff4080a96b9f0c7c6": [
+      {
+        "url": "https://www.metacritic.com/game/wreckfest/",
+        "status": "matched"
+      }
+    ],
+    "c6f2c9a58c0e28d77ed5d158": [
+      {
+        "url": "https://www.metacritic.com/game/wwe-2k-battlegrounds/",
+        "status": "matched"
+      }
+    ],
+    "2c25aaa7a220a7ec8634dd91": [
+      {
+        "url": "https://www.metacritic.com/game/wwe-2k24/",
+        "status": "matched"
+      }
+    ],
+    "421de828954f3dbf6ed981ad": [
+      {
+        "url": "https://www.metacritic.com/game/xcom-2/",
+        "status": "matched"
+      }
+    ],
+    "64984304572ba57484f61aa1": [
+      {
+        "url": "https://www.metacritic.com/game/yakuza-0/",
+        "status": "matched"
+      }
+    ],
+    "c944ec1f86997c67d1d808a0": [
+      {
+        "url": "https://www.metacritic.com/game/yakuza-3-remastered/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/yakuza-3/",
+        "status": "matched"
+      }
+    ],
+    "b7a9807572edfc867c2a3702": [
+      {
+        "url": "https://www.metacritic.com/game/yakuza-4-remastered/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/yakuza-4/",
+        "status": "matched"
+      }
+    ],
+    "de03522b1d60fcff748ba07c": [
+      {
+        "url": "https://www.metacritic.com/game/yakuza-5-remastered/",
+        "status": "title_not_matched"
+      },
+      {
+        "url": "https://www.metacritic.com/game/yakuza-5/",
+        "status": "matched"
+      }
+    ],
+    "6fb0b6fd9480079ecf106056": [
+      {
+        "url": "https://www.metacritic.com/game/yakuza-6-the-song-of-life/",
+        "status": "matched"
+      }
+    ],
+    "44ec138a20decf80d73326e6": [
+      {
+        "url": "https://www.metacritic.com/game/yakuza-kiwami/",
+        "status": "matched"
+      }
+    ],
+    "45df3099a4a6520718be96ec": [
+      {
+        "url": "https://www.metacritic.com/game/yakuza-kiwami-2/",
+        "status": "matched"
+      }
+    ],
+    "b04f4143a56e80d846543ccd": [
+      {
+        "url": "https://www.metacritic.com/game/you-suck-at-parking/",
+        "status": "matched"
+      }
+    ],
+    "d58db4991b7d398ae6d87082": [
+      {
+        "url": "https://www.metacritic.com/game/zero-escape-the-nonary-games/",
+        "status": "matched"
+      }
+    ],
+    "278c8fb333880caca48ba993": [
+      {
+        "url": "https://www.metacritic.com/game/zombie-army-4-dead-war/",
+        "status": "matched"
+      }
+    ],
+    "d158ba1e1639aff463a46069": [
+      {
+        "url": "https://www.metacritic.com/game/zombie-army-trilogy/",
+        "status": "matched"
+      }
+    ],
+    "6132ccab2087ec05c0ef65da": [
+      {
+        "url": "https://www.metacritic.com/game/zone-of-the-enders-the-2nd-runner/",
+        "status": "matched"
+      }
+    ],
+    "368bb8201e2efd60f386e35b": [
+      {
+        "url": "https://www.metacritic.com/game/okami-hd/",
+        "status": "matched"
+      }
+    ]
+  },
+  "missing": [
+    {
+      "id": "fc85114ec08302adaca4775a",
+      "title": "eFootball"
+    },
+    {
+      "id": "faba9de7c67364be9f5bf602",
+      "title": "eFootball"
+    },
+    {
+      "id": "9a707274923c3718dd577bde",
+      "title": "Electrician"
+    },
+    {
+      "id": "d712f13829f709718f0a62a2",
+      "title": "PAC-MAN Championship Edition 2 + Arcade Game Series"
+    },
+    {
+      "id": "04217453131c0b55624535e2",
+      "title": "PES 2025 (Season Update)"
+    },
+    {
+      "id": "17ed63197965b0912d2222bb",
+      "title": "Rock Band 4 Expansion Pack 1"
+    },
+    {
+      "id": "1fbbd85a457fe77ce3025352",
+      "title": "Rock Band 4 Expansion Pack 2"
+    },
+    {
+      "id": "6f975c8f8e1a64f8b29186c1",
+      "title": "Rock Band 4 Expansion Pack 3"
+    },
+    {
+      "id": "d409ae02d8606b7f00c1909b",
+      "title": "Rock Band 4 Expansion Pack 4"
+    },
+    {
+      "id": "efe71951b5d6ec6cbdccef58",
+      "title": "SNK Collection"
+    },
+    {
+      "id": "880bb7e28e05b0fdb391596b",
+      "title": "The Walking Dead The Telltale Series"
+    }
+  ]
+}

@@ -326,7 +326,9 @@
       "url": "https://en.wikipedia.org/wiki/Axiom_Verge",
       "publisher": "Wikipedia (CC BY-SA)",
       "language": "en"
-    }
+    },
+    "image": "https://www.metacritic.com/a/img/resize/9025ad02183869bb722ab1e06b22c2e042111fde/catalog/provider/6/12/6-1-388338-52.jpg?auto=webp&fit=crop&height=675&width=1200",
+    "imageSource": "https://www.metacritic.com/game/axiom-verge/"
   },
   "71cf30b092e56ce9dc3d2a40": {
     "receptionText": {
@@ -9219,5 +9221,96 @@
         }
       }
     ]
+  },
+  "c37c576768d081ac433f96c0": {
+    "image": "https://www.metacritic.com/a/img/resize/c59f3ffb5caaf2e907a8b707c549b8ab5a479954/catalog/provider/6/12/6-1-614913-52.jpg?auto=webp&fit=crop&height=675&width=1200",
+    "imageSource": "https://www.metacritic.com/game/atari-flashback-classics-volume-2/",
+    "source": "https://www.metacritic.com/game/atari-flashback-classics-volume-2/",
+    "sourceName": "Metacritic",
+    "matchedTitle": "Atari Flashback Classics: Volume 2"
+  },
+  "aab7a9457ad7c247639eb58c": {
+    "image": "https://www.metacritic.com/a/img/resize/1f5125e730183a958ae0ff49d1f335057f54fa78/catalog/provider/6/12/6-1-695210-52.jpg?auto=webp&fit=crop&height=675&width=1200",
+    "imageSource": "https://www.metacritic.com/game/atari-flashback-classics-volume-3/",
+    "source": "https://www.metacritic.com/game/atari-flashback-classics-volume-3/",
+    "sourceName": "Metacritic",
+    "matchedTitle": "Atari Flashback Classics: Volume 3"
+  },
+  "582fe9ac5956ffddedb2e2e3": {
+    "image": "https://www.metacritic.com/a/img/resize/d638cf00102505d050860745b638d9769ee5c97d/catalog/provider/6/3/6-1-719187-13.jpg?auto=webp&fit=crop&height=675&width=1200",
+    "imageSource": "https://www.metacritic.com/game/baldurs-gate-and-baldurs-gate-ii-enhanced-editions/",
+    "source": "https://www.metacritic.com/game/baldurs-gate-and-baldurs-gate-ii-enhanced-editions/",
+    "sourceName": "Metacritic",
+    "matchedTitle": "Baldur's Gate and Baldur's Gate II: Enhanced Editions"
+  },
+  "bd49658165d5ac6cac69f512": {
+    "image": "https://www.metacritic.com/a/img/resize/42711d51b1c7e87811132a5c0296563772638ab7/catalog/provider/6/12/6-1-537930-52.jpg?auto=webp&fit=crop&height=675&width=1200",
+    "imageSource": "https://www.metacritic.com/game/borderlands-the-handsome-collection/",
+    "source": "https://www.metacritic.com/game/borderlands-the-handsome-collection/",
+    "sourceName": "Metacritic",
+    "matchedTitle": "Borderlands: The Handsome Collection"
+  },
+  "fecd00a75cb1d442667aefdc": {
+    "image": "https://www.metacritic.com/a/img/resize/a1bc009e3b06d0037a683a00a3baeae7c0968df8/catalog/provider/6/12/6-1-210182-52.jpg?auto=webp&fit=crop&height=675&width=1200",
+    "imageSource": "https://www.metacritic.com/game/devil-may-cry-hd-collection/",
+    "source": "https://www.metacritic.com/game/devil-may-cry-hd-collection/",
+    "sourceName": "Metacritic",
+    "matchedTitle": "Devil May Cry HD Collection"
+  },
+  "ca1fcfc5c2c5d0fdae4f0446": {
+    "image": "https://www.metacritic.com/a/img/resize/f28913e03ddf85dee28756e046815b89bb79f0d7/catalog/provider/6/12/6-1-858397-52.jpg?auto=webp&fit=crop&height=675&width=1200",
+    "imageSource": "https://www.metacritic.com/game/el-hijo-a-wild-west-tale/",
+    "source": "https://www.metacritic.com/game/el-hijo-a-wild-west-tale/",
+    "sourceName": "Metacritic",
+    "matchedTitle": "El Hijo - A Wild West Tale"
+  },
+  "d0833b26c8fddd68ba9d66c7": {
+    "image": "https://www.metacritic.com/a/img/resize/5a2eb2e5628f75b6a2b19711cbef7405ac46aae7/catalog/provider/6/12/6-1-627159-52.jpg?auto=webp&fit=crop&height=675&width=1200",
+    "imageSource": "https://www.metacritic.com/game/kingdom-hearts-hd-i5-plus-ii5-remix/",
+    "source": "https://www.metacritic.com/game/kingdom-hearts-hd-i5-plus-ii5-remix/",
+    "sourceName": "Metacritic",
+    "matchedTitle": "Kingdom Hearts HD I.5 + II.5 Remix"
+  },
+  "d622914da64a0995a030f37d": {
+    "image": "https://www.metacritic.com/a/img/resize/94ca22c66ea63a6a39acf7b0a4ee59a29eac1c8a/catalog/provider/6/12/6-1-607284-52.jpg?auto=webp&fit=crop&height=675&width=1200",
+    "imageSource": "https://www.metacritic.com/game/olliolli-epic-combo-edition/",
+    "source": "https://www.metacritic.com/game/olliolli-epic-combo-edition/",
+    "sourceName": "Metacritic",
+    "matchedTitle": "OlliOlli: Epic Combo Edition"
+  },
+  "6a862709f89cf816323091f1": {
+    "image": "https://www.metacritic.com/a/img/resize/54812823e32dacbe88c81dcf79040665f44e2669/catalog/provider/6/3/6-1-661247-13.jpg?auto=webp&fit=crop&height=675&width=1200",
+    "imageSource": "https://www.metacritic.com/game/prototype-biohazard-bundle/",
+    "source": "https://www.metacritic.com/game/prototype-biohazard-bundle/",
+    "sourceName": "Metacritic",
+    "matchedTitle": "Prototype Biohazard Bundle"
+  },
+  "4ef9035e5bdff2f9d275a5ec": {
+    "image": "https://www.metacritic.com/a/img/resize/b4d78ffd0eb1132b7044822b7a3510e71bcca06d/catalog/provider/6/12/6-1-589126-17.jpg?auto=webp&fit=crop&height=675&width=1200",
+    "imageSource": "https://www.metacritic.com/game/starwhal-just-the-tip/",
+    "source": "https://www.metacritic.com/game/starwhal-just-the-tip/",
+    "sourceName": "Metacritic",
+    "matchedTitle": "Starwhal: Just the Tip"
+  },
+  "d82ca579058e21e8955728d4": {
+    "image": "https://www.metacritic.com/a/img/resize/9b9933bf5f8a28ec3d5604ef48524bb493c0780b/catalog/provider/6/12/6-1-803358-52.jpg?auto=webp&fit=crop&height=675&width=1200",
+    "imageSource": "https://www.metacritic.com/game/final-fantasy-iii-pixel-remaster/",
+    "source": "https://www.metacritic.com/game/final-fantasy-iii-pixel-remaster/",
+    "sourceName": "Metacritic",
+    "matchedTitle": "Final Fantasy III Pixel Remaster"
+  },
+  "3d8ae3daaf07dc722daf5abe": {
+    "image": "https://www.metacritic.com/a/img/resize/f12098642823345c54258fd6272d98fdeeaebd20/catalog/provider/6/12/6-1-616670-52.jpg?auto=webp&fit=crop&height=675&width=1200",
+    "imageSource": "https://www.metacritic.com/game/naruto-shippuden-ultimate-ninja-storm-4-road-to/",
+    "source": "https://www.metacritic.com/game/naruto-shippuden-ultimate-ninja-storm-4-road-to/",
+    "sourceName": "Metacritic",
+    "matchedTitle": "Naruto Shippuden: Ultimate Ninja Storm 4 - Road to Boruto Expansion"
+  },
+  "cb2b9cc813a5e39678994f6b": {
+    "image": "https://www.metacritic.com/a/img/resize/c9f23b7ff4b0805248bcc94fc33472d4ca0e9d84/catalog/provider/6/12/6-1-558455-52.jpg?auto=webp&fit=crop&height=675&width=1200",
+    "imageSource": "https://www.metacritic.com/game/towerfall-dark-world/",
+    "source": "https://www.metacritic.com/game/towerfall-dark-world/",
+    "sourceName": "Metacritic",
+    "matchedTitle": "TowerFall: Dark World"
   }
 }

@@ -8,6 +8,16 @@ const genreTaxonomy = window.GAME_GENRES?.taxonomy || {};
 const genreLabel = id => genreTaxonomy[id]?.[window.catalogLanguage] || id;
 const hebrewReviews = window.HEBREW_REVIEWS?.entries || {};
 const reviewTranslations = window.REVIEW_TRANSLATIONS?.entries || {};
+const editorialReviews = window.EDITORIAL_REVIEWS?.entries || {};
+const editorialTranslations = window.EDITORIAL_TRANSLATIONS?.entries || {};
+function publisherReviews(id) {
+  const seen = new Set();
+  return [...(gameInfo(id).criticExcerpts || []), ...(editorialReviews[id] || [])].filter(review => {
+    if (seen.has(review.url)) return false;
+    seen.add(review.url); return true;
+  });
+}
+const hasEditorial = id => Boolean(hebrewReviews[id]?.length || publisherReviews(id).length);
 const metadataComplete = id => { const info = gameInfo(id); return ['year', 'image', 'score'].every(key => Boolean(info[key])) && Boolean(info.review || info.receptionText || info.criticExcerpts?.length); };
 const allowedImage = image => { try { const url = new URL(image); return url.protocol === 'https:' && ['upload.wikimedia.org', 'thumb.wikimedia.org', 'www.metacritic.com', 'shared.fastly.steamstatic.com'].includes(url.hostname); } catch { return false; } };
 const KEY = 'gaming-catalog-state-v1';
@@ -19,7 +29,10 @@ let ui = {};
 try { ui = JSON.parse(localStorage.getItem(UI_KEY) || '{}') || {}; } catch {}
 let view = ui.view === 'list' ? 'list' : 'cards';
 const expanded = new Set();
-const filterIds = ['search', 'filter', 'downloadFilter', 'playFilter', 'interestFilter', 'interestedFilter', 'notesFilter', 'regionFilter', 'genreFilter', 'yearFilter', 'ps4YearFilter', 'metadataFilter', 'hebrewReviewFilter', 'sort'];
+const filterIds = ['search', 'filter', 'downloadFilter', 'playFilter', 'interestFilter', 'interestedFilter', 'notesFilter', 'regionFilter', 'genreFilter', 'yearFilter', 'ps4YearFilter', 'metadataFilter', 'hebrewReviewFilter', 'editorialFilter', 'publisherFilter', 'sort'];
+for (const publisher of [...new Set(games.flatMap(g => [...(hebrewReviews[g.id] || []), ...publisherReviews(g.id)].map(r => r.publisher)))].sort()) {
+  const option = document.createElement('option'); option.value = publisher; option.textContent = publisher; $('publisherFilter').append(option);
+}
 for (const id of [...new Set(Object.values(genres).flatMap(entry => entry.genres))].sort((a,b) => genreLabel(a).localeCompare(genreLabel(b), window.catalogLanguage))) {
   const option = document.createElement('option'); option.value = id; option.textContent = genreLabel(id); $('genreFilter').append(option);
 }
@@ -130,7 +143,7 @@ function reviewBlock(info, game) {
   block.append(node('h4', '', tr('ביקורות')));
   const localReviews = hebrewReviews[game.id] || [];
   block.append(node('h4', 'hebrew-reviews-title', tr('ביקורות מאתרים ישראליים')));
-  if (!localReviews.length) block.append(node('p', 'metadata-missing', tr('טרם נמצאה ביקורת בעברית ממקור מאומת.')));
+  if (!localReviews.length) block.append(node('p', 'metadata-missing', tr('טרם נמצאה ביקורת מקורית מאתר ישראלי.')));
   for (const review of localReviews) {
     const local = node('section', 'hebrew-review');
     local.append(sourceLink(review.publisher + (review.platform ? ' · ' + review.platform : '') + ' ↗', review.url));
@@ -146,8 +159,9 @@ function reviewBlock(info, game) {
     block.append(score);
   } else block.append(node('p', 'metadata-missing', tr('לא נמצא ציון מבקרים במקור.')));
   const summary = info.review?.[window.catalogLanguage];
-  if (summary) block.append(node('p', 'review-summary', summary));
-  const written = [info.receptionText, ...(info.criticExcerpts || [])].filter(Boolean);
+  if (summary) { block.append(node('small', '', tr('סיכום אוטומטי של נתוני המקור')), node('p', 'review-summary', summary)); }
+  const written = [...publisherReviews(game.id), info.receptionText].filter(Boolean);
+  if (!hasEditorial(game.id)) block.append(node('p', 'metadata-missing', tr('טרם נמצאה ביקורת מאתר משחקים; ציון או תקציר ויקיפדיה אינם ביקורת מאתר.')));
   if (!summary && !written.length) block.append(node('p', 'review-summary', tr('לא נמצא תקציר ביקורת במקור.')));
   for (const review of written) {
     if (review.kind === 'summary' && review.summary) {
@@ -158,11 +172,12 @@ function reviewBlock(info, game) {
       if (review.score != null) block.append(node('strong', 'local-score', review.score + '/' + review.scale));
       continue;
     }
-    const translation = reviewTranslations[game.id];
-    const translated = window.catalogLanguage === 'he' && review === info.receptionText && translation?.sourceText === review.text && translation.he;
+    const translation = review === info.receptionText ? reviewTranslations[game.id] : editorialTranslations[review.text];
+    const translated = window.catalogLanguage === 'he' && translation?.sourceText === review.text && translation.he;
     block.append(node('small', '', tr(translated ? 'תרגום אוטומטי לעברית · Google Translate' : 'קטע ביקורת במקור באנגלית')));
     const quote = node('blockquote', 'source-review', translated || review.text); quote.lang = translated ? 'he' : 'en'; quote.dir = translated ? 'rtl' : 'ltr';
     block.append(quote, sourceLink(review.publisher + (review.platform ? ' · ' + review.platform : '') + ' ↗', review.url));
+    if (review.via) block.append(sourceLink(tr('הקטע מובא דרך Metacritic ↗'), review.via));
     if (translated) {
       const original = node('details', 'original-review'); original.append(node('summary', '', tr('הצגת המקור באנגלית')));
       const text = node('blockquote', 'source-review', review.text); text.lang = 'en'; text.dir = 'ltr'; original.append(text); block.append(original);
@@ -262,6 +277,8 @@ function filtered() {
     ($('genreFilter').value === 'all' || ($('genreFilter').value === 'unknown' ? !genres[g.id]?.genres.length : genres[g.id]?.genres.includes($('genreFilter').value))) &&
     ($('regionFilter').value === 'all' || g.region === $('regionFilter').value) && yearMatch(g.id, 'year', 'yearFilter') && yearMatch(g.id, 'ps4Year', 'ps4YearFilter') &&
     ($('hebrewReviewFilter').value === 'all' || Boolean(hebrewReviews[g.id]?.length) === ($('hebrewReviewFilter').value === 'yes')) &&
+    ($('editorialFilter').value === 'all' || hasEditorial(g.id) === ($('editorialFilter').value === 'yes')) &&
+    ($('publisherFilter').value === 'all' || [...(hebrewReviews[g.id] || []), ...publisherReviews(g.id)].some(r => r.publisher === $('publisherFilter').value)) &&
     ($('metadataFilter').value === 'all' || metadataComplete(g.id) === ($('metadataFilter').value === 'complete')));
   const sort = $('sort').value;
   return list.sort((a, b) => {
@@ -332,5 +349,5 @@ $('syncSettings').addEventListener('click', () => {
 });
 window.catalogStore = {get: () => state, merge, validState, apply: remote => {state = merge(state, remote); const saved = persist(); stats(); refreshSavedFields(); return saved;}, notice};
 $('sourceCount').textContent = catalog.sourceFiles;
-$('metadataCoverage').textContent = tr('מידע אוטומטי מלא: ') + games.filter(g => metadataComplete(g.id)).length + '/' + games.length + ' · ' + tr('אפשר לסנן רשומות עם מידע חסר.');
+$('metadataCoverage').textContent = tr('עם ביקורת מאתר משחקים: ') + games.filter(g => hasEditorial(g.id)).length + '/' + games.length + ' · ' + tr('אפשר לסנן רשומות עם מידע חסר.');
 stats(); render();

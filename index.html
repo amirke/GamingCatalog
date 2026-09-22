@@ -5,6 +5,7 @@
   <meta name="color-scheme" content="dark"><meta name="referrer" content="no-referrer">
   <title>Gaming Catalog · ספריית המשחקים שלי</title>
   <link rel="stylesheet" href="styles.css">
+  <script defer src="data/editorial-reviews.js"></script><script defer src="data/editorial-translations.js"></script>
   <script defer src="data/catalog.js"></script><script defer src="data/metadata.js"></script><script defer src="data/genres.js"></script><script defer src="data/hebrew-reviews.js"></script><script defer src="data/review-translations.js"></script><script defer src="i18n.js"></script><script defer src="app.js"></script><script defer src="sync.js"></script>
 </head>
 <body>
@@ -24,7 +25,9 @@
       <label><span>ז׳אנר</span><select id="genreFilter"><option value="all">הכול</option><option value="unknown">ז׳אנר לא נמצא</option></select></label>
       <label><span>שנת יציאה</span><select id="yearFilter"><option value="all">הכול</option><option value="unknown">חסר מידע</option></select></label>
       <label><span>שנת PS4</span><select id="ps4YearFilter"><option value="all">הכול</option><option value="unknown">חסר מידע</option></select></label>
-      <label><span>ביקורת בעברית</span><select id="hebrewReviewFilter"><option value="all">הכול</option><option value="yes">יש ביקורת בעברית</option><option value="no">ללא ביקורת בעברית</option></select></label>
+      <label><span>ביקורת מאתר ישראלי</span><select id="hebrewReviewFilter"><option value="all">הכול</option><option value="yes">יש ביקורת מאתר ישראלי</option><option value="no">ללא ביקורת מאתר ישראלי</option></select></label>
+      <label><span>ביקורת מאתר משחקים</span><select id="editorialFilter"><option value="all">הכול</option><option value="yes">יש ביקורת מאתר</option><option value="no">חסרה ביקורת מאתר</option></select></label>
+      <label><span>אתר ביקורות</span><select id="publisherFilter"><option value="all">הכול</option></select></label>
 <label><span>מידע על המשחק</span><select id="metadataFilter"><option value="all">הכול</option><option value="complete">מידע מלא</option><option value="incomplete">מידע חלקי או חסר</option></select></label>
       <label><span>מיון</span><select id="sort"><option value="az">שם A–Z</option><option value="za">שם Z–A</option><option value="sizeDesc">גודל: מהגדול לקטן</option><option value="sizeAsc">גודל: מהקטן לגדול</option></select></label>
       <button id="resetFilters">איפוס סינונים</button>

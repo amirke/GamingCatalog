@@ -1,9 +1,13 @@
 {
   "total": 872,
-  "classified": 871,
+  "classified": 870,
   "multipleGenres": 520,
   "unrecognizedLabels": [],
   "missing": [
+    {
+      "id": "9a707274923c3718dd577bde",
+      "title": "Electrician"
+    },
     {
       "id": "efe71951b5d6ec6cbdccef58",
       "title": "SNK Collection"

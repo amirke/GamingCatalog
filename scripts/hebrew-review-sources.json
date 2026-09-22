@@ -1,10 +1,168 @@
 [
- {"game":"The Witcher 3 Wild Hunt","publisher":"Vgames","url":"https://vgames.co.il/article/20075.html","text":"הביקורת משבחת את בניית העולם והמשימות, אך מצביעה על תפריטים מסורבלים, מערכת שמירות מתסכלת ומגבלות תנועה שמפריעות לקרבות.","language":"he","kind":"summary"},
- {"game":"God of War","publisher":"Vgames","url":"https://vgames.co.il/article/28572.html","text":"סיפור, גרפיקה ודיבוב מרשימים, לצד ביקורת על הקצב האיטי והחידות. הסקירה מתמקדת בגרסת המחשב ומשבחת את איכות ההסבה.","language":"he","kind":"summary","platform":"PC"},
- {"game":"Red Dead Redemption 2","publisher":"Vgames","url":"https://vgames.co.il/article/26516.html","text":"הביקורת משבחת את הסיפור, הדמויות, הפסקול והעולם. סקירת גרסת המחשב מדגישה את השיפורים הגרפיים ואפשרויות התאמת הביצועים.","language":"he","kind":"summary","platform":"PC"},
- {"game":"Horizon Zero Dawn","publisher":"Vgames","url":"https://vgames.co.il/article/23969.html","text":"אלוי מוצגת כגיבורה מוצלחת, והביקורת משבחת את הדמויות, הנופים והקרבות האינטנסיביים מול המכונות.","language":"he","kind":"summary","platform":"PS4"},
- {"game":"Ghost of Tsushima","publisher":"Vgames","url":"https://vgames.co.il/article/26890.html","text":"הביקורת מצביעה על עצירות ברצף המשחק: הפעלת משימות צד גוררת מסכי טעינה שמפריעים לתחושת העולם הפתוח.","language":"he","kind":"summary"},
- {"game":"Sekiro Shadows Die Twice","publisher":"Vgames","url":"https://vgames.co.il/article/26336.html","text":"עולם מרשים, קרבות בוסים תובעניים וסיפור עם בימוי קולנועי. ההתגנבות והאפשרות לחזור לחיים מרעננות את הנוסחה המוכרת של משחקי האולפן.","language":"he","kind":"summary"},
- {"game":"Uncharted The Lost Legacy","publisher":"Vgames","url":"https://vgames.co.il/article/25024.html","text":"החלפת הגיבור בקלואי מרעננת את ההרפתקה והכתיבה זוכה לשבחים, אך הביקורת מדגישה את הדמיון הרב ל־Uncharted 4.","language":"he","kind":"summary"},
- {"game":"WWE 2K Battlegrounds","publisher":"Vgames","url":"https://www.vgames.co.il/article/27309.html","text":"קרבות מהנים, הומור ומבחר מצבי משחק, לצד באגים ורכישות בתוך המשחק שפוגעים בחוויה.","language":"he","kind":"summary"}
+  {
+    "game": "The Witcher 3 Wild Hunt",
+    "publisher": "Vgames",
+    "url": "https://vgames.co.il/article/20075.html",
+    "text": "הביקורת משבחת את בניית העולם והמשימות, אך מצביעה על תפריטים מסורבלים, מערכת שמירות מתסכלת ומגבלות תנועה שמפריעות לקרבות.",
+    "language": "he",
+    "kind": "summary"
+  },
+  {
+    "game": "God of War",
+    "publisher": "Vgames",
+    "url": "https://vgames.co.il/article/28572.html",
+    "text": "סיפור, גרפיקה ודיבוב מרשימים, לצד ביקורת על הקצב האיטי והחידות. הסקירה מתמקדת בגרסת המחשב ומשבחת את איכות ההסבה.",
+    "language": "he",
+    "kind": "summary",
+    "platform": "PC"
+  },
+  {
+    "game": "Red Dead Redemption 2",
+    "publisher": "Vgames",
+    "url": "https://vgames.co.il/article/26516.html",
+    "text": "הביקורת משבחת את הסיפור, הדמויות, הפסקול והעולם. סקירת גרסת המחשב מדגישה את השיפורים הגרפיים ואפשרויות התאמת הביצועים.",
+    "language": "he",
+    "kind": "summary",
+    "platform": "PC"
+  },
+  {
+    "game": "Horizon Zero Dawn",
+    "publisher": "Vgames",
+    "url": "https://vgames.co.il/article/23969.html",
+    "text": "אלוי מוצגת כגיבורה מוצלחת, והביקורת משבחת את הדמויות, הנופים והקרבות האינטנסיביים מול המכונות.",
+    "language": "he",
+    "kind": "summary",
+    "platform": "PS4"
+  },
+  {
+    "game": "Ghost of Tsushima",
+    "publisher": "Vgames",
+    "url": "https://vgames.co.il/article/26890.html",
+    "text": "הביקורת מצביעה על עצירות ברצף המשחק: הפעלת משימות צד גוררת מסכי טעינה שמפריעים לתחושת העולם הפתוח.",
+    "language": "he",
+    "kind": "summary"
+  },
+  {
+    "game": "Sekiro Shadows Die Twice",
+    "publisher": "Vgames",
+    "url": "https://vgames.co.il/article/26336.html",
+    "text": "עולם מרשים, קרבות בוסים תובעניים וסיפור עם בימוי קולנועי. ההתגנבות והאפשרות לחזור לחיים מרעננות את הנוסחה המוכרת של משחקי האולפן.",
+    "language": "he",
+    "kind": "summary"
+  },
+  {
+    "game": "Uncharted The Lost Legacy",
+    "publisher": "Vgames",
+    "url": "https://vgames.co.il/article/25024.html",
+    "text": "החלפת הגיבור בקלואי מרעננת את ההרפתקה והכתיבה זוכה לשבחים, אך הביקורת מדגישה את הדמיון הרב ל־Uncharted 4.",
+    "language": "he",
+    "kind": "summary"
+  },
+  {
+    "game": "WWE 2K Battlegrounds",
+    "publisher": "Vgames",
+    "url": "https://www.vgames.co.il/article/27309.html",
+    "text": "קרבות מהנים, הומור ומבחר מצבי משחק, לצד באגים ורכישות בתוך המשחק שפוגעים בחוויה.",
+    "language": "he",
+    "kind": "summary"
+  },
+  {
+    "game": "Control",
+    "publisher": "Vgames",
+    "url": "https://vgames.co.il/article/26468.html",
+    "text": "עלילה ובניית עולם מרתקות, חקירה וכוחות על שמעשירים את הקרבות. לצד השבחים, הביקורת על גרסת PS4 מדווחת על נפילות קצב תמונה, טעינת טקסטורות ותקיעות שפוגעות בחוויה.",
+    "kind": "summary",
+    "language": "he",
+    "score": 8.5,
+    "scale": 10,
+    "platform": "PS4"
+  },
+  {
+    "game": "Celeste",
+    "publisher": "Vgames",
+    "url": "https://vgames.co.il/article/25868.html",
+    "text": "פלטפורמה מאתגרת ומתגמלת עם עיצוב שלבים מצוין וסיפור רגיש על התמודדות נפשית. יש סיבות רבות לחזור לשלבים, אך שלבי B-Side קשים משמעותית מהמסלול הרגיל.",
+    "kind": "summary",
+    "language": "he",
+    "score": 9,
+    "scale": 10,
+    "platform": "Nintendo Switch"
+  },
+  {
+    "game": "Persona 5",
+    "publisher": "Vgames",
+    "url": "https://vgames.co.il/article/24159.html",
+    "text": "הביקורת משבחת את העלילה, הדמויות, הקרבות, הסגנון החזותי והמוזיקה. ההסתייגות המרכזית היא ימים שבהם קטעי מעבר מסיימים את היום ומגבילים את חופש הפעולה.",
+    "kind": "summary",
+    "language": "he",
+    "score": 9.5,
+    "scale": 10,
+    "platform": "PS4"
+  },
+  {
+    "game": "The Last of Us Part II",
+    "publisher": "Vgames",
+    "url": "https://vgames.co.il/article/26788.html",
+    "text": "הביקורת משבחת את השילוב בין הסיפור, הקרבות, ההתגנבות והיצירה, ורואה בו שיפור משמעותי על המשחק הראשון ופסגה של משחקי PS4.",
+    "kind": "summary",
+    "language": "he",
+    "score": null,
+    "scale": 10,
+    "platform": "PS4"
+  },
+  {
+    "game": "RESIDENT EVIL 7 biohazard",
+    "publisher": "Vgames",
+    "url": "https://vgames.co.il/article/23781.html",
+    "text": "כל כדור ופריט ריפוי חשובים, והמשחק עלול להפוך תחושת שליטה לאיום פתאומי בקרב או בהופעת אויבים. הביקורת משבחת במיוחד את הגרפיקה והסאונד שתומכים באימה.",
+    "kind": "summary",
+    "language": "he",
+    "score": null,
+    "scale": 10,
+    "platform": null
+  },
+  {
+    "game": "Persona 5 Strikers",
+    "publisher": "Vgames",
+    "url": "https://vgames.co.il/article/27781.html",
+    "text": "משחק אקשן בסגנון Musou שממשיך ישירות את עלילת Persona 5. הביקורת ממליצה למעריצים להסתגל לשינוי, ומשבחת את הביצועים במחשב; השליטה נוחה יותר עם בקר.",
+    "kind": "summary",
+    "language": "he",
+    "score": null,
+    "scale": 10,
+    "platform": "PC"
+  },
+  {
+    "game": "NieR Replicant ver.1.22474487139...",
+    "publisher": "Vgames",
+    "url": "https://vgames.co.il/article/27932.html",
+    "text": "דמויות עם רקע טרגי ופיתוח משמעותי, וסיפור שנחשף בהדרגה לאורך כמה השלמות. מערכת הקרב מרחיבה את מבחר הנשקים, אך מציעה פחות עומק ושילובים מזו של Automata.",
+    "kind": "summary",
+    "language": "he",
+    "score": null,
+    "scale": 10,
+    "platform": null
+  },
+  {
+    "game": "The Surge 2",
+    "publisher": "Vgames",
+    "url": "https://vgames.co.il/article/26487.html",
+    "text": "משחק קרבות תובעני בסגנון Souls, עם נעילה על אויבים ולמידת ההתקפות שלהם. הפסקול נשכח יחסית, אך תורם לאווירת המדע הבדיוני, במיוחד בקרבות הבוסים.",
+    "kind": "summary",
+    "language": "he",
+    "score": null,
+    "scale": 10,
+    "platform": null
+  },
+  {
+    "game": "Teenage Mutant Ninja Turtles Shredder's Revenge",
+    "publisher": "Vgames",
+    "url": "https://vgames.co.il/article/28972.html",
+    "text": "הביקורת מדגישה את הפסקול של Tee Lopes: מוזיקה קצבית ומלהיבה שמתאימה לקרבות הרחוב ומעודדת את השחקן להתקדם.",
+    "kind": "summary",
+    "language": "he",
+    "score": null,
+    "scale": 10,
+    "platform": null
+  }
 ]

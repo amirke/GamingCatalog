@@ -3,6 +3,18 @@
 window.catalogLanguage = 'he';
 try { if (localStorage.getItem('gaming-catalog-language') === 'en') window.catalogLanguage = 'en'; } catch {}
 const translations = {
+  "ביקורת מאתר ישראלי": "Israeli editorial review",
+  "יש ביקורת מאתר ישראלי": "Has an Israeli review",
+  "ללא ביקורת מאתר ישראלי": "No Israeli review",
+  "טרם נמצאה ביקורת מקורית מאתר ישראלי.": "No original review from an Israeli publisher found yet.",
+  "ביקורת מאתר משחקים": "Editorial game review",
+  "יש ביקורת מאתר": "Has an editorial review",
+  "חסרה ביקורת מאתר": "Missing an editorial review",
+  "אתר ביקורות": "Review publisher",
+  "סיכום אוטומטי של נתוני המקור": "Automatic summary of source data",
+  "טרם נמצאה ביקורת מאתר משחקים; ציון או תקציר ויקיפדיה אינם ביקורת מאתר.": "No editorial game review found yet; a score or Wikipedia summary is not an editorial review.",
+  "הקטע מובא דרך Metacritic ↗": "Excerpt via Metacritic ↗",
+  "עם ביקורת מאתר משחקים: ": "With an editorial game review: ",
   "תמצית ביקורת מהמקור": "Summary of the source review",
   "תרגום אוטומטי לעברית · Google Translate": "Automatic Hebrew translation · Google Translate",
   "הצגת המקור באנגלית": "Show the English original",

@@ -1,52 +1,19 @@
 {
   "coverage": {
     "catalogEntries": 872,
-    "matched": 841,
+    "matched": 853,
     "entries": 872,
     "writtenReview": 803,
     "complete": 810,
-    "year": 841,
+    "year": 840,
     "ps4Year": 605,
-    "image": 841,
+    "image": 853,
     "score": 810,
     "review": 836,
-    "hebrewReview": 136,
+    "hebrewReview": 147,
     "hebrewWikiTranslation": 734
   },
   "unresolved": [
-    {
-      "title": "Atari Flashback Classics vol.2",
-      "id": "c37c576768d081ac433f96c0",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "title": "Atari Flashback Classics vol.3",
-      "id": "aab7a9457ad7c247639eb58c",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "title": "Baldur's Gate and Baldur's Gate II",
-      "id": "582fe9ac5956ffddedb2e2e3",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
     {
       "title": "BATTLESHIP",
       "id": "e86f848e6f80c08d5f95d10a",
@@ -59,52 +26,8 @@
       ]
     },
     {
-      "title": "Borderlands 2 + The Pre-Sequel",
-      "id": "bd49658165d5ac6cac69f512",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "title": "Devil May Cry Trilogy",
-      "id": "fecd00a75cb1d442667aefdc",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "title": "El Hijo",
-      "id": "ca1fcfc5c2c5d0fdae4f0446",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "title": "FINAL FANTASY III",
-      "id": "d82ca579058e21e8955728d4",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "title": "KINGDOM HEARTS 1.5 + 2.5",
-      "id": "d0833b26c8fddd68ba9d66c7",
+      "title": "Electrician",
+      "id": "9a707274923c3718dd577bde",
       "status": "incomplete",
       "missing": [
         "year",
@@ -213,28 +136,6 @@
       ]
     },
     {
-      "title": "NARUTO SHIPPUDEN Ultimate Ninja STORM 4 ROAD TO BORUTO",
-      "id": "3d8ae3daaf07dc722daf5abe",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "title": "OlliOlli 1+2",
-      "id": "d622914da64a0995a030f37d",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
       "title": "PAC-MAN Championship Edition 2 + Arcade Game Series",
       "id": "d712f13829f709718f0a62a2",
       "status": "incomplete",
@@ -248,17 +149,6 @@
     {
       "title": "PES 2025 (Season Update)",
       "id": "04217453131c0b55624535e2",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "title": "PROTOTYPE 1+2",
-      "id": "6a862709f89cf816323091f1",
       "status": "incomplete",
       "missing": [
         "year",
@@ -323,30 +213,8 @@
       ]
     },
     {
-      "title": "STARWHAL",
-      "id": "4ef9035e5bdff2f9d275a5ec",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
       "title": "The Walking Dead The Telltale Series",
       "id": "880bb7e28e05b0fdb391596b",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "title": "TowerFall Dark World Expansion",
-      "id": "cb2b9cc813a5e39678994f6b",
       "status": "incomplete",
       "missing": [
         "year",
@@ -371,7 +239,6 @@
       "status": "incomplete",
       "missing": [
         "year",
-        "image",
         "score",
         "review"
       ]
@@ -382,7 +249,6 @@
       "status": "incomplete",
       "missing": [
         "year",
-        "image",
         "score",
         "review"
       ]
@@ -393,7 +259,6 @@
       "status": "incomplete",
       "missing": [
         "year",
-        "image",
         "score",
         "review"
       ]
@@ -423,7 +288,6 @@
       "status": "incomplete",
       "missing": [
         "year",
-        "image",
         "score",
         "review"
       ]
@@ -450,7 +314,6 @@
       "status": "incomplete",
       "missing": [
         "year",
-        "image",
         "score",
         "review"
       ]
@@ -461,7 +324,6 @@
       "status": "incomplete",
       "missing": [
         "year",
-        "image",
         "score",
         "review"
       ]
@@ -471,6 +333,8 @@
       "id": "9a707274923c3718dd577bde",
       "status": "incomplete",
       "missing": [
+        "year",
+        "image",
         "score",
         "review"
       ]
@@ -481,7 +345,6 @@
       "status": "incomplete",
       "missing": [
         "year",
-        "image",
         "score",
         "review"
       ]
@@ -492,7 +355,6 @@
       "status": "incomplete",
       "missing": [
         "year",
-        "image",
         "score",
         "review"
       ]
@@ -676,7 +538,6 @@
       "status": "incomplete",
       "missing": [
         "year",
-        "image",
         "score",
         "review"
       ]
@@ -711,7 +572,6 @@
       "status": "incomplete",
       "missing": [
         "year",
-        "image",
         "score",
         "review"
       ]
@@ -776,7 +636,6 @@
       "status": "incomplete",
       "missing": [
         "year",
-        "image",
         "score",
         "review"
       ]
@@ -884,7 +743,6 @@
       "status": "incomplete",
       "missing": [
         "year",
-        "image",
         "score",
         "review"
       ]
@@ -922,7 +780,6 @@
       "status": "incomplete",
       "missing": [
         "year",
-        "image",
         "score",
         "review"
       ]

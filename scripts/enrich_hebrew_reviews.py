@@ -39,6 +39,8 @@ def extract(raw,item):
 def main():
  ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('--cache-dir',type=pathlib.Path,required=True);ap.add_argument('--offline',action='store_true');args=ap.parse_args();args.cache_dir.mkdir(parents=True,exist_ok=True)
  games=json.loads((ROOT/'data/catalog.js').read_text(encoding='utf-8').split('=',1)[1].strip().rstrip(';'))['games'];items={};failures=0
+ metadata=json.loads((ROOT/'data/metadata.js').read_text(encoding='utf-8').split('=',1)[1].strip().rstrip(';'))['entries']
+ aliases=[{'id':g['id'],'title':re.sub(r'\s*\((?:\d{4} )?(?:video )?game\)$','',metadata.get(g['id'],{}).get('matchedTitle') or g['title'],flags=re.I)} for g in games]
  def fetch(url,file):
   nonlocal failures
   if not file.exists() and not args.offline:
@@ -52,7 +54,7 @@ def main():
   return file.read_bytes() if file.exists() else None
  for i in range(1,8):
   url='https://gamepro.co.il/category/reviews/'+(f'page/{i}/' if i>1 else '');raw=fetch(url,args.cache_dir/f'gamepro-{i}.html')
-  if raw:items.update(candidates(html.fromstring(raw),games))
+  if raw:items.update(candidates(html.fromstring(raw),games+aliases))
  entries={};manual=json.loads((ROOT/'scripts/hebrew-review-sources.json').read_text(encoding='utf-8'))
  for item in manual:
   for game in games:

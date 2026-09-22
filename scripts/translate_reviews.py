@@ -4,8 +4,14 @@ Anonymous translation endpoint: cached, paced, stops on rate limits; no API key 
 import argparse,concurrent.futures,datetime,hashlib,json,pathlib,re,threading,time,urllib.parse,urllib.request
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 def main():
- ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('--cache-dir',type=pathlib.Path,required=True);ap.add_argument('--offline',action='store_true');ap.add_argument('--batch-size',type=int,choices=[1,2,3,4],default=4);args=ap.parse_args();args.cache_dir.mkdir(parents=True,exist_ok=True)
- metadata=json.loads((ROOT/'data/metadata.js').read_text(encoding='utf-8').split('=',1)[1].strip().rstrip(';'))['entries'];texts=list(dict.fromkeys(m['receptionText']['text'] for m in metadata.values() if m.get('receptionText')));stop=threading.Event()
+ ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('--cache-dir',type=pathlib.Path,required=True);ap.add_argument('--offline',action='store_true');ap.add_argument('--editorial',action='store_true',help='Translate attributed publisher excerpts instead of Wikipedia');ap.add_argument('--batch-size',type=int,choices=[1,2,3,4,8,12],default=4);args=ap.parse_args();args.cache_dir.mkdir(parents=True,exist_ok=True)
+ metadata=json.loads((ROOT/'data/metadata.js').read_text(encoding='utf-8').split('=',1)[1].strip().rstrip(';'))['entries']
+ if args.editorial:
+  editorial=json.loads((ROOT/'data/editorial-reviews.js').read_text(encoding='utf-8').split('=',1)[1].strip().rstrip(';'))['entries']
+  reviews=[r for rs in editorial.values() for r in rs]+[r for m in metadata.values() for r in m.get('criticExcerpts',[])]
+  texts=list(dict.fromkeys(r['text'] for r in reviews if r.get('text') and r.get('language','en')=='en'))
+ else:texts=list(dict.fromkeys(m['receptionText']['text'] for m in metadata.values() if m.get('receptionText')))
+ stop=threading.Event()
  translated={};pending=[]
  for text in texts:
   path=args.cache_dir/(hashlib.sha256(text.encode()).hexdigest()+'.json')
@@ -32,7 +38,8 @@ def main():
    output={}
    for i,text in enumerate(batch):
     value=parts[2*i+2].strip()
-    if not re.search('[א-ת]',value):raise ValueError('No Hebrew translation returned')
+    if not re.search('[א-ת]',value):
+     print('Translation quality check failed; left pending:',text[:100],flush=True);continue
     output[text]=value
    for text,value in output.items():
     path=args.cache_dir/(hashlib.sha256(text.encode()).hexdigest()+'.json')
@@ -44,6 +51,12 @@ def main():
   for i,result in enumerate(pool.map(translate_batch,batches),1):
    translated.update(result)
    if i%10==0:print('Batches',i,'of',len(batches),'translated',len(translated),'of',len(texts),flush=True)
+ if args.editorial:
+  entries={text:{'sourceText':text,'he':translated[text],'provider':'Google Translate'} for text in texts if text in translated}
+  payload={'generatedAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),'entries':entries}
+  (ROOT/'data/editorial-translations.js').write_text('window.EDITORIAL_TRANSLATIONS = '+json.dumps(payload,ensure_ascii=False,separators=(',',':'))+';\n',encoding='utf-8')
+  report={'excerpts':len(texts),'translated':len(entries),'missing':[text for text in texts if text not in translated]}
+  (ROOT/'data/editorial-translation-report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8');print('Editorial translations:',len(entries),'/',len(texts),flush=True);return
  entries={id:{'sourceText':m['receptionText']['text'],'he':translated[m['receptionText']['text']],'provider':'Google Translate'} for id,m in metadata.items() if m.get('receptionText') and m['receptionText']['text'] in translated}
  payload={'generatedAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),'entries':entries}
  (ROOT/'data/review-translations.js').write_text('window.REVIEW_TRANSLATIONS = '+json.dumps(payload,ensure_ascii=False,separators=(',',':'))+';\n',encoding='utf-8')

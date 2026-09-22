@@ -3,12 +3,12 @@
     "entries": 872,
     "writtenReview": 803,
     "complete": 810,
-    "year": 841,
+    "year": 840,
     "ps4Year": 605,
-    "image": 841,
+    "image": 853,
     "score": 810,
     "review": 836,
-    "hebrewReview": 136,
+    "hebrewReview": 147,
     "hebrewWikiTranslation": 734
   },
   "errors": [],
@@ -243,7 +243,6 @@
       "status": "incomplete",
       "missing": [
         "year",
-        "image",
         "score",
         "review"
       ]
@@ -254,7 +253,6 @@
       "status": "incomplete",
       "missing": [
         "year",
-        "image",
         "score",
         "review"
       ]
@@ -337,7 +335,6 @@
       "status": "incomplete",
       "missing": [
         "year",
-        "image",
         "score",
         "review"
       ]
@@ -505,7 +502,6 @@
       "status": "incomplete",
       "missing": [
         "year",
-        "image",
         "score",
         "review"
       ]
@@ -1108,7 +1104,6 @@
       "status": "incomplete",
       "missing": [
         "year",
-        "image",
         "score",
         "review"
       ]
@@ -1383,7 +1378,6 @@
       "status": "incomplete",
       "missing": [
         "year",
-        "image",
         "score",
         "review"
       ]
@@ -1411,6 +1405,8 @@
       "id": "9a707274923c3718dd577bde",
       "status": "incomplete",
       "missing": [
+        "year",
+        "image",
         "score",
         "review"
       ]
@@ -1559,7 +1555,6 @@
       "status": "incomplete",
       "missing": [
         "year",
-        "image",
         "score",
         "review"
       ]
@@ -2242,7 +2237,6 @@
       "status": "incomplete",
       "missing": [
         "year",
-        "image",
         "score",
         "review"
       ]
@@ -3062,7 +3056,6 @@
       "status": "incomplete",
       "missing": [
         "year",
-        "image",
         "score",
         "review"
       ]
@@ -3343,7 +3336,6 @@
       "status": "incomplete",
       "missing": [
         "year",
-        "image",
         "score",
         "review"
       ]
@@ -3624,7 +3616,6 @@
       "status": "incomplete",
       "missing": [
         "year",
-        "image",
         "score",
         "review"
       ]
@@ -4344,7 +4335,6 @@
       "status": "incomplete",
       "missing": [
         "year",
-        "image",
         "score",
         "review"
       ]
@@ -4988,7 +4978,6 @@
       "status": "incomplete",
       "missing": [
         "year",
-        "image",
         "score",
         "review"
       ]

@@ -93,6 +93,7 @@ def main():
    if m.get('source','').startswith('https://en.wikipedia.org/'):extra.pop('sourceName',None)
   else:report.append(title)
  for id,extra in supp.items():metadata.setdefault(id,{}).update(extra)
+ for id in json.loads((ROOT/'scripts/metadata-exclusions.json').read_text(encoding='utf-8')):metadata.pop(id,None)
  payload['generatedAt']=datetime.datetime.now(datetime.timezone.utc).isoformat()
  suppath.write_text(json.dumps(supp,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
  (ROOT/'data/metadata.js').write_text('window.GAME_METADATA = '+json.dumps(payload,ensure_ascii=False,separators=(',',':'))+';\n',encoding='utf-8')

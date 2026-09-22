@@ -1,0 +1,322 @@
+[
+  {
+    "game": "I am Bread",
+    "publisher": "Push Square",
+    "url": "https://www.pushsquare.com/reviews/ps4/i_am_bread",
+    "platform": "PS4",
+    "kind": "summary",
+    "verifiedManually": true,
+    "score": 5,
+    "scale": 10,
+    "summary": {
+      "he": "הרעיון המשונה ומצבי המשחק הנוספים יכולים להצחיק ולספק גיוון. עם זאת, שליטה מסורבלת, מצלמה בעייתית ובעיות ביצועים פוגעות בחוויה, ולכן הביקורת מתקשה להמליץ עליו מעבר לחובבי משחקים מטופשים במכוון.",
+      "en": "The odd premise and extra modes can be amusing and varied. Awkward controls, poor camera angles and performance problems undermine the experience, making it hard to recommend beyond players who particularly enjoy deliberately silly games."
+    }
+  },
+  {
+    "game": "RAD",
+    "publisher": "GameSpot",
+    "url": "https://www.gamespot.com/reviews/rad-review-welcome-to-the-new-age/1900-6417271/",
+    "platform": null,
+    "kind": "summary",
+    "verifiedManually": true,
+    "score": 6,
+    "scale": 10,
+    "summary": {
+      "he": "עולם צבעוני בהשראת שנות השמונים, כוחות מוטנטיים יצירתיים ודיאלוגים מוצלחים. מנגד, ההדרכה חסרה, פגיעות זולות מתסכלות במשחק עם מוות קבוע, וההתקדמות תלויה יותר מדי במזל.",
+      "en": "A colourful 1980s-inspired world, imaginative mutations and reactive dialogue are the highlights. Weak teaching, frustrating hits in a permadeath game and excessive dependence on luck make progress harder to enjoy."
+    }
+  },
+  {
+    "game": "NOT A HERO",
+    "publisher": "Push Square",
+    "url": "https://www.pushsquare.com/reviews/ps4/not_a_hero",
+    "platform": "PS4",
+    "kind": "summary",
+    "verifiedManually": true,
+    "summary": {
+      "en": "Violent, characterful 2D shooting with optional objectives that reward repeat runs. Fussy movement and cover controls, together with the lack of checkpoints, make longer missions frustrating.",
+      "he": "משחק יריות דו־ממדי אלים ומלא אופי, עם משימות צד שמוסיפות סיבות לחזור לשלבים. מנגד, תנועה ומערכת מחסה מסורבלות והיעדר נקודות שמירה עלולים להפוך משימות ארוכות למתסכלות."
+    },
+    "score": 7,
+    "scale": 10
+  },
+  {
+    "game": "Darkwood",
+    "publisher": "Push Square",
+    "url": "https://www.pushsquare.com/reviews/ps4/darkwood",
+    "platform": "PS4 Pro",
+    "kind": "summary",
+    "verifiedManually": true,
+    "summary": {
+      "en": "Oppressive atmosphere and excellent lighting create horror without relying on cheap jump scares. Straightforward crafting helps, but unclear progression, aimless wandering and awkward combat hold it back.",
+      "he": "אווירה מאיימת ותאורה מצוינת יוצרות אימה בלי להסתמך על הבהלות זולות. מערכת היצירה פשוטה להבנה, אבל התקדמות לא ברורה, שיטוט מתסכל וקרבות מסורבלים פוגעים בחוויה."
+    },
+    "score": 7,
+    "scale": 10
+  },
+  {
+    "game": "BELOW",
+    "publisher": "Push Square",
+    "url": "https://www.pushsquare.com/reviews/ps4/below",
+    "platform": "PS4 Pro",
+    "kind": "summary",
+    "verifiedManually": true,
+    "summary": {
+      "en": "Explore mode softens the punishing survival rules, while the visuals and music remain striking. Repetitive combat and insufficient direction or motivation weaken the adventure.",
+      "he": "מצב Explore מקל על חוקי ההישרדות הנוקשים, והעיצוב החזותי והמוזיקה מרשימים. עם זאת, הקרבות חוזרים על עצמם והמשחק לא תמיד מספק כיוון או מוטיבציה להמשיך."
+    },
+    "score": 6,
+    "scale": 10
+  },
+  {
+    "game": "flOw",
+    "publisher": "Push Square",
+    "url": "https://www.pushsquare.com/reviews/ps4/flow",
+    "platform": "PS4",
+    "kind": "summary",
+    "verifiedManually": true,
+    "summary": {
+      "en": "A distinctive, relaxing interactive experience whose motion controls generally work well. Its free-form design can be appealing, but repetitive mechanics and limited variety mean it will not suit everyone.",
+      "he": "חוויה אינטראקטיבית ייחודית ומרגיעה, שבה השליטה בהטיית השלט עובדת בדרך כלל היטב. המבנה החופשי מושך, אך המכניקות החזרתיות והמגוון המצומצם לא יתאימו לכל שחקן."
+    },
+    "score": 7,
+    "scale": 10
+  },
+  {
+    "game": "My Name is Mayo 2",
+    "publisher": "WayTooManyGames",
+    "url": "https://waytoomany.games/2020/12/09/review-my-name-is-mayo-2/",
+    "platform": "PS4",
+    "kind": "summary",
+    "verifiedManually": true,
+    "summary": {
+      "en": "Relentless clicking and a handful of minigames offer little depth. Mild absurdist humour cannot overcome repetitive music and shallow play; the main attraction is an easy platinum trophy.",
+      "he": "לחיצות בלתי פוסקות וכמה מיני־משחקים מספקים מעט מאוד עומק. ההומור האבסורדי לא מפצה על מוזיקה חזרתית ומשחקיות שטחית; מוקד המשיכה הוא בעיקר גביע פלטינה קל."
+    }
+  },
+  {
+    "game": "BATTLESHIP",
+    "publisher": "Christ Centered Gamer",
+    "url": "https://www.christcenteredgamer.com/reviews/consoles/xbox-one/battleship-xbox-one",
+    "platform": "Xbox One",
+    "kind": "summary",
+    "verifiedManually": true,
+    "summary": {
+      "en": "The 2016 board-game adaptation adds tactical options and a substantial mission mode. Weak AI and awkward local ship placement undermine it; the reviewer also struggled to find online opponents at the time of the review.",
+      "he": "עיבוד משחק הלוח מ־2016 מוסיף אפשרויות טקטיות ומצב משימות נרחב. בינה מלאכותית חלשה והצבת ספינות מסורבלת במשחק מקומי פוגעות בו; בזמן הביקורת המבקר התקשה גם למצוא יריבים ברשת."
+    }
+  },
+  {
+    "game": "Surgeon Simulator",
+    "publisher": "Push Square",
+    "url": "https://www.pushsquare.com/reviews/ps4/surgeon_simulator_anniversary_edition",
+    "platform": "PS4",
+    "kind": "summary",
+    "verifiedManually": true,
+    "summary": {
+      "en": "The Anniversary Edition turns botched operations into an absurd comedy. Patience and trial and error can be rewarding, but clumsy controls remain a major drawback; this is intentionally far from a realistic medical simulation.",
+      "he": "מהדורת Anniversary הופכת ניתוחים כושלים לקומדיה אבסורדית. סבלנות וניסוי וטעייה עשויים להשתלם, אך השליטה המסורבלת היא חיסרון מרכזי; זהו משחק הומוריסטי הרחוק מסימולציה רפואית מציאותית."
+    },
+    "score": 6,
+    "scale": 10
+  },
+  {
+    "game": "Pummel Party",
+    "publisher": "Phenixx Gaming",
+    "url": "https://web.phenixxgaming.com/2021/01/11/pummel-party-pc-review/",
+    "platform": "PC",
+    "kind": "summary",
+    "verifiedManually": true,
+    "summary": {
+      "en": "A hilarious and highly replayable board-game party experience with friends, with combat making competition more intense. Some minigames are annoying, and the bloody presentation is unsuitable for a whole-family audience.",
+      "he": "משחק מסיבה בסגנון משחק לוח שמצחיק עם חברים ומציע ערך רב למשחק חוזר. הקרבות מגבירים את התחרותיות. חלק מהמיני־משחקים מעצבנים, וההצגה המדממת אינה מתאימה לכל המשפחה."
+    },
+    "score": 9,
+    "scale": 10
+  },
+  {
+    "game": "OlliOlli 1+2",
+    "publisher": "Gaming Cypher",
+    "url": "https://gamingcypher.com/olliolli-epic-combo-edition-review-for-ps4/",
+    "platform": "PS4",
+    "kind": "summary",
+    "verifiedManually": true,
+    "summary": {
+      "en": "This review covers the Epic Combo bundle of both games. Fast skating, varied stages and demanding scoring make an enjoyable package; the reviewer found the daily leaderboard mode less appealing, while praising the overall value.",
+      "he": "הביקורת עוסקת באוסף Epic Combo של שני המשחקים. החלקה מהירה, שלבים מגוונים ואתגרי ניקוד יוצרים חבילה מהנה. מצב הדירוג היומי פחות מצא חן בעיני המבקר, אך התמורה הכוללת זכתה לשבחים."
+    },
+    "score": 9,
+    "scale": 10
+  },
+  {
+    "game": "Quake II",
+    "publisher": "Push Square",
+    "url": "https://www.pushsquare.com/reviews/ps5/quake-ii",
+    "platform": "PS5",
+    "kind": "summary",
+    "verifiedManually": true,
+    "summary": {
+      "en": "The remaster offers a generous collection of campaigns and expansions with crisp visuals and iconic weapons. Inconsistent hit detection and dull opening levels are the main complaints, despite the impressive overall package.",
+      "he": "החידוש מציע שפע קמפיינים והרחבות, תצוגה חדה וכלי נשק זכורים לטובה. זיהוי פגיעות לא עקבי ושלבי פתיחה משעממים הם עיקר הביקורת על חבילה מרשימה בסך הכול."
+    },
+    "score": 7,
+    "scale": 10
+  },
+  {
+    "game": "P.T.",
+    "publisher": "GameSpot",
+    "url": "https://www.gamespot.com/articles/why-you-should-play-p-t/1100-6422210/",
+    "platform": "PS4",
+    "kind": "summary",
+    "verifiedManually": true,
+    "summary": {
+      "en": "This critical feature praises the slow-building horror and small changes that make a single looping hallway deeply unsettling. Later puzzles are deliberately obscure and encourage community investigation; the experience is memorable in its own right.",
+      "he": "מאמר ההתרשמות משבח אימה שנבנית בהדרגה ושינויים קטנים שהופכים מסדרון חוזר למטריד מאוד. החידות המאוחרות מעורפלות במכוון ומעודדות חקירה משותפת בקהילה; החוויה זכירה גם בפני עצמה."
+    }
+  },
+  {
+    "game": "Slime 3K Rise Against Despot",
+    "publisher": "Redbrick Gaming",
+    "url": "https://www.redbrick.me/review-slime-3k-rise-against-despot/",
+    "platform": "PC (Early Access, 2023)",
+    "kind": "summary",
+    "verifiedManually": true,
+    "summary": {
+      "en": "This early-access review finds the simple combat satisfying and the sprites and animation well executed. Constantly comparing upgrades and cards interrupts the entertaining action, leaving an enjoyable but unfocused roguelite.",
+      "he": "ביקורת זו מתייחסת לגרסת הגישה המוקדמת מ־2023. הקרבות הפשוטים מספקים והגרפיקה והאנימציות מוצלחות, אך העיסוק התכוף בבחירת שדרוגים וקלפים קוטע את האקשן המהנה ויוצר חוויה שאינה ממוקדת מספיק."
+    }
+  },
+  {
+    "game": "Let's Sing 10",
+    "publisher": "Zonared",
+    "url": "https://www.zonared.com/analisis/analisis-lets-sing-10-ps4-karaoke/",
+    "platform": "PS4",
+    "kind": "summary",
+    "verifiedManually": true,
+    "summary": {
+      "en": "A refreshed interface and phone-as-microphone option make this an appealing party karaoke game. The singing challenge encourages improvement, but its contemporary Spanish and English pop selection will not suit every taste, and extra options are limited.",
+      "he": "ממשק מחודש ואפשרות להשתמש בטלפון כמיקרופון הופכים אותו למשחק קריוקי מוצלח למסיבות. אתגר השירה מעודד להשתפר, אך מבחר הפופ העכשווי בספרדית ובאנגלית לא יתאים לכולם והאפשרויות הנוספות מוגבלות."
+    },
+    "score": 7,
+    "scale": 10
+  },
+  {
+    "game": "Let's Sing 11",
+    "publisher": "AllGamersIn",
+    "url": "https://allgamersin.com/analisis-lets-sing-11/",
+    "platform": "PS4",
+    "kind": "summary",
+    "verifiedManually": true,
+    "summary": {
+      "en": "Varied modes, a strong song selection and flexible microphone support make a good social karaoke package. Small audio/input timing discrepancies, multiplayer lyric readability and missing vocal-volume control need improvement.",
+      "he": "מצבים מגוונים, מבחר שירים מוצלח ותמיכה גמישה במיקרופונים יוצרים חבילת קריוקי חברתית טובה. בעיות תזמון קלות, קריאות המילים במשחק מרובה משתתפים והיעדר שליטה בעוצמת שירת הזמר המקורי דורשים שיפור."
+    }
+  },
+  {
+    "game": "Let's Sing 12",
+    "publisher": "AllGamersIn",
+    "url": "https://allgamersin.com/analisis-lets-sing-12/",
+    "platform": null,
+    "kind": "summary",
+    "verifiedManually": true,
+    "summary": {
+      "en": "A good party option with current international and Spanish songs, varied modes and phone microphone support. A larger selection, easier songs and better video quality would have improved the package.",
+      "he": "אפשרות טובה למסיבות עם להיטים בינלאומיים וספרדיים, מגוון מצבים ותמיכה בטלפון כמיקרופון. רשימת שירים גדולה יותר, שירים קלים יותר לשירה ואיכות וידאו טובה יותר היו משפרים את החבילה."
+    },
+    "score": 7,
+    "scale": 10
+  },
+  {
+    "game": "Let's Sing 13",
+    "publisher": "Nintenderos",
+    "url": "https://www.nintenderos.com/2020/12/analisis-lets-sing-13-para-nintendo-switch/",
+    "platform": "Nintendo Switch",
+    "kind": "summary",
+    "verifiedManually": true,
+    "summary": {
+      "en": "Enjoyable group karaoke with welcome solo modes and smartphone microphone support. It remains accessible, but does little to innovate, and the reviewer wanted more Spanish-language songs.",
+      "he": "קריוקי מהנה בקבוצה, עם מצבי יחיד מבורכים ואפשרות להשתמש בטלפון כמיקרופון. המשחק נגיש, אך מחדש מעט מאוד והמבקר היה מעוניין במבחר גדול יותר של שירים בספרדית."
+    },
+    "score": 7.2,
+    "scale": 10
+  },
+  {
+    "game": "Let's Sing 2018 (Deutsch)",
+    "publisher": "ntower",
+    "url": "https://www.ntower.de/test/1761-let-s-sing-2018-switch/",
+    "platform": "Nintendo Switch",
+    "kind": "summary",
+    "verifiedManually": true,
+    "summary": {
+      "en": "An entertaining karaoke evening for fans of current pop and German hits. This review concerns the Switch edition: its two-player limit restricts team parties. Song packs rather than individual purchases and fixed song difficulty are further limitations.",
+      "he": "ערב קריוקי מהנה לאוהבי פופ עכשווי ולהיטים בגרמנית. הביקורת עוסקת בגרסת Switch: מגבלת שני השחקנים שלה מצמצמת מסיבות קבוצתיות. רכישת שירים בחבילות בלבד וקושי קבוע לכל שיר הם חסרונות נוספים."
+    },
+    "score": 7,
+    "scale": 10
+  },
+  {
+    "game": "Let's Sing 9 (Spanish)",
+    "publisher": "Zonared",
+    "url": "https://www.zonared.com/analisis/analisis-lets-sing-9-version-espanola-salto-adelante-franquicia/",
+    "platform": "PS4",
+    "kind": "summary",
+    "verifiedManually": true,
+    "summary": {
+      "en": "Phone microphone support works well and makes group play easier without buying extra equipment. Several singing challenges add variety, but the contemporary Spanish track list will appeal most to players already familiar with those hits.",
+      "he": "השימוש בטלפון כמיקרופון עבד היטב בבדיקה ומקל על משחק בקבוצה בלי רכישת ציוד נוסף. אתגרי השירה מוסיפים גיוון, אך רשימת הלהיטים הספרדיים העכשוויים תתאים במיוחד למי שכבר מכיר אותם."
+    }
+  },
+  {
+    "game": "Let's Sing 8 (Spanish)",
+    "publisher": "Videojuegos Cuatro",
+    "url": "https://www.cuatro.com/videojuegos/analisis/conviertete-lets-sing-version-espanola_18_2074800233.html",
+    "platform": null,
+    "kind": "summary",
+    "verifiedManually": true,
+    "summary": {
+      "en": "The gaming section recommends this Spanish-language karaoke title for parties. Solo, group and competitive modes provide different ways to sing, making the appeal especially dependent on enjoying music in Spanish.",
+      "he": "מדור המשחקים ממליץ על כותר הקריוקי הזה למסיבות ולאוהבי מוזיקה בספרדית. מצבי יחיד, קבוצה ותחרות מציעים דרכים שונות לשיר, ולכן ההתאמה תלויה בעיקר באהבת השירים בשפה זו."
+    }
+  },
+  {
+    "game": "Let's Sing 2017",
+    "publisher": "uVeJuegos",
+    "url": "https://uvejuegos.com/analisis/Lets-Sing-2017/Dando-el-cante/7435/57880",
+    "platform": "Xbox One",
+    "kind": "summary",
+    "verifiedManually": true,
+    "summary": {
+      "en": "The international edition keeps karaoke simple, putting songs before menus and offering classic, duet, memory and pass-the-microphone modes. The recommendation largely depends on liking the included songs rather than expecting a new formula.",
+      "he": "המהדורה הבינלאומית שומרת על קריוקי פשוט, מציגה קודם את השירים ומציעה שירה רגילה, דואט, שירה מהזיכרון והעברת מיקרופון. ההמלצה תלויה בעיקר באהבת השירים הכלולים ולא בציפייה לנוסחה חדשה."
+    }
+  },
+  {
+    "game": "Let's Sing 2020 (Deutsch)",
+    "publisher": "ntower",
+    "url": "https://www.ntower.de/test/2731-let-s-sing-2020-switch/",
+    "platform": "Nintendo Switch",
+    "kind": "summary",
+    "verifiedManually": true,
+    "summary": {
+      "en": "A pleasing mix of older and newer songs, reliable phone microphone support and varied modes make it enjoyable with friends. Voice recognition is shallow enough to reward humming, and the formula could use more creative freedom.",
+      "he": "שילוב מוצלח של שירים ישנים וחדשים, תמיכה אמינה בטלפון כמיקרופון ומצבים מגוונים הופכים אותו למהנה עם חברים. זיהוי הקול שטחי מספיק כדי לתגמל גם זמזום, והנוסחה זקוקה ליותר חופש יצירתי."
+    },
+    "score": 7,
+    "scale": 10
+  },
+  {
+    "game": "Let's Sing 2020 (Français)",
+    "publisher": "Culturellement Vôtre",
+    "url": "https://culturellementvotre.fr/2019/10/31/test-lets-sing-2020-pas-de-revolution-mais-une-evolution/",
+    "platform": "PS4",
+    "kind": "summary",
+    "verifiedManually": true,
+    "summary": {
+      "en": "The French and international edition is a strong party karaoke choice. The new team-based Let’s Party mode is the highlight, although it loses charm alone; dedicated microphones are preferred over phones for precision and feel.",
+      "he": "המהדורה עם השירים הצרפתיים והבינלאומיים היא אפשרות מוצלחת לקריוקי במסיבה. מצב הקבוצות החדש Let’s Party בולט לטובה אך פחות מהנה לבד; המבקר מעדיף מיקרופונים ייעודיים על טלפונים מבחינת דיוק ותחושה."
+    },
+    "score": 7,
+    "scale": 10
+  }
+]
