@@ -31,3 +31,8 @@ Genres are extracted from Wikipedia infoboxes, the cached PS4 game list, or exac
 IGN Israel (`il.ign.com`) is matched by review title or game slug, excluding TV episodes, seasons and film reviews. Its short Hebrew verdict/excerpt (up to 24 words) and explicit /10 score retain the review URL and platform when indicated. Vgames and IGN Israel precede GamePro in display order.
 
 Wikipedia reception excerpts are translated to Hebrew using Google Translate, retaining Wikipedia attribution and CC BY-SA terms. Machine translations are labeled and accompanied by an expandable English original. They are not presented as content from Hebrew Wikipedia. Source-text equality prevents stale translations being attached to updated source excerpts. Only public source text is submitted during generation; no personal notes or saved catalog status are read by the translation script.
+# Absolute Drift correction
+
+Absolute Drift includes manually checked, paraphrased PS4 review summaries from [GameSpew](https://www.gamespew.com/2016/08/absolute-drift-zen-edition-review/) and [PlayStation Country](https://www.playstationcountry.com/absolute-drift-zen-edition-ps4-review/), with Hebrew and English versions. The latter awards 7/10. The replacement image is linked from the game's [Steam listing](https://store.steampowered.com/app/320140/Absolute_Drift/). These corrections are retained in metadata-supplements.json. No verified Vgames or IGN Israel review was located for this title in this search; that does not establish that none exists.
+
+Review coverage remains partial. A sentence derived from a Metacritic score is not a written editorial review, and the metadata completeness count must not be interpreted as coverage from every publisher.

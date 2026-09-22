@@ -3,6 +3,7 @@
 window.catalogLanguage = 'he';
 try { if (localStorage.getItem('gaming-catalog-language') === 'en') window.catalogLanguage = 'en'; } catch {}
 const translations = {
+  "תמצית ביקורת מהמקור": "Summary of the source review",
   "תרגום אוטומטי לעברית · Google Translate": "Automatic Hebrew translation · Google Translate",
   "הצגת המקור באנגלית": "Show the English original",
   "ז׳אנר": "Genre",

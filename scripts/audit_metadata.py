@@ -34,7 +34,7 @@ def audit():
         if data:
             if not any(data.get('source', '').startswith(prefix) for prefix in ['https://en.wikipedia.org/wiki/', 'https://www.metacritic.com/game/']):
                 errors.append([game['title'], 'Missing source'])
-            if data.get('image') and urllib.parse.urlparse(data['image']).hostname not in ['upload.wikimedia.org', 'thumb.wikimedia.org', 'www.metacritic.com']:
+            if data.get('image') and urllib.parse.urlparse(data['image']).hostname not in ['upload.wikimedia.org', 'thumb.wikimedia.org', 'www.metacritic.com', 'shared.fastly.steamstatic.com']:
                 errors.append([game['title'], 'Unexpected image host'])
             if data.get('score') and not (0 <= data['score']['value'] <= 100 and data['score'].get('platform')):
                 errors.append([game['title'], 'Invalid score'])

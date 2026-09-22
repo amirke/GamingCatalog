@@ -9189,5 +9189,35 @@
       }
     ],
     "supplementSource": "https://www.metacritic.com/game/zero-escape-the-nonary-games/"
+  },
+  "cbd43787a37d2904c20d4315": {
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/320140/header.jpg",
+    "imageSource": "https://store.steampowered.com/app/320140/Absolute_Drift/",
+    "criticExcerpts": [
+      {
+        "publisher": "GameSpew",
+        "url": "https://www.gamespew.com/2016/08/absolute-drift-zen-edition-review/",
+        "platform": "PS4",
+        "kind": "summary",
+        "verifiedManually": true,
+        "summary": {
+          "he": "משחק דריפט עם עיצוב מינימליסטי נקי ופסקול אלקטרוני רגוע. השליטה דורשת אימון רב ועלולה לתסכל, אך הניסיון להשתפר נשאר מהנה. התוכן קצר יחסית, ועיקר הערך הוא בשיפור הביצועים ובשבירת שיאים.",
+          "en": "Clean minimalist visuals and a calm electronic soundtrack complement demanding drifting. Learning the controls can be frustrating, but improving remains enjoyable. There is relatively little content; the appeal lies in mastering the tracks and chasing better scores."
+        }
+      },
+      {
+        "publisher": "PlayStation Country",
+        "url": "https://www.playstationcountry.com/absolute-drift-zen-edition-ps4-review/",
+        "platform": "PS4",
+        "kind": "summary",
+        "verifiedManually": true,
+        "score": 7,
+        "scale": 10,
+        "summary": {
+          "he": "הביקורת משבחת את השליטה העקבית, הפסקול והעיצוב הנקי. שרשור החלקות והשיפור האישי מספקים, ואפשר לתרגל בלי לחץ זמן. החיסרון המרכזי הוא אורך המשחק: ההתקדמות העיקרית עשויה להסתיים בתוך כשעתיים, ולאחר מכן נשאר בעיקר המרדף אחר שיאים.",
+          "en": "Consistent handling, an excellent soundtrack and clear visuals make linking drifts satisfying. The open areas offer relaxed practice. The main drawback is brevity: the main progression can take roughly two hours, with leaderboard challenges providing most of the replay value."
+        }
+      }
+    ]
   }
 }

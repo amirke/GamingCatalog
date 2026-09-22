@@ -88,6 +88,7 @@ def main():
   if result:
    extra=supp.setdefault(g['id'],{})
    for key,val in result.items():
+    if key == 'criticExcerpts' and any(r.get('verifiedManually') for r in extra.get(key, [])):continue
     if key in ['criticExcerpts', 'supplementSource'] or not m.get(key):extra[key]=val
    if m.get('source','').startswith('https://en.wikipedia.org/'):extra.pop('sourceName',None)
   else:report.append(title)

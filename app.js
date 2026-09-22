@@ -9,7 +9,7 @@ const genreLabel = id => genreTaxonomy[id]?.[window.catalogLanguage] || id;
 const hebrewReviews = window.HEBREW_REVIEWS?.entries || {};
 const reviewTranslations = window.REVIEW_TRANSLATIONS?.entries || {};
 const metadataComplete = id => { const info = gameInfo(id); return ['year', 'image', 'score'].every(key => Boolean(info[key])) && Boolean(info.review || info.receptionText || info.criticExcerpts?.length); };
-const allowedImage = image => { try { const url = new URL(image); return url.protocol === 'https:' && ['upload.wikimedia.org', 'thumb.wikimedia.org', 'www.metacritic.com'].includes(url.hostname); } catch { return false; } };
+const allowedImage = image => { try { const url = new URL(image); return url.protocol === 'https:' && ['upload.wikimedia.org', 'thumb.wikimedia.org', 'www.metacritic.com', 'shared.fastly.steamstatic.com'].includes(url.hostname); } catch { return false; } };
 const KEY = 'gaming-catalog-state-v1';
 const $ = id => document.getElementById(id);
 let state = {schemaVersion: 1, entries: {}};
@@ -150,6 +150,14 @@ function reviewBlock(info, game) {
   const written = [info.receptionText, ...(info.criticExcerpts || [])].filter(Boolean);
   if (!summary && !written.length) block.append(node('p', 'review-summary', tr('לא נמצא תקציר ביקורת במקור.')));
   for (const review of written) {
+    if (review.kind === 'summary' && review.summary) {
+      block.append(node('small', '', tr('תמצית ביקורת מהמקור')));
+      const text = node('p', 'source-review', review.summary[window.catalogLanguage]);
+      text.lang = window.catalogLanguage; text.dir = window.catalogLanguage === 'he' ? 'rtl' : 'ltr';
+      block.append(text, sourceLink(review.publisher + (review.platform ? ' · ' + review.platform : '') + ' ↗', review.url));
+      if (review.score != null) block.append(node('strong', 'local-score', review.score + '/' + review.scale));
+      continue;
+    }
     const translation = reviewTranslations[game.id];
     const translated = window.catalogLanguage === 'he' && review === info.receptionText && translation?.sourceText === review.text && translation.he;
     block.append(node('small', '', tr(translated ? 'תרגום אוטומטי לעברית · Google Translate' : 'קטע ביקורת במקור באנגלית')));
