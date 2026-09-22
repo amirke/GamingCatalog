@@ -1,0 +1,137 @@
+{
+  "Atari Flashback Classics vol.2": {
+    "sourceLabel": "Arcade",
+    "source": "https://en.wikipedia.org/wiki/List_of_PlayStation_4_games_%28A%E2%80%93L%29",
+    "basis": "Matched edition or included/base game: Atari Flashback Classics: Volume 2"
+  },
+  "Atari Flashback Classics vol.3": {
+    "sourceLabel": "Arcade",
+    "source": "https://en.wikipedia.org/wiki/List_of_PlayStation_4_games_%28A%E2%80%93L%29",
+    "basis": "Matched edition or included/base game: Atari Flashback Classics: Volume 3"
+  },
+  "Baldur's Gate and Baldur's Gate II": {
+    "sourceLabel": "Role-playing",
+    "source": "https://en.wikipedia.org/wiki/List_of_PlayStation_4_games_%28A%E2%80%93L%29",
+    "basis": "Matched edition or included/base game: Baldur's Gate: Enhanced Edition; Baldur's Gate II: Enhanced Edition"
+  },
+  "Borderlands 2 + The Pre-Sequel": {
+    "sourceLabel": "Action role-playing, first-person shooter",
+    "source": "https://en.wikipedia.org/wiki/List_of_PlayStation_4_games_%28A%E2%80%93L%29",
+    "basis": "Matched edition or included/base game: Borderlands: The Handsome Collection"
+  },
+  "Devil May Cry Trilogy": {
+    "sourceLabel": "Action-adventure, hack and slash",
+    "source": "https://en.wikipedia.org/wiki/List_of_PlayStation_4_games_%28A%E2%80%93L%29",
+    "basis": "Matched edition or included/base game: Devil May Cry HD Collection"
+  },
+  "KINGDOM HEARTS 1.5 + 2.5": {
+    "sourceLabel": "Action role-playing",
+    "source": "https://en.wikipedia.org/wiki/List_of_PlayStation_4_games_%28A%E2%80%93L%29",
+    "basis": "Matched edition or included/base game: Kingdom Hearts HD 1.5 + 2.5 Remix"
+  },
+  "OlliOlli 1+2": {
+    "sourceLabel": "Sportsside-scroller",
+    "source": "https://en.wikipedia.org/wiki/List_of_PlayStation_4_games_%28M%E2%80%93Z%29",
+    "basis": "Matched edition or included/base game: OlliOlli; OlliOlli2: Welcome to Olliwood"
+  },
+  "PROTOTYPE 1+2": {
+    "sourceLabel": "Action-adventure",
+    "source": "https://en.wikipedia.org/wiki/List_of_PlayStation_4_games_%28M%E2%80%93Z%29",
+    "basis": "Matched edition or included/base game: Prototype; Prototype 2"
+  },
+  "STARWHAL": {
+    "sourceLabel": "Fighting",
+    "source": "https://en.wikipedia.org/wiki/List_of_PlayStation_4_games_%28M%E2%80%93Z%29",
+    "basis": "Matched edition or included/base game: Starwhal: Just the Tip"
+  },
+  "The Walking Dead The Telltale Series": {
+    "sourceLabel": "Graphic adventure",
+    "source": "https://en.wikipedia.org/wiki/List_of_PlayStation_4_games_%28M%E2%80%93Z%29",
+    "basis": "Matched edition or included/base game: The Walking Dead: Season One; The Walking Dead: Season Two; The Walking Dead: Season Three; The Walking Dead: The Final Season"
+  },
+  "PAC-MAN Championship Edition 2 + Arcade Game Series": {
+    "sourceLabel": "Arcade",
+    "source": "https://en.wikipedia.org/wiki/List_of_PlayStation_4_games_%28M%E2%80%93Z%29",
+    "basis": "Matched edition or included/base game: Pac-Man Championship Edition 2"
+  },
+  "NARUTO SHIPPUDEN Ultimate Ninja STORM 4 ROAD TO BORUTO": {
+    "sourceLabel": "Fighting",
+    "source": "https://en.wikipedia.org/wiki/List_of_PlayStation_4_games_%28M%E2%80%93Z%29",
+    "basis": "Matched edition or included/base game: Naruto Shippuden: Ultimate Ninja Storm 4"
+  },
+  "TowerFall Dark World Expansion": {
+    "sourceLabel": "Arena combat, platform",
+    "source": "https://en.wikipedia.org/wiki/List_of_PlayStation_4_games_%28M%E2%80%93Z%29",
+    "basis": "Matched edition or included/base game: TowerFall Ascension"
+  },
+  "Rock Band 4 Expansion Pack 1": {
+    "sourceLabel": "Rhythm",
+    "source": "https://en.wikipedia.org/wiki/List_of_PlayStation_4_games_%28M%E2%80%93Z%29",
+    "basis": "Matched edition or included/base game: Rock Band 4"
+  },
+  "Rock Band 4 Expansion Pack 2": {
+    "sourceLabel": "Rhythm",
+    "source": "https://en.wikipedia.org/wiki/List_of_PlayStation_4_games_%28M%E2%80%93Z%29",
+    "basis": "Matched edition or included/base game: Rock Band 4"
+  },
+  "Rock Band 4 Expansion Pack 3": {
+    "sourceLabel": "Rhythm",
+    "source": "https://en.wikipedia.org/wiki/List_of_PlayStation_4_games_%28M%E2%80%93Z%29",
+    "basis": "Matched edition or included/base game: Rock Band 4"
+  },
+  "Rock Band 4 Expansion Pack 4": {
+    "sourceLabel": "Rhythm",
+    "source": "https://en.wikipedia.org/wiki/List_of_PlayStation_4_games_%28M%E2%80%93Z%29",
+    "basis": "Matched edition or included/base game: Rock Band 4"
+  },
+  "Let's Sing 10": {
+    "sourceLabel": "Karaoke, music",
+    "source": "https://en.wikipedia.org/wiki/Let%27s_Sing",
+    "basis": "Series genre; regional edition"
+  },
+  "Let's Sing 11": {
+    "sourceLabel": "Karaoke, music",
+    "source": "https://en.wikipedia.org/wiki/Let%27s_Sing",
+    "basis": "Series genre; regional edition"
+  },
+  "Let's Sing 12": {
+    "sourceLabel": "Karaoke, music",
+    "source": "https://en.wikipedia.org/wiki/Let%27s_Sing",
+    "basis": "Series genre; regional edition"
+  },
+  "Let's Sing 13": {
+    "sourceLabel": "Karaoke, music",
+    "source": "https://en.wikipedia.org/wiki/Let%27s_Sing",
+    "basis": "Series genre; regional edition"
+  },
+  "Let's Sing 2018 (Deutsch)": {
+    "sourceLabel": "Karaoke, music",
+    "source": "https://en.wikipedia.org/wiki/Let%27s_Sing",
+    "basis": "Series genre; regional edition"
+  },
+  "Let's Sing 8 (Spanish)": {
+    "sourceLabel": "Karaoke, music",
+    "source": "https://en.wikipedia.org/wiki/Let%27s_Sing",
+    "basis": "Series genre; regional edition"
+  },
+  "Let's Sing 9 (Spanish)": {
+    "sourceLabel": "Karaoke, music",
+    "source": "https://en.wikipedia.org/wiki/Let%27s_Sing",
+    "basis": "Series genre; regional edition"
+  },
+  "El Hijo": {
+    "sourceLabel": "Stealth",
+    "source": "https://handy-games.com/de/games/el-hijo/",
+    "basis": "Publisher game page"
+  },
+  "FINAL FANTASY III": {
+    "sourceLabel": "Role-playing",
+    "source": "https://www.jp.square-enix.com/pcgamehub/title/ff_pixelremaster/ff3/index.html",
+    "basis": "Publisher game page"
+  },
+  "PES 2025 (Season Update)": {
+    "sourceLabel": "Sports",
+    "source": "https://en.wikipedia.org/wiki/List_of_PlayStation_4_games_%28A%E2%80%93L%29",
+    "basis": "PES series genre; the catalog season-update name does not identify an official edition"
+  }
+}

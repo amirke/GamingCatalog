@@ -21,3 +21,7 @@ Supplements are stored separately and reapplied during Wikipedia rebuilds. Run t
 ## Hebrew editorial reviews
 
 GamePro review archive pages are matched by the leading game title or an exact review URL slug. Roundups, first-review news, and incidental mentions of other games are excluded. Original Hebrew extracts are capped at 24 words per article and link to the full review; no forum posts are used. Vgames sources in `scripts/hebrew-review-sources.json` were checked individually; their Hebrew text is an attributed paraphrase, labeled as a summary. Scores are only extracted from explicit rating elements and keep their /10 scale.
+
+## Genres
+
+Genres are extracted from Wikipedia infoboxes, the cached PS4 game list, or exact-title Metacritic JSON-LD. A documented taxonomy maps source terms into one or more bilingual tags (e.g. action role-playing → Action + Role-playing). No personal data is changed. Edition/collection mappings and publisher-verified additions retain provenance in `scripts/genre-sources.json`; expansion and regional-version tags inherit the base game's or series' genre and record this basis. Unknown identities remain unclassified.

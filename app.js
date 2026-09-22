@@ -3,6 +3,9 @@ const catalog = window.GAMING_CATALOG;
 const games = catalog.games;
 const metadata = window.GAME_METADATA?.entries || {};
 const gameInfo = id => metadata[id] || {};
+const genres = window.GAME_GENRES?.entries || {};
+const genreTaxonomy = window.GAME_GENRES?.taxonomy || {};
+const genreLabel = id => genreTaxonomy[id]?.[window.catalogLanguage] || id;
 const hebrewReviews = window.HEBREW_REVIEWS?.entries || {};
 const metadataComplete = id => { const info = gameInfo(id); return ['year', 'image', 'score'].every(key => Boolean(info[key])) && Boolean(info.review || info.receptionText || info.criticExcerpts?.length); };
 const allowedImage = image => { try { const url = new URL(image); return url.protocol === 'https:' && ['upload.wikimedia.org', 'thumb.wikimedia.org', 'www.metacritic.com'].includes(url.hostname); } catch { return false; } };
@@ -15,7 +18,10 @@ let ui = {};
 try { ui = JSON.parse(localStorage.getItem(UI_KEY) || '{}') || {}; } catch {}
 let view = ui.view === 'list' ? 'list' : 'cards';
 const expanded = new Set();
-const filterIds = ['search', 'filter', 'downloadFilter', 'playFilter', 'interestFilter', 'interestedFilter', 'notesFilter', 'regionFilter', 'yearFilter', 'ps4YearFilter', 'metadataFilter', 'hebrewReviewFilter', 'sort'];
+const filterIds = ['search', 'filter', 'downloadFilter', 'playFilter', 'interestFilter', 'interestedFilter', 'notesFilter', 'regionFilter', 'genreFilter', 'yearFilter', 'ps4YearFilter', 'metadataFilter', 'hebrewReviewFilter', 'sort'];
+for (const id of [...new Set(Object.values(genres).flatMap(entry => entry.genres))].sort((a,b) => genreLabel(a).localeCompare(genreLabel(b), window.catalogLanguage))) {
+  const option = document.createElement('option'); option.value = id; option.textContent = genreLabel(id); $('genreFilter').append(option);
+}
 for (const [id, field] of [['yearFilter', 'year'], ['ps4YearFilter', 'ps4Year']]) {
   for (const year of [...new Set(Object.values(metadata).map(m => m[field]).filter(Boolean))].sort((a, b) => b - a)) {
     const option = document.createElement('option'); option.value = String(year); option.textContent = year; $(id).append(option);
@@ -173,7 +179,13 @@ function card(game) {
   } else icon.setAttribute('aria-hidden', 'true');
   const heading = node('div'); const title = node('h3', '', game.title + (info.year ? ` (${info.year})` : '')); title.dir = 'ltr';
   const meta = node('div', 'meta', ['PS4' + (info.ps4Year ? ' ' + info.ps4Year : ''), game.region, 'v' + game.version, game.bytes ? (game.bytes / 1024 ** 3).toFixed(1) + ' GiB' : ''].filter(Boolean).join(' · ')); meta.dir = 'ltr';
-  heading.append(title, meta); top.append(icon, heading);
+  heading.append(title, meta);
+  const genreRow = node('div', 'genre-tags');
+  const gameGenres = genres[game.id];
+  if (gameGenres?.genres.length) {
+    for (const id of gameGenres.genres) genreRow.append(node('span', 'genre-tag', genreLabel(id)));
+  } else genreRow.append(node('span', 'metadata-missing', tr('ז׳אנר לא נמצא')));
+  heading.append(genreRow); top.append(icon, heading);
   if (!info.year) heading.append(node('span', 'metadata-missing', tr('שנת יציאה לא נמצאה')));
   if (info.score) heading.append(node('span', 'score-chip', info.score.value + '/100 · ' + (info.score.platform === 'unspecified' ? 'Metacritic' : info.score.platform)));
   const checks = node('div', 'checks');
@@ -184,6 +196,7 @@ function card(game) {
     wrap.append(input, document.createTextNode(label)); checks.append(wrap);
   }
   const links = node('div', 'links');
+  if (gameGenres?.source) { const genreSource = sourceLink(tr('מקור הז׳אנר ↗'), gameGenres.source); genreSource.title = [gameGenres.sourceLabel, gameGenres.basis].filter(Boolean).join(' · '); links.append(genreSource); }
   for (const [text, url] of [[tr('↗ חיפוש באינטרנט'), 'https://www.google.com/search?q=' + encodeURIComponent(game.title + ' PS4')], ['↗ Archive · ' + game.letter, game.archiveUrl]]) {
     const link = node('a', '', text); link.href = url; link.target = '_blank'; link.rel = 'noopener noreferrer'; links.append(link);
   }
@@ -231,6 +244,7 @@ function filtered() {
   const list = games.filter(g => (letter === 'all' || g.letter === letter) && (!search || (g.title + ' ' + g.filename).toLocaleLowerCase().includes(search)) &&
     (filter === 'all' || filter === 'notDownloaded' && !value(g.id, 'downloaded') || filter === 'notPlayed' && !value(g.id, 'played') || Boolean(value(g.id, filter))) &&
     match(g.id, 'downloaded', 'downloadFilter') && match(g.id, 'played', 'playFilter') && match(g.id, 'notInterested', 'interestFilter') && match(g.id, 'interested', 'interestedFilter') && match(g.id, 'notes', 'notesFilter') &&
+    ($('genreFilter').value === 'all' || ($('genreFilter').value === 'unknown' ? !genres[g.id]?.genres.length : genres[g.id]?.genres.includes($('genreFilter').value))) &&
     ($('regionFilter').value === 'all' || g.region === $('regionFilter').value) && yearMatch(g.id, 'year', 'yearFilter') && yearMatch(g.id, 'ps4Year', 'ps4YearFilter') &&
     ($('hebrewReviewFilter').value === 'all' || Boolean(hebrewReviews[g.id]?.length) === ($('hebrewReviewFilter').value === 'yes')) &&
     ($('metadataFilter').value === 'all' || metadataComplete(g.id) === ($('metadataFilter').value === 'complete')));

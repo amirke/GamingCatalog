@@ -12,3 +12,5 @@ button.monogram.cover{cursor:zoom-in}button.monogram.cover:hover:not(:disabled){
 .hebrew-review{border:1px solid #425775;border-radius:10px;padding:12px;margin:10px 0;background:#152339}.hebrew-review p{line-height:1.8;text-align:right}.hebrew-review small{display:block;margin-top:7px}.local-score{margin-inline-start:12px}.hebrew-reviews-title{margin-top:12px}
 
 .interested-reason{margin-bottom:16px}.interested-reason[hidden]{display:none}
+
+.genre-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px;align-items:center}.genre-tag{font-size:.75rem;line-height:1.4;padding:3px 8px;border-radius:12px;background:#27364a;color:#dbe7fa}.genre-source{font-size:.7rem;color:#9cacbf}.row-toggle .genre-source{pointer-events:auto}

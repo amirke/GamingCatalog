@@ -3,6 +3,9 @@
 window.catalogLanguage = 'he';
 try { if (localStorage.getItem('gaming-catalog-language') === 'en') window.catalogLanguage = 'en'; } catch {}
 const translations = {
+  "ז׳אנר": "Genre",
+  "ז׳אנר לא נמצא": "Genre not found",
+  "מקור הז׳אנר ↗": "Genre source ↗",
   "מעוניין": "Interested",
   "רק מעוניין": "Only interested",
   "ללא סימון מעוניין": "Not marked interested",
