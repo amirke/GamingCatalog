@@ -7,6 +7,7 @@ const genres = window.GAME_GENRES?.entries || {};
 const genreTaxonomy = window.GAME_GENRES?.taxonomy || {};
 const genreLabel = id => genreTaxonomy[id]?.[window.catalogLanguage] || id;
 const hebrewReviews = window.HEBREW_REVIEWS?.entries || {};
+const reviewTranslations = window.REVIEW_TRANSLATIONS?.entries || {};
 const metadataComplete = id => { const info = gameInfo(id); return ['year', 'image', 'score'].every(key => Boolean(info[key])) && Boolean(info.review || info.receptionText || info.criticExcerpts?.length); };
 const allowedImage = image => { try { const url = new URL(image); return url.protocol === 'https:' && ['upload.wikimedia.org', 'thumb.wikimedia.org', 'www.metacritic.com'].includes(url.hostname); } catch { return false; } };
 const KEY = 'gaming-catalog-state-v1';
@@ -149,9 +150,15 @@ function reviewBlock(info, game) {
   const written = [info.receptionText, ...(info.criticExcerpts || [])].filter(Boolean);
   if (!summary && !written.length) block.append(node('p', 'review-summary', tr('לא נמצא תקציר ביקורת במקור.')));
   for (const review of written) {
-    block.append(node('small', '', tr('קטע ביקורת במקור באנגלית')));
-    const quote = node('blockquote', 'source-review', review.text); quote.lang = 'en'; quote.dir = 'ltr';
+    const translation = reviewTranslations[game.id];
+    const translated = window.catalogLanguage === 'he' && review === info.receptionText && translation?.sourceText === review.text && translation.he;
+    block.append(node('small', '', tr(translated ? 'תרגום אוטומטי לעברית · Google Translate' : 'קטע ביקורת במקור באנגלית')));
+    const quote = node('blockquote', 'source-review', translated || review.text); quote.lang = translated ? 'he' : 'en'; quote.dir = translated ? 'rtl' : 'ltr';
     block.append(quote, sourceLink(review.publisher + (review.platform ? ' · ' + review.platform : '') + ' ↗', review.url));
+    if (translated) {
+      const original = node('details', 'original-review'); original.append(node('summary', '', tr('הצגת המקור באנגלית')));
+      const text = node('blockquote', 'source-review', review.text); text.lang = 'en'; text.dir = 'ltr'; original.append(text); block.append(original);
+    }
   }
   if (info.source) {
     block.append(node('small', 'matched-title', tr('זוהה אוטומטית כ: ') + info.matchedTitle));

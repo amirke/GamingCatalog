@@ -14,3 +14,5 @@ button.monogram.cover{cursor:zoom-in}button.monogram.cover:hover:not(:disabled){
 .interested-reason{margin-bottom:16px}.interested-reason[hidden]{display:none}
 
 .genre-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px;align-items:center}.genre-tag{font-size:.75rem;line-height:1.4;padding:3px 8px;border-radius:12px;background:#27364a;color:#dbe7fa}.genre-source{font-size:.7rem;color:#9cacbf}.row-toggle .genre-source{pointer-events:auto}
+
+.source-review[dir=rtl]{text-align:right}.original-review{margin-block:10px}.original-review summary{cursor:pointer;color:#9cacbf;font-size:.8rem}

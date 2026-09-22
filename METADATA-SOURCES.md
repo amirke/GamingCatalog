@@ -25,3 +25,9 @@ GamePro review archive pages are matched by the leading game title or an exact r
 ## Genres
 
 Genres are extracted from Wikipedia infoboxes, the cached PS4 game list, or exact-title Metacritic JSON-LD. A documented taxonomy maps source terms into one or more bilingual tags (e.g. action role-playing → Action + Role-playing). No personal data is changed. Edition/collection mappings and publisher-verified additions retain provenance in `scripts/genre-sources.json`; expansion and regional-version tags inherit the base game's or series' genre and record this basis. Unknown identities remain unclassified.
+
+## IGN Israel and Hebrew translations
+
+IGN Israel (`il.ign.com`) is matched by review title or game slug, excluding TV episodes, seasons and film reviews. Its short Hebrew verdict/excerpt (up to 24 words) and explicit /10 score retain the review URL and platform when indicated. Vgames and IGN Israel precede GamePro in display order.
+
+Wikipedia reception excerpts are translated to Hebrew using Google Translate, retaining Wikipedia attribution and CC BY-SA terms. Machine translations are labeled and accompanied by an expandable English original. They are not presented as content from Hebrew Wikipedia. Source-text equality prevents stale translations being attached to updated source excerpts. Only public source text is submitted during generation; no personal notes or saved catalog status are read by the translation script.

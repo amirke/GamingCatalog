@@ -50,8 +50,16 @@ def audit():
         for game_id, reviews in hebrew.items():
             if game_id not in {g['id'] for g in catalog}: errors.append([game_id, 'Orphan Hebrew review'])
             for review in reviews:
-                if urllib.parse.urlparse(review.get('url', '')).hostname not in ['gamepro.co.il', 'vgames.co.il', 'www.vgames.co.il'] or not review.get('text') or review.get('language') != 'he':
+                if urllib.parse.urlparse(review.get('url', '')).hostname not in ['gamepro.co.il', 'vgames.co.il', 'www.vgames.co.il', 'il.ign.com'] or not review.get('text') or review.get('language') != 'he':
                     errors.append([game_id, 'Invalid Hebrew review source or text'])
+    translations_path = ROOT / 'data/review-translations.js'
+    if translations_path.exists():
+        translations = load_js(translations_path)['entries']
+        counts['hebrewWikiTranslation'] = len(translations)
+        for game_id, translated in translations.items():
+            original = metadata.get(game_id, {}).get('receptionText', {}).get('text')
+            if translated.get('sourceText') != original or not translated.get('he') or translated.get('provider') != 'Google Translate':
+                errors.append([game_id, 'Stale or invalid review translation'])
     report = {'coverage': dict(counts), 'errors': errors, 'rows': rows}
     (ROOT / 'data/metadata-audit.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     labels = {'year': 'Release year', 'image': 'Cover image', 'score': 'Critic score', 'review': 'Review summary or attributed excerpt'}

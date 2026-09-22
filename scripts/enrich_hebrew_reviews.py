@@ -65,8 +65,13 @@ def main():
    for id in item['games']:
     current=entries.setdefault(id,[])
     if not any(r['publisher']=='GamePro' for r in current):current.append(review)
+ ign_path=ROOT/'data/ign-reviews.json'
+ if ign_path.exists():
+  for id,review in json.loads(ign_path.read_text(encoding='utf-8')).items():entries.setdefault(id,[]).append(review)
+ priorities={'Vgames':0,'IGN Israel':1,'GamePro':2}
+ for reviews in entries.values():reviews.sort(key=lambda r:priorities.get(r['publisher'],99))
  payload={'generatedAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),'entries':entries}
  (ROOT/'data/hebrew-reviews.js').write_text('window.HEBREW_REVIEWS = '+json.dumps(payload,ensure_ascii=False,separators=(',',':'))+';\n',encoding='utf-8')
- report={'withHebrewReview':len(entries),'total':len(games),'unmatched':[g['title'] for g in games if g['id'] not in entries]}
+ report={'withHebrewReview':len(entries),'total':len(games),'byPublisher':{name:sum(any(r['publisher']==name for r in rs) for rs in entries.values()) for name in priorities},'unmatched':[g['title'] for g in games if g['id'] not in entries]}
  (ROOT/'data/hebrew-review-report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8');print('Hebrew reviews:',len(entries),'of',len(games))
 if __name__=='__main__':main()
