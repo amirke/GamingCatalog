@@ -35,4 +35,9 @@
     <footer><span>נתוני הקטלוג מקובצי SQLite מקומיים · <span id="sourceCount"></span> אוספים</span><span>הערות וסימונים נשמרים בדפדפן. מומלץ לייצא גיבוי.</span></footer>
   </main>
   <dialog id="syncDialog"><form method="dialog"><button class="close" aria-label="סגירה">✕</button><h2>סנכרון בין מכשירים</h2><div id="syncContent"></div></form></dialog>
+  <dialog id="imageDialog" class="image-dialog" aria-labelledby="imageTitle">
+    <div class="image-dialog-heading"><h2 id="imageTitle" dir="auto"></h2><button id="closeImage" type="button" aria-label="סגירה" autofocus>✕</button></div>
+    <img id="largeImage" alt="" referrerpolicy="no-referrer">
+    <p id="imageError" role="status" hidden>לא ניתן לטעון את התמונה כרגע.</p>
+  </dialog>
 </body></html>

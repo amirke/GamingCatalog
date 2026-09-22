@@ -83,6 +83,32 @@ function stats() {
   for (const field of ['downloaded', 'played', 'notes']) $('' + field + 'Count').textContent = games.filter(g => Boolean(value(g.id, field))).length.toLocaleString(window.catalogLanguage);
 }
 function node(tag, className, text) { const el = document.createElement(tag); if (className) el.className = className; if (text !== undefined) el.textContent = text; return el; }
+function openImage(game, thumbnail) {
+  const url = new URL(thumbnail);
+  if (!['upload.wikimedia.org', 'thumb.wikimedia.org'].includes(url.hostname) || url.protocol !== 'https:') return;
+  // Wikimedia thumbnails point to the original file before the final size segment.
+  url.hostname = 'upload.wikimedia.org';
+  url.pathname = url.pathname.replace(/\/thumb\/(.+)\/[^/]+$/, '/$1');
+  const image = $('largeImage');
+  $('imageTitle').textContent = game.title;
+  $('imageError').hidden = true; image.hidden = false; image.alt = game.title;
+  let fallbackUsed = url.href === thumbnail;
+  image.onerror = () => {
+    if (!fallbackUsed) { fallbackUsed = true; image.src = thumbnail; }
+    else { image.hidden = true; $('imageError').hidden = false; }
+  };
+  image.src = url.href;
+  $('imageDialog').showModal();
+}
+$('closeImage').addEventListener('click', () => $('imageDialog').close());
+$('imageDialog').addEventListener('click', event => {
+  const bounds = $('imageDialog').getBoundingClientRect();
+  if (event.target === $('imageDialog') && (event.clientX < bounds.left || event.clientX > bounds.right || event.clientY < bounds.top || event.clientY > bounds.bottom)) $('imageDialog').close();
+});
+$('imageDialog').addEventListener('close', () => {
+  $('largeImage').onerror = null;
+  $('largeImage').removeAttribute('src');
+});
 function sourceLink(text, url) {
   const link = node('a', '', text);
   if (/^https:\/\//.test(url || '')) { link.href = url; link.target = '_blank'; link.rel = 'noopener noreferrer'; }
@@ -111,12 +137,16 @@ function card(game) {
   const info = gameInfo(game.id);
   const el = node('article', 'game'); el.dataset.id = game.id;
   const top = node('div', 'game-top');
-  const icon = node('div', 'monogram', game.title[0].toUpperCase()); icon.setAttribute('aria-hidden', 'true');
-  if (/^https:\/\/(?:upload|thumb)\.wikimedia\.org\//.test(info.image || '')) {
+  const hasImage = /^https:\/\/(?:upload|thumb)\.wikimedia\.org\//.test(info.image || '');
+  const icon = node(hasImage ? 'button' : 'div', 'monogram', game.title[0].toUpperCase());
+  if (hasImage) {
+    icon.type = 'button'; icon.setAttribute('aria-label', tr('הגדלת תמונה: ') + game.title);
+    icon.title = tr('הגדלת תמונה: ') + game.title;
+    icon.addEventListener('click', () => openImage(game, info.image));
     const image = node('img'); image.alt = ''; image.loading = 'lazy'; image.decoding = 'async'; image.referrerPolicy = 'no-referrer';
-    image.addEventListener('error', () => { icon.replaceChildren(document.createTextNode(game.title[0].toUpperCase())); icon.classList.remove('cover'); });
+    image.addEventListener('error', () => { icon.replaceChildren(document.createTextNode(game.title[0].toUpperCase())); icon.classList.remove('cover'); icon.disabled = true; icon.removeAttribute('title'); });
     image.src = info.image; icon.replaceChildren(image); icon.classList.add('cover');
-  }
+  } else icon.setAttribute('aria-hidden', 'true');
   const heading = node('div'); const title = node('h3', '', game.title + (info.year ? ` (${info.year})` : '')); title.dir = 'ltr';
   const meta = node('div', 'meta', ['PS4' + (info.ps4Year ? ' ' + info.ps4Year : ''), game.region, 'v' + game.version, game.bytes ? (game.bytes / 1024 ** 3).toFixed(1) + ' GiB' : ''].filter(Boolean).join(' · ')); meta.dir = 'ltr';
   heading.append(title, meta); top.append(icon, heading);
@@ -145,7 +175,9 @@ function card(game) {
     toggle.setAttribute('aria-expanded', expanded.has(game.id));
     toggle.setAttribute('aria-controls', 'details-' + game.id);
     const arrow = node('span', 'row-arrow', expanded.has(game.id) ? '▾' : '▸'); arrow.setAttribute('aria-hidden', 'true');
-    toggle.append(arrow, top); row.append(toggle, checks);
+    // The cover is a separate button, never nested inside the collapse button.
+    icon.remove();
+    toggle.append(arrow, top); row.append(icon, toggle, checks);
     const details = node('div', 'row-details'); details.id = 'details-' + game.id; details.hidden = !expanded.has(game.id);
     details.append(links, reviewBlock(info), label, cheats);
     toggle.addEventListener('click', () => {

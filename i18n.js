@@ -3,6 +3,8 @@
 window.catalogLanguage = 'he';
 try { if (localStorage.getItem('gaming-catalog-language') === 'en') window.catalogLanguage = 'en'; } catch {}
 const translations = {
+  "הגדלת תמונה:": "Enlarge image:",
+  "לא ניתן לטעון את התמונה כרגע.": "The image could not be loaded right now.",
   "שנת יציאה": "Original release year",
   "שנת PS4": "PS4 release year",
   "חסר מידע": "Unknown",
