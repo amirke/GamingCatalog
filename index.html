@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark"><meta name="referrer" content="no-referrer">
+  <title>Gaming Catalog · ספריית המשחקים שלי</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="data/catalog.js"></script><script defer src="app.js"></script><script defer src="sync.js"></script>
+</head>
+<body>
+  <header><a class="brand" href="./"><span class="brand-icon">✚</span><span dir="ltr">PLAY / LOG</span></a><span class="edition">הספרייה האישית שלי <b>PS4</b></span></header>
+  <main>
+    <section class="hero"><div><span class="eyebrow">כל המשחקים. מקום אחד.</span><h1>מה משחקים <em>היום?</em></h1><p>לגלות, להוריד, לשחק — ולזכור איפה עצרת.</p></div><div class="hero-art" aria-hidden="true"><span>△</span><span>○</span><span>✕</span><span>□</span></div></section>
+    <section class="stats" aria-label="סיכום הספרייה"><div><span>בספרייה</span><strong id="total">—</strong></div><div><span>הורדתי</span><strong id="downloadedCount">0</strong></div><div><span>שיחקתי</span><strong id="playedCount">0</strong></div><div><span>עם הערות</span><strong id="notesCount">0</strong></div></section>
+    <section class="toolbar"><label class="search"><span>⌕</span><input id="search" type="search" placeholder="חיפוש לפי שם המשחק…" aria-label="חיפוש משחק"></label><label class="filter-label">הצגה<select id="filter"><option value="all">כל המשחקים</option><option value="downloaded">הורדתי</option><option value="notDownloaded">טרם הורדתי</option><option value="played">שיחקתי</option><option value="notPlayed">טרם שיחקתי</option><option value="notes">עם הערות</option></select></label><button id="export">↓ גיבוי</button><button id="import">↑ ייבוא</button><input id="importFile" type="file" accept="application/json,.json" hidden><button id="syncSettings">☁ סנכרון</button></section>
+    <nav id="letters" aria-label="סינון לפי אות"></nav>
+    <div class="list-heading"><h2>המשחקים שלי <span id="resultCount"></span></h2><span id="saveStatus" role="status">שמירה אוטומטית בדפדפן</span></div>
+    <div id="notice" role="alert" hidden></div>
+    <section id="games" class="games" aria-label="רשימת משחקים"></section>
+    <div id="empty" hidden>לא נמצאו משחקים. אפשר לשנות את החיפוש או הסינון.</div>
+    <div class="pagination"><button id="previous">→ הקודם</button><span id="pageLabel"></span><button id="next">הבא ←</button></div>
+    <footer><span>נתוני הקטלוג מקובצי SQLite מקומיים · <span id="sourceCount"></span> אוספים</span><span>הערות וסימונים נשמרים בדפדפן. מומלץ לייצא גיבוי.</span></footer>
+  </main>
+  <dialog id="syncDialog"><form method="dialog"><button class="close" aria-label="סגירה">✕</button><h2>סנכרון בין מכשירים</h2><div id="syncContent"></div></form></dialog>
+</body></html>
