@@ -5,7 +5,7 @@
   <meta name="color-scheme" content="dark"><meta name="referrer" content="no-referrer">
   <title>Gaming Catalog · ספריית המשחקים שלי</title>
   <link rel="stylesheet" href="styles.css">
-  <script defer src="data/catalog.js"></script><script defer src="data/metadata.js"></script><script defer src="i18n.js"></script><script defer src="app.js"></script><script defer src="sync.js"></script>
+  <script defer src="data/catalog.js"></script><script defer src="data/metadata.js"></script><script defer src="data/hebrew-reviews.js"></script><script defer src="i18n.js"></script><script defer src="app.js"></script><script defer src="sync.js"></script>
 </head>
 <body>
   <header><a class="brand" href="./"><span class="brand-icon">✚</span><span dir="ltr">PLAY / LOG</span></a><div class="header-tools"><span class="edition">הספרייה האישית שלי <b>PS4</b></span><button id="language" type="button" aria-label="Switch to English">English</button></div></header>
@@ -17,11 +17,13 @@
     <section class="extra-filters" aria-label="סינונים נוספים">
       <label><span>הורדה</span><select id="downloadFilter"><option value="all">הכול</option><option value="yes">הורדתי</option><option value="no">טרם הורדתי</option></select></label>
       <label><span>משחק</span><select id="playFilter"><option value="all">הכול</option><option value="yes">שיחקתי</option><option value="no">טרם שיחקתי</option></select></label>
+      <label><span>עניין במשחק</span><select id="interestFilter"><option value="all">הכול</option><option value="no">הסתר לא מעוניין</option><option value="yes">רק לא מעוניין</option></select></label>
       <label><span>הערות</span><select id="notesFilter"><option value="all">הכול</option><option value="yes">עם הערות</option><option value="no">ללא הערות</option></select></label>
       <label><span>אזור</span><select id="regionFilter"><option value="all">הכול</option></select></label>
       <label><span>שנת יציאה</span><select id="yearFilter"><option value="all">הכול</option><option value="unknown">חסר מידע</option></select></label>
       <label><span>שנת PS4</span><select id="ps4YearFilter"><option value="all">הכול</option><option value="unknown">חסר מידע</option></select></label>
-      <label><span>מידע על המשחק</span><select id="metadataFilter"><option value="all">הכול</option><option value="complete">מידע מלא</option><option value="incomplete">מידע חלקי או חסר</option></select></label>
+      <label><span>ביקורת בעברית</span><select id="hebrewReviewFilter"><option value="all">הכול</option><option value="yes">יש ביקורת בעברית</option><option value="no">ללא ביקורת בעברית</option></select></label>
+<label><span>מידע על המשחק</span><select id="metadataFilter"><option value="all">הכול</option><option value="complete">מידע מלא</option><option value="incomplete">מידע חלקי או חסר</option></select></label>
       <label><span>מיון</span><select id="sort"><option value="az">שם A–Z</option><option value="za">שם Z–A</option><option value="sizeDesc">גודל: מהגדול לקטן</option><option value="sizeAsc">גודל: מהקטן לגדול</option></select></label>
       <button id="resetFilters">איפוס סינונים</button>
     </section>

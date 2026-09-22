@@ -1,12 +1,14 @@
 {
   "coverage": {
     "entries": 872,
-    "complete": 709,
-    "year": 777,
+    "writtenReview": 802,
+    "complete": 810,
+    "year": 841,
     "ps4Year": 605,
-    "image": 766,
-    "score": 719,
-    "review": 733
+    "image": 841,
+    "score": 810,
+    "review": 836,
+    "hebrewReview": 67
   },
   "errors": [],
   "rows": [
@@ -67,11 +69,8 @@
     {
       "title": "ADR1FT",
       "id": "4215e169cd235eacef0cebe9",
-      "status": "incomplete",
-      "missing": [
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Alan Wake",
@@ -112,11 +111,8 @@
     {
       "title": "Ancestors Legacy",
       "id": "cbe739fb38242cb17700c963",
-      "status": "incomplete",
-      "missing": [
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Ancestors The Humankind Odyssey",
@@ -153,8 +149,7 @@
       "id": "25156c612808b21591694a4c",
       "status": "incomplete",
       "missing": [
-        "score",
-        "review"
+        "score"
       ]
     },
     {
@@ -202,13 +197,8 @@
     {
       "title": "Assassin's Creed The Ezio Collection",
       "id": "9ffa642411ccdded4460738b",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Assassin's Creed Unity",
@@ -243,13 +233,8 @@
     {
       "title": "Atari Flashback Classics vol.1",
       "id": "9937999805adedfda023e126",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Atari Flashback Classics vol.2",
@@ -383,10 +368,8 @@
     {
       "title": "Battlefield 1",
       "id": "e34089e1c378f68934044c12",
-      "status": "incomplete",
-      "missing": [
-        "score"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Battlefield 4",
@@ -426,13 +409,8 @@
     {
       "title": "Beat Cop",
       "id": "236811c6ddc734ae423ca316",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "BELOW",
@@ -443,13 +421,8 @@
     {
       "title": "Bendy and the Dark Revival",
       "id": "165b8537cb6be47c8c838414",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Bendy and the Ink Machine",
@@ -486,8 +459,7 @@
       "id": "a2c8341d88254102ac5f51e0",
       "status": "incomplete",
       "missing": [
-        "score",
-        "review"
+        "score"
       ]
     },
     {
@@ -558,18 +530,15 @@
     {
       "title": "Bramble The Mountain King",
       "id": "d3fce4c8aed8d7457e82c60f",
-      "status": "incomplete",
-      "missing": [
-        "score"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Brawlhalla",
       "id": "15c0c8d460743aca331c2f47",
       "status": "incomplete",
       "missing": [
-        "score",
-        "review"
+        "score"
       ]
     },
     {
@@ -613,20 +582,14 @@
       "id": "3587125cf71c029b1470954a",
       "status": "incomplete",
       "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
+        "score"
       ]
     },
     {
       "title": "BUTCHER",
       "id": "e3f85328deedee19f838f562",
-      "status": "incomplete",
-      "missing": [
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Call of Cthulhu",
@@ -763,11 +726,8 @@
     {
       "title": "Chess Ultra",
       "id": "9e2cb509e93ebf97db80b813",
-      "status": "incomplete",
-      "missing": [
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Chicken Police",
@@ -784,13 +744,8 @@
     {
       "title": "Chimparty",
       "id": "f33f74fb29c2a71a8c8657fc",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Cities Skylines",
@@ -873,22 +828,14 @@
     {
       "title": "Creature in the Well",
       "id": "b0bd8f2fa2605efee6f27ee6",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Cricket 24",
       "id": "680e7bd48fc272ec6dc6cfd3",
-      "status": "incomplete",
-      "missing": [
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "CRISIS CORE FINAL FANTASY VII",
@@ -971,20 +918,14 @@
     {
       "title": "DARK SOULS II",
       "id": "bf4d6040a29097c2e017226d",
-      "status": "incomplete",
-      "missing": [
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "DARK SOULS III",
       "id": "c3dfc4ea1d56400932932b27",
-      "status": "incomplete",
-      "missing": [
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Darksiders",
@@ -1085,13 +1026,8 @@
     {
       "title": "Dead Rising 4 Frank's Big Package",
       "id": "e87a2385197e01475744efab",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Deadlight",
@@ -1126,13 +1062,8 @@
     {
       "title": "Despot's Game",
       "id": "52700dfafb84206077f4b914",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Destroy All Humans!",
@@ -1280,20 +1211,14 @@
     {
       "title": "DOOM",
       "id": "1d5ea67cb4dc1d6e5031c7bd",
-      "status": "incomplete",
-      "missing": [
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "DOOM (1993)",
       "id": "c5b21845e5422f038c22a3b3",
-      "status": "incomplete",
-      "missing": [
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "DOOM 2 (1994)",
@@ -1477,13 +1402,8 @@
     {
       "title": "Eldest Souls",
       "id": "f846bbe5331a54ae0d8dd032",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Electrician",
@@ -1539,10 +1459,8 @@
     {
       "title": "Fallout 4",
       "id": "c9d1b23eed76d8626d9d8b04",
-      "status": "incomplete",
-      "missing": [
-        "score"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "FAR Changing Tides",
@@ -1601,13 +1519,8 @@
     {
       "title": "Farming Simulator 22",
       "id": "73b547b9b50d7fbd2ceed616",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Fear The Spotlight",
@@ -1653,13 +1566,8 @@
     {
       "title": "FINAL FANTASY IV",
       "id": "5c5d6fbe5445ab605367b585",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "FINAL FANTASY IX",
@@ -1766,22 +1674,14 @@
     {
       "title": "FlatOut 4 Total Insanity",
       "id": "68330f1c44b7c590e1b630d4",
-      "status": "incomplete",
-      "missing": [
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Floor Kids",
       "id": "79e84ffd198555f0a956af2e",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "flOw",
@@ -1798,24 +1698,14 @@
     {
       "title": "For The King",
       "id": "a68f810b61af68db1f2b6570",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Frantics",
       "id": "1fa13bb1b751a160311f037f",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Frostpunk",
@@ -1904,18 +1794,14 @@
     {
       "title": "GoNNER",
       "id": "87589a7026cb0401585db684",
-      "status": "incomplete",
-      "missing": [
-        "image"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "GONNER2",
       "id": "a0dcbc89334f6418cbf74787",
-      "status": "incomplete",
-      "missing": [
-        "image"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Gran Turismo 7",
@@ -2016,13 +1902,8 @@
     {
       "title": "Heavenly Bodies",
       "id": "23c97ff5b30f56ad6afc7481",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "HEAVY RAIN",
@@ -2123,11 +2004,8 @@
     {
       "title": "HOT WHEELS UNLEASHED 2 - Turbocharged",
       "id": "d57a6e4fecfaaad27c25a96a",
-      "status": "incomplete",
-      "missing": [
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Hotline Miami",
@@ -2258,10 +2136,8 @@
     {
       "title": "Jump King",
       "id": "c7eca69808406864b829c432",
-      "status": "incomplete",
-      "missing": [
-        "score"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Jurassic World Evolution",
@@ -2284,32 +2160,20 @@
     {
       "title": "Just Cause 4",
       "id": "d22a70d068d0bea83ed8b0a4",
-      "status": "incomplete",
-      "missing": [
-        "score"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Just Deal With It!",
       "id": "6e9e4aad185163fe58079813",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Just Die Already",
       "id": "03c2dba710b10b4e82ddeb0f",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Just Shapes & Beats",
@@ -2320,11 +2184,8 @@
     {
       "title": "JUST SING",
       "id": "cd744c687a657cf733d2e806",
-      "status": "incomplete",
-      "missing": [
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Keep Talking and Nobody Explodes",
@@ -2341,11 +2202,8 @@
     {
       "title": "Kentucky Route Zero",
       "id": "665cd4e857ec68a091714a65",
-      "status": "incomplete",
-      "missing": [
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Kerbal Space Program",
@@ -2421,22 +2279,14 @@
     {
       "title": "Knowledge is Power",
       "id": "2c3c5ded3336f589fcba092c",
-      "status": "incomplete",
-      "missing": [
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Knowledge is Power Decades",
       "id": "61dd8db6e099f09057e9d0e9",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "L.A. Noire",
@@ -2495,13 +2345,8 @@
     {
       "title": "LEGO Harry Potter Collection",
       "id": "e89c325b2002dde36551c18e",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "LEGO Jurassic World",
@@ -2612,10 +2457,7 @@
       "id": "4d69ba22c7cb1cae23a69913",
       "status": "incomplete",
       "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
+        "score"
       ]
     },
     {
@@ -2623,8 +2465,6 @@
       "id": "2952a39fb07220c14aa4cb69",
       "status": "incomplete",
       "missing": [
-        "year",
-        "image",
         "score",
         "review"
       ]
@@ -2645,10 +2485,7 @@
       "id": "1cc3aa1e2e3e0b2a57e6e635",
       "status": "incomplete",
       "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
+        "score"
       ]
     },
     {
@@ -2656,10 +2493,7 @@
       "id": "adaca7fb40bbde04f33a823d",
       "status": "incomplete",
       "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
+        "score"
       ]
     },
     {
@@ -2687,23 +2521,15 @@
     {
       "title": "Let's Sing 2021",
       "id": "b49d90a04f0d94cf7850943d",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Let's Sing 2022",
       "id": "004fdb3628a7ac6b13b7966e",
       "status": "incomplete",
       "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
+        "score"
       ]
     },
     {
@@ -2731,35 +2557,20 @@
     {
       "title": "Let's Sing Abba",
       "id": "deca9f0843d49addca0c6a17",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Let's Sing Country",
       "id": "d9f8fff1b4836cb335017040",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Let's Sing Queen",
       "id": "f373cf804e381aa77ab9cc75",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Lies of P",
@@ -2770,27 +2581,20 @@
     {
       "title": "Life Is Strange",
       "id": "f9e28d36c60879d849505614",
-      "status": "incomplete",
-      "missing": [
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Life is Strange 2",
       "id": "7e9dbe1d96da80bd71be4ffb",
-      "status": "incomplete",
-      "missing": [
-        "score"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Life is Strange Before the Storm",
       "id": "a1c61db475101379a5897544",
-      "status": "incomplete",
-      "missing": [
-        "score"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Life is Strange True Colors",
@@ -2837,13 +2641,8 @@
     {
       "title": "Little Big Adventure - Twinsen's Quest",
       "id": "bbaab83d4fb279411dc62830",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Little Nightmares",
@@ -2896,11 +2695,8 @@
     {
       "title": "Lovers in a Dangerous Spacetime",
       "id": "3e22912c5b3afc768c6df782",
-      "status": "incomplete",
-      "missing": [
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Mad Max",
@@ -2941,13 +2737,8 @@
     {
       "title": "Mantis Burn Racing",
       "id": "f81b67493d076e6a9c42e658",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Marvel Ultimate Alliance",
@@ -2988,11 +2779,8 @@
     {
       "title": "Marvel's Guardians of the Galaxy The Telltale Series",
       "id": "2506facaad90598bf10c3262",
-      "status": "incomplete",
-      "missing": [
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Marvel's Midnight Suns",
@@ -3039,13 +2827,8 @@
     {
       "title": "Melbits World",
       "id": "efc7b00d5c0244c121142bb6",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "METAL GEAR SOLID",
@@ -3098,10 +2881,8 @@
     {
       "title": "Micro Machines World Series",
       "id": "2bf04dbeaca0fd85ab368cb1",
-      "status": "incomplete",
-      "missing": [
-        "image"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Middle-earth Shadow of Mordor",
@@ -3118,10 +2899,8 @@
     {
       "title": "Minecraft",
       "id": "0d0c39ab3a8d2d460e301ac8",
-      "status": "incomplete",
-      "missing": [
-        "image"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Minit",
@@ -3132,11 +2911,8 @@
     {
       "title": "Mirror's Edge Catalyst",
       "id": "e8c31d0a699fdc2b21112354",
-      "status": "incomplete",
-      "missing": [
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "MLB The Show 20",
@@ -3149,10 +2925,7 @@
       "id": "e40cde6548e45f83c6eaa03a",
       "status": "incomplete",
       "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
+        "score"
       ]
     },
     {
@@ -3190,10 +2963,8 @@
     {
       "title": "Monster Jam Steel Titans 2",
       "id": "f4e661426b302ff9406bcc7c",
-      "status": "incomplete",
-      "missing": [
-        "image"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Mortal Kombat 11",
@@ -3216,13 +2987,8 @@
     {
       "title": "MotoGP 24",
       "id": "481ac3a1cd71a2fd6f835947",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Moving Out",
@@ -3233,11 +2999,8 @@
     {
       "title": "Moving Out 2",
       "id": "0d97ce4dcdeb74a36dcd6493",
-      "status": "incomplete",
-      "missing": [
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "MudRunner",
@@ -3260,13 +3023,8 @@
     {
       "title": "MX vs ATV Legends",
       "id": "812232188560c4e3dce9aa4c",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "My Friend Pedro - Blood Bullets Bananas",
@@ -3279,10 +3037,7 @@
       "id": "3143fb026cd032c0a5d7a355",
       "status": "incomplete",
       "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
+        "score"
       ]
     },
     {
@@ -3290,8 +3045,6 @@
       "id": "429d77bfae4c7cee2ec56f4c",
       "status": "incomplete",
       "missing": [
-        "year",
-        "image",
         "score",
         "review"
       ]
@@ -3299,13 +3052,8 @@
     {
       "title": "NARUTO SHIPPUDEN Ultimate Ninja STORM 4",
       "id": "7cedf22a40873c7f02727dc9",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "NARUTO SHIPPUDEN Ultimate Ninja STORM 4 ROAD TO BORUTO",
@@ -3321,24 +3069,14 @@
     {
       "title": "NARUTO SHIPPUDEN Ultimate Ninja STORM TRILOGY",
       "id": "72729092792dc1245fa3b46d",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "NARUTO X BORUTO Ultimate Ninja STORM CONNECTIONS",
       "id": "21096659e3cbab7b5b70314b",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "NBA 2K Playgrounds 2",
@@ -3393,10 +3131,7 @@
       "id": "30f009285b35703565a7790b",
       "status": "incomplete",
       "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
+        "score"
       ]
     },
     {
@@ -3476,8 +3211,7 @@
       "id": "dadbbae23b894687b6393e7a",
       "status": "incomplete",
       "missing": [
-        "score",
-        "review"
+        "score"
       ]
     },
     {
@@ -3545,8 +3279,7 @@
       "id": "29e1ad48faf3532182e9a996",
       "status": "incomplete",
       "missing": [
-        "score",
-        "review"
+        "score"
       ]
     },
     {
@@ -3558,13 +3291,8 @@
     {
       "title": "NOW That's What I Call Sing",
       "id": "14b311382807d7972d75b113",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Nuclear Throne",
@@ -3700,18 +3428,14 @@
     {
       "title": "Oxenfree",
       "id": "99636a60627ab357b902ec0f",
-      "status": "incomplete",
-      "missing": [
-        "image"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "OXENFREE II Lost Signals",
       "id": "10dec295d65ed4211bda0aab",
-      "status": "incomplete",
-      "missing": [
-        "image"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "P.T.",
@@ -3789,13 +3513,8 @@
     {
       "title": "Persona 5 Dancing in Starlight",
       "id": "7549947cb508ab84489f50bc",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Persona 5 Strikers",
@@ -3831,18 +3550,14 @@
       "id": "8b579543fc905cb14ce99ad9",
       "status": "incomplete",
       "missing": [
-        "score",
-        "review"
+        "score"
       ]
     },
     {
       "title": "Pinball FX3",
       "id": "05bb284e0a69f83819025cfb",
-      "status": "incomplete",
-      "missing": [
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Planet Coaster",
@@ -3867,10 +3582,7 @@
       "id": "55b758505ead7aa5bfc3c027",
       "status": "incomplete",
       "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
+        "score"
       ]
     },
     {
@@ -3927,8 +3639,6 @@
       "id": "668961515af80a13ad2cce00",
       "status": "incomplete",
       "missing": [
-        "year",
-        "image",
         "score",
         "review"
       ]
@@ -3956,13 +3666,8 @@
     {
       "title": "Rabbids Party of Legends",
       "id": "4c05dbe855586d8d273aae0e",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "RAD",
@@ -3991,13 +3696,8 @@
     {
       "title": "Ravenswatch",
       "id": "67a44d514329c56826e055ee",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Rayman Legends",
@@ -4032,13 +3732,8 @@
     {
       "title": "Redout 2",
       "id": "be6100f96427a09b0852e0ab",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "RESIDENT EVIL 2",
@@ -4087,10 +3782,7 @@
       "id": "5b98869b0716868db8b25be3",
       "status": "incomplete",
       "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
+        "score"
       ]
     },
     {
@@ -4102,10 +3794,8 @@
     {
       "title": "RESIDENT EVIL REVELATIONS 2",
       "id": "8150ab1cf1c5106e1dc3b549",
-      "status": "incomplete",
-      "missing": [
-        "score"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Resident Evil Village",
@@ -4116,10 +3806,8 @@
     {
       "title": "RESOGUN",
       "id": "36dff045d82e5c2f1298f0cd",
-      "status": "incomplete",
-      "missing": [
-        "image"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Return of the Obra Dinn",
@@ -4142,11 +3830,8 @@
     {
       "title": "Ride 4",
       "id": "84fd765ae748af2e03c9388e",
-      "status": "incomplete",
-      "missing": [
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "RiME",
@@ -4315,20 +4000,14 @@
     {
       "title": "Serial Cleaner",
       "id": "e1dc87f27b3aafdc7556fe40",
-      "status": "incomplete",
-      "missing": [
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Serial Cleaners",
       "id": "7194e3c2e3c74f66f84a88b5",
-      "status": "incomplete",
-      "missing": [
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "SHADOW OF THE COLOSSUS",
@@ -4387,13 +4066,8 @@
     {
       "title": "Skabma - Snowfall",
       "id": "acf7d96dd4a13305adea98ed",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Skater XL",
@@ -4424,8 +4098,6 @@
       "id": "8d8ea317411a7b4f0cb5638a",
       "status": "incomplete",
       "missing": [
-        "year",
-        "image",
         "score",
         "review"
       ]
@@ -4578,20 +4250,14 @@
       "id": "540e1641082676e6d32b2677",
       "status": "incomplete",
       "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
+        "score"
       ]
     },
     {
       "title": "Spiritfarer",
       "id": "7c80f6eef1f0412c6b561a28",
-      "status": "incomplete",
-      "missing": [
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "SpongeBob SquarePants Battle For Bikini Bottom",
@@ -4693,18 +4359,14 @@
       "id": "1cc7fba01d84c6078e55fe94",
       "status": "incomplete",
       "missing": [
-        "score",
-        "review"
+        "score"
       ]
     },
     {
       "title": "Stories Untold",
       "id": "7f6a6777148df285761c769c",
-      "status": "incomplete",
-      "missing": [
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Stray",
@@ -4763,10 +4425,8 @@
     {
       "title": "Super Crazy Rhythm Castle",
       "id": "de42dabf60ec290587545899",
-      "status": "incomplete",
-      "missing": [
-        "score"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Super Meat Boy!",
@@ -4789,12 +4449,8 @@
     {
       "title": "SUPERHOT",
       "id": "ed0f8a1613769f330acdb4a8",
-      "status": "incomplete",
-      "missing": [
-        "image",
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "SUPERHOT MIND CONTROL DELETE",
@@ -4805,10 +4461,8 @@
     {
       "title": "Superliminal",
       "id": "c810e58dc57b8fe40ab4abdb",
-      "status": "incomplete",
-      "missing": [
-        "image"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Surgeon Simulator",
@@ -4831,13 +4485,8 @@
     {
       "title": "Taiko No Tatsujin - Drum Session",
       "id": "156b765c5312c28ac920aca8",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Tales from the Borderlands",
@@ -4910,13 +4559,8 @@
     {
       "title": "The Bug Butcher",
       "id": "d923b48becbefc0d3a202188",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "The Callisto Protocol",
@@ -4933,13 +4577,8 @@
     {
       "title": "The Cub",
       "id": "845a6f08dd84a034dd3f453d",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "The Dark Pictures Anthology House Of Ashes",
@@ -5022,13 +4661,8 @@
     {
       "title": "The Knight Witch",
       "id": "b4a4c63307b166c1f62d2c54",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "The Last Campfire",
@@ -5218,11 +4852,8 @@
     {
       "title": "The Wolf Among Us",
       "id": "e28718a2ce9c9ac0130a2420",
-      "status": "incomplete",
-      "missing": [
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Thief",
@@ -5239,20 +4870,14 @@
     {
       "title": "This Is the Police",
       "id": "8d159d48ef44e190b94cd79e",
-      "status": "incomplete",
-      "missing": [
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "This Is the Police 2",
       "id": "c2de53c801627a990b1cb523",
-      "status": "incomplete",
-      "missing": [
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "This War of Mine",
@@ -5281,13 +4906,8 @@
     {
       "title": "Time on Frog Island",
       "id": "dfaadf36e9e1b1618ad0b7c0",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Tiny Tina's Wonderlands",
@@ -5381,31 +5001,22 @@
     {
       "title": "Train Sim World 4",
       "id": "a8cee6e9b18a6bfbf4a509fa",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Train Valley 2",
       "id": "a57d45cb1e2bf1cf6b4169bd",
       "status": "incomplete",
       "missing": [
-        "score",
-        "review"
+        "score"
       ]
     },
     {
       "title": "Transference",
       "id": "a140094061840c086f9189f4",
-      "status": "incomplete",
-      "missing": [
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Transistor",
@@ -5416,13 +5027,8 @@
     {
       "title": "Trash Sailors",
       "id": "ff49f6d484d83a5e5b3c3f10",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Travis Strikes Again No More Heroes",
@@ -5435,8 +5041,7 @@
       "id": "1a6537047bb95bff2bfed88f",
       "status": "incomplete",
       "missing": [
-        "score",
-        "review"
+        "score"
       ]
     },
     {
@@ -5490,11 +5095,8 @@
     {
       "title": "Trine 5 A Clockwork Conspiracy",
       "id": "53cd6199914fd8002283ac50",
-      "status": "incomplete",
-      "missing": [
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Tropico 5",
@@ -5535,11 +5137,8 @@
     {
       "title": "Two Point Campus",
       "id": "49e363860bfbef3e2533b97c",
-      "status": "incomplete",
-      "missing": [
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Two Point Hospital",
@@ -5556,13 +5155,8 @@
     {
       "title": "Uncanny Valley",
       "id": "5b45642ca0cdee7e7bfc220c",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Uncharted 4 A Thief's End",
@@ -5585,10 +5179,8 @@
     {
       "title": "Undertale",
       "id": "eea77f7fc51ca2f42a1440ef",
-      "status": "incomplete",
-      "missing": [
-        "image"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Unrailed!",
@@ -5605,22 +5197,14 @@
     {
       "title": "Unravel TWO",
       "id": "0f2e8d2acf4bf65a1a67e36d",
-      "status": "incomplete",
-      "missing": [
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Unspottable",
       "id": "ebdeebca5876292f2d893db0",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Until Dawn",
@@ -5637,13 +5221,8 @@
     {
       "title": "Valiant Hearts Coming Home",
       "id": "d3acb139752b92ae30b4b624",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Valiant Hearts The Great War",
@@ -5764,10 +5343,7 @@
       "id": "bf683ae902322d6c991e5134",
       "status": "incomplete",
       "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
+        "score"
       ]
     },
     {
@@ -5857,22 +5433,14 @@
     {
       "title": "You Suck At Parking",
       "id": "b04f4143a56e80d846543ccd",
-      "status": "incomplete",
-      "missing": [
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Zero Escape The Nonary Games",
       "id": "d58db4991b7d398ae6d87082",
-      "status": "incomplete",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
+      "status": "complete",
+      "missing": []
     },
     {
       "title": "Zombie Army 4 Dead War",

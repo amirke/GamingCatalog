@@ -285,6 +285,10 @@ def main():
             enriched[game['id']] = result
         else:
             unresolved.append({'id': game['id'], 'title': title, 'reason': 'No unambiguous video-game article matched automatically'})
+    supplements = ROOT / 'data/metadata-supplements.json'
+    if supplements.exists():
+        for game_id, extra in json.loads(supplements.read_text(encoding='utf-8')).items():
+            enriched.setdefault(game_id, {}).update(extra)
     (ROOT / 'scripts/metadata-titles.json').write_text(json.dumps(aliases, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     payload = {'schemaVersion': 1, 'generatedAt': dt.datetime.now(dt.timezone.utc).isoformat(), 'entries': enriched}
     (ROOT / 'data/metadata.js').write_text('window.GAME_METADATA = ' + json.dumps(payload, ensure_ascii=False, separators=(',', ':')) + ';\n', encoding='utf-8')

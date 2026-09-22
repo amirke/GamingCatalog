@@ -3,7 +3,9 @@ const catalog = window.GAMING_CATALOG;
 const games = catalog.games;
 const metadata = window.GAME_METADATA?.entries || {};
 const gameInfo = id => metadata[id] || {};
-const metadataComplete = id => ['year', 'image', 'score', 'review'].every(key => Boolean(gameInfo(id)[key]));
+const hebrewReviews = window.HEBREW_REVIEWS?.entries || {};
+const metadataComplete = id => { const info = gameInfo(id); return ['year', 'image', 'score'].every(key => Boolean(info[key])) && Boolean(info.review || info.receptionText || info.criticExcerpts?.length); };
+const allowedImage = image => { try { const url = new URL(image); return url.protocol === 'https:' && ['upload.wikimedia.org', 'thumb.wikimedia.org', 'www.metacritic.com'].includes(url.hostname); } catch { return false; } };
 const KEY = 'gaming-catalog-state-v1';
 const $ = id => document.getElementById(id);
 let state = {schemaVersion: 1, entries: {}};
@@ -13,7 +15,7 @@ let ui = {};
 try { ui = JSON.parse(localStorage.getItem(UI_KEY) || '{}') || {}; } catch {}
 let view = ui.view === 'list' ? 'list' : 'cards';
 const expanded = new Set();
-const filterIds = ['search', 'filter', 'downloadFilter', 'playFilter', 'notesFilter', 'regionFilter', 'yearFilter', 'ps4YearFilter', 'metadataFilter', 'sort'];
+const filterIds = ['search', 'filter', 'downloadFilter', 'playFilter', 'interestFilter', 'notesFilter', 'regionFilter', 'yearFilter', 'ps4YearFilter', 'metadataFilter', 'hebrewReviewFilter', 'sort'];
 for (const [id, field] of [['yearFilter', 'year'], ['ps4YearFilter', 'ps4Year']]) {
   for (const year of [...new Set(Object.values(metadata).map(m => m[field]).filter(Boolean))].sort((a, b) => b - a)) {
     const option = document.createElement('option'); option.value = String(year); option.textContent = year; $(id).append(option);
@@ -40,9 +42,9 @@ function validState(value) {
     if (!/^[a-f0-9]{24}$/.test(id) || !fields || typeof fields !== 'object') throw Error(tr('רשומה לא תקינה'));
     clean.entries[id] = {};
     for (const [key, field] of Object.entries(fields)) {
-      if (!['played', 'downloaded', 'notes'].includes(key)) continue;
+      if (!['played', 'downloaded', 'notInterested', 'notInterestedReason', 'notes'].includes(key)) continue;
       if (!field || typeof field.updatedAt !== 'number' || !Number.isFinite(field.updatedAt) || field.updatedAt < 0 ||
-          (key === 'notes' ? typeof field.value !== 'string' : typeof field.value !== 'boolean')) throw Error(tr('שדה לא תקין בגיבוי'));
+          (['notes', 'notInterestedReason'].includes(key) ? typeof field.value !== 'string' : typeof field.value !== 'boolean')) throw Error(tr('שדה לא תקין בגיבוי'));
       clean.entries[id][key] = {value: field.value, updatedAt: field.updatedAt};
     }
   }
@@ -71,7 +73,7 @@ function persist() {
     return true;
   } catch { $('saveStatus').textContent = tr('השמירה נכשלה — יש לייצא גיבוי'); notice(tr('אין אפשרות לשמור בדפדפן. השינויים זמינים כרגע בזיכרון בלבד; השתמשו בגיבוי לפני סגירה.')); return false; }
 }
-function value(id, field) { return state.entries[id]?.[field]?.value ?? (field === 'notes' ? '' : false); }
+function value(id, field) { return state.entries[id]?.[field]?.value ?? (['notes', 'notInterestedReason'].includes(field) ? '' : false); }
 function update(id, field, newValue) {
   state.entries[id] ||= {};
   state.entries[id][field] = {value: newValue, updatedAt: Math.max(Date.now(), (state.entries[id][field]?.updatedAt || 0) + 1)};
@@ -85,10 +87,12 @@ function stats() {
 function node(tag, className, text) { const el = document.createElement(tag); if (className) el.className = className; if (text !== undefined) el.textContent = text; return el; }
 function openImage(game, thumbnail) {
   const url = new URL(thumbnail);
-  if (!['upload.wikimedia.org', 'thumb.wikimedia.org'].includes(url.hostname) || url.protocol !== 'https:') return;
+  if (!allowedImage(thumbnail)) return;
   // Wikimedia thumbnails point to the original file before the final size segment.
-  url.hostname = 'upload.wikimedia.org';
-  url.pathname = url.pathname.replace(/\/thumb\/(.+)\/[^/]+$/, '/$1');
+  if (url.hostname.endsWith('.wikimedia.org')) {
+    url.hostname = 'upload.wikimedia.org';
+    url.pathname = url.pathname.replace(/\/thumb\/(.+)\/[^/]+$/, '/$1');
+  }
   const image = $('largeImage');
   $('imageTitle').textContent = game.title;
   $('imageError').hidden = true; image.hidden = false; image.alt = game.title;
@@ -111,23 +115,43 @@ $('imageDialog').addEventListener('close', () => {
 });
 function sourceLink(text, url) {
   const link = node('a', '', text);
-  if (/^https:\/\//.test(url || '')) { link.href = url; link.target = '_blank'; link.rel = 'noopener noreferrer'; }
+  if (/^https?:\/\//.test(url || '')) { link.href = url; link.target = '_blank'; link.rel = 'noopener noreferrer'; }
   return link;
 }
-function reviewBlock(info) {
+function reviewBlock(info, game) {
   const block = node('section', 'review-block');
   block.append(node('h4', '', tr('ביקורות')));
+  const localReviews = hebrewReviews[game.id] || [];
+  block.append(node('h4', 'hebrew-reviews-title', tr('ביקורות מאתרים ישראליים')));
+  if (!localReviews.length) block.append(node('p', 'metadata-missing', tr('טרם נמצאה ביקורת בעברית ממקור מאומת.')));
+  for (const review of localReviews) {
+    const local = node('section', 'hebrew-review');
+    local.append(sourceLink(review.publisher + (review.platform ? ' · ' + review.platform : '') + ' ↗', review.url));
+    if (review.title) { const heading = node('p', 'local-review-title', review.title); heading.dir = 'rtl'; heading.lang = 'he'; local.append(heading); }
+    if (review.score != null) local.append(node('strong', 'local-score', review.score + '/' + review.scale));
+    local.append(node('small', '', tr(review.kind === 'summary' ? 'תמצית הביקורת' : 'קטע מהביקורת המקורית')));
+    const text = node('p', '', review.text); text.lang = 'he'; text.dir = 'rtl'; local.append(text); block.append(local);
+  }
+  block.append(node('h4', '', tr('ביקורות ומקורות נוספים')));
   if (info.score) {
     const score = node('div', 'critic-score');
     score.append(node('strong', '', info.score.value + '/100'), node('span', '', 'Metacritic · ' + (info.score.platform === 'unspecified' ? tr('פלטפורמה לא צוינה') : info.score.platform)));
     block.append(score);
   } else block.append(node('p', 'metadata-missing', tr('לא נמצא ציון מבקרים במקור.')));
   const summary = info.review?.[window.catalogLanguage];
-  block.append(node('p', 'review-summary', summary || tr('לא נמצא תקציר ביקורת במקור.')));
+  if (summary) block.append(node('p', 'review-summary', summary));
+  const written = [info.receptionText, ...(info.criticExcerpts || [])].filter(Boolean);
+  if (!summary && !written.length) block.append(node('p', 'review-summary', tr('לא נמצא תקציר ביקורת במקור.')));
+  for (const review of written) {
+    block.append(node('small', '', tr('קטע ביקורת במקור באנגלית')));
+    const quote = node('blockquote', 'source-review', review.text); quote.lang = 'en'; quote.dir = 'ltr';
+    block.append(quote, sourceLink(review.publisher + (review.platform ? ' · ' + review.platform : '') + ' ↗', review.url));
+  }
   if (info.source) {
     block.append(node('small', 'matched-title', tr('זוהה אוטומטית כ: ') + info.matchedTitle));
     const sources = node('div', 'review-sources');
-    sources.append(sourceLink(tr('מקור: Wikipedia ↗'), info.source), sourceLink(tr('מקור התמונה ↗'), info.imageSource));
+    sources.append(sourceLink((info.sourceName || (info.source?.includes('metacritic.com') ? 'Metacritic' : 'Wikipedia')) + ' ↗', info.source), sourceLink(tr('מקור התמונה ↗'), info.imageSource));
+    if (info.supplementSource) sources.append(sourceLink('Metacritic · ' + tr('מידע נוסף ↗'), info.supplementSource));
     if (info.score?.url) sources.append(sourceLink('Metacritic ↗', info.score.url));
     block.append(sources, node('small', '', tr('סיכום אוטומטי מהמקור; הביקורות עשויות להתייחס גם לגרסאות אחרות.')));
   } else block.append(node('small', '', tr('לא נמצאה התאמה אוטומטית בטוחה לשם המשחק.')));
@@ -137,7 +161,7 @@ function card(game) {
   const info = gameInfo(game.id);
   const el = node('article', 'game'); el.dataset.id = game.id;
   const top = node('div', 'game-top');
-  const hasImage = /^https:\/\/(?:upload|thumb)\.wikimedia\.org\//.test(info.image || '');
+  const hasImage = allowedImage(info.image);
   const icon = node(hasImage ? 'button' : 'div', 'monogram', game.title[0].toUpperCase());
   if (hasImage) {
     icon.type = 'button'; icon.setAttribute('aria-label', tr('הגדלת תמונה: ') + game.title);
@@ -153,10 +177,10 @@ function card(game) {
   if (!info.year) heading.append(node('span', 'metadata-missing', tr('שנת יציאה לא נמצאה')));
   if (info.score) heading.append(node('span', 'score-chip', info.score.value + '/100 · ' + (info.score.platform === 'unspecified' ? 'Metacritic' : info.score.platform)));
   const checks = node('div', 'checks');
-  for (const [field, label] of [['downloaded', tr('הורדתי')], ['played', tr('שיחקתי')]]) {
+  for (const [field, label] of [['downloaded', tr('הורדתי')], ['played', tr('שיחקתי')], ['notInterested', tr('לא מעוניין')]]) {
     const wrap = node('label'); const input = node('input'); input.type = 'checkbox'; input.checked = value(game.id, field); input.dataset.field = field;
     input.setAttribute('aria-label', label + ' — ' + game.title);
-    input.addEventListener('change', () => { update(game.id, field, input.checked); render(); });
+    input.addEventListener('change', () => { update(game.id, field, input.checked); if (field === 'notInterested' && input.checked) expanded.add(game.id); render(); });
     wrap.append(input, document.createTextNode(label)); checks.append(wrap);
   }
   const links = node('div', 'links');
@@ -167,6 +191,12 @@ function card(game) {
   const notes = node('textarea'); notes.placeholder = tr('איך היה? מה כדאי לזכור לפעם הבאה?'); notes.value = value(game.id, 'notes'); notes.dir = 'auto'; notes.dataset.field = 'notes';
   notes.setAttribute('aria-label', tr('הערות — ') + game.title);
   notes.addEventListener('input', () => update(game.id, 'notes', notes.value)); label.append(notes);
+  const reasonLabel = node('label', 'notes-label interest-reason', tr('למה לא מעוניין? (לא חובה)'));
+  reasonLabel.hidden = !value(game.id, 'notInterested');
+  const reason = node('textarea'); reason.dir = 'auto'; reason.dataset.field = 'notInterestedReason'; reason.value = value(game.id, 'notInterestedReason');
+  reason.placeholder = tr('למשל: לא אוהב את הסגנון, קשה מדי, כבר מיציתי…');
+  reason.setAttribute('aria-label', tr('סיבת חוסר עניין — ') + game.title);
+  reason.addEventListener('input', () => update(game.id, 'notInterestedReason', reason.value)); reasonLabel.append(reason);
   const cheats = node('div', 'cheats'); cheats.append(node('span', '', tr('צ׳יטים ומה הם עושים')), node('span', '', tr('בהמשך')));
   if (view === 'list') {
     el.classList.add('game-row');
@@ -179,13 +209,13 @@ function card(game) {
     icon.remove();
     toggle.append(arrow, top); row.append(icon, toggle, checks);
     const details = node('div', 'row-details'); details.id = 'details-' + game.id; details.hidden = !expanded.has(game.id);
-    details.append(links, reviewBlock(info), label, cheats);
+    details.append(reasonLabel, links, reviewBlock(info, game), label, cheats);
     toggle.addEventListener('click', () => {
       const open = !expanded.has(game.id); if (open) expanded.add(game.id); else expanded.delete(game.id);
       toggle.setAttribute('aria-expanded', open); details.hidden = !open; arrow.textContent = open ? '▾' : '▸';
     });
     el.append(row, details);
-  } else el.append(top, checks, links, reviewBlock(info), label, cheats);
+  } else el.append(top, checks, reasonLabel, links, reviewBlock(info, game), label, cheats);
   return el;
 }
 function filtered() {
@@ -194,8 +224,9 @@ function filtered() {
   const yearMatch = (id, field, control) => $(control).value === 'all' || ($(control).value === 'unknown' ? !gameInfo(id)[field] : String(gameInfo(id)[field]) === $(control).value);
   const list = games.filter(g => (letter === 'all' || g.letter === letter) && (!search || (g.title + ' ' + g.filename).toLocaleLowerCase().includes(search)) &&
     (filter === 'all' || filter === 'notDownloaded' && !value(g.id, 'downloaded') || filter === 'notPlayed' && !value(g.id, 'played') || Boolean(value(g.id, filter))) &&
-    match(g.id, 'downloaded', 'downloadFilter') && match(g.id, 'played', 'playFilter') && match(g.id, 'notes', 'notesFilter') &&
+    match(g.id, 'downloaded', 'downloadFilter') && match(g.id, 'played', 'playFilter') && match(g.id, 'notInterested', 'interestFilter') && match(g.id, 'notes', 'notesFilter') &&
     ($('regionFilter').value === 'all' || g.region === $('regionFilter').value) && yearMatch(g.id, 'year', 'yearFilter') && yearMatch(g.id, 'ps4Year', 'ps4YearFilter') &&
+    ($('hebrewReviewFilter').value === 'all' || Boolean(hebrewReviews[g.id]?.length) === ($('hebrewReviewFilter').value === 'yes')) &&
     ($('metadataFilter').value === 'all' || metadataComplete(g.id) === ($('metadataFilter').value === 'complete')));
   const sort = $('sort').value;
   return list.sort((a, b) => {
@@ -221,6 +252,7 @@ function render() {
 function refreshSavedFields() {
   if (document.activeElement?.tagName !== 'TEXTAREA') { render(); return; }
   for (const card of document.querySelectorAll('.game')) {
+    card.querySelector('.interest-reason').hidden = !value(card.dataset.id, 'notInterested');
     for (const input of card.querySelectorAll('[data-field]')) {
       if (input === document.activeElement) continue;
       if (input.type === 'checkbox') input.checked = value(card.dataset.id, input.dataset.field);

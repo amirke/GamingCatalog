@@ -3,6 +3,23 @@
 window.catalogLanguage = 'he';
 try { if (localStorage.getItem('gaming-catalog-language') === 'en') window.catalogLanguage = 'en'; } catch {}
 const translations = {
+  "ביקורות מאתרים ישראליים": "Reviews from Israeli gaming sites",
+  "טרם נמצאה ביקורת בעברית ממקור מאומת.": "No verified Hebrew review has been found yet.",
+  "תמצית הביקורת": "Review summary (Hebrew)",
+  "קטע מהביקורת המקורית": "Original review excerpt (Hebrew)",
+  "ביקורות ומקורות נוספים": "Other reviews and sources",
+  "ביקורת בעברית": "Hebrew review",
+  "יש ביקורת בעברית": "Has a Hebrew review",
+  "ללא ביקורת בעברית": "No Hebrew review",
+  "מידע נוסף ↗": "Additional information ↗",
+  "קטע ביקורת במקור באנגלית": "Review excerpt in the original English",
+  "עניין במשחק": "Interest",
+  "לא מעוניין": "Not interested",
+  "הסתר לא מעוניין": "Hide not interested",
+  "רק לא מעוניין": "Only not interested",
+  "למה לא מעוניין? (לא חובה)": "Why not interested? (optional)",
+  "למשל: לא אוהב את הסגנון, קשה מדי, כבר מיציתי…": "For example: not my genre, too difficult, already had enough…",
+  "סיבת חוסר עניין —": "Not interested reason —",
   "הגדלת תמונה:": "Enlarge image:",
   "לא ניתן לטעון את התמונה כרגע.": "The image could not be loaded right now.",
   "שנת יציאה": "Original release year",

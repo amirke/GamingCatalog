@@ -1,539 +1,373 @@
 {
   "coverage": {
     "catalogEntries": 872,
-    "matched": 777,
-    "year": 777,
+    "matched": 841,
+    "entries": 872,
+    "writtenReview": 802,
+    "complete": 810,
+    "year": 841,
     "ps4Year": 605,
-    "image": 766,
-    "score": 719,
-    "review": 733,
-    "complete": 709
+    "image": 841,
+    "score": 810,
+    "review": 836,
+    "hebrewReview": 67
   },
   "unresolved": [
     {
-      "id": "9ffa642411ccdded4460738b",
-      "title": "Assassin's Creed The Ezio Collection",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "9937999805adedfda023e126",
-      "title": "Atari Flashback Classics vol.1",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "c37c576768d081ac433f96c0",
       "title": "Atari Flashback Classics vol.2",
-      "reason": "No unambiguous video-game article matched automatically"
+      "id": "c37c576768d081ac433f96c0",
+      "status": "incomplete",
+      "missing": [
+        "year",
+        "image",
+        "score",
+        "review"
+      ]
     },
     {
-      "id": "aab7a9457ad7c247639eb58c",
       "title": "Atari Flashback Classics vol.3",
-      "reason": "No unambiguous video-game article matched automatically"
+      "id": "aab7a9457ad7c247639eb58c",
+      "status": "incomplete",
+      "missing": [
+        "year",
+        "image",
+        "score",
+        "review"
+      ]
     },
     {
-      "id": "582fe9ac5956ffddedb2e2e3",
       "title": "Baldur's Gate and Baldur's Gate II",
-      "reason": "No unambiguous video-game article matched automatically"
+      "id": "582fe9ac5956ffddedb2e2e3",
+      "status": "incomplete",
+      "missing": [
+        "year",
+        "image",
+        "score",
+        "review"
+      ]
     },
     {
-      "id": "e86f848e6f80c08d5f95d10a",
       "title": "BATTLESHIP",
-      "reason": "No unambiguous video-game article matched automatically"
+      "id": "e86f848e6f80c08d5f95d10a",
+      "status": "incomplete",
+      "missing": [
+        "year",
+        "image",
+        "score",
+        "review"
+      ]
     },
     {
-      "id": "236811c6ddc734ae423ca316",
-      "title": "Beat Cop",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "165b8537cb6be47c8c838414",
-      "title": "Bendy and the Dark Revival",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "bd49658165d5ac6cac69f512",
       "title": "Borderlands 2 + The Pre-Sequel",
-      "reason": "No unambiguous video-game article matched automatically"
+      "id": "bd49658165d5ac6cac69f512",
+      "status": "incomplete",
+      "missing": [
+        "year",
+        "image",
+        "score",
+        "review"
+      ]
     },
     {
-      "id": "3587125cf71c029b1470954a",
-      "title": "Bus Simulator 21 Next Stop",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "f33f74fb29c2a71a8c8657fc",
-      "title": "Chimparty",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "b0bd8f2fa2605efee6f27ee6",
-      "title": "Creature in the Well",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "e87a2385197e01475744efab",
-      "title": "Dead Rising 4 Frank's Big Package",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "52700dfafb84206077f4b914",
-      "title": "Despot's Game",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "fecd00a75cb1d442667aefdc",
       "title": "Devil May Cry Trilogy",
-      "reason": "No unambiguous video-game article matched automatically"
+      "id": "fecd00a75cb1d442667aefdc",
+      "status": "incomplete",
+      "missing": [
+        "year",
+        "image",
+        "score",
+        "review"
+      ]
     },
     {
-      "id": "ca1fcfc5c2c5d0fdae4f0446",
       "title": "El Hijo",
-      "reason": "No unambiguous video-game article matched automatically"
+      "id": "ca1fcfc5c2c5d0fdae4f0446",
+      "status": "incomplete",
+      "missing": [
+        "year",
+        "image",
+        "score",
+        "review"
+      ]
     },
     {
-      "id": "f846bbe5331a54ae0d8dd032",
-      "title": "Eldest Souls",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "73b547b9b50d7fbd2ceed616",
-      "title": "Farming Simulator 22",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "d82ca579058e21e8955728d4",
       "title": "FINAL FANTASY III",
-      "reason": "No unambiguous video-game article matched automatically"
+      "id": "d82ca579058e21e8955728d4",
+      "status": "incomplete",
+      "missing": [
+        "year",
+        "image",
+        "score",
+        "review"
+      ]
     },
     {
-      "id": "5c5d6fbe5445ab605367b585",
-      "title": "FINAL FANTASY IV",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "79e84ffd198555f0a956af2e",
-      "title": "Floor Kids",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "a68f810b61af68db1f2b6570",
-      "title": "For The King",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "1fa13bb1b751a160311f037f",
-      "title": "Frantics",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "23c97ff5b30f56ad6afc7481",
-      "title": "Heavenly Bodies",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "6e9e4aad185163fe58079813",
-      "title": "Just Deal With It!",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "03c2dba710b10b4e82ddeb0f",
-      "title": "Just Die Already",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "d0833b26c8fddd68ba9d66c7",
       "title": "KINGDOM HEARTS 1.5 + 2.5",
-      "reason": "No unambiguous video-game article matched automatically"
+      "id": "d0833b26c8fddd68ba9d66c7",
+      "status": "incomplete",
+      "missing": [
+        "year",
+        "image",
+        "score",
+        "review"
+      ]
     },
     {
-      "id": "61dd8db6e099f09057e9d0e9",
-      "title": "Knowledge is Power Decades",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "e89c325b2002dde36551c18e",
-      "title": "LEGO Harry Potter Collection",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "b3fc51d053f89a06619f0d8c",
       "title": "Let's Sing 10",
-      "reason": "No unambiguous video-game article matched automatically"
+      "id": "b3fc51d053f89a06619f0d8c",
+      "status": "incomplete",
+      "missing": [
+        "year",
+        "image",
+        "score",
+        "review"
+      ]
     },
     {
-      "id": "749096196958ec579d91eaa5",
       "title": "Let's Sing 11",
-      "reason": "No unambiguous video-game article matched automatically"
+      "id": "749096196958ec579d91eaa5",
+      "status": "incomplete",
+      "missing": [
+        "year",
+        "image",
+        "score",
+        "review"
+      ]
     },
     {
-      "id": "0381c7c7808bda31f0d62ae6",
       "title": "Let's Sing 12",
-      "reason": "No unambiguous video-game article matched automatically"
+      "id": "0381c7c7808bda31f0d62ae6",
+      "status": "incomplete",
+      "missing": [
+        "year",
+        "image",
+        "score",
+        "review"
+      ]
     },
     {
-      "id": "03872290b40a38f5c9d85d2a",
       "title": "Let's Sing 13",
-      "reason": "No unambiguous video-game article matched automatically"
+      "id": "03872290b40a38f5c9d85d2a",
+      "status": "incomplete",
+      "missing": [
+        "year",
+        "image",
+        "score",
+        "review"
+      ]
     },
     {
-      "id": "4d69ba22c7cb1cae23a69913",
-      "title": "Let's Sing 2016",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "2952a39fb07220c14aa4cb69",
-      "title": "Let's Sing 2017",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "562e6560ab86758906fb4837",
       "title": "Let's Sing 2018 (Deutsch)",
-      "reason": "No unambiguous video-game article matched automatically"
+      "id": "562e6560ab86758906fb4837",
+      "status": "incomplete",
+      "missing": [
+        "year",
+        "image",
+        "score",
+        "review"
+      ]
     },
     {
-      "id": "1cc3aa1e2e3e0b2a57e6e635",
-      "title": "Let's Sing 2019",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "adaca7fb40bbde04f33a823d",
-      "title": "Let's Sing 2020",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "25056f3e6f386e4ddd64ec2f",
       "title": "Let's Sing 2020 (Deutsch)",
-      "reason": "No unambiguous video-game article matched automatically"
+      "id": "25056f3e6f386e4ddd64ec2f",
+      "status": "incomplete",
+      "missing": [
+        "year",
+        "image",
+        "score",
+        "review"
+      ]
     },
     {
-      "id": "1e6e09d374b1d71954723bf0",
       "title": "Let's Sing 2020 (Français)",
-      "reason": "No unambiguous video-game article matched automatically"
+      "id": "1e6e09d374b1d71954723bf0",
+      "status": "incomplete",
+      "missing": [
+        "year",
+        "image",
+        "score",
+        "review"
+      ]
     },
     {
-      "id": "b49d90a04f0d94cf7850943d",
-      "title": "Let's Sing 2021",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "004fdb3628a7ac6b13b7966e",
-      "title": "Let's Sing 2022",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "d1ef966c19ae8fd1b35e3dbb",
       "title": "Let's Sing 8 (Spanish)",
-      "reason": "No unambiguous video-game article matched automatically"
+      "id": "d1ef966c19ae8fd1b35e3dbb",
+      "status": "incomplete",
+      "missing": [
+        "year",
+        "image",
+        "score",
+        "review"
+      ]
     },
     {
-      "id": "c1d813670a29ed35f401f712",
       "title": "Let's Sing 9 (Spanish)",
-      "reason": "No unambiguous video-game article matched automatically"
+      "id": "c1d813670a29ed35f401f712",
+      "status": "incomplete",
+      "missing": [
+        "year",
+        "image",
+        "score",
+        "review"
+      ]
     },
     {
-      "id": "deca9f0843d49addca0c6a17",
-      "title": "Let's Sing Abba",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "d9f8fff1b4836cb335017040",
-      "title": "Let's Sing Country",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "f373cf804e381aa77ab9cc75",
-      "title": "Let's Sing Queen",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "bbaab83d4fb279411dc62830",
-      "title": "Little Big Adventure - Twinsen's Quest",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "f81b67493d076e6a9c42e658",
-      "title": "Mantis Burn Racing",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "efc7b00d5c0244c121142bb6",
-      "title": "Melbits World",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "e40cde6548e45f83c6eaa03a",
-      "title": "Monopoly Madness",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "481ac3a1cd71a2fd6f835947",
-      "title": "MotoGP 24",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "812232188560c4e3dce9aa4c",
-      "title": "MX vs ATV Legends",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "3143fb026cd032c0a5d7a355",
-      "title": "My Name is Mayo",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "429d77bfae4c7cee2ec56f4c",
-      "title": "My Name is Mayo 2",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "7cedf22a40873c7f02727dc9",
-      "title": "NARUTO SHIPPUDEN Ultimate Ninja STORM 4",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "3d8ae3daaf07dc722daf5abe",
       "title": "NARUTO SHIPPUDEN Ultimate Ninja STORM 4 ROAD TO BORUTO",
-      "reason": "No unambiguous video-game article matched automatically"
+      "id": "3d8ae3daaf07dc722daf5abe",
+      "status": "incomplete",
+      "missing": [
+        "year",
+        "image",
+        "score",
+        "review"
+      ]
     },
     {
-      "id": "72729092792dc1245fa3b46d",
-      "title": "NARUTO SHIPPUDEN Ultimate Ninja STORM TRILOGY",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "21096659e3cbab7b5b70314b",
-      "title": "NARUTO X BORUTO Ultimate Ninja STORM CONNECTIONS",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "30f009285b35703565a7790b",
-      "title": "Neon Drive",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "14b311382807d7972d75b113",
-      "title": "NOW That's What I Call Sing",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "d622914da64a0995a030f37d",
       "title": "OlliOlli 1+2",
-      "reason": "No unambiguous video-game article matched automatically"
+      "id": "d622914da64a0995a030f37d",
+      "status": "incomplete",
+      "missing": [
+        "year",
+        "image",
+        "score",
+        "review"
+      ]
     },
     {
-      "id": "d712f13829f709718f0a62a2",
       "title": "PAC-MAN Championship Edition 2 + Arcade Game Series",
-      "reason": "No unambiguous video-game article matched automatically"
+      "id": "d712f13829f709718f0a62a2",
+      "status": "incomplete",
+      "missing": [
+        "year",
+        "image",
+        "score",
+        "review"
+      ]
     },
     {
-      "id": "7549947cb508ab84489f50bc",
-      "title": "Persona 5 Dancing in Starlight",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "04217453131c0b55624535e2",
       "title": "PES 2025 (Season Update)",
-      "reason": "No unambiguous video-game article matched automatically"
+      "id": "04217453131c0b55624535e2",
+      "status": "incomplete",
+      "missing": [
+        "year",
+        "image",
+        "score",
+        "review"
+      ]
     },
     {
-      "id": "55b758505ead7aa5bfc3c027",
-      "title": "Ponpu",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "6a862709f89cf816323091f1",
       "title": "PROTOTYPE 1+2",
-      "reason": "No unambiguous video-game article matched automatically"
+      "id": "6a862709f89cf816323091f1",
+      "status": "incomplete",
+      "missing": [
+        "year",
+        "image",
+        "score",
+        "review"
+      ]
     },
     {
-      "id": "668961515af80a13ad2cce00",
-      "title": "Pummel Party",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "4c05dbe855586d8d273aae0e",
-      "title": "Rabbids Party of Legends",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "67a44d514329c56826e055ee",
-      "title": "Ravenswatch",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "be6100f96427a09b0852e0ab",
-      "title": "Redout 2",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "5b98869b0716868db8b25be3",
-      "title": "Resident Evil Origins Collection",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "17ed63197965b0912d2222bb",
       "title": "Rock Band 4 Expansion Pack 1",
-      "reason": "No unambiguous video-game article matched automatically"
+      "id": "17ed63197965b0912d2222bb",
+      "status": "incomplete",
+      "missing": [
+        "year",
+        "image",
+        "score",
+        "review"
+      ]
     },
     {
-      "id": "1fbbd85a457fe77ce3025352",
       "title": "Rock Band 4 Expansion Pack 2",
-      "reason": "No unambiguous video-game article matched automatically"
+      "id": "1fbbd85a457fe77ce3025352",
+      "status": "incomplete",
+      "missing": [
+        "year",
+        "image",
+        "score",
+        "review"
+      ]
     },
     {
-      "id": "6f975c8f8e1a64f8b29186c1",
       "title": "Rock Band 4 Expansion Pack 3",
-      "reason": "No unambiguous video-game article matched automatically"
+      "id": "6f975c8f8e1a64f8b29186c1",
+      "status": "incomplete",
+      "missing": [
+        "year",
+        "image",
+        "score",
+        "review"
+      ]
     },
     {
-      "id": "d409ae02d8606b7f00c1909b",
       "title": "Rock Band 4 Expansion Pack 4",
-      "reason": "No unambiguous video-game article matched automatically"
+      "id": "d409ae02d8606b7f00c1909b",
+      "status": "incomplete",
+      "missing": [
+        "year",
+        "image",
+        "score",
+        "review"
+      ]
     },
     {
-      "id": "acf7d96dd4a13305adea98ed",
-      "title": "Skabma - Snowfall",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "8d8ea317411a7b4f0cb5638a",
-      "title": "Slime 3K Rise Against Despot",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "efe71951b5d6ec6cbdccef58",
       "title": "SNK Collection",
-      "reason": "No unambiguous video-game article matched automatically"
+      "id": "efe71951b5d6ec6cbdccef58",
+      "status": "incomplete",
+      "missing": [
+        "year",
+        "image",
+        "score",
+        "review"
+      ]
     },
     {
-      "id": "540e1641082676e6d32b2677",
-      "title": "SPIDERHECK",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "4ef9035e5bdff2f9d275a5ec",
       "title": "STARWHAL",
-      "reason": "No unambiguous video-game article matched automatically"
+      "id": "4ef9035e5bdff2f9d275a5ec",
+      "status": "incomplete",
+      "missing": [
+        "year",
+        "image",
+        "score",
+        "review"
+      ]
     },
     {
-      "id": "156b765c5312c28ac920aca8",
-      "title": "Taiko No Tatsujin - Drum Session",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "d923b48becbefc0d3a202188",
-      "title": "The Bug Butcher",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "845a6f08dd84a034dd3f453d",
-      "title": "The Cub",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "b4a4c63307b166c1f62d2c54",
-      "title": "The Knight Witch",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "880bb7e28e05b0fdb391596b",
       "title": "The Walking Dead The Telltale Series",
-      "reason": "No unambiguous video-game article matched automatically"
+      "id": "880bb7e28e05b0fdb391596b",
+      "status": "incomplete",
+      "missing": [
+        "year",
+        "image",
+        "score",
+        "review"
+      ]
     },
     {
-      "id": "dfaadf36e9e1b1618ad0b7c0",
-      "title": "Time on Frog Island",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "cb2b9cc813a5e39678994f6b",
       "title": "TowerFall Dark World Expansion",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "a8cee6e9b18a6bfbf4a509fa",
-      "title": "Train Sim World 4",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "ff49f6d484d83a5e5b3c3f10",
-      "title": "Trash Sailors",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "5b45642ca0cdee7e7bfc220c",
-      "title": "Uncanny Valley",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "ebdeebca5876292f2d893db0",
-      "title": "Unspottable",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "d3acb139752b92ae30b4b624",
-      "title": "Valiant Hearts Coming Home",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "bf683ae902322d6c991e5134",
-      "title": "Wordhunters",
-      "reason": "No unambiguous video-game article matched automatically"
-    },
-    {
-      "id": "d58db4991b7d398ae6d87082",
-      "title": "Zero Escape The Nonary Games",
-      "reason": "No unambiguous video-game article matched automatically"
+      "id": "cb2b9cc813a5e39678994f6b",
+      "status": "incomplete",
+      "missing": [
+        "year",
+        "image",
+        "score",
+        "review"
+      ]
     }
   ],
   "incomplete": [
     {
-      "id": "4215e169cd235eacef0cebe9",
-      "title": "ADR1FT",
-      "missing": [
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "cbe739fb38242cb17700c963",
-      "title": "Ancestors Legacy",
-      "missing": [
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "25156c612808b21591694a4c",
       "title": "Assassin's Creed Chronicles Trilogy",
+      "id": "25156c612808b21591694a4c",
+      "status": "incomplete",
       "missing": [
-        "score",
-        "review"
+        "score"
       ]
     },
     {
-      "id": "9ffa642411ccdded4460738b",
-      "title": "Assassin's Creed The Ezio Collection",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "9937999805adedfda023e126",
-      "title": "Atari Flashback Classics vol.1",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "c37c576768d081ac433f96c0",
       "title": "Atari Flashback Classics vol.2",
+      "id": "c37c576768d081ac433f96c0",
+      "status": "incomplete",
       "missing": [
         "year",
         "image",
@@ -542,8 +376,9 @@
       ]
     },
     {
-      "id": "aab7a9457ad7c247639eb58c",
       "title": "Atari Flashback Classics vol.3",
+      "id": "aab7a9457ad7c247639eb58c",
+      "status": "incomplete",
       "missing": [
         "year",
         "image",
@@ -552,8 +387,9 @@
       ]
     },
     {
-      "id": "582fe9ac5956ffddedb2e2e3",
       "title": "Baldur's Gate and Baldur's Gate II",
+      "id": "582fe9ac5956ffddedb2e2e3",
+      "status": "incomplete",
       "missing": [
         "year",
         "image",
@@ -562,15 +398,9 @@
       ]
     },
     {
-      "id": "e34089e1c378f68934044c12",
-      "title": "Battlefield 1",
-      "missing": [
-        "score"
-      ]
-    },
-    {
-      "id": "e86f848e6f80c08d5f95d10a",
       "title": "BATTLESHIP",
+      "id": "e86f848e6f80c08d5f95d10a",
+      "status": "incomplete",
       "missing": [
         "year",
         "image",
@@ -579,36 +409,17 @@
       ]
     },
     {
-      "id": "236811c6ddc734ae423ca316",
-      "title": "Beat Cop",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "165b8537cb6be47c8c838414",
-      "title": "Bendy and the Dark Revival",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "a2c8341d88254102ac5f51e0",
       "title": "Black Skylands",
+      "id": "a2c8341d88254102ac5f51e0",
+      "status": "incomplete",
       "missing": [
-        "score",
-        "review"
+        "score"
       ]
     },
     {
-      "id": "bd49658165d5ac6cac69f512",
       "title": "Borderlands 2 + The Pre-Sequel",
+      "id": "bd49658165d5ac6cac69f512",
+      "status": "incomplete",
       "missing": [
         "year",
         "image",
@@ -617,113 +428,25 @@
       ]
     },
     {
-      "id": "d3fce4c8aed8d7457e82c60f",
-      "title": "Bramble The Mountain King",
-      "missing": [
-        "score"
-      ]
-    },
-    {
-      "id": "15c0c8d460743aca331c2f47",
       "title": "Brawlhalla",
+      "id": "15c0c8d460743aca331c2f47",
+      "status": "incomplete",
       "missing": [
-        "score",
-        "review"
+        "score"
       ]
     },
     {
-      "id": "3587125cf71c029b1470954a",
       "title": "Bus Simulator 21 Next Stop",
+      "id": "3587125cf71c029b1470954a",
+      "status": "incomplete",
       "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
+        "score"
       ]
     },
     {
-      "id": "e3f85328deedee19f838f562",
-      "title": "BUTCHER",
-      "missing": [
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "9e2cb509e93ebf97db80b813",
-      "title": "Chess Ultra",
-      "missing": [
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "f33f74fb29c2a71a8c8657fc",
-      "title": "Chimparty",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "b0bd8f2fa2605efee6f27ee6",
-      "title": "Creature in the Well",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "680e7bd48fc272ec6dc6cfd3",
-      "title": "Cricket 24",
-      "missing": [
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "bf4d6040a29097c2e017226d",
-      "title": "DARK SOULS II",
-      "missing": [
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "c3dfc4ea1d56400932932b27",
-      "title": "DARK SOULS III",
-      "missing": [
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "e87a2385197e01475744efab",
-      "title": "Dead Rising 4 Frank's Big Package",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "52700dfafb84206077f4b914",
-      "title": "Despot's Game",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "fecd00a75cb1d442667aefdc",
       "title": "Devil May Cry Trilogy",
+      "id": "fecd00a75cb1d442667aefdc",
+      "status": "incomplete",
       "missing": [
         "year",
         "image",
@@ -732,24 +455,9 @@
       ]
     },
     {
-      "id": "1d5ea67cb4dc1d6e5031c7bd",
-      "title": "DOOM",
-      "missing": [
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "c5b21845e5422f038c22a3b3",
-      "title": "DOOM (1993)",
-      "missing": [
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "ca1fcfc5c2c5d0fdae4f0446",
       "title": "El Hijo",
+      "id": "ca1fcfc5c2c5d0fdae4f0446",
+      "status": "incomplete",
       "missing": [
         "year",
         "image",
@@ -758,43 +466,18 @@
       ]
     },
     {
-      "id": "f846bbe5331a54ae0d8dd032",
-      "title": "Eldest Souls",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "9a707274923c3718dd577bde",
       "title": "Electrician",
+      "id": "9a707274923c3718dd577bde",
+      "status": "incomplete",
       "missing": [
         "score",
         "review"
       ]
     },
     {
-      "id": "c9d1b23eed76d8626d9d8b04",
-      "title": "Fallout 4",
-      "missing": [
-        "score"
-      ]
-    },
-    {
-      "id": "73b547b9b50d7fbd2ceed616",
-      "title": "Farming Simulator 22",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "d82ca579058e21e8955728d4",
       "title": "FINAL FANTASY III",
+      "id": "d82ca579058e21e8955728d4",
+      "status": "incomplete",
       "missing": [
         "year",
         "image",
@@ -803,138 +486,9 @@
       ]
     },
     {
-      "id": "5c5d6fbe5445ab605367b585",
-      "title": "FINAL FANTASY IV",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "68330f1c44b7c590e1b630d4",
-      "title": "FlatOut 4 Total Insanity",
-      "missing": [
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "79e84ffd198555f0a956af2e",
-      "title": "Floor Kids",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "a68f810b61af68db1f2b6570",
-      "title": "For The King",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "1fa13bb1b751a160311f037f",
-      "title": "Frantics",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "87589a7026cb0401585db684",
-      "title": "GoNNER",
-      "missing": [
-        "image"
-      ]
-    },
-    {
-      "id": "a0dcbc89334f6418cbf74787",
-      "title": "GONNER2",
-      "missing": [
-        "image"
-      ]
-    },
-    {
-      "id": "23c97ff5b30f56ad6afc7481",
-      "title": "Heavenly Bodies",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "d57a6e4fecfaaad27c25a96a",
-      "title": "HOT WHEELS UNLEASHED 2 - Turbocharged",
-      "missing": [
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "c7eca69808406864b829c432",
-      "title": "Jump King",
-      "missing": [
-        "score"
-      ]
-    },
-    {
-      "id": "d22a70d068d0bea83ed8b0a4",
-      "title": "Just Cause 4",
-      "missing": [
-        "score"
-      ]
-    },
-    {
-      "id": "6e9e4aad185163fe58079813",
-      "title": "Just Deal With It!",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "03c2dba710b10b4e82ddeb0f",
-      "title": "Just Die Already",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "cd744c687a657cf733d2e806",
-      "title": "JUST SING",
-      "missing": [
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "665cd4e857ec68a091714a65",
-      "title": "Kentucky Route Zero",
-      "missing": [
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "d0833b26c8fddd68ba9d66c7",
       "title": "KINGDOM HEARTS 1.5 + 2.5",
+      "id": "d0833b26c8fddd68ba9d66c7",
+      "status": "incomplete",
       "missing": [
         "year",
         "image",
@@ -943,36 +497,9 @@
       ]
     },
     {
-      "id": "2c3c5ded3336f589fcba092c",
-      "title": "Knowledge is Power",
-      "missing": [
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "61dd8db6e099f09057e9d0e9",
-      "title": "Knowledge is Power Decades",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "e89c325b2002dde36551c18e",
-      "title": "LEGO Harry Potter Collection",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "b3fc51d053f89a06619f0d8c",
       "title": "Let's Sing 10",
+      "id": "b3fc51d053f89a06619f0d8c",
+      "status": "incomplete",
       "missing": [
         "year",
         "image",
@@ -981,8 +508,9 @@
       ]
     },
     {
-      "id": "749096196958ec579d91eaa5",
       "title": "Let's Sing 11",
+      "id": "749096196958ec579d91eaa5",
+      "status": "incomplete",
       "missing": [
         "year",
         "image",
@@ -991,8 +519,9 @@
       ]
     },
     {
-      "id": "0381c7c7808bda31f0d62ae6",
       "title": "Let's Sing 12",
+      "id": "0381c7c7808bda31f0d62ae6",
+      "status": "incomplete",
       "missing": [
         "year",
         "image",
@@ -1001,8 +530,9 @@
       ]
     },
     {
-      "id": "03872290b40a38f5c9d85d2a",
       "title": "Let's Sing 13",
+      "id": "03872290b40a38f5c9d85d2a",
+      "status": "incomplete",
       "missing": [
         "year",
         "image",
@@ -1011,28 +541,26 @@
       ]
     },
     {
-      "id": "4d69ba22c7cb1cae23a69913",
       "title": "Let's Sing 2016",
+      "id": "4d69ba22c7cb1cae23a69913",
+      "status": "incomplete",
       "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
+        "score"
       ]
     },
     {
-      "id": "2952a39fb07220c14aa4cb69",
       "title": "Let's Sing 2017",
+      "id": "2952a39fb07220c14aa4cb69",
+      "status": "incomplete",
       "missing": [
-        "year",
-        "image",
         "score",
         "review"
       ]
     },
     {
-      "id": "562e6560ab86758906fb4837",
       "title": "Let's Sing 2018 (Deutsch)",
+      "id": "562e6560ab86758906fb4837",
+      "status": "incomplete",
       "missing": [
         "year",
         "image",
@@ -1041,28 +569,25 @@
       ]
     },
     {
-      "id": "1cc3aa1e2e3e0b2a57e6e635",
       "title": "Let's Sing 2019",
+      "id": "1cc3aa1e2e3e0b2a57e6e635",
+      "status": "incomplete",
       "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
+        "score"
       ]
     },
     {
-      "id": "adaca7fb40bbde04f33a823d",
       "title": "Let's Sing 2020",
+      "id": "adaca7fb40bbde04f33a823d",
+      "status": "incomplete",
       "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
+        "score"
       ]
     },
     {
-      "id": "25056f3e6f386e4ddd64ec2f",
       "title": "Let's Sing 2020 (Deutsch)",
+      "id": "25056f3e6f386e4ddd64ec2f",
+      "status": "incomplete",
       "missing": [
         "year",
         "image",
@@ -1071,8 +596,9 @@
       ]
     },
     {
-      "id": "1e6e09d374b1d71954723bf0",
       "title": "Let's Sing 2020 (Français)",
+      "id": "1e6e09d374b1d71954723bf0",
+      "status": "incomplete",
       "missing": [
         "year",
         "image",
@@ -1081,28 +607,17 @@
       ]
     },
     {
-      "id": "b49d90a04f0d94cf7850943d",
-      "title": "Let's Sing 2021",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "004fdb3628a7ac6b13b7966e",
       "title": "Let's Sing 2022",
+      "id": "004fdb3628a7ac6b13b7966e",
+      "status": "incomplete",
       "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
+        "score"
       ]
     },
     {
-      "id": "d1ef966c19ae8fd1b35e3dbb",
       "title": "Let's Sing 8 (Spanish)",
+      "id": "d1ef966c19ae8fd1b35e3dbb",
+      "status": "incomplete",
       "missing": [
         "year",
         "image",
@@ -1111,8 +626,9 @@
       ]
     },
     {
-      "id": "c1d813670a29ed35f401f712",
       "title": "Let's Sing 9 (Spanish)",
+      "id": "c1d813670a29ed35f401f712",
+      "status": "incomplete",
       "missing": [
         "year",
         "image",
@@ -1121,210 +637,42 @@
       ]
     },
     {
-      "id": "deca9f0843d49addca0c6a17",
-      "title": "Let's Sing Abba",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "d9f8fff1b4836cb335017040",
-      "title": "Let's Sing Country",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "f373cf804e381aa77ab9cc75",
-      "title": "Let's Sing Queen",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "f9e28d36c60879d849505614",
-      "title": "Life Is Strange",
-      "missing": [
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "7e9dbe1d96da80bd71be4ffb",
-      "title": "Life is Strange 2",
-      "missing": [
-        "score"
-      ]
-    },
-    {
-      "id": "a1c61db475101379a5897544",
-      "title": "Life is Strange Before the Storm",
-      "missing": [
-        "score"
-      ]
-    },
-    {
-      "id": "bbaab83d4fb279411dc62830",
-      "title": "Little Big Adventure - Twinsen's Quest",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "3e22912c5b3afc768c6df782",
-      "title": "Lovers in a Dangerous Spacetime",
-      "missing": [
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "f81b67493d076e6a9c42e658",
-      "title": "Mantis Burn Racing",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "2506facaad90598bf10c3262",
-      "title": "Marvel's Guardians of the Galaxy The Telltale Series",
-      "missing": [
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "efc7b00d5c0244c121142bb6",
-      "title": "Melbits World",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "2bf04dbeaca0fd85ab368cb1",
-      "title": "Micro Machines World Series",
-      "missing": [
-        "image"
-      ]
-    },
-    {
-      "id": "0d0c39ab3a8d2d460e301ac8",
-      "title": "Minecraft",
-      "missing": [
-        "image"
-      ]
-    },
-    {
-      "id": "e8c31d0a699fdc2b21112354",
-      "title": "Mirror's Edge Catalyst",
-      "missing": [
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "e40cde6548e45f83c6eaa03a",
       "title": "Monopoly Madness",
+      "id": "e40cde6548e45f83c6eaa03a",
+      "status": "incomplete",
       "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
+        "score"
       ]
     },
     {
-      "id": "3ee1397962b0f68fd3cd8114",
       "title": "Monster Energy Supercross 6",
+      "id": "3ee1397962b0f68fd3cd8114",
+      "status": "incomplete",
       "missing": [
         "score"
       ]
     },
     {
-      "id": "f4e661426b302ff9406bcc7c",
-      "title": "Monster Jam Steel Titans 2",
-      "missing": [
-        "image"
-      ]
-    },
-    {
-      "id": "481ac3a1cd71a2fd6f835947",
-      "title": "MotoGP 24",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "0d97ce4dcdeb74a36dcd6493",
-      "title": "Moving Out 2",
-      "missing": [
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "812232188560c4e3dce9aa4c",
-      "title": "MX vs ATV Legends",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "3143fb026cd032c0a5d7a355",
       "title": "My Name is Mayo",
+      "id": "3143fb026cd032c0a5d7a355",
+      "status": "incomplete",
       "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
+        "score"
       ]
     },
     {
-      "id": "429d77bfae4c7cee2ec56f4c",
       "title": "My Name is Mayo 2",
+      "id": "429d77bfae4c7cee2ec56f4c",
+      "status": "incomplete",
       "missing": [
-        "year",
-        "image",
         "score",
         "review"
       ]
     },
     {
-      "id": "7cedf22a40873c7f02727dc9",
-      "title": "NARUTO SHIPPUDEN Ultimate Ninja STORM 4",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "3d8ae3daaf07dc722daf5abe",
       "title": "NARUTO SHIPPUDEN Ultimate Ninja STORM 4 ROAD TO BORUTO",
+      "id": "3d8ae3daaf07dc722daf5abe",
+      "status": "incomplete",
       "missing": [
         "year",
         "image",
@@ -1333,64 +681,33 @@
       ]
     },
     {
-      "id": "72729092792dc1245fa3b46d",
-      "title": "NARUTO SHIPPUDEN Ultimate Ninja STORM TRILOGY",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "21096659e3cbab7b5b70314b",
-      "title": "NARUTO X BORUTO Ultimate Ninja STORM CONNECTIONS",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "30f009285b35703565a7790b",
       "title": "Neon Drive",
+      "id": "30f009285b35703565a7790b",
+      "status": "incomplete",
       "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
+        "score"
       ]
     },
     {
-      "id": "dadbbae23b894687b6393e7a",
       "title": "Night Slashers",
+      "id": "dadbbae23b894687b6393e7a",
+      "status": "incomplete",
       "missing": [
-        "score",
-        "review"
+        "score"
       ]
     },
     {
-      "id": "29e1ad48faf3532182e9a996",
       "title": "Nour Play With Your Food",
+      "id": "29e1ad48faf3532182e9a996",
+      "status": "incomplete",
       "missing": [
-        "score",
-        "review"
+        "score"
       ]
     },
     {
-      "id": "14b311382807d7972d75b113",
-      "title": "NOW That's What I Call Sing",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "d622914da64a0995a030f37d",
       "title": "OlliOlli 1+2",
+      "id": "d622914da64a0995a030f37d",
+      "status": "incomplete",
       "missing": [
         "year",
         "image",
@@ -1399,29 +716,17 @@
       ]
     },
     {
-      "id": "99636a60627ab357b902ec0f",
-      "title": "Oxenfree",
-      "missing": [
-        "image"
-      ]
-    },
-    {
-      "id": "10dec295d65ed4211bda0aab",
-      "title": "OXENFREE II Lost Signals",
-      "missing": [
-        "image"
-      ]
-    },
-    {
-      "id": "ebd3e4891ba9b24dae9b23ec",
       "title": "P.T.",
+      "id": "ebd3e4891ba9b24dae9b23ec",
+      "status": "incomplete",
       "missing": [
         "score"
       ]
     },
     {
-      "id": "d712f13829f709718f0a62a2",
       "title": "PAC-MAN Championship Edition 2 + Arcade Game Series",
+      "id": "d712f13829f709718f0a62a2",
+      "status": "incomplete",
       "missing": [
         "year",
         "image",
@@ -1430,18 +735,9 @@
       ]
     },
     {
-      "id": "7549947cb508ab84489f50bc",
-      "title": "Persona 5 Dancing in Starlight",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "04217453131c0b55624535e2",
       "title": "PES 2025 (Season Update)",
+      "id": "04217453131c0b55624535e2",
+      "status": "incomplete",
       "missing": [
         "year",
         "image",
@@ -1450,41 +746,33 @@
       ]
     },
     {
-      "id": "8b579543fc905cb14ce99ad9",
       "title": "Pinball Arcade",
+      "id": "8b579543fc905cb14ce99ad9",
+      "status": "incomplete",
       "missing": [
-        "score",
-        "review"
+        "score"
       ]
     },
     {
-      "id": "05bb284e0a69f83819025cfb",
-      "title": "Pinball FX3",
-      "missing": [
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "55b758505ead7aa5bfc3c027",
       "title": "Ponpu",
+      "id": "55b758505ead7aa5bfc3c027",
+      "status": "incomplete",
       "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
+        "score"
       ]
     },
     {
-      "id": "31c20d6ada0103040807dd2c",
       "title": "Potion Craft",
+      "id": "31c20d6ada0103040807dd2c",
+      "status": "incomplete",
       "missing": [
         "score"
       ]
     },
     {
-      "id": "6a862709f89cf816323091f1",
       "title": "PROTOTYPE 1+2",
+      "id": "6a862709f89cf816323091f1",
+      "status": "incomplete",
       "missing": [
         "year",
         "image",
@@ -1493,87 +781,34 @@
       ]
     },
     {
-      "id": "668961515af80a13ad2cce00",
       "title": "Pummel Party",
+      "id": "668961515af80a13ad2cce00",
+      "status": "incomplete",
       "missing": [
-        "year",
-        "image",
         "score",
         "review"
       ]
     },
     {
-      "id": "b2c92b5c9e3d0fbc8492c140",
       "title": "Quake II",
+      "id": "b2c92b5c9e3d0fbc8492c140",
+      "status": "incomplete",
       "missing": [
         "score"
       ]
     },
     {
-      "id": "4c05dbe855586d8d273aae0e",
-      "title": "Rabbids Party of Legends",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "67a44d514329c56826e055ee",
-      "title": "Ravenswatch",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "be6100f96427a09b0852e0ab",
-      "title": "Redout 2",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "5b98869b0716868db8b25be3",
       "title": "Resident Evil Origins Collection",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "8150ab1cf1c5106e1dc3b549",
-      "title": "RESIDENT EVIL REVELATIONS 2",
+      "id": "5b98869b0716868db8b25be3",
+      "status": "incomplete",
       "missing": [
         "score"
       ]
     },
     {
-      "id": "36dff045d82e5c2f1298f0cd",
-      "title": "RESOGUN",
-      "missing": [
-        "image"
-      ]
-    },
-    {
-      "id": "84fd765ae748af2e03c9388e",
-      "title": "Ride 4",
-      "missing": [
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "17ed63197965b0912d2222bb",
       "title": "Rock Band 4 Expansion Pack 1",
+      "id": "17ed63197965b0912d2222bb",
+      "status": "incomplete",
       "missing": [
         "year",
         "image",
@@ -1582,8 +817,9 @@
       ]
     },
     {
-      "id": "1fbbd85a457fe77ce3025352",
       "title": "Rock Band 4 Expansion Pack 2",
+      "id": "1fbbd85a457fe77ce3025352",
+      "status": "incomplete",
       "missing": [
         "year",
         "image",
@@ -1592,8 +828,9 @@
       ]
     },
     {
-      "id": "6f975c8f8e1a64f8b29186c1",
       "title": "Rock Band 4 Expansion Pack 3",
+      "id": "6f975c8f8e1a64f8b29186c1",
+      "status": "incomplete",
       "missing": [
         "year",
         "image",
@@ -1602,8 +839,9 @@
       ]
     },
     {
-      "id": "d409ae02d8606b7f00c1909b",
       "title": "Rock Band 4 Expansion Pack 4",
+      "id": "d409ae02d8606b7f00c1909b",
+      "status": "incomplete",
       "missing": [
         "year",
         "image",
@@ -1612,44 +850,18 @@
       ]
     },
     {
-      "id": "e1dc87f27b3aafdc7556fe40",
-      "title": "Serial Cleaner",
-      "missing": [
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "7194e3c2e3c74f66f84a88b5",
-      "title": "Serial Cleaners",
-      "missing": [
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "acf7d96dd4a13305adea98ed",
-      "title": "Skabma - Snowfall",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "8d8ea317411a7b4f0cb5638a",
       "title": "Slime 3K Rise Against Despot",
+      "id": "8d8ea317411a7b4f0cb5638a",
+      "status": "incomplete",
       "missing": [
-        "year",
-        "image",
         "score",
         "review"
       ]
     },
     {
-      "id": "efe71951b5d6ec6cbdccef58",
       "title": "SNK Collection",
+      "id": "efe71951b5d6ec6cbdccef58",
+      "status": "incomplete",
       "missing": [
         "year",
         "image",
@@ -1658,26 +870,17 @@
       ]
     },
     {
-      "id": "540e1641082676e6d32b2677",
       "title": "SPIDERHECK",
+      "id": "540e1641082676e6d32b2677",
+      "status": "incomplete",
       "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
+        "score"
       ]
     },
     {
-      "id": "7c80f6eef1f0412c6b561a28",
-      "title": "Spiritfarer",
-      "missing": [
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "4ef9035e5bdff2f9d275a5ec",
       "title": "STARWHAL",
+      "id": "4ef9035e5bdff2f9d275a5ec",
+      "status": "incomplete",
       "missing": [
         "year",
         "image",
@@ -1686,94 +889,25 @@
       ]
     },
     {
-      "id": "1cc7fba01d84c6078e55fe94",
       "title": "Stick Fight The Game",
-      "missing": [
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "7f6a6777148df285761c769c",
-      "title": "Stories Untold",
-      "missing": [
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "de42dabf60ec290587545899",
-      "title": "Super Crazy Rhythm Castle",
+      "id": "1cc7fba01d84c6078e55fe94",
+      "status": "incomplete",
       "missing": [
         "score"
       ]
     },
     {
-      "id": "ed0f8a1613769f330acdb4a8",
-      "title": "SUPERHOT",
-      "missing": [
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "c810e58dc57b8fe40ab4abdb",
-      "title": "Superliminal",
-      "missing": [
-        "image"
-      ]
-    },
-    {
-      "id": "156b765c5312c28ac920aca8",
-      "title": "Taiko No Tatsujin - Drum Session",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "9ce4b4d4937997e03e32aa62",
       "title": "Tales from the Borderlands",
+      "id": "9ce4b4d4937997e03e32aa62",
+      "status": "incomplete",
       "missing": [
         "score"
       ]
     },
     {
-      "id": "d923b48becbefc0d3a202188",
-      "title": "The Bug Butcher",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "845a6f08dd84a034dd3f453d",
-      "title": "The Cub",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "b4a4c63307b166c1f62d2c54",
-      "title": "The Knight Witch",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "880bb7e28e05b0fdb391596b",
       "title": "The Walking Dead The Telltale Series",
+      "id": "880bb7e28e05b0fdb391596b",
+      "status": "incomplete",
       "missing": [
         "year",
         "image",
@@ -1782,42 +916,9 @@
       ]
     },
     {
-      "id": "e28718a2ce9c9ac0130a2420",
-      "title": "The Wolf Among Us",
-      "missing": [
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "8d159d48ef44e190b94cd79e",
-      "title": "This Is the Police",
-      "missing": [
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "c2de53c801627a990b1cb523",
-      "title": "This Is the Police 2",
-      "missing": [
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "dfaadf36e9e1b1618ad0b7c0",
-      "title": "Time on Frog Island",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "cb2b9cc813a5e39678994f6b",
       "title": "TowerFall Dark World Expansion",
+      "id": "cb2b9cc813a5e39678994f6b",
+      "status": "incomplete",
       "missing": [
         "year",
         "image",
@@ -1826,136 +927,27 @@
       ]
     },
     {
-      "id": "a8cee6e9b18a6bfbf4a509fa",
-      "title": "Train Sim World 4",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "a57d45cb1e2bf1cf6b4169bd",
       "title": "Train Valley 2",
+      "id": "a57d45cb1e2bf1cf6b4169bd",
+      "status": "incomplete",
       "missing": [
-        "score",
-        "review"
+        "score"
       ]
     },
     {
-      "id": "a140094061840c086f9189f4",
-      "title": "Transference",
-      "missing": [
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "ff49f6d484d83a5e5b3c3f10",
-      "title": "Trash Sailors",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "1a6537047bb95bff2bfed88f",
       "title": "Treadnauts",
+      "id": "1a6537047bb95bff2bfed88f",
+      "status": "incomplete",
       "missing": [
-        "score",
-        "review"
+        "score"
       ]
     },
     {
-      "id": "53cd6199914fd8002283ac50",
-      "title": "Trine 5 A Clockwork Conspiracy",
-      "missing": [
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "49e363860bfbef3e2533b97c",
-      "title": "Two Point Campus",
-      "missing": [
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "5b45642ca0cdee7e7bfc220c",
-      "title": "Uncanny Valley",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "eea77f7fc51ca2f42a1440ef",
-      "title": "Undertale",
-      "missing": [
-        "image"
-      ]
-    },
-    {
-      "id": "0f2e8d2acf4bf65a1a67e36d",
-      "title": "Unravel TWO",
-      "missing": [
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "ebdeebca5876292f2d893db0",
-      "title": "Unspottable",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "d3acb139752b92ae30b4b624",
-      "title": "Valiant Hearts Coming Home",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "bf683ae902322d6c991e5134",
       "title": "Wordhunters",
+      "id": "bf683ae902322d6c991e5134",
+      "status": "incomplete",
       "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "b04f4143a56e80d846543ccd",
-      "title": "You Suck At Parking",
-      "missing": [
-        "score",
-        "review"
-      ]
-    },
-    {
-      "id": "d58db4991b7d398ae6d87082",
-      "title": "Zero Escape The Nonary Games",
-      "missing": [
-        "year",
-        "image",
-        "score",
-        "review"
+        "score"
       ]
     }
   ]
