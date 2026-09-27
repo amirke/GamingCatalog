@@ -277,9 +277,13 @@ function card(game) {
     const arrow = node('span', 'row-arrow', expanded.has(game.id) ? '▾' : '▸'); arrow.setAttribute('aria-hidden', 'true');
     // The cover is a separate button, never nested inside the collapse button.
     icon.remove();
+    title.title = title.textContent;
+    const extraInfo = node('div', 'row-extra-info');
+    extraInfo.append(node('h4', '', title.textContent));
+    for (const child of [...heading.children]) if (child !== title) extraInfo.append(child);
     toggle.append(arrow, top); row.append(icon, toggle, checks);
     const details = node('div', 'row-details'); details.id = 'details-' + game.id; details.hidden = !expanded.has(game.id);
-    details.append(descriptionBlock(game), interestLabel, reasonLabel, links, reviewBlock(info, game), label, cheats);
+    details.append(extraInfo, descriptionBlock(game), interestLabel, reasonLabel, links, reviewBlock(info, game), label, cheats);
     toggle.addEventListener('click', () => {
       const open = !expanded.has(game.id); if (open) expanded.add(game.id); else expanded.delete(game.id);
       toggle.setAttribute('aria-expanded', open); details.hidden = !open; arrow.textContent = open ? '▾' : '▸';
