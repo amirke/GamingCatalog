@@ -60,7 +60,7 @@ function Hash([string]$Path){
  try{
   while(($n=$stream.Read($buffer,0,$buffer.Length)) -gt 0){
    [void]$sha.TransformBlock($buffer,0,$n,$buffer,0)
-   Write-Progress -Id 2 -ParentId 1 -Activity 'Checking file hash' -Status ([IO.Path]::GetFileName($Path)) -PercentComplete ([int](100*$stream.Position/[Math]::Max(1,$stream.Length)))
+   Write-Progress -Id 2 -ParentId 1 -Activity 'Checking file hash' -Status ([IO.Path]::GetFileName($Path)) -PercentComplete ([int](100*$stream.Position/[Math]::Max([long]1,$stream.Length)))
    if(((Get-Date)-$last).TotalSeconds -ge 5){Log "HASH $([IO.Path]::GetFileName($Path)) $([int](100*$stream.Position/$stream.Length))%";$last=Get-Date}
   }
   [void]$sha.TransformFinalBlock($buffer,0,0)
