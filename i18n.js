@@ -3,6 +3,10 @@
 window.catalogLanguage = 'he';
 try { if (localStorage.getItem('gaming-catalog-language') === 'en') window.catalogLanguage = 'en'; } catch {}
 const translations = {
+  "סוג משחקים": "Game type",
+  "כל הסוגים": "All platforms",
+  "הומר ל־PS4": "Converted for PS4",
+  "קובץ PKG:": "PKG file:",
   "ביקורת מאתר ישראלי": "Israeli editorial review",
   "יש ביקורת מאתר ישראלי": "Has an Israeli review",
   "ללא ביקורת מאתר ישראלי": "No Israeli review",

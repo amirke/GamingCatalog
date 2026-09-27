@@ -1,6 +1,6 @@
 'use strict';
 const catalog = window.GAMING_CATALOG;
-const games = catalog.games;
+const games = [...catalog.games.map(game => ({...game, platform: 'PS4'})), ...(window.PS2_GAMES || [])];
 const metadata = window.GAME_METADATA?.entries || {};
 const gameInfo = id => metadata[id] || {};
 const genres = window.GAME_GENRES?.entries || {};
@@ -29,7 +29,7 @@ let ui = {};
 try { ui = JSON.parse(localStorage.getItem(UI_KEY) || '{}') || {}; } catch {}
 let view = ui.view === 'list' ? 'list' : 'cards';
 const expanded = new Set();
-const filterIds = ['search', 'filter', 'downloadFilter', 'playFilter', 'interestFilter', 'interestedFilter', 'notesFilter', 'regionFilter', 'genreFilter', 'yearFilter', 'ps4YearFilter', 'metadataFilter', 'hebrewReviewFilter', 'editorialFilter', 'publisherFilter', 'sort'];
+const filterIds = ['platformFilter', 'search', 'filter', 'downloadFilter', 'playFilter', 'interestFilter', 'interestedFilter', 'notesFilter', 'regionFilter', 'genreFilter', 'yearFilter', 'ps4YearFilter', 'metadataFilter', 'hebrewReviewFilter', 'editorialFilter', 'publisherFilter', 'sort'];
 for (const publisher of [...new Set(games.flatMap(g => [...(hebrewReviews[g.id] || []), ...publisherReviews(g.id)].map(r => r.publisher)))].sort()) {
   const option = document.createElement('option'); option.value = publisher; option.textContent = publisher; $('publisherFilter').append(option);
 }
@@ -47,7 +47,7 @@ for (const region of [...new Set(games.map(g => g.region))].sort()) {
 for (const id of filterIds) if (typeof ui[id] === 'string') {
   $(id).value = ui[id]; if ($(id).tagName === 'SELECT' && !$(id).value) $(id).selectedIndex = 0;
 }
-if (ui.letter === 'all' || /^[A-Z]$/.test(ui.letter || '')) letter = ui.letter;
+if (ui.letter === 'all' || /^[A-Z#]$/.test(ui.letter || '')) letter = ui.letter;
 function saveUI() {
   ui = {view, letter}; for (const id of filterIds) ui[id] = $(id).value;
   try { localStorage.setItem(UI_KEY, JSON.stringify(ui)); } catch { notice(tr('לא ניתן לשמור את העדפות התצוגה בדפדפן.')); }
@@ -93,6 +93,16 @@ function persist() {
     return true;
   } catch { $('saveStatus').textContent = tr('השמירה נכשלה — יש לייצא גיבוי'); notice(tr('אין אפשרות לשמור בדפדפן. השינויים זמינים כרגע בזיכרון בלבד; השתמשו בגיבוי לפני סגירה.')); return false; }
 }
+// A low, stable timestamp lets later user choices win on every device.
+let seededDownloads = false;
+for (const game of games) {
+  if (game.initialDownloaded && !state.entries[game.id]?.downloaded) {
+    state.entries[game.id] ||= {};
+    state.entries[game.id].downloaded = {value: true, updatedAt: 1};
+    seededDownloads = true;
+  }
+}
+if (seededDownloads) persist();
 function value(id, field) { return state.entries[id]?.[field]?.value ?? (['notes', 'notInterestedReason', 'interestedReason'].includes(field) ? '' : false); }
 function update(id, field, newValue) {
   state.entries[id] ||= {};
@@ -208,7 +218,7 @@ function card(game) {
     image.src = info.image; icon.replaceChildren(image); icon.classList.add('cover');
   } else icon.setAttribute('aria-hidden', 'true');
   const heading = node('div'); const title = node('h3', '', game.title + (info.year ? ` (${info.year})` : '')); title.dir = 'ltr';
-  const meta = node('div', 'meta', ['PS4' + (info.ps4Year ? ' ' + info.ps4Year : ''), game.region, 'v' + game.version, game.bytes ? (game.bytes / 1024 ** 3).toFixed(1) + ' GiB' : ''].filter(Boolean).join(' · ')); meta.dir = 'ltr';
+  const meta = node('div', 'meta', [game.platform + (info.ps4Year ? ' ' + info.ps4Year : ''), game.platform === 'PS2' ? tr('הומר ל־PS4') : '', game.region, game.titleId, 'v' + game.version, game.bytes ? (game.bytes / 1024 ** 3).toFixed(1) + ' GiB' : ''].filter(Boolean).join(' · ')); meta.dir = 'ltr';
   heading.append(title, meta);
   const genreRow = node('div', 'genre-tags');
   const gameGenres = genres[game.id];
@@ -227,9 +237,11 @@ function card(game) {
   }
   const links = node('div', 'links');
   if (gameGenres?.source) { const genreSource = sourceLink(tr('מקור הז׳אנר ↗'), gameGenres.source); genreSource.title = [gameGenres.sourceLabel, gameGenres.basis].filter(Boolean).join(' · '); links.append(genreSource); }
-  for (const [text, url] of [[tr('↗ חיפוש באינטרנט'), 'https://www.google.com/search?q=' + encodeURIComponent(game.title + ' PS4')], ['↗ Archive · ' + game.letter, game.archiveUrl]]) {
+  for (const [text, url] of [[tr('↗ חיפוש באינטרנט'), 'https://www.google.com/search?q=' + encodeURIComponent(game.title + ' ' + game.platform)], ['↗ Archive · ' + game.letter, game.archiveUrl]]) {
+    if (!url) continue;
     const link = node('a', '', text); link.href = url; link.target = '_blank'; link.rel = 'noopener noreferrer'; links.append(link);
   }
+  if (game.platform === 'PS2') { const file = node('p', 'metadata-missing', tr('קובץ PKG: ') + game.filename); file.dir = 'auto'; links.append(file); }
   const label = node('label', 'notes-label', tr('הערות, רשמים ועדכונים'));
   const notes = node('textarea'); notes.placeholder = tr('איך היה? מה כדאי לזכור לפעם הבאה?'); notes.value = value(game.id, 'notes'); notes.dir = 'auto'; notes.dataset.field = 'notes';
   notes.setAttribute('aria-label', tr('הערות — ') + game.title);
@@ -271,7 +283,7 @@ function filtered() {
   const search = $('search').value.trim().toLocaleLowerCase(); const filter = $('filter').value;
   const match = (id, field, control) => $(control).value === 'all' || Boolean(value(id, field)) === ($(control).value === 'yes');
   const yearMatch = (id, field, control) => $(control).value === 'all' || ($(control).value === 'unknown' ? !gameInfo(id)[field] : String(gameInfo(id)[field]) === $(control).value);
-  const list = games.filter(g => (letter === 'all' || g.letter === letter) && (!search || (g.title + ' ' + g.filename).toLocaleLowerCase().includes(search)) &&
+  const list = games.filter(g => ($('platformFilter').value === 'all' || g.platform === $('platformFilter').value) && (letter === 'all' || g.letter === letter) && (!search || (g.title + ' ' + g.filename).toLocaleLowerCase().includes(search)) &&
     (filter === 'all' || filter === 'notDownloaded' && !value(g.id, 'downloaded') || filter === 'notPlayed' && !value(g.id, 'played') || Boolean(value(g.id, filter))) &&
     match(g.id, 'downloaded', 'downloadFilter') && match(g.id, 'played', 'playFilter') && match(g.id, 'notInterested', 'interestFilter') && match(g.id, 'interested', 'interestedFilter') && match(g.id, 'notes', 'notesFilter') &&
     ($('genreFilter').value === 'all' || ($('genreFilter').value === 'unknown' ? !genres[g.id]?.genres.length : genres[g.id]?.genres.includes($('genreFilter').value))) &&
@@ -313,7 +325,7 @@ function refreshSavedFields() {
     }
   }
 }
-for (const l of ['all', ...'ABCDEFGHIJKLMNOPQRSTUVWXYZ']) {
+for (const l of ['all', '#', ...'ABCDEFGHIJKLMNOPQRSTUVWXYZ']) {
   const btn = node('button', '', l === 'all' ? tr('הכול') : l); btn.dataset.letter = l;
   btn.addEventListener('click', () => { letter = l; page = 1; saveUI(); render(); }); $('letters').append(btn);
 }
