@@ -1,9 +1,10 @@
 'use strict';
 const catalog = window.GAMING_CATALOG;
-const games = [...catalog.games.map(game => ({...game, platform: 'PS4'})), ...(window.PS2_GAMES || [])];
-const metadata = window.GAME_METADATA?.entries || {};
+const games = [...catalog.games.map(game => ({...game, platform: 'PS4'})), ...(window.PS2_GAMES || []), ...(window.MANUAL_GAMES || [])];
+const collections = window.GAME_COLLECTIONS?.entries || {};
+const metadata = {...(window.GAME_METADATA?.entries || {}), ...Object.fromEntries((window.MANUAL_GAMES || []).map(game => [game.id, game.metadata || {}]))};
 const gameInfo = id => metadata[id] || {};
-const genres = {...(window.GAME_GENRES?.entries || {}), ...Object.fromEntries((window.PS2_GAMES || []).filter(game => game.genres?.length).map(game => [game.id, {genres: game.genres, source: game.descriptionSource?.url, sourceLabel: game.descriptionSource?.label}]))};
+const genres = {...(window.GAME_GENRES?.entries || {}), ...Object.fromEntries(games.filter(game => game.genres?.length).map(game => [game.id, {genres: game.genres, source: game.descriptionSource?.url, sourceLabel: game.descriptionSource?.label}]))};
 const genreTaxonomy = window.GAME_GENRES?.taxonomy || {};
 const genreLabel = id => genreTaxonomy[id]?.[window.catalogLanguage] || id;
 const hebrewReviews = window.HEBREW_REVIEWS?.entries || {};
@@ -167,7 +168,7 @@ function reviewBlock(info, game) {
     const score = node('div', 'critic-score');
     score.append(node('strong', '', info.score.value + '/100'), node('span', '', 'Metacritic · ' + (info.score.platform === 'unspecified' ? tr('פלטפורמה לא צוינה') : info.score.platform)));
     block.append(score);
-  } else block.append(node('p', 'metadata-missing', tr('לא נמצא ציון מבקרים במקור.')));
+  } else if (!publisherReviews(game.id).some(review => review.score != null)) block.append(node('p', 'metadata-missing', tr('לא נמצא ציון מבקרים במקור.')));
   const summary = info.review?.[window.catalogLanguage];
   if (summary) { block.append(node('small', '', tr('סיכום אוטומטי של נתוני המקור')), node('p', 'review-summary', summary)); }
   const written = [...publisherReviews(game.id), info.receptionText].filter(Boolean);
@@ -212,6 +213,19 @@ function descriptionBlock(game) {
   if (game.descriptionSource?.url) block.append(sourceLink(tr('מקור התיאור ↗') + ' · ' + game.descriptionSource.label, game.descriptionSource.url));
   return block;
 }
+function collectionBlock(game) {
+  const entry = collections[game.id];
+  if (!entry) return document.createDocumentFragment();
+  const block = node('details', 'collection-contents');
+  block.append(node('summary', '', tr('מה כלול באוסף') + (entry.items.length ? ` (${entry.items.length})` : '')));
+  if (entry.note?.[window.catalogLanguage]) block.append(node('p', '', entry.note[window.catalogLanguage]));
+  if (entry.status === 'partial') block.append(node('small', 'metadata-missing', tr('רשימה חלקית')));
+  const list = node('ul', 'included-games');
+  for (const title of entry.items) { const item = node('li', '', title); item.dir = 'ltr'; list.append(item); }
+  if (entry.items.length) block.append(list);
+  if (entry.source) block.append(sourceLink(tr('מקור רשימת המשחקים ↗'), entry.source));
+  return block;
+}
 function card(game) {
   const info = gameInfo(game.id);
   const el = node('article', 'game'); el.dataset.id = game.id;
@@ -250,7 +264,7 @@ function card(game) {
     if (!url) continue;
     const link = node('a', '', text); link.href = url; link.target = '_blank'; link.rel = 'noopener noreferrer'; links.append(link);
   }
-  if (game.platform === 'PS2') { const file = node('p', 'metadata-missing', tr('קובץ PKG: ') + game.filename); file.dir = 'auto'; links.append(file); }
+  if (game.platform === 'PS2' || game.titleId === 'CUSA47540') { const file = node('p', 'metadata-missing', tr('קובץ PKG: ') + game.filename); file.dir = 'auto'; links.append(file); }
   const label = node('label', 'notes-label', tr('הערות, רשמים ועדכונים'));
   const notes = node('textarea'); notes.placeholder = tr('איך היה? מה כדאי לזכור לפעם הבאה?'); notes.value = value(game.id, 'notes'); notes.dir = 'auto'; notes.dataset.field = 'notes';
   notes.setAttribute('aria-label', tr('הערות — ') + game.title);
@@ -283,20 +297,20 @@ function card(game) {
     for (const child of [...heading.children]) if (child !== title) extraInfo.append(child);
     toggle.append(arrow, top); row.append(icon, toggle, checks);
     const details = node('div', 'row-details'); details.id = 'details-' + game.id; details.hidden = !expanded.has(game.id);
-    details.append(extraInfo, descriptionBlock(game), interestLabel, reasonLabel, links, reviewBlock(info, game), label, cheats);
+    details.append(extraInfo, descriptionBlock(game), collectionBlock(game), interestLabel, reasonLabel, links, reviewBlock(info, game), label, cheats);
     toggle.addEventListener('click', () => {
       const open = !expanded.has(game.id); if (open) expanded.add(game.id); else expanded.delete(game.id);
       toggle.setAttribute('aria-expanded', open); details.hidden = !open; arrow.textContent = open ? '▾' : '▸';
     });
     el.append(row, details);
-  } else el.append(top, checks, descriptionBlock(game), interestLabel, reasonLabel, links, reviewBlock(info, game), label, cheats);
+  } else el.append(top, checks, descriptionBlock(game), collectionBlock(game), interestLabel, reasonLabel, links, reviewBlock(info, game), label, cheats);
   return el;
 }
 function filtered() {
   const search = $('search').value.trim().toLocaleLowerCase(); const filter = $('filter').value;
   const match = (id, field, control) => $(control).value === 'all' || Boolean(value(id, field)) === ($(control).value === 'yes');
   const yearMatch = (id, field, control) => $(control).value === 'all' || ($(control).value === 'unknown' ? !gameInfo(id)[field] : String(gameInfo(id)[field]) === $(control).value);
-  const list = games.filter(g => ($('platformFilter').value === 'all' || g.platform === $('platformFilter').value) && (letter === 'all' || g.letter === letter) && (!search || (g.title + ' ' + g.filename).toLocaleLowerCase().includes(search)) &&
+  const list = games.filter(g => ($('platformFilter').value === 'all' || g.platform === $('platformFilter').value) && (letter === 'all' || g.letter === letter) && (!search || (g.title + ' ' + g.filename + ' ' + (collections[g.id]?.items || []).join(' ')).toLocaleLowerCase().includes(search)) &&
     (filter === 'all' || filter === 'notDownloaded' && !value(g.id, 'downloaded') || filter === 'notPlayed' && !value(g.id, 'played') || Boolean(value(g.id, filter))) &&
     match(g.id, 'downloaded', 'downloadFilter') && match(g.id, 'played', 'playFilter') && match(g.id, 'notInterested', 'interestFilter') && match(g.id, 'interested', 'interestedFilter') && match(g.id, 'notes', 'notesFilter') &&
     ($('genreFilter').value === 'all' || ($('genreFilter').value === 'unknown' ? !genres[g.id]?.genres.length : genres[g.id]?.genres.includes($('genreFilter').value))) &&

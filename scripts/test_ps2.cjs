@@ -15,7 +15,7 @@ const ps4 = sandbox.window.GAMING_CATALOG.games[0].id;
     await page.route('https://**/*', route => route.abort());
     const errors = []; page.on('pageerror', error => errors.push(error.message));
     await page.goto(pathToFileURL(path.join(root, 'index.html')).href);
-    assert.equal(await page.locator('#total').textContent(), '910');
+    assert.equal(await page.locator('#total').textContent(), '911');
     const initial = await page.evaluate(() => ({games: window.PS2_GAMES, state: window.catalogStore.get()}));
     assert.equal(initial.games.length, 38);
     assert.equal(new Set(initial.games.map(g => g.id)).size, 38);
@@ -78,9 +78,9 @@ const ps4 = sandbox.window.GAMING_CATALOG.games[0].id;
     assert.equal(await page.locator('.game-description').first().getAttribute('lang'), 'en');
     assert.equal(await page.locator('.game-description h4').first().textContent(), 'About the game');
     await page.selectOption('#platformFilter', 'PS4');
-    assert.equal(await page.locator('#resultCount').textContent(), '(872)');
+    assert.equal(await page.locator('#resultCount').textContent(), '(873)');
     await page.click('#resetFilters');
-    assert.equal(await page.locator('#resultCount').textContent(), '(910)');
+    assert.equal(await page.locator('#resultCount').textContent(), '(911)');
     await page.setViewportSize({width: 390, height: 844});
     await page.selectOption('#platformFilter', 'PS2');
     for (const selector of ['#cardsView', '#listView']) {
@@ -93,6 +93,6 @@ const ps4 = sandbox.window.GAMING_CATALOG.games[0].id;
       await page.screenshot({path: process.env.PS2_SCREENSHOT});
     }
     assert.deepEqual(errors, []);
-    console.log('PASS: 38 PS2 entries, 910 total, filters, cards/list, downloaded defaults, existing PS4 state, persisted uncheck, remote merge, backup import, English.');
+    console.log('PASS: 38 PS2 entries, 911 total, filters, cards/list, downloaded defaults, existing PS4 state, persisted uncheck, remote merge, backup import, English.');
   } finally { await browser.close(); }
 })().catch(error => {console.error(error); process.exitCode = 1;});

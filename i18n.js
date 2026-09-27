@@ -3,6 +3,9 @@
 window.catalogLanguage = 'he';
 try { if (localStorage.getItem('gaming-catalog-language') === 'en') window.catalogLanguage = 'en'; } catch {}
 const translations = {
+  "מה כלול באוסף": "Included games",
+  "רשימה חלקית": "Partial list",
+  "מקור רשימת המשחקים ↗": "Game list source ↗",
   "על המשחק": "About the game",
   "מקור התיאור ↗": "Description source ↗",
   "סוג משחקים": "Game type",

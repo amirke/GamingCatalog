@@ -26,3 +26,8 @@ button.monogram.cover{cursor:zoom-in}button.monogram.cover:hover:not(:disabled){
 .game-row .checks label{min-width:0;white-space:nowrap;font-size:12px}
 .row-extra-info{margin-bottom:16px}.row-extra-info h4{margin:0 0 8px;overflow-wrap:anywhere;direction:ltr;text-align:start}
 @media(max-width:650px){.game-row .row-heading{padding:0 10px 8px;gap:8px}.game-row .checks{flex-basis:100%;justify-content:space-between;gap:6px}.game-row .checks label{font-size:11px}.game-row .row-toggle{padding:8px 0}}
+/* Collection names remain inside the expanded details; collapsed rows stay compact. */
+.collection-contents { margin-block: .75rem; padding: .65rem .8rem; border: 1px solid var(--border, #394459); border-radius: 8px; }
+.collection-contents summary { cursor: pointer; font-weight: 600; }
+.included-games { columns: 2 240px; padding-inline-start: 1.4rem; }
+.included-games li { break-inside: avoid; text-align: start; padding-block: .15rem; overflow-wrap: anywhere; }
