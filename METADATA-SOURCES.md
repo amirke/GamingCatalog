@@ -46,3 +46,11 @@ The portal deduplicates publisher links, shows both the original review URL and 
 `data/editorial-audit.json` checks all catalog rows for source links, Hebrew availability and search outcomes. Its Markdown counterpart lists unresolved titles. `data/image-audit.json` records image loading/decoding results. `data/image-repair-report.json` records replacements or additions from title-validated review artwork, persisted in metadata supplements. This is not a visual verification of every image, and availability can change.
 
 Vgames archive requests returned HTTP 403; indexed pages were checked individually where available. Thus Israeli coverage is partial, not proof that missing articles do not exist. No forum posts or user-review scores are substituted for editorial coverage. Catalog names and public review text were submitted with user consent; personal catalog state, notes and Gist credentials are never inputs to these scripts.
+
+## PS2 descriptions and genres — 2026-09-27
+
+All 38 converted PS2 records in `data/ps2-games.js` contain original short Hebrew/English descriptions, genre IDs from the existing taxonomy, and a linked source with a checked date. These are descriptive summaries, not editorial reviews or review scores. Genres are curated from the referenced gameplay descriptions.
+
+Disc identity checks distinguish G-Force SLES53934 (water skiing), the two demo compilations, Play It! Arcade Classics from SNK's collection, Rayman Revolution from other Rayman 2 ports, and the 2004 Transformers game from the 2007 film adaptation. SingStar descriptions use sourced series gameplay; edition names and regions come from the verified disc catalog, without unverified track-list claims. No PS4 metadata or personal saved fields were copied over.
+
+Coverage verified: 38 bilingual descriptions, 38 nonempty genre sets, and 38 HTTPS source links. Browser tests cover genre filtering (10 music titles, 3 sports titles, zero unclassified PS2 entries), both views, Hebrew/English, mobile layout, and persistence of downloaded status.

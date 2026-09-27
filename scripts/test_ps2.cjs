@@ -19,7 +19,12 @@ const ps4 = sandbox.window.GAMING_CATALOG.games[0].id;
     const initial = await page.evaluate(() => ({games: window.PS2_GAMES, state: window.catalogStore.get()}));
     assert.equal(initial.games.length, 38);
     assert.equal(new Set(initial.games.map(g => g.id)).size, 38);
-    for (const game of initial.games) assert.equal(initial.state.entries[game.id].downloaded.value, true);
+    for (const game of initial.games) {
+      assert.equal(initial.state.entries[game.id].downloaded.value, true);
+      assert.ok(game.description.he.length > 25 && game.description.en.length > 25);
+      assert.ok(game.genres.length > 0 && new URL(game.descriptionSource.url).protocol === 'https:');
+    }
+    assert.ok(initial.games.find(g => g.titleId === 'SLES53934').description.en.includes('water-skiing'));
     await page.evaluate(id => {
       const entries = {}; entries[id] = {downloaded: {value: false, updatedAt: 100}, notes: {value: 'Keep existing PS4 notes', updatedAt: 100}};
       localStorage.setItem('gaming-catalog-state-v1', JSON.stringify({schemaVersion: 1, entries}));
@@ -29,10 +34,20 @@ const ps4 = sandbox.window.GAMING_CATALOG.games[0].id;
     await page.selectOption('#platformFilter', 'PS2');
     assert.equal(await page.locator('#resultCount').textContent(), '(38)');
     assert.equal(await page.locator('[data-field=downloaded]:checked').count(), 24);
+    assert.equal(await page.locator('.game-description').count(), 24);
+    assert.equal(await page.locator('.game-description').first().getAttribute('lang'), 'he');
     assert.equal(await page.locator('a[href*="archive.org"]').count(), 0);
-    assert.ok((await page.locator('.links a').first().getAttribute('href')).includes('PS2'));
+    assert.ok((await page.locator('.links a[href*="google.com/search"]').first().getAttribute('href')).includes('PS2'));
+    await page.selectOption('#genreFilter', 'music');
+    assert.equal(await page.locator('#resultCount').textContent(), '(10)');
+    await page.selectOption('#genreFilter', 'sports');
+    assert.equal(await page.locator('#resultCount').textContent(), '(3)');
+    await page.selectOption('#genreFilter', 'unknown');
+    assert.equal(await page.locator('#resultCount').textContent(), '(0)');
+    await page.selectOption('#genreFilter', 'all');
     await page.click('#next');
     assert.equal(await page.locator('[data-field=downloaded]:checked').count(), 14);
+    assert.equal(await page.locator('.game-description').count(), 14);
     await page.click('#previous');
     await page.click('[data-letter="#"]');
     assert.equal(await page.locator('#resultCount').textContent(), '(2)');
@@ -40,6 +55,7 @@ const ps4 = sandbox.window.GAMING_CATALOG.games[0].id;
     await page.click('#listView');
     await page.locator('.row-toggle').first().click();
     assert.equal(await page.locator('.row-toggle').first().getAttribute('aria-expanded'), 'true');
+    assert.equal(await page.locator('.game-description').first().isVisible(), true);
     const firstId = await page.locator('.game').first().getAttribute('data-id');
     await page.locator('[data-field=downloaded]').first().uncheck();
     await page.reload();
@@ -59,6 +75,8 @@ const ps4 = sandbox.window.GAMING_CATALOG.games[0].id;
     await page.waitForFunction(() => document.documentElement.lang === 'en');
     assert.equal(await page.locator('#platformFilter').inputValue(), 'PS2');
     assert.equal(await page.locator('#resultCount').textContent(), '(38)');
+    assert.equal(await page.locator('.game-description').first().getAttribute('lang'), 'en');
+    assert.equal(await page.locator('.game-description h4').first().textContent(), 'About the game');
     await page.selectOption('#platformFilter', 'PS4');
     assert.equal(await page.locator('#resultCount').textContent(), '(872)');
     await page.click('#resetFilters');
@@ -68,6 +86,11 @@ const ps4 = sandbox.window.GAMING_CATALOG.games[0].id;
     for (const selector of ['#cardsView', '#listView']) {
       await page.click(selector);
       assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), true);
+    }
+    if (process.env.PS2_SCREENSHOT) {
+      await page.setViewportSize({width: 1440, height: 1100});
+      await page.click('#cardsView');
+      await page.screenshot({path: process.env.PS2_SCREENSHOT});
     }
     assert.deepEqual(errors, []);
     console.log('PASS: 38 PS2 entries, 910 total, filters, cards/list, downloaded defaults, existing PS4 state, persisted uncheck, remote merge, backup import, English.');

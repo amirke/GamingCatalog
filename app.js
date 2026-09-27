@@ -3,7 +3,7 @@ const catalog = window.GAMING_CATALOG;
 const games = [...catalog.games.map(game => ({...game, platform: 'PS4'})), ...(window.PS2_GAMES || [])];
 const metadata = window.GAME_METADATA?.entries || {};
 const gameInfo = id => metadata[id] || {};
-const genres = window.GAME_GENRES?.entries || {};
+const genres = {...(window.GAME_GENRES?.entries || {}), ...Object.fromEntries((window.PS2_GAMES || []).filter(game => game.genres?.length).map(game => [game.id, {genres: game.genres, source: game.descriptionSource?.url, sourceLabel: game.descriptionSource?.label}]))};
 const genreTaxonomy = window.GAME_GENRES?.taxonomy || {};
 const genreLabel = id => genreTaxonomy[id]?.[window.catalogLanguage] || id;
 const hebrewReviews = window.HEBREW_REVIEWS?.entries || {};
@@ -203,6 +203,15 @@ function reviewBlock(info, game) {
   } else block.append(node('small', '', tr('לא נמצאה התאמה אוטומטית בטוחה לשם המשחק.')));
   return block;
 }
+function descriptionBlock(game) {
+  const text = game.description?.[window.catalogLanguage];
+  if (!text) return document.createDocumentFragment();
+  const block = node('section', 'game-description');
+  block.lang = window.catalogLanguage; block.dir = window.catalogLanguage === 'he' ? 'rtl' : 'ltr';
+  block.append(node('h4', '', tr('על המשחק')), node('p', '', text));
+  if (game.descriptionSource?.url) block.append(sourceLink(tr('מקור התיאור ↗') + ' · ' + game.descriptionSource.label, game.descriptionSource.url));
+  return block;
+}
 function card(game) {
   const info = gameInfo(game.id);
   const el = node('article', 'game'); el.dataset.id = game.id;
@@ -270,13 +279,13 @@ function card(game) {
     icon.remove();
     toggle.append(arrow, top); row.append(icon, toggle, checks);
     const details = node('div', 'row-details'); details.id = 'details-' + game.id; details.hidden = !expanded.has(game.id);
-    details.append(interestLabel, reasonLabel, links, reviewBlock(info, game), label, cheats);
+    details.append(descriptionBlock(game), interestLabel, reasonLabel, links, reviewBlock(info, game), label, cheats);
     toggle.addEventListener('click', () => {
       const open = !expanded.has(game.id); if (open) expanded.add(game.id); else expanded.delete(game.id);
       toggle.setAttribute('aria-expanded', open); details.hidden = !open; arrow.textContent = open ? '▾' : '▸';
     });
     el.append(row, details);
-  } else el.append(top, checks, interestLabel, reasonLabel, links, reviewBlock(info, game), label, cheats);
+  } else el.append(top, checks, descriptionBlock(game), interestLabel, reasonLabel, links, reviewBlock(info, game), label, cheats);
   return el;
 }
 function filtered() {

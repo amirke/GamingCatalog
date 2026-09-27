@@ -3,6 +3,8 @@
 window.catalogLanguage = 'he';
 try { if (localStorage.getItem('gaming-catalog-language') === 'en') window.catalogLanguage = 'en'; } catch {}
 const translations = {
+  "על המשחק": "About the game",
+  "מקור התיאור ↗": "Description source ↗",
   "סוג משחקים": "Game type",
   "כל הסוגים": "All platforms",
   "הומר ל־PS4": "Converted for PS4",

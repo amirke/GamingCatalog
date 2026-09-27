@@ -16,3 +16,4 @@ button.monogram.cover{cursor:zoom-in}button.monogram.cover:hover:not(:disabled){
 .genre-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px;align-items:center}.genre-tag{font-size:.75rem;line-height:1.4;padding:3px 8px;border-radius:12px;background:#27364a;color:#dbe7fa}.genre-source{font-size:.7rem;color:#9cacbf}.row-toggle .genre-source{pointer-events:auto}
 
 .source-review[dir=rtl]{text-align:right}.original-review{margin-block:10px}.original-review summary{cursor:pointer;color:#9cacbf;font-size:.8rem}
+.game-description{margin:16px 0;padding:14px;border:1px solid var(--line);border-radius:9px;background:#111824;line-height:1.65}.game-description h4{margin:0 0 8px;font-size:14px}.game-description p{margin:0 0 8px;font-size:14px}.game-description a{font-size:12px;color:var(--muted)}
