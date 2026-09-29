@@ -1,0 +1,5 @@
+body{flex-direction:column}
+.portal-navigation{width:100%;text-align:center;margin:0 0 16px;flex-shrink:0}
+.portal-navigation a{display:inline-block;padding:11px 18px;border:1px solid #94a3b8;border-radius:8px;background:#172033;color:#fff;text-decoration:none;font:600 15px Arial,sans-serif}
+.portal-navigation a:hover{background:#253451;color:#fff}
+.portal-navigation a:focus-visible{outline:3px solid #b3f36b;outline-offset:3px}

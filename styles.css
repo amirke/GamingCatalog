@@ -31,3 +31,8 @@ button.monogram.cover{cursor:zoom-in}button.monogram.cover:hover:not(:disabled){
 .collection-contents summary { cursor: pointer; font-weight: 600; }
 .included-games { columns: 2 240px; padding-inline-start: 1.4rem; }
 .included-games li { break-inside: avoid; text-align: start; padding-block: .15rem; overflow-wrap: anywhere; }
+
+/* Portal/database navigation also fits narrow screens. */
+.db-jump{display:inline-block;white-space:nowrap;border:1px solid var(--line);border-radius:9px;padding:11px 15px;background:#1b2130;color:#e8edf9;font-size:14px}
+header{height:auto;min-height:82px;gap:12px;flex-wrap:wrap;padding-block:12px}
+.header-tools{flex-wrap:wrap}

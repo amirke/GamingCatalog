@@ -1,0 +1,39 @@
+{
+  "name": "PS4 Games Database",
+  "short_name": "PS4 Games DB",
+  "description": "Complete PS4 games database with 6,001+ games and 38,690+ download links. Browse and search games directly on your PS4 browser.",
+  "start_url": "./ps4-pwa-optimized.html",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "background_color": "#1a1a2e",
+  "theme_color": "#003791",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["games", "entertainment", "utilities"],
+  "lang": "en-US",
+  "dir": "ltr",
+  "scope": "./",
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "screenshots": [
+    {
+      "src": "screenshot-1920x1080.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "label": "PS4 Games Database - Main Screen"
+    }
+  ]
+}
+
